@@ -7,7 +7,7 @@ const readDir = util.promisify(fs.readdir);
 
 const { parseFile, filenamesToAddr } = require("./parser");
 
-const dir = "stm/";
+const dir = "wm/";
 
 const getFile = async (filename) => {
   const location = path.join(__dirname, "../..", dir, filename);

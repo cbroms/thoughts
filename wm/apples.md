@@ -7,4 +7,4 @@ backlinks:
   - fruits
 ---
 
-I think 🍎s are pretty tasty. But they have to be the _right_ kind of apples, none of those nasty red mealy ones. [Oranges](oranges) on the other hand, are the best kind of [fruits](fruits).
+I think 🍎s can be pretty tasty. But they have to be the _right_ kind of apples, none of those mealy ones. [Oranges](oranges) on the other hand, are reliably the best kind of [fruits](fruits).
