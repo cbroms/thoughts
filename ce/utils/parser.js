@@ -15,4 +15,14 @@ const parseFile = (fileContent) => {
   return parsed;
 };
 
-module.exports = { parseFrontmatter, parseMarkdown, parseFile };
+// remove file extensions
+const filenamesToAddr = (files) => {
+  return files.map((f) => f.replace(".md", ""));
+};
+
+module.exports = {
+  parseFrontmatter,
+  parseMarkdown,
+  parseFile,
+  filenamesToAddr,
+};
