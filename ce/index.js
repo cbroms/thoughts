@@ -4,6 +4,12 @@ const port = 3000;
 
 const { getFile, getAllFiles } = require("./utils/filesystem");
 
+app.get("/thought/:id/preview", async (req, res) => {
+  // TODO: get a more limited version of the page's data
+  const content = await getFile(req.params.id + ".md");
+  res.json(content);
+});
+
 app.get("/thought/:id", async (req, res) => {
   const content = await getFile(req.params.id + ".md");
   res.json(content);

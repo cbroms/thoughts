@@ -24,4 +24,6 @@
 
 <div>{thought.data.node}</div>
 
-<div>{@html thought.content}</div>
+<!-- <div>{@html thought.content}</div> -->
+
+<div>{@html `<page-preview></page-preview>`}</div>
