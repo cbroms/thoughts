@@ -1,5 +1,6 @@
 import svelte from 'rollup-plugin-svelte';
 import resolve from '@rollup/plugin-node-resolve';
+import css from 'rollup-plugin-css-only';
 import pkg from './package.json';
 
 const name = pkg.name
@@ -9,14 +10,21 @@ const name = pkg.name
 
 export default {
 	input: 'src/index.js',
-	output: [
-		{ file: pkg.module, format: 'es' },
-		{ file: pkg.main, format: 'umd', name }
-	],
+	// output: [
+	// 	{ file: pkg.module, format: 'es' },
+	// 	{ file: pkg.main, format: 'umd', name }
+	// ],
+	output: {
+		sourcemap: true,
+		format: 'umd',
+		name: 'app',
+		file: 'dist/index.js'
+	},
 	plugins: [
 		svelte({
 			customElement: true
 		}),
+		css({ output: 'bundle.css' }),
 		resolve()
 	]
 };
