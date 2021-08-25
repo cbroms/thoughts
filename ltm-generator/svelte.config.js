@@ -11,7 +11,11 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: null
-		})
+		}),
+		prerender: {
+			crawl: true,
+			pages: ['/pages']
+		}
 	}
 };
 
