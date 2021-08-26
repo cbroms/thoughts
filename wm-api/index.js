@@ -1,25 +1,45 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const port = 3000;
 
-const { getFile, getAllFiles } = require("./utils/filesystem");
+const { getFile, getAllFiles, makeSearch } = require("./utils/filesystem");
 
-app.get("/thought/:id/preview", async (req, res) => {
+app.use(cors());
+
+app.get("/thought/:id/preview", (req, res, next) => {
   // TODO: get a more limited version of the page's data
-  const content = await getFile(req.params.id + ".md");
-  res.json(content);
+  getFile(req.params.id + ".md")
+    .then((content) => {
+      res.json(content);
+    })
+    .catch(next);
 });
 
-app.get("/thought/:id", async (req, res) => {
-  const content = await getFile(req.params.id + ".md");
-  res.json(content);
+app.get("/thought/:id", (req, res, next) => {
+  getFile(req.params.id + ".md")
+    .then((content) => {
+      res.json(content);
+    })
+    .catch(next);
 });
 
-app.get("/", async (req, res) => {
-  const files = await getAllFiles();
-  res.json(files);
+app.get("/", (req, res, next) => {
+  getAllFiles()
+    .then((files) => {
+      res.json(files);
+    })
+    .catch(next);
+});
+
+app.get("/search/:query", (req, res, next) => {
+  makeSearch(req.params.query)
+    .then((results) => {
+      res.json(results);
+    })
+    .catch(next);
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`wm-api running at http://localhost:${port}`);
 });
