@@ -7,7 +7,7 @@ const read = util.promisify(fs.readFile);
 const readDir = util.promisify(fs.readdir);
 const execute = util.promisify(exec);
 
-const { parseFile, filenamesToAddr } = require("./parser");
+const { parseFile, filenamesToAddr, parseMarkdown } = require("./parser");
 
 const dir = "wm/";
 
@@ -44,7 +44,27 @@ const makeSearch = async (query) => {
       const { stdout, stderr } = await execute(
         `grep -r "${query}" ${location}`
       );
-      resolve({ results: [stdout] });
+      const lines = stdout
+        .split(location)
+        .filter((l) => {
+          // remove any lines that have a space following the .md:
+          // indicating the match comes from an element in the frontmatter
+          return l.length > 0 && l[l.indexOf(".md:") + 4] !== " ";
+        })
+        .map((l) => {
+          [file, match] = l.split(".md:");
+
+          // add highlighting around the results
+          const html = parseMarkdown(match).replaceAll(
+            new RegExp(query, "ig"),
+            (match) => {
+              return `<mark>${match}</mark>`;
+            }
+          );
+          return { file: file + ".md", match: html };
+        });
+
+      resolve({ results: lines });
     } catch (err) {
       // TODO should probably differentiate the error types and handle them separately
       resolve({ results: [] });

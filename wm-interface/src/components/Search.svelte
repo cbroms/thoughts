@@ -21,7 +21,9 @@
     {#if value.results.length === 0}
       <div>no results</div>
     {:else}
-      <div>{value.results}</div>
+      {#each value.results as result}
+        <div><b>{result.file}:</b> <span>{@html result.match}</span></div>
+      {/each}
     {/if}
   {/if}
 {/await}
