@@ -1,9 +1,20 @@
 <script>
+  import Editor from "./components/Editor.svelte";
   import Search from "./components/Search.svelte";
-  export let name;
+  import Toolbar from "./components/Toolbar.svelte";
+
+  let open = false;
+
+  const toggleOpen = () => {
+    open = !open;
+  };
 </script>
 
-<Search />
+<Toolbar {open} {toggleOpen}>
+  <Search {toggleOpen} />
+</Toolbar>
+
+<Editor {open} />
 
 <style>
 </style>
