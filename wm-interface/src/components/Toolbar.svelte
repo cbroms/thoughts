@@ -46,4 +46,8 @@
     width: 600px;
     padding: 10px;
   }
+
+  button {
+    font-size: 24px;
+  }
 </style>

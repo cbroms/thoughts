@@ -59,7 +59,6 @@
   h1 {
     margin: 0;
     font-size: 24px;
-    line-height: 30px;
     color: var(--secondary);
   }
 
@@ -81,11 +80,12 @@
   }
   textarea {
     padding: 0;
-    margin-top: 20px;
+    margin-top: 40px;
     color: var(--primary);
     background-color: var(--background);
+    /* background-color: royalblue; */
     width: 100%;
-    height: calc(100% - 45px);
+    height: calc(100% - 65px);
     font-family: monospace;
     border: none;
     outline: none;
