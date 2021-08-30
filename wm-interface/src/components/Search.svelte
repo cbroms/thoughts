@@ -79,7 +79,12 @@
         <div>No results</div>
       {:else}
         {#each value.results as result, idx}
-          <SearchResult {commandIdx} focused={focusedIdx === idx} {...result} />
+          <SearchResult
+            {toggleOpen}
+            {commandIdx}
+            focused={focusedIdx === idx}
+            {...result}
+          />
         {/each}
       {/if}
     {/if}

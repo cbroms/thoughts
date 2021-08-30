@@ -1,16 +1,34 @@
 <script>
   import { fade } from "svelte/transition";
+  import { isOkToErase } from "../lib/safety";
+  import { getThought } from "../lib/db";
+  import { thought, saved } from "../store/thought";
+  import { active } from "../store/active";
 
   export let file;
   export let match;
   export let focused = false;
   export let commandIdx = 0;
+  export let toggleOpen;
 
   const commands = ["open", "copy"];
   const elements = {};
 
-  const onClick = () => {
-    console.log(commands[commandIdx]);
+  const onClick = async () => {
+    if (commands[commandIdx] === "open") {
+      if (isOkToErase()) {
+        const openId = file.replace("/", "").replace(".md", "");
+        const res = await getThought(openId);
+        thought.set(res.content);
+        saved.set(res.content);
+        active.set(res.title);
+        toggleOpen();
+      }
+    } else if (commands[commandIdx] === "copy") {
+      const openId = file.replace("/", "");
+      navigator.clipboard.writeText(openId);
+      toggleOpen();
+    }
   };
 
   $: {

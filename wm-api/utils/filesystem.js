@@ -7,7 +7,12 @@ const read = util.promisify(fs.readFile);
 const readDir = util.promisify(fs.readdir);
 const execute = util.promisify(exec);
 
-const { parseFile, filenamesToAddr, parseMarkdown } = require("./parser");
+const {
+  parseFile,
+  filenamesToAddr,
+  parseMarkdown,
+  parseFrontmatter,
+} = require("./parser");
 
 const dir = "wm/";
 
@@ -17,6 +22,21 @@ const getFile = async (filename) => {
       const location = path.join(__dirname, "../..", dir, filename);
       const file = await read(location, "utf8");
       const res = parseFile(file);
+      resolve(res);
+    } catch (err) {
+      reject(500);
+    }
+  });
+};
+
+const getFileRaw = async (filename) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const location = path.join(__dirname, "../..", dir, filename);
+      const file = await read(location, "utf8");
+      // just return the markdown and title minus the frontmatter
+      const parsed = parseFrontmatter(file);
+      const res = { content: parsed.content, title: parsed.data.node };
       resolve(res);
     } catch (err) {
       reject(500);
@@ -72,4 +92,4 @@ const makeSearch = async (query) => {
   });
 };
 
-module.exports = { getFile, getAllFiles, makeSearch };
+module.exports = { getFile, getAllFiles, getFileRaw, makeSearch };

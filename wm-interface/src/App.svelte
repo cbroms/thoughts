@@ -10,7 +10,6 @@
   import Toolbar from "./components/Toolbar.svelte";
 
   const toggleOpen = () => {
-    console.log($open);
     open.set(!$open);
   };
 
@@ -27,15 +26,7 @@
   <Editor {toggleOpen} />
 </div>
 
-<div class="thought-name">{toFileName($active)}</div>
-
 <style>
-  .thought-name {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-  }
-
   .editor-wrapper {
     width: 100%;
     transition: width 0.3s;

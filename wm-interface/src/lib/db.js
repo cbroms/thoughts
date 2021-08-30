@@ -7,3 +7,11 @@ export const makeSearch = (query) => {
       error: true;
     });
 };
+
+export const getThought = (id) => {
+  return fetch(`${ce}/thought/${id}/raw`)
+    .then((res) => res.json())
+    .catch((e) => {
+      error: true;
+    });
+};

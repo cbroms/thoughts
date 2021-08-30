@@ -1,6 +1,7 @@
 <script>
   import { thought, saved } from "../store/thought";
   import { active } from "../store/active";
+  import { isOkToErase } from "../lib/safety";
 
   import { open } from "../store/sidebar";
 
@@ -14,24 +15,18 @@
       toggleOpen();
     } else if (e.key === "s" && e.metaKey) {
       e.preventDefault();
-      if ($active === "unsaved thought") {
+      if ($active === "new thought") {
         const name = prompt("Enter a name for the thought");
         // save the new file
       }
-      // set the filename
-      saved.set($thought);
+      //   // set the filename
+      //   saved.set($thought);
     } else if (e.key === "e" && e.metaKey) {
       e.preventDefault();
-      if ($saved !== $thought) {
-        if (
-          confirm(
-            "You have unsaved changes. Are you sure you want to erase them?"
-          )
-        ) {
-          thought.set("");
-          saved.set("");
-          active.set("unsaved thought");
-        }
+      if (isOkToErase()) {
+        thought.set("");
+        saved.set("");
+        active.set("new thought");
       }
     }
   };
@@ -43,25 +38,54 @@
   }
 </script>
 
-<textarea
-  bind:this={element}
-  placeholder="Form a thought..."
-  bind:value={$thought}
-  on:keydown={onKeyDown}
-/>
+<div class="editor-wrapper">
+  <h1>
+    {$active}<sup class:visible={$thought !== $saved}>*</sup>
+  </h1>
+  <textarea
+    bind:this={element}
+    placeholder="Form a thought..."
+    bind:value={$thought}
+    on:keydown={onKeyDown}
+  />
+</div>
 
 <style>
   :root {
     --width: 600px;
     --half-width: 300px;
   }
-  textarea {
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--secondary);
+  }
+
+  sup {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  sup.visible {
+    opacity: 1;
+  }
+
+  .editor-wrapper {
     height: 100vh;
+    padding: 50px 10px 20px 10px;
     margin: 0 auto;
-    padding: 50px 0 20px 0;
+    width: var(--width);
+    box-sizing: border-box;
+  }
+  textarea {
+    padding: 0;
+    margin-top: 20px;
     color: var(--primary);
     background-color: var(--background);
-    width: var(--width);
+    width: 100%;
+    height: calc(100% - 45px);
     font-family: monospace;
     border: none;
     outline: none;
