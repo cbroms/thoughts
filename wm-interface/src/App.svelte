@@ -10,6 +10,7 @@
   import Toolbar from "./components/Toolbar.svelte";
 
   const toggleOpen = () => {
+    console.log($open);
     open.set(!$open);
   };
 
@@ -19,10 +20,12 @@
   });
 </script>
 
-<Toolbar open={$open} {toggleOpen}>
+<Toolbar {toggleOpen}>
   <Search {toggleOpen} />
 </Toolbar>
-<Editor open={$open} {toggleOpen} />
+<div class="editor-wrapper" class:open={$open}>
+  <Editor {toggleOpen} />
+</div>
 
 <div class="thought-name">{toFileName($active)}</div>
 
@@ -31,5 +34,14 @@
     position: absolute;
     right: 10px;
     bottom: 10px;
+  }
+
+  .editor-wrapper {
+    width: 100%;
+    transition: width 0.3s;
+  }
+
+  .editor-wrapper.open {
+    width: calc(100% - 700px);
   }
 </style>

@@ -2,7 +2,8 @@
   import { thought, saved } from "../store/thought";
   import { active } from "../store/active";
 
-  export let open;
+  import { open } from "../store/sidebar";
+
   export let toggleOpen;
 
   let element;
@@ -19,7 +20,7 @@
       }
       // set the filename
       saved.set($thought);
-    } else if (e.key === "u" && e.metaKey) {
+    } else if (e.key === "e" && e.metaKey) {
       e.preventDefault();
       if ($saved !== $thought) {
         if (
@@ -36,7 +37,7 @@
   };
 
   $: {
-    if (!open && element) {
+    if (!$open && element) {
       element.focus();
     }
   }
@@ -45,7 +46,6 @@
 <textarea
   bind:this={element}
   placeholder="Form a thought..."
-  class:open
   bind:value={$thought}
   on:keydown={onKeyDown}
 />
@@ -57,7 +57,7 @@
   }
   textarea {
     height: 100vh;
-    margin: 0 calc(50vw - var(--half-width)) 0 calc(50vw - var(--half-width));
+    margin: 0 auto;
     padding: 50px 0 20px 0;
     color: var(--primary);
     background-color: var(--background);
@@ -69,11 +69,5 @@
     line-height: 22px;
     resize: none;
     display: block;
-    transition: margin 0.5s;
-  }
-
-  textarea.open {
-    margin-right: 700px;
-    margin-left: calc(100vw - calc(700px + var(--width)));
   }
 </style>

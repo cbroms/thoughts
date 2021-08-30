@@ -1,27 +1,22 @@
 <script>
-  import { fly } from "svelte/transition";
+  import { fade } from "svelte/transition";
   import { cubicOut } from "svelte/easing";
-  export let open = false;
+
+  import { open } from "../store/sidebar";
+
   export let toggleOpen;
 </script>
 
 <div class="toolbar-wrapper">
   <button class="query-open" on:click={toggleOpen}>&lsaquo;</button>
-
-  {#if open}
-    <div
-      transition:fly={{
-        duration: 500,
-        x: 600,
-        opacity: 0.5,
-        easing: cubicOut,
-      }}
-      class="toolbar"
-    >
-      <button on:click={toggleOpen}>&rsaquo;</button>
-      <slot />
-    </div>
-  {/if}
+  <div class:open={$open} class="toolbar">
+    {#if $open}
+      <div in:fade={{ delay: 300, duration: 100 }} out:fade={{ duration: 50 }}>
+        <button on:click={toggleOpen}>&rsaquo;</button>
+        <slot />
+      </div>
+    {/if}
+  </div>
 </div>
 
 <style>
@@ -35,12 +30,20 @@
   }
 
   .toolbar {
-    padding: 10px;
+    overflow: hidden;
+    padding: 0;
     position: absolute;
     top: 0;
     right: 0;
-    width: 600px;
+    width: 0px;
     height: 100vh;
+    box-sizing: border-box;
     background-color: var(--background-secondary);
+    transition: width 0.3s, padding 0.3s;
+  }
+
+  .toolbar.open {
+    width: 600px;
+    padding: 10px;
   }
 </style>
