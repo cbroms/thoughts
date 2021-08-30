@@ -3,6 +3,7 @@
   --background: #1b1b1b;
   --primary: #e6e6e6;
   --accent: #0064c8;
+  --border: 4px;
 }
 
 html,
@@ -50,14 +51,15 @@ textarea {
   border: none;
   background-color: var(--background-secondary);
   color: var(--primary);
-  border-bottom: 1px solid var(--background-secondary);
-  transition: border-bottom 0.5s;
+  border: 1px solid var(--background-secondary);
+  transition: border 0.3s;
 }
 
 button {
   cursor: pointer;
   outline: none;
-  font-size: 22px;
+  font-size: 16px;
+  border-radius: var(--border);
 }
 
 input:focus {

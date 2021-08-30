@@ -1,10 +1,31 @@
 <script>
   export let open;
+  export let toggleOpen;
 
   let content;
+  let element;
+
+  const onKeyDown = (e) => {
+    if (e.key == "l" && e.metaKey) {
+      e.preventDefault();
+      toggleOpen();
+    }
+  };
+
+  $: {
+    if (!open && element) {
+      element.focus();
+    }
+  }
 </script>
 
-<textarea placeholder="Form a thought..." class:open bind:value={content} />
+<textarea
+  bind:this={element}
+  placeholder="Form a thought..."
+  class:open
+  bind:value={content}
+  on:keydown={onKeyDown}
+/>
 
 <style>
   :root {

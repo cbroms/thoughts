@@ -12,12 +12,16 @@
   let results = null;
 
   let focusedIdx = null;
+  let commandIdx = 0;
 
   const onKeyDown = (e) => {
-    console.log(e);
     if (e.key === "Enter") {
       results = makeSearch(query);
     } else if (e.key === "Escape") {
+      e.preventDefault();
+      toggleOpen();
+    } else if (e.key == "l" && e.metaKey) {
+      e.preventDefault();
       toggleOpen();
     } else if (e.key === "ArrowDown") {
       inputElt.blur();
@@ -25,7 +29,7 @@
     }
   };
 
-  hotkeys("up,down", (e, handler) => {
+  hotkeys("up,down,left,right", (e, handler) => {
     e.preventDefault();
     switch (handler.key) {
       case "up":
@@ -36,6 +40,12 @@
         break;
       case "down":
         focusedIdx += 1;
+        break;
+      case "left":
+        commandIdx = 0;
+        break;
+      case "right":
+        commandIdx = 1;
         break;
     }
   });
@@ -50,7 +60,7 @@
   });
 
   onDestroy(() => {
-    hotkeys.unbind("up,down,escape");
+    hotkeys.unbind("up,down,left,right,escape");
   });
 </script>
 
@@ -69,7 +79,7 @@
         <div>No results</div>
       {:else}
         {#each value.results as result, idx}
-          <SearchResult focused={focusedIdx === idx} {...result} />
+          <SearchResult {commandIdx} focused={focusedIdx === idx} {...result} />
         {/each}
       {/if}
     {/if}
