@@ -20,7 +20,7 @@
     } else if (e.key === "Escape") {
       e.preventDefault();
       toggleOpen();
-    } else if (e.key == "l" && e.metaKey) {
+    } else if (e.key == "/" && e.metaKey) {
       e.preventDefault();
       toggleOpen();
     } else if (e.key === "ArrowDown") {

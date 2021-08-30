@@ -1,14 +1,37 @@
 <script>
+  import { thought, saved } from "../store/thought";
+  import { active } from "../store/active";
+
   export let open;
   export let toggleOpen;
 
-  let content;
   let element;
 
   const onKeyDown = (e) => {
-    if (e.key == "l" && e.metaKey) {
+    if (e.key == "/" && e.metaKey) {
       e.preventDefault();
       toggleOpen();
+    } else if (e.key === "s" && e.metaKey) {
+      e.preventDefault();
+      if ($active === "unsaved thought") {
+        const name = prompt("Enter a name for the thought");
+        // save the new file
+      }
+      // set the filename
+      saved.set($thought);
+    } else if (e.key === "u" && e.metaKey) {
+      e.preventDefault();
+      if ($saved !== $thought) {
+        if (
+          confirm(
+            "You have unsaved changes. Are you sure you want to erase them?"
+          )
+        ) {
+          thought.set("");
+          saved.set("");
+          active.set("unsaved thought");
+        }
+      }
     }
   };
 
@@ -23,7 +46,7 @@
   bind:this={element}
   placeholder="Form a thought..."
   class:open
-  bind:value={content}
+  bind:value={$thought}
   on:keydown={onKeyDown}
 />
 

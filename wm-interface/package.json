@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "hotkeys-js": "^3.8.7",
-    "sirv-cli": "^1.0.0"
+    "sirv-cli": "^1.0.0",
+    "slugify": "^1.6.0"
   }
 }
