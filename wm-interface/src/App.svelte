@@ -13,7 +13,6 @@
 <Toolbar {open} {toggleOpen}>
   <Search {toggleOpen} />
 </Toolbar>
-
 <Editor {open} />
 
 <style>
