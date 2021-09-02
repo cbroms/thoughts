@@ -2,6 +2,8 @@
   import { thought, saved } from "../store/thought";
   import { active } from "../store/active";
   import { isOkToErase } from "../lib/safety";
+  import { saveThought } from "../lib/db";
+  import { toId } from "../lib/file";
 
   import { open } from "../store/sidebar";
 
@@ -21,6 +23,7 @@
       }
       //   // set the filename
       //   saved.set($thought);
+      saveThought(toId($active), { content: $thought, node: $active });
     } else if (e.key === "e" && e.metaKey) {
       e.preventDefault();
       if (isOkToErase()) {

@@ -6,18 +6,21 @@ const parseFrontmatter = (content) => {
 };
 
 const parseMarkdown = (content) => {
-  marked.setOptions({
-    smartLists: true,
-    smartypants: true,
-  });
-
-  return marked(content);
+  return marked(content, { smartLists: true, smartypants: true });
 };
 
 const parseFile = (fileContent) => {
   const parsed = parseFrontmatter(fileContent);
   parsed.content = parseMarkdown(parsed.content);
   return parsed;
+};
+
+const toFormattedFile = (backlinks, forwardlinks, node, content) => {
+  return matter.stringify(content, {
+    node: node,
+    backlinks,
+    forwardlinks,
+  });
 };
 
 // remove file extensions
@@ -30,4 +33,5 @@ module.exports = {
   parseMarkdown,
   parseFile,
   filenamesToAddr,
+  toFormattedFile,
 };

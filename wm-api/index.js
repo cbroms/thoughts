@@ -9,9 +9,19 @@ const {
   getFileRaw,
   getFilePreview,
   makeSearch,
+  makeFile,
 } = require("./utils/filesystem");
 
 app.use(cors());
+app.use(express.json());
+
+app.post("/thought/:id", (req, res, next) => {
+  makeFile(req.params.id + ".md", req.body)
+    .then((content) => {
+      res.json(content);
+    })
+    .catch(next);
+});
 
 app.get("/thought/:id/preview", (req, res, next) => {
   getFilePreview(req.params.id + ".md")
