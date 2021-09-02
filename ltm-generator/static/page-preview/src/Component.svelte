@@ -12,8 +12,8 @@
 	let top;
 	let left;
 
-	const height = 150;
-	const width = 300;
+	const height = 172;
+	const width = 272;
 
 	let element;
 
