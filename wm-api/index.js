@@ -7,14 +7,14 @@ const {
   getFile,
   getAllFiles,
   getFileRaw,
+  getFilePreview,
   makeSearch,
 } = require("./utils/filesystem");
 
 app.use(cors());
 
 app.get("/thought/:id/preview", (req, res, next) => {
-  // TODO: get a more limited version of the page's data
-  getFile(req.params.id + ".md")
+  getFilePreview(req.params.id + ".md")
     .then((content) => {
       res.json(content);
     })

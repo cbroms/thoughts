@@ -1,8 +1,12 @@
 <svelte:options tag="page-preview" />
 
 <script>
+	import { fade } from 'svelte/transition';
+	import { cubicIn } from 'svelte/easing';
+
 	export let href;
 	export let content;
+	export let node;
 
 	let visible = false;
 	let top;
@@ -49,18 +53,62 @@
 	<a {href} bind:this={element}><slot /></a>
 	{#if visible}
 		<div
+			transition:fade={{ duration: 150, easing: cubicIn }}
 			class="preview"
 			style="position:absolute; top:{top}px; left:{left}px; height:{height}px; width:{width}px;"
 		>
-			{@html content}
+			<div class="link">
+				<div class="link-content">{@html content}</div>
+				<div class="link-node">{node} &rarr;</div>
+			</div>
 		</div>
 	{/if}
 </span>
 
 <style>
 	.preview {
+		z-index: 1000;
+	}
+	.link {
+		max-width: 250px;
 		background-color: white;
 		padding: 10px;
-		border: 1px solid black;
+		height: 150px;
+		margin: 20px 0;
+		border: 1px solid;
+		border-radius: 15px;
+	}
+
+	.link-content {
+		display: inline-block;
+		position: relative;
+		height: 120px;
+		overflow: hidden;
+	}
+
+	.link-node {
+		border-top: 1px solid;
+		font-family: var(--sans);
+		padding-top: 5px;
+	}
+
+	.link-content p {
+		margin: 0;
+	}
+
+	.link-content a {
+		color: black;
+		pointer-events: none;
+		text-decoration: none;
+	}
+
+	.link-content::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 275px;
+		height: 50px;
+		background-image: linear-gradient(transparent, white);
 	}
 </style>

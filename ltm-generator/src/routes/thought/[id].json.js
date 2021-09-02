@@ -7,10 +7,16 @@ export async function get({ params }) {
 
 	if (thought) {
 		const forwardlinkPreviewData = {};
+		const backlinks = [];
 		// get the data for tooltip page previews
 		for (const link of thought.data.forwardlinks) {
 			const res = await getPage(`/thought/${link}/preview`);
 			forwardlinkPreviewData[link] = res;
+		}
+
+		for (const link of thought.data.backlinks) {
+			const res = await getPage(`/thought/${link}/preview`);
+			backlinks.push({ ...res, link });
 		}
 
 		// replace all <a> tags with <page-preview> tags
@@ -24,12 +30,13 @@ export async function get({ params }) {
 			// replace " with ' since the html will have to be passed as a string
 			const previewContent = preview.content.replaceAll('"', "'");
 
-			return `<page-preview content="${previewContent}" href="/thought/${href}">${text}</page-preview>`;
+			return `<page-preview content="${previewContent}" node="${preview.data.node}" href="/thought/${href}">${text}</page-preview>`;
 		});
 
 		return {
 			body: {
-				...thought
+				...thought,
+				backlinks
 			}
 		};
 	}

@@ -6,6 +6,11 @@ const parseFrontmatter = (content) => {
 };
 
 const parseMarkdown = (content) => {
+  marked.setOptions({
+    smartLists: true,
+    smartypants: true,
+  });
+
   return marked(content);
 };
 

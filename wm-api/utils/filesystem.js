@@ -29,6 +29,19 @@ const getFile = async (filename) => {
   });
 };
 
+const getFilePreview = async (filename) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const location = path.join(__dirname, "../..", dir, filename);
+      const file = await read(location, "utf8");
+      const res = parseFile(file);
+      resolve(res);
+    } catch (err) {
+      reject(500);
+    }
+  });
+};
+
 const getFileRaw = async (filename) => {
   return new Promise(async (resolve, reject) => {
     try {
@@ -92,4 +105,10 @@ const makeSearch = async (query) => {
   });
 };
 
-module.exports = { getFile, getAllFiles, getFileRaw, makeSearch };
+module.exports = {
+  getFile,
+  getAllFiles,
+  getFileRaw,
+  getFilePreview,
+  makeSearch,
+};
