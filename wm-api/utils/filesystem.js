@@ -110,14 +110,14 @@ const makeSearch = async (query) => {
 const makeFile = async (filename, content) => {
   return new Promise(async (resolve, reject) => {
     try {
-      // extract out all the links to files (these include .md), removing duplicates
+      // extract out all the links to files (these include .md), removing duplicates and non-internal links
       const forwardlinks = [
         ...new Set(
           [...content.content.matchAll(/(?<=\[.*\]\()([^\)]*)(?=\))/gm)].map(
             (l) => l[0]
           )
         ),
-      ];
+      ].filter((l) => l.indexOf(".md") !== -1);
 
       const cleanedForwardlinks = forwardlinks.map((l) => l.replace(".md", ""));
 
@@ -137,12 +137,14 @@ const makeFile = async (filename, content) => {
               [...new Set([...parsed.data.backlinks, newId])],
               parsed.data.forwardlinks,
               parsed.data.node,
-              parsed.content
+              parsed.content,
+              parsed.data.created,
+              parsed.data.updated
             );
 
             await write(location, updatedFileContent);
           } catch (err) {
-            // ok if this fails, means there's a link to a nonexistent page
+            // ok if this fails; means there's a link to a nonexistent page
           }
         }
       };
@@ -158,7 +160,9 @@ const makeFile = async (filename, content) => {
           parsed.data.backlinks, // assuming the backlinks haven't changed
           cleanedForwardlinks,
           content.node,
-          content.content
+          content.content,
+          parsed.data.created,
+          new Date().toISOString()
         );
 
         await write(location, newFileContent);
@@ -174,7 +178,9 @@ const makeFile = async (filename, content) => {
           [], // assuming there are no backlinks to it yet
           cleanedForwardlinks,
           content.node,
-          content.content
+          content.content,
+          new Date().toISOString(),
+          null
         );
 
         await write(location, newFileContent);

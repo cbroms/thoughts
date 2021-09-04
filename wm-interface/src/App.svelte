@@ -1,9 +1,7 @@
 <script>
   import hotkeys from "hotkeys-js";
-  import { toFileName } from "./lib/file";
 
   import { open } from "./store/sidebar";
-  import { active } from "./store/active";
 
   import Editor from "./components/Editor.svelte";
   import Search from "./components/Search.svelte";
@@ -19,6 +17,9 @@
   });
 </script>
 
+<svelte:head>
+  <title>Thoughts Editor</title>
+</svelte:head>
 <Toolbar {toggleOpen}>
   <Search {toggleOpen} />
 </Toolbar>

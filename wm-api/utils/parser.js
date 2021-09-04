@@ -15,11 +15,20 @@ const parseFile = (fileContent) => {
   return parsed;
 };
 
-const toFormattedFile = (backlinks, forwardlinks, node, content) => {
+const toFormattedFile = (
+  backlinks,
+  forwardlinks,
+  node,
+  content,
+  created,
+  updated
+) => {
   return matter.stringify(content, {
     node: node,
     backlinks,
     forwardlinks,
+    created,
+    updated,
   });
 };
 
