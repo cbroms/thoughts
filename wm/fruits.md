@@ -1,11 +1,11 @@
 ---
 node: Fruits
-forwardlinks:
-  - oranges
-  - apples
 backlinks:
   - apples
   - oranges
+forwardlinks:
+  - oranges
+  - apples
 ---
 
 Here are some fruits ranked by their goodness:

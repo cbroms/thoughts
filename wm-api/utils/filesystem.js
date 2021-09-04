@@ -5,6 +5,7 @@ const { exec } = require("child_process");
 
 const read = util.promisify(fs.readFile);
 const readDir = util.promisify(fs.readdir);
+const write = util.promisify(fs.writeFile);
 const execute = util.promisify(exec);
 
 const {
@@ -109,35 +110,77 @@ const makeSearch = async (query) => {
 const makeFile = async (filename, content) => {
   return new Promise(async (resolve, reject) => {
     try {
-      // extract out all the links to files (these include .md)
+      // extract out all the links to files (these include .md), removing duplicates
       const forwardlinks = [
-        ...content.content.matchAll(/(?<=\[.*\]\()([^\)]*)(?=\))/gm),
+        ...new Set(
+          [...content.content.matchAll(/(?<=\[.*\]\()([^\)]*)(?=\))/gm)].map(
+            (l) => l[0]
+          )
+        ),
       ];
 
-      console.log(forwardlinks);
-      const cleanedForwardlinks = forwardlinks.map((l) =>
-        l[0].replace(".md", "")
-      );
+      const cleanedForwardlinks = forwardlinks.map((l) => l.replace(".md", ""));
+
+      // helper function to iterate over the forward links and update all the files to include
+      // the new file as one of the backlinks
+      const updateConnectedFilesBacklinks = async () => {
+        const newId = filename.replace(".md", "");
+
+        // iterate over the forward links, open the files, and add the new file to the backlinks
+        for (const linkFilename of forwardlinks) {
+          try {
+            const location = path.join(__dirname, "../..", dir, linkFilename);
+            const file = await read(location, "utf8");
+            const parsed = parseFrontmatter(file);
+
+            const updatedFileContent = toFormattedFile(
+              [...new Set([...parsed.data.backlinks, newId])],
+              parsed.data.forwardlinks,
+              parsed.data.node,
+              parsed.content
+            );
+
+            await write(location, updatedFileContent);
+          } catch (err) {
+            // ok if this fails, means there's a link to a nonexistent page
+          }
+        }
+      };
 
       try {
-        // try seeing if the file already exists
+        // if this file already exists, update it
         const location = path.join(__dirname, "../..", dir, filename);
         const file = await read(location, "utf8");
         const parsed = parseFrontmatter(file);
 
-        // works!
-        const res = toFormattedFile(
-          parsed.data.backlinks,
+        // update the file with the new contents
+        const newFileContent = toFormattedFile(
+          parsed.data.backlinks, // assuming the backlinks haven't changed
           cleanedForwardlinks,
           content.node,
           content.content
         );
 
-        // TODO iterate over the forward links, open the files, and add the new file to the backlinks
-        resolve(res);
-      } catch {
+        await write(location, newFileContent);
+        //  update the connected files
+        updateConnectedFilesBacklinks();
+
+        resolve(200);
+      } catch (err) {
         // the file doesn't exist yet; create it
-        // making the assumption there are no backlinks to it yet
+        const location = path.join(__dirname, "../..", dir, filename);
+
+        const newFileContent = toFormattedFile(
+          [], // assuming there are no backlinks to it yet
+          cleanedForwardlinks,
+          content.node,
+          content.content
+        );
+
+        await write(location, newFileContent);
+        updateConnectedFilesBacklinks();
+
+        resolve(200);
       }
     } catch (err) {
       console.log(err);

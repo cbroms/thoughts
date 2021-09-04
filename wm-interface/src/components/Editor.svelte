@@ -11,20 +11,33 @@
 
   let element;
 
-  const onKeyDown = (e) => {
+  const onKeyDown = async (e) => {
     if (e.key == "/" && e.metaKey) {
       e.preventDefault();
       toggleOpen();
     } else if (e.key === "s" && e.metaKey) {
+      // save the thought
       e.preventDefault();
+
       if ($active === "new thought") {
+        // this is an unnamed thought, set a new name
         const name = prompt("Enter a name for the thought");
-        // save the new file
+        // set the new file name
+        active.set(name);
       }
-      //   // set the filename
-      //   saved.set($thought);
-      saveThought(toId($active), { content: $thought, node: $active });
+
+      const res = await saveThought(toId($active), {
+        content: $thought,
+        node: $active,
+      });
+
+      if (res.ok) {
+        saved.set($thought);
+      } else {
+        alert("Something went wrong saving; check the logs.");
+      }
     } else if (e.key === "e" && e.metaKey) {
+      // erase/create a new thought
       e.preventDefault();
       if (isOkToErase()) {
         thought.set("");

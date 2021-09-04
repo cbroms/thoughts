@@ -1,9 +1,9 @@
 ---
 node: Oranges
-forwardlinks:
-  - fruits
 backlinks:
   - apples
+  - fruits
+forwardlinks:
   - fruits
 ---
 
