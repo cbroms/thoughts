@@ -7,4 +7,4 @@ forwardlinks:
   - fruits
 ---
 
-Oranges are [fruits](fruits), as far as I know.
+Oranges are [fruits](fruits.md), as far as I know.

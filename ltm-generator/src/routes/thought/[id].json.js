@@ -11,7 +11,7 @@ export async function get({ params }) {
 		// get the data for tooltip page previews
 		for (const link of thought.data.forwardlinks) {
 			const res = await getPage(`/thought/${link}/preview`);
-			forwardlinkPreviewData[link] = res;
+			forwardlinkPreviewData[link + '.md'] = res;
 		}
 
 		for (const link of thought.data.backlinks) {
@@ -30,7 +30,9 @@ export async function get({ params }) {
 			// replace " with ' since the html will have to be passed as a string
 			const previewContent = preview.content.replaceAll('"', "'");
 
-			return `<page-preview content="${previewContent}" node="${preview.data.node}" href="/thought/${href}">${text}</page-preview>`;
+			return `<page-preview content="${previewContent}" node="${
+				preview.data.node
+			}" href="/thought/${href.replace('.md', '')}">${text}</page-preview>`;
 		});
 
 		return {

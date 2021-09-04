@@ -70,6 +70,7 @@
 		border-top: 2px solid;
 		padding-top: 10px;
 		margin-top: 80px;
+		margin-bottom: 40px;
 	}
 
 	.backlinks-container {
@@ -89,7 +90,7 @@
 	}
 
 	.link {
-		max-width: 250px;
+		width: 250px;
 		background-color: white;
 		padding: 10px;
 		height: 150px;

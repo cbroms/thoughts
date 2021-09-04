@@ -51,31 +51,47 @@
 
 <span on:mouseover={toggleOn} on:focus={toggleOn} on:mouseout={toggleOff} on:blur={toggleOff}>
 	<a {href} bind:this={element}><slot /></a>
-	{#if visible}
+</span>
+{#if visible}
+	<a {href}>
 		<div
 			transition:fade={{ duration: 150, easing: cubicIn }}
 			class="preview"
-			style="position:absolute; top:{top}px; left:{left}px; height:{height}px; width:{width}px;"
+			style="position:fixed; top:{top}px; left:{left}px; height:{height}px; width:{width}px;"
 		>
+			<style>
+				.link-content p {
+					margin: 0;
+				}
+
+				.link-content a {
+					color: black;
+					pointer-events: none;
+					text-decoration: none;
+				}
+			</style>
 			<div class="link">
 				<div class="link-content">{@html content}</div>
 				<div class="link-node">{node} &rarr;</div>
 			</div>
 		</div>
-	{/if}
-</span>
+	</a>
+{/if}
 
 <style>
 	.preview {
 		z-index: 1000;
 	}
+
 	.link {
 		max-width: 250px;
 		background-color: white;
+		color: black;
+		text-decoration: none;
 		padding: 10px;
 		height: 150px;
-		margin: 20px 0;
 		border: 1px solid;
+		margin-top: 5px;
 		border-radius: 15px;
 	}
 
@@ -90,16 +106,6 @@
 		border-top: 1px solid;
 		font-family: var(--sans);
 		padding-top: 5px;
-	}
-
-	.link-content p {
-		margin: 0;
-	}
-
-	.link-content a {
-		color: black;
-		pointer-events: none;
-		text-decoration: none;
 	}
 
 	.link-content::after {
