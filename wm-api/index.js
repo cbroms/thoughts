@@ -16,7 +16,9 @@ app.use(cors());
 app.use(express.json());
 
 app.post("/thought/:id", (req, res, next) => {
-  makeFile(req.params.id + ".md", req.body)
+  const id = req.params.id;
+  const file = id.indexOf(".md") !== -1 ? id : id + ".md";
+  makeFile(file, req.body)
     .then((content) => {
       res.json(content);
     })
@@ -24,7 +26,9 @@ app.post("/thought/:id", (req, res, next) => {
 });
 
 app.get("/thought/:id/preview", (req, res, next) => {
-  getFilePreview(req.params.id + ".md")
+  const id = req.params.id;
+  const file = id.indexOf(".md") !== -1 ? id : id + ".md";
+  getFilePreview(file)
     .then((content) => {
       res.json(content);
     })
@@ -32,7 +36,9 @@ app.get("/thought/:id/preview", (req, res, next) => {
 });
 
 app.get("/thought/:id/raw", (req, res, next) => {
-  getFileRaw(req.params.id + ".md")
+  const id = req.params.id;
+  const file = id.indexOf(".md") !== -1 ? id : id + ".md";
+  getFileRaw(file)
     .then((content) => {
       res.json(content);
     })
@@ -40,7 +46,9 @@ app.get("/thought/:id/raw", (req, res, next) => {
 });
 
 app.get("/thought/:id", (req, res, next) => {
-  getFile(req.params.id + ".md")
+  const id = req.params.id;
+  const file = id.indexOf(".md") !== -1 ? id : id + ".md";
+  getFile(file)
     .then((content) => {
       res.json(content);
     })

@@ -26,7 +26,7 @@ const getFile = async (filename) => {
       const res = parseFile(file);
       resolve(res);
     } catch (err) {
-      reject(500);
+      reject(404);
     }
   });
 };
@@ -39,7 +39,7 @@ const getFilePreview = async (filename) => {
       const res = parseFile(file);
       resolve(res);
     } catch (err) {
-      reject(500);
+      reject(404);
     }
   });
 };
@@ -54,7 +54,7 @@ const getFileRaw = async (filename) => {
       const res = { content: parsed.content, title: parsed.data.node };
       resolve(res);
     } catch (err) {
-      reject(500);
+      reject(404);
     }
   });
 };
@@ -67,7 +67,7 @@ const getAllFiles = async () => {
       const res = filenamesToAddr(files);
       resolve(res);
     } catch (err) {
-      reject(500);
+      reject(404);
     }
   });
 };
