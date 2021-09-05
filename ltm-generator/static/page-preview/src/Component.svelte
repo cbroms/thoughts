@@ -90,12 +90,15 @@
 		text-decoration: none;
 		padding: 10px;
 		height: 150px;
-		border: 1px solid;
+		border: 2px solid #253bff;
+		border-bottom: 4px solid #253bff;
 		margin-top: 5px;
-		border-radius: 15px;
+		border-radius: 10px;
 	}
 
 	.link-content {
+		font-size: 16px;
+		line-height: 110%;
 		display: inline-block;
 		position: relative;
 		height: 120px;
@@ -103,9 +106,11 @@
 	}
 
 	.link-node {
-		border-top: 1px solid;
+		border-top: 1px solid #253bff;
+		color: #253bff;
 		font-family: var(--sans);
 		padding-top: 5px;
+		font-weight: bold;
 	}
 
 	.link-content::after {
@@ -116,5 +121,13 @@
 		width: 275px;
 		height: 50px;
 		background-image: linear-gradient(transparent, white);
+	}
+
+	a {
+		color: #253bff;
+	}
+
+	a:visited {
+		color: #253bff;
 	}
 </style>

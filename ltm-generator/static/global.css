@@ -1,11 +1,50 @@
+@font-face {
+	font-family: 'Charter';
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	font-display: swap;
+	src: url('charter_regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Charter';
+	font-style: italic;
+	font-weight: normal;
+	font-stretch: normal;
+	font-display: swap;
+	src: url('charter_italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Charter';
+	font-style: normal;
+	font-weight: bold;
+	font-stretch: normal;
+	font-display: swap;
+	src: url('charter_bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Charter';
+	font-style: italic;
+	font-weight: bold;
+	font-stretch: normal;
+	font-display: swap;
+	src: url('charter_bold_italic.woff2') format('woff2');
+}
 :root {
-	--sans: 'Helvetica';
+	--sans: 'Helvetica Neue', sans-serif;
+	--serif: 'Charter', serif;
+	box-sizing: border-box;
 }
 
 body {
 	font-size: 18px;
+	line-height: 125%;
 	margin: 0;
 	background-color: #f5f5f5;
+	font-family: var(--serif);
 }
 
 h1,
@@ -24,4 +63,12 @@ p {
 
 summary {
 	cursor: pointer;
+}
+
+a {
+	color: #253bff;
+}
+
+a:visited {
+	color: #253bff;
 }
