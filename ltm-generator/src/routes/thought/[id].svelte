@@ -32,7 +32,7 @@
 	<title>{thought.data.node}</title>
 </svelte:head>
 
-<div class="thought">
+<article>
 	<h1 class="node">{thought.data.node}</h1>
 
 	<main>{@html thought.content}</main>
@@ -55,17 +55,9 @@
 			</div>
 		</details>
 	</div>
-</div>
+</article>
 
 <style>
-	.thought {
-		max-width: 600px;
-		width: 100%;
-		margin: 0 auto;
-		padding: 15px;
-		box-sizing: border-box;
-	}
-
 	.node {
 		margin-top: 20vh;
 		font-size: 4rem;
