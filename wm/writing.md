@@ -3,11 +3,12 @@ node: Writing
 backlinks:
   - one-dimension
 forwardlinks:
+  - media
   - hypocrisy-and-contradiction
 created: '2021-09-08T05:43:25.578Z'
-updated: '2021-09-08T06:11:14.726Z'
+updated: '2021-09-08T07:33:29.130Z'
 ---
-Writing is tough. I like it, but I also find it to be quite flawed. It's an imperfect medium to be sure. But still so *easy* compared to everything else. 
+Writing is tough. I like it, but I also find it to be quite flawed. It's an imperfect medium to be sure. But still so *easy* compared to [everything else](media.md). 
 
 I find myself fluctuating between writing in a particularly flowery, overly metaphorical way and writing in as direct and simple a way as possible. The metaphorical approach feels best when first formulating thoughts and sentences, the simple approach seems to emerge when I actually try to *read* those sentences. Simple tends to prevail. 
 

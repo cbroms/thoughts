@@ -6,11 +6,11 @@ backlinks:
 forwardlinks:
   - design
 created: '2021-09-08T05:54:57.945Z'
-updated: '2021-09-08T06:25:03.632Z'
+updated: '2021-09-08T07:08:37.209Z'
 ---
-Am I a hypocrite? Yes. Do I find myself hating hypocrites? Yes. 
-
 It seems that there's a fundamental sort of distaste we have for people that are hypocrites. A base instinctual mistrust, a dis-ease. It's a "get him outta here" kind of thing. "Can't trust that guy." There's something evolutionary there I think. 
+
+Am I a hypocrite? Yes. Do I find myself hating hypocrites? Yes. 
 
 It's so easy to hate hypocrites. They make it easy simply by the nature of their hypocrisy. I certainly won't pretend be above that sort of thing. 
 
