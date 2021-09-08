@@ -5,9 +5,9 @@ backlinks:
 forwardlinks:
   - design
 created: '2021-09-08T05:36:16.656Z'
-updated: '2021-09-08T06:25:55.107Z'
+updated: '2021-09-08T07:02:26.733Z'
 ---
-Twelve Websites is an ongoing project that I began in 2021 to [design](design.md) and build a series of small websites, each in the course of a month. Here's what I wrote about it at the start of the project: 
+Twelve Websites is an ongoing project that I began in 2021 to [design](design.md) and build a series of small websites, each in the course of a month. Here's what I [wrote about it](https://futureland.tv/christian/entry/34203) at the start of the project: 
 
 > I like to make websites. I've made a lot of them in the past.
 

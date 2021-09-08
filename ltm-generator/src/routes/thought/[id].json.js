@@ -27,12 +27,17 @@ export async function get({ params }) {
 			const text = a.match(/(?<=>)(.*?)(?=<\/)/g);
 
 			const preview = forwardlinkPreviewData[href];
-			// replace " with ' since the html will have to be passed as a string
-			const previewContent = preview.content.replaceAll('"', "'");
 
-			return `<page-preview content="${previewContent}" node="${
-				preview.data.node
-			}" href="/thought/${href.replace('.md', '')}">${text}</page-preview>`;
+			if (preview) {
+				// replace " with ' since the html will have to be passed as a string
+				const previewContent = preview.content.replaceAll('"', "'");
+
+				return `<page-preview content="${previewContent}" node="${
+					preview.data.node
+				}" href="/thought/${href.replace('.md', '')}">${text}</page-preview>`;
+			} else {
+				return `<a href="${href}">${text}</a>`;
+			}
 		});
 
 		return {
