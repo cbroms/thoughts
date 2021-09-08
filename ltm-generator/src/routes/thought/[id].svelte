@@ -48,7 +48,7 @@
 					<a href="/thought/{backlink.link}"
 						><div class="link">
 							<div class="link-content">{@html backlink.content}</div>
-							<div class="link-node">{backlink.data.node} &rarr;</div>
+							<div class="link-node">{backlink.data.node}</div>
 						</div></a
 					>
 				{/each}
@@ -60,7 +60,8 @@
 <style>
 	.node {
 		margin-top: 20vh;
-		font-size: 4rem;
+		font-size: 3.5rem;
+		line-height: 120%;
 		font-family: var(--sans);
 		padding-bottom: 10px;
 		margin-bottom: 50px;
@@ -102,7 +103,7 @@
 		width: 250px;
 		background-color: var(--link-background);
 		padding: 10px;
-		height: 150px;
+		min-height: 150px;
 		margin: 20px 0;
 		border: 2px solid #000;
 		transition: border 0.3s;

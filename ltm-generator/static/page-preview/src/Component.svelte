@@ -72,7 +72,7 @@
 			</style>
 			<div class="link">
 				<div class="link-content">{@html content}</div>
-				<div class="link-node">{node} &rarr;</div>
+				<div class="link-node">{node}</div>
 			</div>
 		</div>
 	</a>
@@ -89,7 +89,7 @@
 		color: black;
 		text-decoration: none;
 		padding: 10px;
-		height: 150px;
+		min-height: 150px;
 		border: 2px solid #253bff;
 		border-bottom: 4px solid #253bff;
 		margin-top: 5px;
