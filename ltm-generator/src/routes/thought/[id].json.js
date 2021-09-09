@@ -32,7 +32,7 @@ export async function get({ params }) {
 				// replace " with ' since the html will have to be passed as a string
 				const previewContent = preview.content.replaceAll('"', "'");
 
-				return `<page-preview content="${previewContent}" node="${
+				return `<page-preview style="font-size: 0" content="${previewContent}" node="${
 					preview.data.node
 				}" href="/thought/${href.replace('.md', '')}">${text}</page-preview>`;
 			} else {

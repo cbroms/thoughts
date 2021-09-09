@@ -126,6 +126,8 @@
 	a {
 		color: black;
 		transition: color 0.3s;
+		font-size: 18px;
+		line-height: 125%;
 	}
 
 	a:hover {
