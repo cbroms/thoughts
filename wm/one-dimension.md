@@ -1,6 +1,7 @@
 ---
 node: One Dimension
-backlinks: []
+backlinks:
+  - me
 forwardlinks:
   - writing
   - hypocrisy-and-contradiction

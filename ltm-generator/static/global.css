@@ -66,11 +66,16 @@ summary {
 }
 
 a {
-	color: #253bff;
+	color: black;
+	transition: color 0.3s;
+}
+
+a:hover {
+	color: #253bff !important;
 }
 
 a:visited {
-	color: #253bff;
+	color: black;
 }
 
 article,
@@ -79,4 +84,12 @@ article,
 	width: 100%;
 	margin: 0 auto;
 	padding: 15px;
+}
+
+.link-arrow {
+	font-size: 12px;
+	height: 22px;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 12px;
 }

@@ -124,10 +124,15 @@
 	}
 
 	a {
-		color: #253bff;
+		color: black;
+		transition: color 0.3s;
+	}
+
+	a:hover {
+		color: #253bff !important;
 	}
 
 	a:visited {
-		color: #253bff;
+		color: black;
 	}
 </style>
