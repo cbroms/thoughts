@@ -7,17 +7,19 @@ forwardlinks:
   - hypocrisy-and-contradiction
   - growth
   - twelve-websites
+  - xanadu
 created: '2021-09-08T05:33:25.568Z'
-updated: '2021-09-08T07:15:23.966Z'
+updated: '2021-09-10T05:05:58.047Z'
 ---
-One dimension is an experimental [writing](writing.md) system that links thoughts together through bi-directional links.  
 
-The goal of this system is to explore the creation of a recorded and constantly evolving body of reflection and synthesis. I don't know if this will be the *best* medium for it, but it seems like a decent first step.
+One dimension is an experimental [writing](writing.md) system that links thoughts together through bi-directional links.
 
-I've elected to make One Dimension publicly viewable. There's something important about putting these thoughts into a form that's readable, even if it's never actually read. A symbolic gesture for myself. That said, the quality is likely to be variable. I'll probably write a lot of [contradicting](hypocrisy-and-contradiction.md) things here. Things I eventually disagree with, changes in thinking. It's my hope that [growth](growth.md) can be better recorded through a system like this. 
+The goal of this system is to explore the creation of a recorded and constantly evolving body of reflection and synthesis. I don’t know if this will be the _best_ medium for it, but it seems like a decent first step.
 
-I built One Dimension as part of a larger yearlong endeavor to [create a series of small websites](twelve-websites.md). 
+I’ve elected to make One Dimension publicly viewable. There’s something important about putting these thoughts into a form that’s readable, even if it’s never actually read. A symbolic gesture for myself. That said, the quality is likely to be variable. I’ll probably write a lot of [contradicting](hypocrisy-and-contradiction.md) things here. Things I eventually disagree with, changes in thinking. It’s my hope that [growth](growth.md) can be better recorded through a system like this.
 
-### How it's built
+I built One Dimension as part of a larger yearlong endeavor to [create a series of small websites](twelve-websites.md). This project is a bit of a mash up of different systems I find inspiring, primarily [Xanadu](xanadu.md) and [Gwern.net](https://gwern.net). 
 
-One Dimension is a folder of markdown files on my desktop. I built a series of tools to interact with those files and save and edit them from my browser. The online version of the site is generated as a bunch of static files and served from AWS S3 object storage behind Cloudflare's CDN. The source code for all of these tools can be found in the [project's repository](https://github.com/cbroms/thoughts). 
+### How it’s built
+
+One Dimension is a folder of markdown files on my desktop. I built a series of tools to interact with those files and save and edit them from my browser. The online version of the site is generated as a bunch of static files and served from AWS S3 object storage behind Cloudflare’s CDN. The source code for all of these tools can be found in the [project’s repository](https://github.com/cbroms/thoughts).
