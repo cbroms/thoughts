@@ -30,7 +30,7 @@ export async function get({ params }) {
 
 			if (preview) {
 				// replace " with ' since the html will have to be passed as a string
-				const previewContent = preview.content.replaceAll('"', "'");
+				const previewContent = preview.excerpt.replaceAll('"', "'");
 
 				return `<page-preview style="display: inline-block" content="${previewContent}" node="${
 					preview.data.node

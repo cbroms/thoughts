@@ -37,6 +37,7 @@ const getFilePreview = async (filename) => {
       const location = path.join(__dirname, "../..", dir, filename);
       const file = await read(location, "utf8");
       const res = parseFile(file);
+      delete res.content;
       resolve(res);
     } catch (err) {
       reject(404);
@@ -48,11 +49,9 @@ const getFileRaw = async (filename) => {
   return new Promise(async (resolve, reject) => {
     try {
       const location = path.join(__dirname, "../..", dir, filename);
-      console.log(location);
       const file = await read(location, "utf8");
       // just return the markdown and title minus the frontmatter
       const parsed = parseFrontmatter(file);
-      console.log(parsed.content);
       const res = { content: parsed.content, title: parsed.data.node };
       resolve(res);
     } catch (err) {
