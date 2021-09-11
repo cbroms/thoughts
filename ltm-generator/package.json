@@ -18,5 +18,8 @@
     "prettier-plugin-svelte": "^2.2.0",
     "svelte": "^3.34.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "open-graph-scraper-lite": "^1.1.1"
+  }
 }

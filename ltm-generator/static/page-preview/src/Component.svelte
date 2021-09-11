@@ -7,13 +7,15 @@
 	export let href;
 	export let content;
 	export let node;
+	export let imgsrc;
+	export let external = false;
 
 	let visible = false;
 	let top;
 	let left;
 
-	const height = 172;
-	const width = 272;
+	const height = content && content !== 'null' ? 172 : 60;
+	const width = content && content !== 'null' && imgsrc ? 400 : 272;
 
 	let element;
 
@@ -73,8 +75,26 @@
 				}
 			</style>
 			<div class="link">
-				<div class="link-content">{@html content}</div>
-				<div class="link-node">{node}</div>
+				<div class="link-content-wrapper">
+					{#if content && content !== 'null'}
+						<div class="link-content">{@html content}</div>
+					{/if}
+					{#if imgsrc}
+						<img
+							class="link-image"
+							class:left={content && content !== 'null'}
+							src={imgsrc}
+							alt={node}
+						/>
+					{/if}
+				</div>
+
+				{#if node}
+					<div class="link-node">{node}</div>
+				{/if}
+				{#if external}
+					<div class="link-url">{href}</div>
+				{/if}
 			</div>
 		</div>
 	</a>
@@ -86,16 +106,16 @@
 	}
 
 	.link {
-		max-width: 250px;
+		max-width: 100%;
 		background-color: white;
 		color: black;
 		text-decoration: none;
 		padding: 10px;
-		min-height: 150px;
 		border: 2px solid #253bff;
 		border-bottom: 4px solid #253bff;
 		margin-top: 5px;
 		border-radius: 10px;
+		font-weight: normal;
 	}
 
 	.link-content {
@@ -113,6 +133,27 @@
 		font-family: var(--sans);
 		padding-top: 5px;
 		font-weight: bold;
+	}
+
+	.link-content-wrapper {
+		display: flex;
+	}
+
+	.link-image {
+		height: 120px;
+		object-fit: cover;
+		object-position: center center;
+		width: 100%;
+		min-width: 150px;
+	}
+
+	.link-image.left {
+		padding-left: 10px;
+	}
+
+	.link-url {
+		font-size: 12px;
+		font-family: var(--sans);
 	}
 
 	.link-content::after {
