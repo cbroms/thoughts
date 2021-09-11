@@ -133,14 +133,11 @@ const makeFile = async (filename, content) => {
             const file = await read(location, "utf8");
             const parsed = parseFrontmatter(file);
 
-            const updatedFileContent = toFormattedFile(
-              [...new Set([...parsed.data.backlinks, newId])],
-              parsed.data.forwardlinks,
-              parsed.data.node,
-              parsed.content,
-              parsed.data.created,
-              parsed.data.updated
-            );
+            console.log("UPDATED CONTENT", parsed.content);
+            const updatedFileContent = toFormattedFile(parsed.content, {
+              ...parsed.data,
+              backlinks: [...new Set([...parsed.data.backlinks, newId])],
+            });
 
             await write(location, updatedFileContent);
           } catch (err) {
@@ -156,14 +153,12 @@ const makeFile = async (filename, content) => {
         const parsed = parseFrontmatter(file);
 
         // update the file with the new contents
-        const newFileContent = toFormattedFile(
-          parsed.data.backlinks, // assuming the backlinks haven't changed
-          cleanedForwardlinks,
-          content.node,
-          content.content,
-          parsed.data.created,
-          new Date().toISOString()
-        );
+        const newFileContent = toFormattedFile(content.content, {
+          ...parsed.data,
+          forwardlinks: cleanedForwardlinks,
+          node: content.node,
+          updated: new Date().toISOString(),
+        });
 
         await write(location, newFileContent);
         //  update the connected files
@@ -174,14 +169,13 @@ const makeFile = async (filename, content) => {
         // the file doesn't exist yet; create it
         const location = path.join(__dirname, "../..", dir, filename);
 
-        const newFileContent = toFormattedFile(
-          [], // assuming there are no backlinks to it yet
-          cleanedForwardlinks,
-          content.node,
-          content.content,
-          new Date().toISOString(),
-          null
-        );
+        const newFileContent = toFormattedFile(content.content, {
+          backlinks: [], // assuming there are no backlinks to it yet
+          forwardlinks: cleanedForwardlinks,
+          node: content.node,
+          created: new Date().toISOString(),
+          updated: null,
+        });
 
         await write(location, newFileContent);
         updateConnectedFilesBacklinks();

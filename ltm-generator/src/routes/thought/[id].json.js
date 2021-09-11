@@ -36,7 +36,7 @@ export async function get({ params }) {
 					preview.data.node
 				}" href="/thought/${href.replace('.md', '')}">${text}</page-preview>`;
 			} else {
-				return `<a href="${href}" target="blank">${text} <span class="link-arrow">&#8663;</span></a>`;
+				return `<a href="${href}" target="blank">${text} <span class="link-arrow">&neArr;</span></a>`;
 			}
 		});
 

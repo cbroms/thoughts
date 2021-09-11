@@ -22,7 +22,7 @@
 	export let thought;
 
 	const timestamp = thought.data.updated
-		? `Updated ${new Date(thought.data.updated).toDateString()}`
+		? `Last revisited ${new Date(thought.data.updated).toDateString()}`
 		: thought.data.created
 		? `Created ${new Date(thought.data.created).toDateString()}`
 		: '';
@@ -37,29 +37,31 @@
 
 	<main>{@html thought.content}</main>
 
-	<div class="backlinks">
-		<div class="dates">{timestamp}</div>
-		<details>
-			<summary>
-				Linked by {thought.backlinks.length} thought{thought.backlinks.length !== 1 ? 's' : ''}
-			</summary>
-			<div class="backlinks-container">
-				{#each thought.backlinks as backlink}
-					<a href="/thought/{backlink.link}"
-						><div class="link">
-							<div class="link-content">{@html backlink.content}</div>
-							<div class="link-node">{backlink.data.node}</div>
-						</div></a
-					>
-				{/each}
-			</div>
-		</details>
+	<div class="footer">
+		<div class="footer-desc">
+			<span
+				>Linked by {thought.backlinks.length} thought{thought.backlinks.length !== 1
+					? 's '
+					: ' '}<span class="link-arrow">&seArr;</span></span
+			><span>{timestamp}</span>
+		</div>
+
+		<div class="backlinks-container">
+			{#each thought.backlinks as backlink}
+				<a href="/thought/{backlink.link}"
+					><div class="link">
+						<div class="link-content">{@html backlink.content}</div>
+						<div class="link-node">{backlink.data.node}</div>
+					</div></a
+				>
+			{/each}
+		</div>
 	</div>
 </article>
 
 <style>
 	.node {
-		margin-top: 20vh;
+		margin-top: 25vh;
 		font-size: 3.5rem;
 		line-height: 120%;
 		font-family: var(--sans);
@@ -68,17 +70,20 @@
 		/* border-bottom: 2px solid; */
 	}
 
-	.backlinks {
+	.footer {
 		margin-top: 80px;
 		margin-bottom: 40px;
 		padding: 20px 0;
 	}
 
-	.dates {
-		padding: 20px 0;
-		border-bottom: 2px solid;
+	.footer-desc {
+		padding-top: 20px;
+		border-top: 2px solid;
 		font-size: 16px;
 		font-family: var(--sans);
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 
 	.backlinks-container {
@@ -90,12 +95,6 @@
 	.backlinks-container > a {
 		color: inherit;
 		text-decoration: none;
-	}
-
-	summary {
-		padding-top: 20px;
-		font-size: 16px;
-		font-family: var(--sans);
 	}
 
 	.link {
@@ -123,6 +122,10 @@
 		border-top: 1px solid #253bff;
 	}
 
+	.link-arrow {
+		height: 16px;
+	}
+
 	.link-content {
 		font-size: 16px;
 		line-height: 110%;
@@ -143,12 +146,14 @@
 
 	:global(.link-content p) {
 		margin: 0;
+		margin-bottom: 10px;
 	}
 
 	:global(.link-content a) {
 		color: black;
 		pointer-events: none;
 		text-decoration: none;
+		font-size: 16px !important;
 	}
 
 	.link-content::after {

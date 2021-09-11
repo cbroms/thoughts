@@ -1,8 +1,1 @@
-<script context="module">
-	export async function load() {
-		return {
-			status: 301,
-			redirect: '/thought/one-dimension'
-		};
-	}
-</script>
+<h1>One Dimension</h1>

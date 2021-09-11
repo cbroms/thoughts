@@ -62,12 +62,14 @@
 			<style>
 				.link-content p {
 					margin: 0;
+					margin-bottom: 10px;
 				}
 
 				.link-content a {
 					color: black;
 					pointer-events: none;
 					text-decoration: none;
+					font-size: 16px !important;
 				}
 			</style>
 			<div class="link">
