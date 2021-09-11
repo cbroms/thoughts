@@ -51,7 +51,7 @@ app.get("/thought/:id/raw", (req, res, next) => {
 app.get("/thought/:id", (req, res, next) => {
   const id = req.params.id;
   const file = id.indexOf(".md") !== -1 ? id : id + ".md";
-  console.log(`GET page raw: thought/${id}`);
+  console.log(`GET page: thought/${id}`);
   getFile(file)
     .then((content) => {
       res.json(content);

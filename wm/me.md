@@ -7,13 +7,13 @@ forwardlinks:
   - design
   - tools
   - the-internet
-created: '2021-09-09T03:09:17.757Z'
-updated: '2021-09-10T04:53:55.658Z'
+created: "2021-09-09T03:09:17.757Z"
+updated: "2021-09-11T08:11:34.439Z"
 ---
 
 I’m [Christian](https://christianbroms.com).
 
-This is a collection of my notes, navigable through [a series of bi-directional links](one-dimension.md).
+This is [a collection of my notes](one-dimension.md), navigable through a series of bi-directional links.
 
 I’m a [designer](design.md); I design digital [tools](tools.md).
 

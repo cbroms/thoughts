@@ -16,7 +16,11 @@ const parseFile = (fileContent) => {
 };
 
 const toFormattedFile = (content, frontmatter) => {
-  return matter.stringify(content, frontmatter);
+  const res = matter.stringify(content, frontmatter);
+  if (res.indexOf("<p>") !== -1) {
+    throw new Error("Attempting to save HTML!");
+  }
+  return res;
 };
 
 // remove file extensions

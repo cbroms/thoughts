@@ -5,11 +5,11 @@ backlinks:
 forwardlinks:
   - me
   - omaha-nebraska
-created: "2021-09-09T04:59:02.382Z"
-updated: "2021-09-09T06:05:20.243Z"
+created: '2021-09-09T04:59:02.382Z'
+updated: '2021-09-11T08:22:04.287Z'
 ---
 
-People get caught up in tools as a distraction from actually learning and doing. I probably do too, but I also find directing attention to the tools around me that mostly just disappear into the background and are taken for granted is a great way to find the very best exemplars of what tools should be.
+People get caught up in tools as a distraction from actually learning and doing. I probably do too, but I also find directing attention to the tools around me that mostly just disappear into the background and are taken for granted is a great way to find the very best exemplars of what tools should be, and helps me be a better [tool-maker](me.md). 
 
 Here are some of the more important tools I use day-to-day to build with:
 
@@ -34,3 +34,4 @@ Here are some of the more important tools I use day-to-day to build with:
 I was going to add this to the list, but I realized I really don’t use it much and definitely don’t use it to create anything. It’s still on here because I like ranting:
 
 - ~~**A phone**~~. It’s an iPhone XR that I got when my old iPhone 6s died. I was in [Omaha](omaha-nebraska.md) without a car at the time and walked to the only Verizon store in the city only to find that the least-fancy phone I could get was an iPhone XR. It seems inferior to my old phone in pretty much all of the meaningful ways I can think of.
+
