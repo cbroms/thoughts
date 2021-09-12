@@ -6,26 +6,28 @@ export async function get({ params }) {
 	const { id } = params;
 
 	const thought = await getPage(`/thought/${id}`);
+	console.log(`GET page: thought/${id}`);
 
 	if (thought) {
 		const forwardlinkPreviewData = {};
 		const backlinks = [];
 		// get the data for tooltip page previews
 		for (const link of thought.data.forwardlinks) {
+			console.log(`GET page preview: thought/${id}`);
 			const res = await getPage(`/thought/${link}/preview`);
 			forwardlinkPreviewData[link + '.md'] = res;
 		}
 
 		for (const link of thought.data.backlinks) {
+			console.log(`GET page preview: thought/${id}`);
 			const res = await getPage(`/thought/${link}/preview`);
 			backlinks.push({ ...res, link });
 		}
 
 		const aTags = [...thought.content.matchAll(/<\s*a[^>]*>(.*?)<\s*\/\s*a>/g)];
-
 		const replacementATags = {};
 
-		for (tag of aTags) {
+		for (const tag of aTags) {
 			const [fullTag, content] = tag;
 			const href = fullTag.split('"')[1];
 			const preview = forwardlinkPreviewData[href];
@@ -41,8 +43,8 @@ export async function get({ params }) {
 				}" href="/thought/${href.replace('.md', '')}">${content}</page-preview>`;
 			} else {
 				try {
+					console.log(`GET page preview: ${href}`);
 					const { result } = await ogs({ url: href });
-					console.log(result);
 					const previewContent = result.ogDescription ? `<p>${result.ogDescription}</p>` : null;
 
 					let largestSize = 0;
