@@ -42,13 +42,14 @@ export async function get({ params }) {
 			} else {
 				try {
 					const { result } = await ogs({ url: href });
+					console.log(result);
 					const previewContent = result.ogDescription ? `<p>${result.ogDescription}</p>` : null;
 
 					let largestSize = 0;
 					let largestImage = { url: null };
 
 					// find the largest image of the potential preview images
-					if (result.ogImage.length) {
+					if (result.ogImage?.length) {
 						for (const image of result.ogImage) {
 							const size = parseInt(image.width) * parseInt(image.height);
 							if (size > largestSize) {
@@ -57,18 +58,19 @@ export async function get({ params }) {
 							}
 						}
 					} else {
-						largestImage = result.ogImage;
+						largestImage = result.ogImage || largestImage;
 					}
 
 					// check that the image has an absolute URL
-					if (largestImage.url.indexOf('http') === -1) {
+					if (largestImage.url?.indexOf('http') === -1) {
 						largestImage.url = new URL(largestImage.url, result.requestUrl).href;
 					}
 
 					replacementATags[
 						fullTag
 					] = `<page-preview style="display: inline-block" external="true" imgsrc="${largestImage.url}" content="${previewContent}" node="${result.ogTitle}" href="${href}">${content} <span class="link-arrow">&neArr;</span></page-preview>`;
-				} catch {
+				} catch (e) {
+					console.log(e);
 					replacementATags[
 						fullTag
 					] = `<page-preview style="display: inline-block" external="true" href="${href}">${content} <span class="link-arrow">&neArr;</span></page-preview>`;

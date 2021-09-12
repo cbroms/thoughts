@@ -14,36 +14,48 @@
 	let top;
 	let left;
 
-	const height = content && content !== 'null' ? 172 : 60;
-	const width = content && content !== 'null' && imgsrc ? 400 : 272;
+	const showContent = content && content !== 'null';
+	const showImg = imgsrc && imgsrc !== 'null';
+
+	const height = showContent ? 172 : 60;
+	const width = showContent && showImg ? 400 : 272;
+	let renderedHeight = height;
 
 	let element;
 
-	const positionPreview = () => {
-		const rect = element.getBoundingClientRect();
+	const positionPreview = (actualHeight) => {
+		if (element) {
+			const linkPos = element.getBoundingClientRect();
 
-		// keep the previews a bit away from the sides
-		const fullWidth = width + 40;
-		const fullHeight = height + 40;
+			// keep the previews a bit away from the sides
+			const addedMargin = 40;
+			const fullWidth = width + addedMargin;
+			const fullHeight = actualHeight + addedMargin;
 
-		const windowWidth = window.innerWidth;
-		const windowHeight = window.innerHeight;
+			const windowWidth = window.innerWidth;
+			const windowHeight = window.innerHeight;
 
-		if (windowWidth - rect.x < fullWidth) {
-			left = windowWidth - fullWidth;
-		} else {
-			left = rect.x;
-		}
+			if (windowWidth - linkPos.x < fullWidth) {
+				left = windowWidth - fullWidth;
+			} else {
+				left = linkPos.x;
+			}
 
-		if (windowHeight - (rect.y + rect.height) < fullHeight) {
-			top = windowHeight - fullHeight;
-		} else {
-			top = rect.y + rect.height;
+			if (windowHeight - (linkPos.y + linkPos.height) < fullHeight) {
+				top = linkPos.y - actualHeight - linkPos.height + 5;
+			} else {
+				top = linkPos.y + linkPos.height;
+			}
 		}
 	};
 
+	$: {
+		// reposition when height changes
+		positionPreview(renderedHeight);
+	}
+
 	const toggleOn = () => {
-		positionPreview();
+		positionPreview(renderedHeight);
 		visible = true;
 	};
 	const toggleOff = () => {
@@ -51,58 +63,71 @@
 	};
 </script>
 
-<span on:mouseover={toggleOn} on:focus={toggleOn} on:mouseout={toggleOff} on:blur={toggleOff}>
-	<a {href} bind:this={element}><slot /></a>
-</span>
-{#if visible}
-	<a {href}>
-		<div
-			transition:fade={{ duration: 150, easing: cubicIn }}
-			class="preview"
-			style="position:fixed; top:{top}px; left:{left}px; height:{height}px; width:{width}px;"
-		>
-			<style>
-				.link-content p {
-					margin: 0;
-					margin-bottom: 10px;
-				}
+<span class="preview-wrapper">
+	<span on:mouseover={toggleOn} on:focus={toggleOn} on:mouseout={toggleOff} on:blur={toggleOff}>
+		<a class:external {href} bind:this={element} target={external ? 'blank' : ''}><slot /></a>
+	</span>
+	{#if visible}
+		<a {href}>
+			<div
+				transition:fade={{ duration: 150, easing: cubicIn }}
+				class="preview"
+				class:external
+				style="position:fixed; top:{top}px; left:{left}px; height:{height}px; width:{width}px;"
+			>
+				<style>
+					.link-content p {
+						margin: 0;
+						margin-bottom: 10px;
+					}
 
-				.link-content a {
-					color: black;
-					pointer-events: none;
-					text-decoration: none;
-					font-size: 16px !important;
-				}
-			</style>
-			<div class="link">
-				<div class="link-content-wrapper">
-					{#if content && content !== 'null'}
-						<div class="link-content">{@html content}</div>
+					.link-content a {
+						color: black;
+						pointer-events: none;
+						text-decoration: none;
+						font-size: 16px !important;
+					}
+				</style>
+				<div class="link" bind:clientHeight={renderedHeight}>
+					{#if showContent || showImg}
+						<div class="link-content-wrapper">
+							{#if showContent}
+								<div class="link-content">{@html content}</div>
+							{/if}
+							{#if showImg}
+								<img
+									class="link-image"
+									class:left={content && content !== 'null'}
+									src={imgsrc}
+									alt={node}
+								/>
+							{/if}
+						</div>
 					{/if}
-					{#if imgsrc}
-						<img
-							class="link-image"
-							class:left={content && content !== 'null'}
-							src={imgsrc}
-							alt={node}
-						/>
+					{#if node}
+						<div class="link-node">{node}</div>
+					{/if}
+					{#if external}
+						<div class="link-url">{href}</div>
 					{/if}
 				</div>
-
-				{#if node}
-					<div class="link-node">{node}</div>
-				{/if}
-				{#if external}
-					<div class="link-url">{href}</div>
-				{/if}
 			</div>
-		</div>
-	</a>
-{/if}
+		</a>
+	{/if}
+</span>
 
 <style>
+	.preview-wrapper {
+		--internal: #a31621;
+		--external: #1d31e2;
+	}
 	.preview {
 		z-index: 1000;
+		--color: var(--internal);
+	}
+
+	.preview.external {
+		--color: var(--external);
 	}
 
 	.link {
@@ -111,8 +136,8 @@
 		color: black;
 		text-decoration: none;
 		padding: 10px;
-		border: 2px solid #253bff;
-		border-bottom: 4px solid #253bff;
+		border: 2px solid var(--color);
+		border-bottom: 4px solid var(--color);
 		margin-top: 5px;
 		border-radius: 10px;
 		font-weight: normal;
@@ -128,15 +153,15 @@
 	}
 
 	.link-node {
-		border-top: 1px solid #253bff;
-		color: #253bff;
+		color: var(--color);
 		font-family: var(--sans);
-		padding-top: 5px;
 		font-weight: bold;
 	}
 
 	.link-content-wrapper {
 		display: flex;
+		border-bottom: 1px solid var(--color);
+		margin-bottom: 5px;
 	}
 
 	.link-image {
@@ -173,8 +198,12 @@
 		line-height: 125%;
 	}
 
+	a.external:hover {
+		color: var(--external) !important;
+	}
+
 	a:hover {
-		color: #253bff !important;
+		color: var(--internal) !important;
 	}
 
 	a:visited {

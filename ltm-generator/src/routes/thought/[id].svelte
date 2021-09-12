@@ -99,6 +99,7 @@
 
 	.link {
 		--link-background: #f5f5f5;
+		--color: #1d31e2;
 		width: 250px;
 		background-color: var(--link-background);
 		padding: 10px;
@@ -112,14 +113,14 @@
 
 	.link:hover {
 		--link-background: #fff;
-		border: 2px solid #253bff;
-		border-bottom: 4px solid #253bff;
+		border: 2px solid var(--color);
+		border-bottom: 4px solid var(--color);
 		background-color: var(--link-background);
 	}
 
 	.link:hover > .link-node {
-		color: #253bff;
-		border-top: 1px solid #253bff;
+		color: var(--color);
+		border-top: 1px solid var(--color);
 	}
 
 	.link-arrow {
