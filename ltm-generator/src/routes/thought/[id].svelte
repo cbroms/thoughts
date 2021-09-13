@@ -99,7 +99,7 @@
 
 	.link {
 		--link-background: #f5f5f5;
-		--color: #1d31e2;
+		--color: #a31621;
 		width: 250px;
 		background-color: var(--link-background);
 		padding: 10px;

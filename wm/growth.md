@@ -3,8 +3,8 @@ node: Growth
 backlinks:
   - one-dimension
 forwardlinks: []
-created: "2021-09-08T06:35:56.219Z"
-updated: "2021-09-09T04:06:53.391Z"
+created: '2021-09-08T06:35:56.219Z'
+updated: '2021-09-09T04:06:53.391Z'
 ---
 
 You only recognize growth when you step away for a while.
