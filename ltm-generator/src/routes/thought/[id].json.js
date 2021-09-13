@@ -1,4 +1,5 @@
 import getPage from '$lib/db';
+import { btoa } from 'abab';
 
 import ogs from 'open-graph-scraper-lite';
 
@@ -34,18 +35,19 @@ export async function get({ params }) {
 
 			if (preview) {
 				// replace " with ' since the html will have to be passed as a string
-				const previewContent = preview.excerpt.replaceAll('"', "'");
+				const previewContent = preview.excerpt.replaceAll('"', "'").replaceAll('\n', '');
 
 				replacementATags[
 					fullTag
-				] = `<page-preview style="display: inline-block" content="${previewContent}" node="${
+				] = `<page-preview style="display: inline-block" content="${previewContent}" node="${btoa(
 					preview.data.node
-				}" href="/thought/${href.replace('.md', '')}">${content}</page-preview>`;
+				)}" href="/thought/${href.replace('.md', '')}">${content}</page-preview>`;
 			} else {
 				try {
 					console.log(`GET page preview: ${href}`);
 					const { result } = await ogs({ url: href });
-					const previewContent = result.ogDescription ? `<p>${result.ogDescription}</p>` : null;
+					const desc = result.ogDescription ? `<p>${result.ogDescription}</p>` : null;
+					const previewContent = desc.replaceAll('"', "'").replaceAll('\n', '');
 
 					let largestSize = 0;
 					let largestImage = { url: null };
@@ -70,12 +72,16 @@ export async function get({ params }) {
 
 					replacementATags[
 						fullTag
-					] = `<page-preview style="display: inline-block" external="true" imgsrc="${largestImage.url}" content="${previewContent}" node="${result.ogTitle}" href="${href}">${content} <span class="link-arrow">&neArr;</span></page-preview>`;
+					] = `<page-preview style="display: inline-block" external="true" imgsrc="${
+						largestImage.url
+					}" content="${previewContent}" node="${btoa(
+						result.ogTitle
+					)}" href="${href}">${content} <span class='link-arrow'>&neArr;</span>
+					 </page-preview>`;
 				} catch (e) {
-					console.log(e);
 					replacementATags[
 						fullTag
-					] = `<page-preview style="display: inline-block" external="true" href="${href}">${content} <span class="link-arrow">&neArr;</span></page-preview>`;
+					] = `<page-preview style="display: inline-block" external="true" href="${href}">${content} <span class='link-arrow'>&neArr;</span></page-preview>`;
 				}
 			}
 
