@@ -139,6 +139,7 @@
 		margin-top: 5px;
 		border-radius: 10px;
 		font-weight: normal;
+		font-style: normal;
 	}
 
 	.link-content {
