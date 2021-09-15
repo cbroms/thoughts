@@ -1,11 +1,8 @@
 <svelte:options tag="page-preview" />
 
 <script>
-	import abab from 'abab';
 	import { fade } from 'svelte/transition';
 	import { cubicIn } from 'svelte/easing';
-
-	const atob = abab.atob;
 
 	export let href;
 	export let content;
@@ -98,12 +95,12 @@
 								<div class="link-content">{@html content}</div>
 							{/if}
 							{#if showImg}
-								<img class="link-image" class:left={showContent} src={imgsrc} alt={atob(node)} />
+								<img class="link-image" class:left={showContent} src={imgsrc} alt={node} />
 							{/if}
 						</div>
 					{/if}
 					{#if node}
-						<div class="link-node">{atob(node)}</div>
+						<div class="link-node">{node}</div>
 					{/if}
 					{#if external}
 						<div class="link-url">{href}</div>

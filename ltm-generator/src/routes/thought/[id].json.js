@@ -1,5 +1,4 @@
 import getPage from '$lib/db';
-import { btoa } from 'abab';
 
 import ogs from 'open-graph-scraper-lite';
 
@@ -14,13 +13,13 @@ export async function get({ params }) {
 		const backlinks = [];
 		// get the data for tooltip page previews
 		for (const link of thought.data.forwardlinks) {
-			console.log(`GET page preview: thought/${id}`);
+			console.log(`GET page preview: thought/${link}`);
 			const res = await getPage(`/thought/${link}/preview`);
 			forwardlinkPreviewData[link + '.md'] = res;
 		}
 
 		for (const link of thought.data.backlinks) {
-			console.log(`GET page preview: thought/${id}`);
+			console.log(`GET page preview: thought/${link}`);
 			const res = await getPage(`/thought/${link}/preview`);
 			backlinks.push({ ...res, link });
 		}
@@ -39,15 +38,16 @@ export async function get({ params }) {
 
 				replacementATags[
 					fullTag
-				] = `<page-preview style="display: inline-block" content="${previewContent}" node="${btoa(
+				] = `<page-preview style="display: inline-block" content="${previewContent}" node="${
 					preview.data.node
-				)}" href="/thought/${href.replace('.md', '')}">${content}</page-preview>`;
+				}" href="/thought/${href.replace('.md', '')}">${content}</page-preview>`;
 			} else {
 				try {
 					console.log(`GET page preview: ${href}`);
 					const { result } = await ogs({ url: href });
+					console.log(result);
 					const desc = result.ogDescription ? `<p>${result.ogDescription}</p>` : null;
-					const previewContent = desc.replaceAll('"', "'").replaceAll('\n', '');
+					const previewContent = desc ? desc.replaceAll('"', "'").replaceAll('\n', '') : null;
 
 					let largestSize = 0;
 					let largestImage = { url: null };
@@ -72,11 +72,7 @@ export async function get({ params }) {
 
 					replacementATags[
 						fullTag
-					] = `<page-preview style="display: inline-block" external="true" imgsrc="${
-						largestImage.url
-					}" content="${previewContent}" node="${btoa(
-						result.ogTitle
-					)}" href="${href}">${content} <span class='link-arrow'>&neArr;</span>
+					] = `<page-preview style="display: inline-block" external="true" imgsrc="${largestImage.url}" content="${previewContent}" node="${result.ogTitle}" href="${href}">${content} <span class='link-arrow'>&neArr;</span>
 					 </page-preview>`;
 				} catch (e) {
 					replacementATags[
