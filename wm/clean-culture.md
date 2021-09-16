@@ -1,0 +1,24 @@
+---
+backlinks:
+  - youtube
+  - digital-people
+  - the-internet
+forwardlinks:
+  - digital-people
+node: Clean culture
+created: '2021-09-16T05:51:39.940Z'
+updated: '2021-09-16T06:25:45.523Z'
+---
+There's a very hard to describe quality to some kinds of digital culture that I think is worth trying to classify. It's something that emerges from corporate media and corporatized media channels.
+
+It's like everything takes on a certain flavor, a certain kind of strange off-ness. People act predictably and strangely. It's the flavor of brands, influencers, ["people"](digital-people.md) on social media, ads, TV shows. 
+
+Normal people don't act or say the sorts of things you hear through these channels. When you encounter someone who does, it's *weird*. It's like you've heard it before, but never from a real person. It's always coming from some shadow of a person online, some fake voice and text that doesn't quite make sense but is just accepted as digital-normal.
+
+It's clean culture--culture that lacks the dirtiness of the real and is extensively manufactured and curated--the product of algorithms tuned for specific outcomes. There's no optimization function to the messy culture of the real world. It's why seeing someone take on the characteristics of a clean digital culture feels so unnatural. 
+
+There's perhaps no better way to respond to this feeling and add some dirtiness to clean culture than Connor O'Malley videos:
+
+- [Howard Schultz tapes (4K FULL MOVIE 2019 FREE)](https://www.youtube.com/watch?v=DLJtMwXkdz4)
+- [SMOKING 500 CIGARETTES FOR 5G](https://www.youtube.com/watch?v=87_4nHEPHyU)
+- [ANTIFA TOOK OVER MY BURGER KING (part 1)](https://www.youtube.com/watch?v=SyRDrnoD358)

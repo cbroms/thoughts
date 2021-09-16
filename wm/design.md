@@ -6,13 +6,19 @@ backlinks:
   - me
   - the-internet
   - better-social-media
-forwardlinks: []
+  - the-craft-of-design
+forwardlinks:
+  - the-craft-of-design
 created: '2021-09-08T06:17:11.155Z'
-updated: '2021-09-08T06:24:40.406Z'
+updated: '2021-09-16T05:05:28.629Z'
 ---
 
 _Design is the endeavor to conceive of future states that diverge from the present with intention._
 
-It is, as far as I can tell, a uniquely human characteristic. I don’t think there’s a way for us to _stop_ designing; it’s our nature. It’s the source of richness in our lives, what gives us the perpetual hope for the future. Design allows us to see beyond what’s in front of us, to find better and more beautiful ways of living and thriving across nearly any state of the world.
+In that sense everything we do to change the world around us is design. I think that makes sense, design seems to be a uniquely human characteristic. I don’t think there’s a way for us to _stop_ designing; it’s our nature.
 
-It’s also why we’ll most likely end our own existence.
+Design allows us to see beyond what’s in front of us, to find better and more beautiful ways of living and thriving across nearly any state of the world.
+
+The continuous and never-ending endeavor to improve is also a curse; it prevents us from being happy with what we have. Sometimes we feel we have to change things when in fact changing is unnecessary, or perhaps ultimately detrimental. 
+
+For design-as-a-craft, see [the craft of design](the-craft-of-design.md).
