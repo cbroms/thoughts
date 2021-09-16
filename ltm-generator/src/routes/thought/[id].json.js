@@ -45,7 +45,6 @@ export async function get({ params }) {
 				try {
 					console.log(`GET page preview: ${href}`);
 					const { result } = await ogs({ url: href });
-					console.log(result);
 					const desc = result.ogDescription ? `<p>${result.ogDescription}</p>` : null;
 					const previewContent = desc ? desc.replaceAll('"', "'").replaceAll('\n', '') : null;
 
