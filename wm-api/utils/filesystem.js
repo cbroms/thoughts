@@ -37,8 +37,11 @@ const makeChange = (type, time, node) => {
         node,
         id:
           typeof node === "string"
-            ? slugify(node)
-            : { from: slugify(node.from), to: slugify(node.to) },
+            ? slugify(node).toLowerCase()
+            : {
+                from: slugify(node.from).toLowerCase(),
+                to: slugify(node.to).toLowerCase(),
+              },
       };
       try {
         const file = await read(location, "utf8");
