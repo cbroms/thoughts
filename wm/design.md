@@ -3,10 +3,10 @@ node: Design
 backlinks:
   - hypocrisy-and-contradiction
   - twelve-websites
-  - me
   - the-internet
   - better-social-media
   - the-craft-of-design
+  - me
 forwardlinks:
   - the-craft-of-design
 created: '2021-09-08T06:17:11.155Z'

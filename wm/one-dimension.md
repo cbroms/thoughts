@@ -9,8 +9,8 @@ forwardlinks:
   - growth
   - twelve-websites
   - xanadu
-created: '2021-09-08T05:33:25.568Z'
-updated: '2021-09-13T01:39:18.643Z'
+created: "2021-09-08T05:33:25.568Z"
+updated: "2021-09-13T01:39:18.643Z"
 ---
 
 One dimension is an experimental [writing](writing.md) system that links thoughts together through bi-directional links.
@@ -19,7 +19,7 @@ The goal of this system is to explore the creation of a recorded and constantly 
 
 I’ve elected to make One Dimension [publicly viewable](working-in-public.md). There’s something important about putting these thoughts into a form that’s readable, even if it’s never actually read. A symbolic gesture for myself. That said, the quality is likely to be variable. I’ll probably write a lot of [contradicting](hypocrisy-and-contradiction.md) things here. Things I eventually disagree with, changes in thinking. It’s my hope that [growth](growth.md) can be better recorded through a system like this.
 
-I built One Dimension as part of a larger yearlong endeavor to [create a series of small websites](twelve-websites.md). This project is a bit of a mash up of different systems I find inspiring, primarily [Xanadu](xanadu.md), [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:About) and [Gwern.net](https://gwern.net). 
+I built One Dimension as part of a larger yearlong endeavor to [create a series of small websites](twelve-websites.md). This project is a bit of a mash up of different systems I find inspiring, primarily [Xanadu](xanadu.md), [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:About) and [Gwern.net](https://gwern.net).
 
 ### How it’s built
 

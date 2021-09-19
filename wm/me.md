@@ -14,7 +14,7 @@ forwardlinks:
   - fuck-it
   - working-in-public
 created: '2021-09-09T03:09:17.757Z'
-updated: '2021-09-17T05:40:43.700Z'
+updated: '2021-09-19T04:57:35.544Z'
 ---
 
 I’m Christian.

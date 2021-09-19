@@ -8,6 +8,7 @@ const {
   getAllFiles,
   getFileRaw,
   getFilePreview,
+  getChanges,
   makeSearch,
   makeFile,
 } = require("./utils/filesystem");
@@ -49,6 +50,14 @@ app.get("/thought/:id", (req, res, next) => {
   const id = req.params.id;
   const file = id.indexOf(".md") !== -1 ? id : id + ".md";
   getFile(file)
+    .then((content) => {
+      res.json(content);
+    })
+    .catch(next);
+});
+
+app.get("/changes", (req, res, next) => {
+  getChanges()
     .then((content) => {
       res.json(content);
     })

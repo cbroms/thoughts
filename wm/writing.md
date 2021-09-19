@@ -7,7 +7,7 @@ forwardlinks:
   - hypocrisy-and-contradiction
   - the-authority-of-writing
 created: '2021-09-08T05:43:25.578Z'
-updated: '2021-09-19T01:07:37.663Z'
+updated: '2021-09-19T04:29:35.874Z'
 ---
 
 Writing is flawed. It’s an imperfect medium to be sure. But still so _approachable_ compared to all the other [forms of expression](media.md).

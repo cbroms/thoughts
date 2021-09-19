@@ -43,7 +43,10 @@ const toFormattedFile = (content, frontmatter) => {
 
 // remove file extensions
 const filenamesToAddr = (files) => {
-  return files.map((f) => f.replace(".md", ""));
+  // only .md files
+  return files
+    .filter((f) => f.indexOf(".md") !== -1)
+    .map((f) => f.replace(".md", ""));
 };
 
 module.exports = {

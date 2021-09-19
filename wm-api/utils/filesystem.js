@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const util = require("util");
 const { exec } = require("child_process");
+const slugify = require("slugify");
 
 const read = util.promisify(fs.readFile);
 const readDir = util.promisify(fs.readdir);
@@ -16,7 +17,56 @@ const {
   toFormattedFile,
 } = require("./parser");
 
+const { changes } = require("./changes");
+
 const dir = "wm/";
+const changesDir = dir + "changes/";
+
+const makeChange = (type, time, node) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const changefile = slugify(time);
+      const location = path.join(
+        __dirname,
+        "../..",
+        changesDir,
+        `${changefile}.json`
+      );
+      const newChange = {
+        type,
+        node,
+        id:
+          typeof node === "string"
+            ? slugify(node)
+            : { from: slugify(node.from), to: slugify(node.to) },
+      };
+      try {
+        const file = await read(location, "utf8");
+        const content = JSON.parse(file);
+
+        // does the change already exist?
+        if (
+          content.filter(
+            (c) => c.type.action === type.action && c.node === node
+          ).length > 0
+        ) {
+          resolve(200);
+        } else {
+          content.push(newChange);
+          await write(location, JSON.stringify(content));
+        }
+      } catch {
+        // the changefile doesn't exist yet
+        const content = [newChange];
+        await write(location, JSON.stringify(content));
+      }
+      resolve(200);
+    } catch (err) {
+      console.error(err);
+      reject(500);
+    }
+  });
+};
 
 const getFile = async (filename) => {
   return new Promise(async (resolve, reject) => {
@@ -111,38 +161,76 @@ const makeSearch = async (query) => {
 const makeFile = async (filename, content) => {
   return new Promise(async (resolve, reject) => {
     try {
-      // extract out all the links to files (these include .md), removing duplicates and non-internal links
-      const forwardlinks = [
-        ...new Set(
-          [...content.content.matchAll(/(?<=\[.*\]\()([^\)]*)(?=\))/gm)].map(
-            (l) => l[0]
-          )
-        ),
-      ].filter((l) => l.indexOf(".md") !== -1);
+      const extractForwardLinks = (content) => {
+        // extract out all the links to files (these include .md), removing duplicates and non-internal links
+        const forwardlinks = [
+          ...new Set(
+            [...content.matchAll(/(?<=\[.*\]\()([^\)]*)(?=\))/gm)].map(
+              (l) => l[0]
+            )
+          ),
+        ].filter((l) => l.indexOf(".md") !== -1);
+        return forwardlinks;
+      };
 
+      const forwardlinks = extractForwardLinks(content.content);
       const cleanedForwardlinks = forwardlinks.map((l) => l.replace(".md", ""));
 
       // helper function to iterate over the forward links and update all the files to include
       // the new file as one of the backlinks
-      const updateConnectedFilesBacklinks = async () => {
+      const updateConnectedFilesBacklinks = async (
+        existingForwardLinks = []
+      ) => {
         const newId = filename.replace(".md", "");
+
+        const removedLinks = existingForwardLinks.filter(
+          (l) => !forwardlinks.includes(l)
+        );
 
         // iterate over the forward links, open the files, and add the new file to the backlinks
         for (const linkFilename of forwardlinks) {
+          // only do the update process if the forward link is new
+          if (!existingForwardLinks.includes(linkFilename)) {
+            try {
+              const location = path.join(__dirname, "../..", dir, linkFilename);
+              const file = await read(location, "utf8");
+              const parsed = parseFrontmatter(file);
+
+              const updatedFileContent = toFormattedFile(parsed.content, {
+                ...parsed.data,
+                backlinks: [...new Set([...parsed.data.backlinks, newId])],
+              });
+
+              makeChange(changes.LINK, new Date().toDateString(), {
+                to: parsed.data.node,
+                from: content.node,
+              });
+              await write(location, updatedFileContent);
+            } catch (err) {
+              // ok if this fails; means there's a link to a nonexistent page
+            }
+          }
+        }
+
+        // iterate over the removed links, open the files, and remove the file from the backlinks
+        for (const linkFilename of removedLinks) {
           try {
             const location = path.join(__dirname, "../..", dir, linkFilename);
             const file = await read(location, "utf8");
             const parsed = parseFrontmatter(file);
 
-            console.log("UPDATED CONTENT", parsed.content);
             const updatedFileContent = toFormattedFile(parsed.content, {
               ...parsed.data,
-              backlinks: [...new Set([...parsed.data.backlinks, newId])],
+              backlinks: parsed.data.backlinks.filter((f) => f !== newId),
             });
 
+            makeChange(changes.UNLINK, new Date().toDateString(), {
+              to: parsed.data.node,
+              from: content.node,
+            });
             await write(location, updatedFileContent);
           } catch (err) {
-            // ok if this fails; means there's a link to a nonexistent page
+            // ok if this fails; means the linked file no longer exists
           }
         }
       };
@@ -153,6 +241,8 @@ const makeFile = async (filename, content) => {
         const file = await read(location, "utf8");
         const parsed = parseFrontmatter(file);
 
+        const existingForwardlinks = extractForwardLinks(parsed.content);
+
         // update the file with the new contents
         const newFileContent = toFormattedFile(content.content, {
           ...parsed.data,
@@ -161,9 +251,10 @@ const makeFile = async (filename, content) => {
           updated: new Date().toISOString(),
         });
 
+        makeChange(changes.UPDATE, new Date().toDateString(), content.node);
         await write(location, newFileContent);
         //  update the connected files
-        updateConnectedFilesBacklinks();
+        updateConnectedFilesBacklinks(existingForwardlinks);
 
         resolve(200);
       } catch (err) {
@@ -178,14 +269,40 @@ const makeFile = async (filename, content) => {
           updated: null,
         });
 
+        makeChange(changes.CREATE, new Date().toDateString(), content.node);
         await write(location, newFileContent);
         updateConnectedFilesBacklinks();
 
         resolve(200);
       }
     } catch (err) {
-      console.log(err);
+      console.error(err);
       reject(500);
+    }
+  });
+};
+
+const getChanges = async () => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const location = path.join(__dirname, "../..", changesDir);
+      const files = await readDir(location);
+      const res = [];
+
+      for (const file of files) {
+        const fileLocation = path.join(__dirname, "../..", changesDir, file);
+        const content = await read(fileLocation, "utf8");
+        const date = file.replaceAll("-", " ").replace(".json", "");
+        res.push({
+          date,
+          id: file.replace(".json", ""),
+          changes: JSON.parse(content),
+        });
+      }
+
+      resolve(res);
+    } catch (err) {
+      reject(404);
     }
   });
 };
@@ -195,6 +312,7 @@ module.exports = {
   getAllFiles,
   getFileRaw,
   getFilePreview,
+  getChanges,
   makeSearch,
   makeFile,
 };

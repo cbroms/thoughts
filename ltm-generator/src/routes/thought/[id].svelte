@@ -22,9 +22,9 @@
 	export let thought;
 
 	const timestamp = thought.data.updated
-		? `Last revisited ${new Date(thought.data.updated).toDateString()}`
+		? new Date(thought.data.updated).toDateString()
 		: thought.data.created
-		? `Created ${new Date(thought.data.created).toDateString()}`
+		? new Date(thought.data.created).toDateString()
 		: '';
 </script>
 
@@ -43,7 +43,9 @@
 				>Linked by {thought.backlinks.length} thought{thought.backlinks.length !== 1
 					? 's '
 					: ' '}<span class="link-arrow">&seArr;</span></span
-			><span>{timestamp}</span>
+			><span
+				><a href="/changelog#{timestamp.replaceAll(' ', '-')}">Last revisited {timestamp}</a></span
+			>
 		</div>
 
 		<div class="backlinks-container">
