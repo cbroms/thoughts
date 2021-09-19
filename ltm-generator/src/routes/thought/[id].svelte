@@ -52,7 +52,7 @@
 			{#each thought.backlinks as backlink}
 				<a href="/thought/{backlink.link}"
 					><div class="link">
-						<div class="link-content">{@html backlink.excerpt}</div>
+						<div class="link-content">{@html backlink.excerpt.replaceAll('.md', '')}</div>
 						<div class="link-node">{backlink.data.node}</div>
 					</div></a
 				>

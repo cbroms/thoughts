@@ -34,7 +34,10 @@ export async function get({ params }) {
 
 			if (preview) {
 				// replace " with ' since the html will have to be passed as a string
-				const previewContent = preview.excerpt.replaceAll('"', "'").replaceAll('\n', '');
+				const previewContent = preview.excerpt
+					.replaceAll('"', "'")
+					.replaceAll('\n', '')
+					.replaceAll('.md', '');
 
 				replacementATags[
 					fullTag
