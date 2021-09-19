@@ -7,10 +7,10 @@ forwardlinks:
   - hypocrisy-and-contradiction
   - the-authority-of-writing
 created: '2021-09-08T05:43:25.578Z'
-updated: '2021-09-13T01:18:06.139Z'
+updated: '2021-09-19T01:07:37.663Z'
 ---
 
-Writing is flawed. It’s an imperfect medium to be sure. But still so _easy_ compared to all the other [forms of expression](media.md).
+Writing is flawed. It’s an imperfect medium to be sure. But still so _approachable_ compared to all the other [forms of expression](media.md).
 
 I find myself fluctuating between writing in a particularly flowery, overly metaphorical way and writing in as direct and simple a way as possible. The metaphorical approach feels best when first formulating thoughts and sentences, the simple approach seems to emerge when I actually try to _read_ those sentences. Simple tends to prevail.
 

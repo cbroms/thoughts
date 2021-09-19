@@ -1,6 +1,7 @@
 ---
 backlinks:
   - the-craft-of-design
+  - small-websites
 forwardlinks:
   - the-craft-of-design
 node: Boundary objects

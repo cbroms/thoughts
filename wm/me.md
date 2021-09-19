@@ -9,11 +9,15 @@ forwardlinks:
   - tools
   - the-internet
   - the-authority-of-writing
+  - what-do-you-think
+  - filtering-expression
+  - fuck-it
+  - working-in-public
 created: '2021-09-09T03:09:17.757Z'
-updated: '2021-09-16T05:41:29.006Z'
+updated: '2021-09-17T05:40:43.700Z'
 ---
 
-I’m [Christian](https://christianbroms.com).
+I’m Christian.
 
 This is [a collection of my notes](one-dimension.md), navigable through a series of bi-directional links.
 
@@ -21,4 +25,6 @@ I’m a [designer](the-craft-of-design.md); I [design](design.md) digital [tools
 
 About half of my work is digital and lives on the [internet](the-internet.md); mostly websites and [recordings of process](https://futureland.tv/christian). This system is an exploration into what happens when I take what's non-physical and non-recorded and turn it into a series of digital artifacts.
 
-Everything I've written here is ephemeral. Recording it is a way of setting a rung to push up to the next rung; a way of building onwards from whatever's now. Despite the [weird authority of the medium](the-authority-of-writing.md), don't fall for the illusion that I still think in the same way as what's written here--it's just a snapshot in time. 
+Everything I've written here is ephemeral. Despite the [weird authority](the-authority-of-writing.md) of the medium, don't fall for the illusion that I still think in the same way as what's written here--it's just a snapshot in time. And who really knows what I think? Not me. 
+
+If you know me in real life, hi. This is so strange. Explore if you want. The stuff I write here I *really* would not offer up in conversation [unless asked](what-do-you-think.md). It's thinking on the fly, rough and imperfect. Completely [unfiltered expression](filtering-expression.md). [Fuck it](fuck-it.md) man, let's make it [public](working-in-public.md). 
