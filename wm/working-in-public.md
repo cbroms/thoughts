@@ -3,14 +3,15 @@ backlinks:
   - one-dimension
   - me
 forwardlinks:
+  - process
   - reflection
 node: Working in public
 created: '2021-09-13T01:35:02.362Z'
-updated: '2021-09-13T01:44:18.567Z'
+updated: '2021-09-20T07:10:49.586Z'
 ---
 There's something about the idea of working in public that I  quite like. That's digital-public, not public-public. 
 
-Digital-public means that the artifacts of your work are accessible though a web browser. Your process is publicly accessible. That's all. 
+Digital-public means that the artifacts of your work are accessible though a web browser. Your [process](process.md) is publicly accessible. That's all. 
 
 It's important to note that:
 

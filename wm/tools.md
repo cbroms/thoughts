@@ -4,9 +4,10 @@ backlinks:
   - me
 forwardlinks:
   - me
+  - process
   - omaha-nebraska
-created: "2021-09-09T04:59:02.382Z"
-updated: "2021-09-11T08:22:04.287Z"
+created: '2021-09-09T04:59:02.382Z'
+updated: '2021-09-20T07:11:17.401Z'
 ---
 
 People get caught up in tools as a distraction from actually learning and doing. I probably do too, but I also find directing attention to the tools around me that mostly just disappear into the background and are taken for granted is a great way to find the very best exemplars of what tools should be, and helps me be a better [tool-maker](me.md).
@@ -17,7 +18,7 @@ Here are some of the more important tools I use day-to-day to build with:
 
 - **Firefox**. To be honest most browsers are all pretty decent, but some are slightly more decent than others. I like Firefox.
 - **DuckDuckGo**. I know it’s basically a re-wrapped version of Bing, but I still enjoy the vibe. Search results are generally good enough and I like [their !bangs](https://duckduckgo.com/bang).
-- **[Futureland](https://futureland.tv)**. Where my process is recorded and I work through a daily routine.
+- **[Futureland](https://futureland.tv)**. Where my [process](process.md) is recorded and I work through a daily routine.
 - **VS Code**. I recently switched over from Sublime Text, and it’s been pretty good so far with a nice ecosystem of plugins. I just wish it wasn’t quite as _heavy_.
 - **Figma**.
 - **iTerm**.

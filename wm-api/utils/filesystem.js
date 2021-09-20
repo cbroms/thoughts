@@ -143,18 +143,21 @@ const makeSearch = async (query) => {
         .map((l) => {
           [file, match] = l.split(".md:");
 
-          // add highlighting around the results
-          const html = parseMarkdown(match).replaceAll(
-            new RegExp(query, "ig"),
-            (match) => {
-              return `<mark>${match}</mark>`;
-            }
-          );
-          return { file: file + ".md", match: html };
+          if (match) {
+            // add highlighting around the results
+            const html = parseMarkdown(match).replaceAll(
+              new RegExp(query, "ig"),
+              (match) => {
+                return `<mark>${match}</mark>`;
+              }
+            );
+            return { file: file + ".md", match: html };
+          }
         });
 
       resolve({ results: lines });
     } catch (err) {
+      console.error(err);
       // TODO should probably differentiate the error types and handle them separately
       resolve({ results: [] });
     }
