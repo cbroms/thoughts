@@ -1,5 +1,6 @@
 const matter = require("gray-matter");
 const marked = require("marked");
+const hljs = require("highlight.js");
 
 const parseFrontmatter = (content) => {
   return matter(content, {
@@ -23,6 +24,9 @@ const parseMarkdown = (content) => {
   return marked(content, {
     smartLists: true,
     smartypants: true,
+    highlight: (code, lang) => {
+      return hljs.highlight(code, { language: lang }).value;
+    },
   });
 };
 
@@ -35,9 +39,6 @@ const parseFile = (fileContent) => {
 
 const toFormattedFile = (content, frontmatter) => {
   const res = matter.stringify(content, frontmatter);
-  if (res.indexOf("<p>") !== -1) {
-    throw new Error("Attempting to save HTML!");
-  }
   return res;
 };
 

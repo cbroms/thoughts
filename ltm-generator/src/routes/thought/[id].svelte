@@ -30,6 +30,9 @@
 
 <svelte:head>
 	<title>{thought.data.node}</title>
+	{#if thought.content.indexOf('hljs') !== -1}
+		<link rel="stylesheet" href="/highlight.css" />
+	{/if}
 </svelte:head>
 
 <article>
