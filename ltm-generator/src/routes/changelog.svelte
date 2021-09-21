@@ -22,6 +22,10 @@
 	export let changes;
 </script>
 
+<svelte:head>
+	<title>Changelog</title>
+</svelte:head>
+
 <div class="changelog-wrapper">
 	<h1>Changelog</h1>
 	<details>
@@ -37,16 +41,20 @@
 		<h3 id={day.id}>{day.date}</h3>
 		<ul>
 			{#each day.changes as change}
-				<li>
-					{#if change.node.from}
-						<a href="/thought/{change.id.from}">{change.node.from}</a>
-						<span title={change.type.action}>{change.type.symbol}</span>
-						<a href="/thought/{change.id.to}">{change.node.to}</a>
-					{:else}
+				{#if change.node.from}
+					<ul>
+						<li>
+							<a href="/thought/{change.id.from}">{change.node.from}</a>
+							<span title={change.type.action}>{change.type.symbol}</span>
+							<a href="/thought/{change.id.to}">{change.node.to}</a>
+						</li>
+					</ul>
+				{:else}
+					<li>
 						<span title={change.type.action}>{change.type.symbol}</span>
 						<a href="/thought/{change.id}">{change.node}</a>
-					{/if}
-				</li>
+					</li>
+				{/if}
 			{/each}
 		</ul>
 	{/each}
