@@ -1,0 +1,1 @@
+[{"type":{"action":"Revisited thought","symbol":"↺"},"node":"Me","id":"me"},{"type":{"action":"Unlinked thought","symbol":"⇏"},"node":{"to":"What do you think?","from":"Me"},"id":{"from":"me","to":"what-do-you-think"}}]

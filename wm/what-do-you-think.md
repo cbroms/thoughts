@@ -1,6 +1,5 @@
 ---
-backlinks:
-  - me
+backlinks: []
 forwardlinks:
   - filtering-expression
 node: What do you think?
