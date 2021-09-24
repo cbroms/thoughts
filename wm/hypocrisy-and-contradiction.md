@@ -4,6 +4,7 @@ backlinks:
   - writing
   - one-dimension
   - the-authority-of-writing
+  - society-man
 forwardlinks:
   - design
 created: '2021-09-08T05:54:57.945Z'
