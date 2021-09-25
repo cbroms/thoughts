@@ -306,6 +306,10 @@ const getChanges = async () => {
         });
       }
 
+      res.sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+      });
+
       resolve(res);
     } catch (err) {
       reject(404);
