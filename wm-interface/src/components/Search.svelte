@@ -10,9 +10,14 @@
   let query;
   let inputElt;
   let results = null;
+  let resultElts = [];
 
   let focusedIdx = null;
   let commandIdx = 0;
+
+  const setHoveredIdx = (val) => {
+    focusedIdx = val;
+  };
 
   const onKeyDown = (e) => {
     if (e.key === "Enter") {
@@ -36,10 +41,16 @@
         focusedIdx -= 1;
         if (focusedIdx < 0) {
           inputElt.focus();
+        } else {
+          resultElts[focusedIdx].scrollIntoView({ behavior: "smooth" });
         }
         break;
       case "down":
-        focusedIdx += 1;
+        if (focusedIdx + 1 <= resultElts.length - 1) {
+          focusedIdx += 1;
+          resultElts[focusedIdx].scrollIntoView({ behavior: "smooth" });
+        }
+
         break;
       case "left":
         commandIdx = 0;
@@ -79,12 +90,18 @@
         <div>No results</div>
       {:else}
         {#each value.results as result, idx}
-          <SearchResult
-            {toggleOpen}
-            {commandIdx}
-            focused={focusedIdx === idx}
-            {...result}
-          />
+          <div
+            bind:this={resultElts[idx]}
+            on:mouseover={() => setHoveredIdx(idx)}
+            on:focus={() => setHoveredIdx(idx)}
+          >
+            <SearchResult
+              {toggleOpen}
+              {commandIdx}
+              focused={focusedIdx === idx}
+              {...result}
+            />
+          </div>
         {/each}
       {/if}
     {/if}

@@ -131,14 +131,18 @@ const makeSearch = async (query) => {
     try {
       const location = path.join(__dirname, "../..", dir);
       const { stdout, stderr } = await execute(
-        `grep -r "${query}" ${location}`
+        `grep -ir "${query}" ${location}`
       );
       const lines = stdout
         .split(location)
         .filter((l) => {
           // remove any lines that have a space following the .md:
           // indicating the match comes from an element in the frontmatter
-          return l.length > 0 && l[l.indexOf(".md:") + 4] !== " ";
+          return (
+            l.length > 0 &&
+            l[l.indexOf(".md:") + 4] !== " " &&
+            l.indexOf("/changes/") === -1
+          );
         })
         .map((l) => {
           [file, match] = l.split(".md:");
@@ -153,7 +157,11 @@ const makeSearch = async (query) => {
             );
             return { file: file + ".md", match: html };
           }
-        });
+        })
+        .filter(
+          (thing, index, self) =>
+            index === self.findIndex((t) => t.file === thing.file)
+        );
 
       resolve({ results: lines });
     } catch (err) {

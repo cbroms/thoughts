@@ -30,7 +30,7 @@
   }
 
   .toolbar {
-    overflow: hidden;
+    overflow: scroll;
     padding: 0;
     position: absolute;
     top: 0;
