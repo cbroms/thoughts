@@ -4,7 +4,7 @@ backlinks:
 forwardlinks: []
 node: One dimension TODO
 created: '2021-09-25T08:09:26.435Z'
-updated: '2021-09-25T19:37:03.622Z'
+updated: '2021-09-25T19:56:33.312Z'
 ---
 
 - Links to nonexistent thoughts
@@ -18,4 +18,4 @@ updated: '2021-09-25T19:37:03.622Z'
 - Image support 
     - For editor (drag and drop)
     - For API (copy file to new directory, replace link) 
-- Cancelling saving results in a null filename
+- ~~Cancelling saving results in a null filename~~

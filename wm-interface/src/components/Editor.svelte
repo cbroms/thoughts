@@ -22,19 +22,24 @@
       if ($active === "new thought") {
         // this is an unnamed thought, set a new name
         const name = prompt("Enter a name for the thought");
-        // set the new file name
-        active.set(name);
+        if (name !== null) {
+          // set the new file name
+          active.set(name);
+        }
       }
 
-      const res = await saveThought(toId($active), {
-        content: $thought,
-        node: $active,
-      });
+      if ($active !== "new thought") {
+        // save it
+        const res = await saveThought(toId($active), {
+          content: $thought,
+          node: $active,
+        });
 
-      if (res.ok) {
-        saved.set($thought);
-      } else {
-        alert("Something went wrong saving; check the logs.");
+        if (res.ok) {
+          saved.set($thought);
+        } else {
+          alert("Something went wrong saving; check the logs.");
+        }
       }
     } else if (e.key === "e" && e.metaKey) {
       // erase/create a new thought
