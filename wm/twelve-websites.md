@@ -7,8 +7,9 @@ forwardlinks:
   - design
   - process
   - small-websites
+  - page-previews
 created: '2021-09-08T05:36:16.656Z'
-updated: '2021-09-20T07:10:14.910Z'
+updated: '2021-09-27T06:39:28.531Z'
 ---
 
 Twelve Websites is an ongoing project that I began in 2021 to [design](design.md) and build a series of small websites, each in the course of a month. Here’s what I [wrote about it](https://futureland.tv/christian/entry/34203) at the start of the project:
@@ -26,3 +27,4 @@ Twelve Websites is an ongoing project that I began in 2021 to [design](design.md
 Some related thoughts: 
 
 - [Small websites](small-websites.md)
+- [Page previews](page-previews.md)
