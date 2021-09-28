@@ -3,6 +3,7 @@ node: One Dimension
 backlinks:
   - me
   - page-previews
+  - what-i'm-working-on-now
 forwardlinks:
   - writing
   - working-in-public
