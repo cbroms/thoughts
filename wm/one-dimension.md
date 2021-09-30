@@ -3,7 +3,7 @@ node: One Dimension
 backlinks:
   - me
   - page-previews
-  - what-i'm-working-on-now
+  - what-im-working-on-now
 forwardlinks:
   - writing
   - working-in-public
@@ -12,8 +12,8 @@ forwardlinks:
   - twelve-websites
   - xanadu
   - one-dimension-todo
-created: '2021-09-08T05:33:25.568Z'
-updated: '2021-09-25T08:09:54.360Z'
+created: "2021-09-08T05:33:25.568Z"
+updated: "2021-09-25T08:09:54.360Z"
 ---
 
 One dimension is an experimental [writing](writing.md) system that links thoughts together through bi-directional links.
@@ -27,7 +27,6 @@ I built One Dimension as part of a larger yearlong endeavor to [create a series 
 ### How it’s built
 
 One Dimension is a folder of markdown files on my desktop. I built a series of tools to interact with those files and save and edit them from my browser. The online version of the site is generated as a bunch of static files and served from AWS S3 object storage behind Cloudflare’s CDN. The source code for all of these tools can be found in the [project’s repository](https://github.com/cbroms/thoughts).
-
 
 ### Todo
 

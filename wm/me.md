@@ -14,9 +14,9 @@ forwardlinks:
   - filtering-expression
   - fuck-it
   - working-in-public
-  - what-i'm-working-on-now
-created: '2021-09-09T03:09:17.757Z'
-updated: '2021-09-28T15:47:31.773Z'
+  - what-im-working-on-now
+created: "2021-09-09T03:09:17.757Z"
+updated: "2021-09-28T15:47:31.773Z"
 ---
 
 I’m Christian.
@@ -27,10 +27,10 @@ I’m a [designer](the-craft-of-design.md); I [design](design.md) digital [tools
 
 About half of my work is digital and lives on the [internet](the-internet.md); mostly [websites](my-websites.md) and recordings of [process](process.md). This system is an exploration into what happens when I take what's non-physical and non-recorded and turn it into a series of digital artifacts.
 
-Everything I've written here is ephemeral. Despite the [weird authority](the-authority-of-writing.md) of the medium, don't fall for the illusion that what's written here is a *position*--it's just a snapshot in time. And who really knows what I think? Not me. This is thinking on the fly, rough and imperfect. It's [unfiltered expression](filtering-expression.md). [Fuck it](fuck-it.md) man, let's make it [public](working-in-public.md). 
+Everything I've written here is ephemeral. Despite the [weird authority](the-authority-of-writing.md) of the medium, don't fall for the illusion that what's written here is a _position_--it's just a snapshot in time. And who really knows what I think? Not me. This is thinking on the fly, rough and imperfect. It's [unfiltered expression](filtering-expression.md). [Fuck it](fuck-it.md) man, let's make it [public](working-in-public.md).
 
 ...
 
 Some related thoughts:
 
-- [What I'm working on now](what-i'm-working-on-now.md)
+- [What I'm working on now](what-im-working-on-now.md)
