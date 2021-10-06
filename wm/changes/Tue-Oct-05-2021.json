@@ -1,0 +1,1 @@
+[{"type":{"action":"Created thought","symbol":"+"},"node":"Philosophy","id":"philosophy"},{"type":{"action":"Linked thought","symbol":"⇒"},"node":{"to":"Hypocrisy and Contradiction","from":"Philosophy"},"id":{"from":"philosophy","to":"hypocrisy-and-contradiction"}},{"type":{"action":"Revisited thought","symbol":"↺"},"node":"Philosophy","id":"philosophy"}]

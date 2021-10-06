@@ -5,6 +5,7 @@ backlinks:
   - one-dimension
   - the-authority-of-writing
   - society-man
+  - philosophy
 forwardlinks:
   - design
 created: '2021-09-08T05:54:57.945Z'
