@@ -17,13 +17,13 @@ apiprocess=$!
 
 sleep 2
 
-printf "${thoughts}${blue}Copying images to static directory...${reset}"
+printf "${thoughts}${blue}Copying images to static directory...${reset}\n"
 
 mkdir -p ltm-generator/static/images/
 
 cp -R wm/images/ ltm-generator/static/images/
 
-printf "${thoughts}${blue}Building static site with ltm-generator...${reset}"
+printf "${thoughts}${blue}Building static site with ltm-generator...${reset}\n"
 
 cd ltm-generator && npm run build &
 generatorprocess=$!

@@ -30,6 +30,13 @@
 
 <svelte:head>
 	<title>{thought.data.node}</title>
+	<meta property="og:title" content={thought.data.node} />
+	<meta property="og:description" content={thought.excerpt.text} />
+	{#if thought.excerpt.image}
+		<meta property="og:image" content="https://onedimension.net/{thought.excerpt.image}" />
+	{/if}
+	<meta property="og:site_name" content="One Dimension" />
+
 	{#if thought.content.indexOf('hljs') !== -1}
 		<link rel="stylesheet" href="/highlight.css" />
 	{/if}
@@ -54,9 +61,8 @@
 
 	<div class="backlinks-container">
 		{#each thought.backlinks as backlink}
-			<a href="/thought/{backlink.link}"
+			<a class="pointer" href="/thought/{backlink.link}"
 				><div class="link">
-					<div class="link-content">{@html backlink.excerpt.replaceAll('.md', '')}</div>
 					<div class="link-node">{backlink.data.node}</div>
 				</div></a
 			>
@@ -72,7 +78,6 @@
 		font-family: var(--sans);
 		padding-bottom: 10px;
 		margin-bottom: 50px;
-		/* border-bottom: 2px solid; */
 	}
 
 	.footer {
@@ -84,93 +89,32 @@
 	}
 
 	.footer-desc {
-		padding-top: 20px;
-		border-top: 2px solid;
+		padding: 20px 0;
 		font-size: 16px;
 		font-family: var(--sans);
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
-	}
-
-	.backlinks-container {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
+		border-bottom: 1px solid;
 	}
 
 	.backlinks-container > a {
-		color: inherit;
 		text-decoration: none;
 	}
 
 	.link {
-		--link-background: #f5f5f5;
-		--color: #a31621;
-		width: 250px;
-		background-color: var(--link-background);
-		padding: 10px;
-		min-height: 150px;
-		margin: 20px 0;
-		border: 2px solid #000;
-		transition: border 0.3s;
-		/* border-left: 3px solid; */
-		border-radius: 10px;
-	}
-
-	.link:hover {
-		--link-background: #fff;
-		border: 2px solid var(--color);
-		border-bottom: 4px solid var(--color);
-		background-color: var(--link-background);
-	}
-
-	.link:hover > .link-node {
-		color: var(--color);
-		border-top: 1px solid var(--color);
+		width: 100%;
+		padding: 10px 0;
+		border-bottom: 1px solid #000;
 	}
 
 	.link-arrow {
 		height: 16px;
 	}
 
-	.link-content {
-		font-size: 16px;
-		line-height: 110%;
-		display: inline-block;
-		position: relative;
-		height: 120px;
-		overflow: hidden;
-	}
-
 	.link-node {
 		transition: all 0.3s;
-		color: #000;
-		border-top: 1px solid;
 		font-family: var(--sans);
-		padding-top: 5px;
 		font-weight: bold;
-	}
-
-	:global(.link-content p) {
-		margin: 0;
-		margin-bottom: 10px;
-	}
-
-	:global(.link-content a) {
-		color: black;
-		pointer-events: none;
-		text-decoration: none;
-		font-size: 16px !important;
-	}
-
-	.link-content::after {
-		content: '';
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 275px;
-		height: 50px;
-		background: linear-gradient(transparent, var(--link-background));
 	}
 </style>

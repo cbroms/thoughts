@@ -36,6 +36,8 @@
 :root {
 	--sans: 'Helvetica Neue', sans-serif;
 	--serif: 'Charter', serif;
+	--internal-link-color: #a31621;
+	--external-link-color: #253bff;
 	box-sizing: border-box;
 }
 
@@ -113,7 +115,7 @@ a {
 }
 
 a:hover {
-	color: #253bff !important;
+	color: var(--external-link-color) !important;
 }
 
 a:visited {

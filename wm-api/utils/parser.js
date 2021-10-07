@@ -31,15 +31,19 @@ const parseFrontmatter = (content) => {
   return matter(content, {
     excerpt: (file) => {
       const lines = file.content.split("\n");
-      let excerpt = "";
+      let excerpt = { text: "", image: null };
 
       let i = 0;
 
-      while (excerpt.length < 260 && i < lines.length) {
-        excerpt += lines[i] + "\n";
+      while (excerpt.text.length < 260 && i < lines.length) {
+        excerpt.text += lines[i] + "\n";
         i++;
       }
-      // TODO: extract the first image and make excerpt an object
+
+      const image = file.content.match(/(?<=\()(.+.webp)/g);
+      if (image && image.length > 0)
+        excerpt.image = image[0].replace(".webp", "jpg");
+
       file.excerpt = excerpt;
     },
   });
@@ -52,7 +56,10 @@ const parseMarkdown = (content) => {
 const parseFile = (fileContent) => {
   const parsed = { ...parseFrontmatter(fileContent) };
   parsed.content = parseMarkdown(parsed.content);
-  parsed.excerpt = parseMarkdown(parsed.excerpt);
+  parsed.excerpt.text = parseMarkdown(parsed.excerpt.text)
+    .replaceAll(/<([^>]+)>/g, "")
+    .replaceAll("\n", " ")
+    .trim();
   return parsed;
 };
 
