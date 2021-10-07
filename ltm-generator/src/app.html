@@ -5,22 +5,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%svelte.head%
 		<link rel="stylesheet" href="/global.css" />
+		<style id="popups">
+			.hyperfov-preview-element-wrapper {
+				border: none;
+				box-shadow: 4px 4px 20px #00000073;
+				border-radius: 4px;
+			}
+
+			.hyperfov-link-image {
+				filter: saturate(0%);
+			}
+		</style>
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
-		<!-- <script defer>
+		<script defer>
 			import('https://previews.hyperfov.com/js/hyperfov-link-previews.min.js').then(() => {
 				setPagePreviews({
-					workerUrl: 'https://preview-worker.hyperfov.com'
-					//   styles: document.getElementById("popups").sheet,
-					//   getLinks: () => {
-					//     const tags = [...document.getElementsByTagName("a")];
-					//     return tags.filter((t) => {
-					//       return t.href.indexOf("mailto:") === -1;
-					//     });
-					//   },
+					workerUrl: 'https://preview-worker.hyperfov.com',
+					styles: document.getElementById('popups').sheet
 				});
 			});
-		</script> -->
+		</script>
 	</body>
 </html>
