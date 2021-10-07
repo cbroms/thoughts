@@ -39,30 +39,30 @@
 	<h1 class="node">{thought.data.node}</h1>
 
 	<main>{@html thought.content}</main>
-
-	<div class="footer">
-		<div class="footer-desc">
-			<span
-				>Linked by {thought.backlinks.length} thought{thought.backlinks.length !== 1
-					? 's '
-					: ' '}<span class="link-arrow">&seArr;</span></span
-			><span
-				><a href="/changelog#{timestamp.replaceAll(' ', '-')}">Last revisited {timestamp}</a></span
-			>
-		</div>
-
-		<div class="backlinks-container">
-			{#each thought.backlinks as backlink}
-				<a href="/thought/{backlink.link}"
-					><div class="link">
-						<div class="link-content">{@html backlink.excerpt.replaceAll('.md', '')}</div>
-						<div class="link-node">{backlink.data.node}</div>
-					</div></a
-				>
-			{/each}
-		</div>
-	</div>
 </article>
+
+<div class="footer">
+	<div class="footer-desc">
+		<span
+			>Linked by {thought.backlinks.length} thought{thought.backlinks.length !== 1
+				? 's '
+				: ' '}<span class="link-arrow">&seArr;</span></span
+		><span
+			><a href="/changelog#{timestamp.replaceAll(' ', '-')}">Last revisited {timestamp}</a></span
+		>
+	</div>
+
+	<div class="backlinks-container">
+		{#each thought.backlinks as backlink}
+			<a href="/thought/{backlink.link}"
+				><div class="link">
+					<div class="link-content">{@html backlink.excerpt.replaceAll('.md', '')}</div>
+					<div class="link-node">{backlink.data.node}</div>
+				</div></a
+			>
+		{/each}
+	</div>
+</div>
 
 <style>
 	.node {
@@ -76,9 +76,11 @@
 	}
 
 	.footer {
+		margin: 0 auto;
 		margin-top: 80px;
 		margin-bottom: 40px;
 		padding: 20px 0;
+		max-width: 600px;
 	}
 
 	.footer-desc {

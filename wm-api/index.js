@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const fileUpload = require("express-fileupload");
 const app = express();
 const port = 3000;
 
@@ -11,15 +12,26 @@ const {
   getChanges,
   makeSearch,
   makeFile,
+  saveImage,
 } = require("./utils/filesystem");
 
 app.use(cors());
 app.use(express.json());
+app.use(fileUpload({ useTempFiles: true }));
 
 app.post("/thought/:id", (req, res, next) => {
   const id = req.params.id;
   const file = id.indexOf(".md") !== -1 ? id : id + ".md";
   makeFile(file, req.body)
+    .then((content) => {
+      res.json(content);
+    })
+    .catch(next);
+});
+
+app.post("/thought/:id/file", (req, res, next) => {
+  let id = req.params.id;
+  saveImage(id, req.files.file1)
     .then((content) => {
       res.json(content);
     })

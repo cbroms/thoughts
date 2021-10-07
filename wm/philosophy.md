@@ -4,7 +4,7 @@ forwardlinks:
   - hypocrisy-and-contradiction
 node: Philosophy
 created: '2021-10-06T06:37:44.208Z'
-updated: '2021-10-06T06:39:27.950Z'
+updated: '2021-10-07T04:33:05.867Z'
 ---
 It seems like people really like to worship philosophers and philosophy. Certain ideas are attributed to certain individuals and books, and it's often framed as if there's something unique about their perspective that we can "learn from." 
 

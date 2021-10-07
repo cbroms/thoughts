@@ -3,6 +3,13 @@ const path = require("path");
 const util = require("util");
 const { exec } = require("child_process");
 const slugify = require("slugify");
+const sharp = require("sharp");
+const { customAlphabet } = require("nanoid");
+
+const nanoid = customAlphabet(
+  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefhijklmnopqrstuvwxyz",
+  10
+);
 
 const read = util.promisify(fs.readFile);
 const readDir = util.promisify(fs.readdir);
@@ -20,7 +27,8 @@ const {
 const { changes } = require("./changes");
 
 const dir = "wm/";
-const changesDir = dir + "changes/";
+const changesDir = "changes/";
+const imagesDir = "images/";
 
 const makeChange = (type, time, node) => {
   return new Promise(async (resolve, reject) => {
@@ -29,7 +37,7 @@ const makeChange = (type, time, node) => {
       const location = path.join(
         __dirname,
         "../..",
-        changesDir,
+        dir + changesDir,
         `${changefile}.json`
       );
       const newChange = {
@@ -79,6 +87,7 @@ const getFile = async (filename) => {
       const res = parseFile(file);
       resolve(res);
     } catch (err) {
+      console.error(err);
       reject(404);
     }
   });
@@ -299,12 +308,17 @@ const makeFile = async (filename, content) => {
 const getChanges = async () => {
   return new Promise(async (resolve, reject) => {
     try {
-      const location = path.join(__dirname, "../..", changesDir);
+      const location = path.join(__dirname, "../..", dir + changesDir);
       const files = await readDir(location);
       const res = [];
 
       for (const file of files) {
-        const fileLocation = path.join(__dirname, "../..", changesDir, file);
+        const fileLocation = path.join(
+          __dirname,
+          "../..",
+          dir + changesDir,
+          file
+        );
         const content = await read(fileLocation, "utf8");
         const date = file.replaceAll("-", " ").replace(".json", "");
         res.push({
@@ -325,6 +339,35 @@ const getChanges = async () => {
   });
 };
 
+const saveImage = (id, file) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const location = path.join(__dirname, "../..", dir + imagesDir, id);
+      if (!fs.existsSync(location)) {
+        fs.mkdirSync(location);
+      }
+
+      const imageId = nanoid();
+
+      await sharp(file.tempFilePath)
+        .webp({ quality: 75 })
+        .toFile(`${location}/${imageId}.webp`);
+
+      await sharp(file.tempFilePath)
+        .jpeg({ quality: 75 })
+        .toFile(`${location}/${imageId}.jpg`);
+
+      // delete the temporary file
+      fs.unlinkSync(file.tempFilePath);
+
+      resolve({ image: `${imagesDir}${id}/${imageId}.webp` });
+    } catch (e) {
+      console.error(e);
+      reject(500);
+    }
+  });
+};
+
 module.exports = {
   getFile,
   getAllFiles,
@@ -333,4 +376,5 @@ module.exports = {
   getChanges,
   makeSearch,
   makeFile,
+  saveImage,
 };

@@ -25,3 +25,13 @@ export const saveThought = (id, content) => {
     body: JSON.stringify(content),
   });
 };
+
+export const saveFile = (id, file) => {
+  const body = new FormData();
+  body.append("file1", file);
+
+  return fetch(`${ce}/thought/${id}/file`, {
+    method: "POST",
+    body,
+  });
+};

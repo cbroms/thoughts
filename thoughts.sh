@@ -15,7 +15,13 @@ printf "${thoughts}${blue}Starting wm-api...${reset}"
 cd wm-api && npm run start &
 apiprocess=$!
 
-sleep 3 
+sleep 2
+
+printf "${thoughts}${blue}Copying images to static directory...${reset}"
+
+mkdir -p ltm-generator/static/images/
+
+cp -R wm/images/ ltm-generator/static/images/
 
 printf "${thoughts}${blue}Building static site with ltm-generator...${reset}"
 
