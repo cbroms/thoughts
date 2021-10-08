@@ -42,7 +42,7 @@ const parseFrontmatter = (content) => {
 
       const image = file.content.match(/(?<=\()(.+.webp)/g);
       if (image && image.length > 0)
-        excerpt.image = image[0].replace(".webp", "jpg");
+        excerpt.image = image[0].replace(".webp", ".jpg");
 
       file.excerpt = excerpt;
     },
