@@ -6,8 +6,9 @@ forwardlinks:
   - media
   - hypocrisy-and-contradiction
   - the-authority-of-writing
+  - time-and-context-as-editors
 created: '2021-09-08T05:43:25.578Z'
-updated: '2021-09-19T04:29:35.874Z'
+updated: '2021-10-08T06:28:11.242Z'
 ---
 
 Writing is flawed. It’s an imperfect medium to be sure. But still so _approachable_ compared to all the other [forms of expression](media.md).
@@ -21,3 +22,4 @@ The goal is to find something in between, a style of writing that though terse, 
 Some related thoughts: 
 
 - [The authority of writing](the-authority-of-writing.md)
+- [Time and context as editors](time-and-context-as-editors.md)

@@ -4,6 +4,7 @@ backlinks:
   - me
   - page-previews
   - what-im-working-on-now
+  - time-and-context-as-editors
 forwardlinks:
   - writing
   - working-in-public
@@ -12,8 +13,8 @@ forwardlinks:
   - twelve-websites
   - xanadu
   - one-dimension-todo
-created: "2021-09-08T05:33:25.568Z"
-updated: "2021-09-25T08:09:54.360Z"
+created: '2021-09-08T05:33:25.568Z'
+updated: '2021-09-25T08:09:54.360Z'
 ---
 
 One dimension is an experimental [writing](writing.md) system that links thoughts together through bi-directional links.
