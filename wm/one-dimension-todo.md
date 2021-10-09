@@ -6,7 +6,7 @@ forwardlinks:
   - images-on-one-dimension
 node: One dimension TODO
 created: '2021-09-25T08:09:26.435Z'
-updated: '2021-10-07T05:00:18.685Z'
+updated: '2021-10-09T04:29:50.044Z'
 ---
 
 - Links to nonexistent thoughts
@@ -21,6 +21,7 @@ updated: '2021-10-07T05:00:18.685Z'
   - For editor (drag and drop)
   - For API (copy file to new directory, replace link)
 - ~~Cancelling saving results in a null filename~~
+- Backlinks link to specific sections of text. Linked text can also backlink to the link that linked it lol. Instead of pages linking together, it's elements linking together. Something a bit like [text fragments](https://web.dev/text-fragments/). 
 
 Also see:
 
