@@ -5,7 +5,7 @@ forwardlinks:
   - boundary-objects
 node: Small websites
 created: '2021-09-19T00:39:23.259Z'
-updated: '2021-09-19T01:03:15.996Z'
+updated: '2021-10-09T04:23:11.918Z'
 ---
 A website for:
 
@@ -21,3 +21,4 @@ A website for:
 - old maps
 - subtle feeling of "thereness"
 - book page layouts
+- Website for digital things that cost 50 cents 
