@@ -1,12 +1,14 @@
 ---
 backlinks:
   - housing
-forwardlinks: []
+  - california
+forwardlinks:
+  - california
 node: Fires in California
 created: '2021-09-19T06:43:33.656Z'
-updated: '2021-09-19T06:44:08.663Z'
+updated: '2021-10-12T04:16:05.353Z'
 ---
-California's landscape needs to burn. 
+[California's](california.md) landscape needs to burn. 
 
 Building more infrastructure means more suppression, meaning hotter and more destructive fires. It's estimated [4.4 million acres per year](https://www.sciencedirect.com/science/article/pii/S0378112707004379) burned before 1800, and 2020's 4.5 million acres was seen as some sort of apocalypse. The orange skies were supposedly the first sign of some future climate-dystopia, it seems events like that historically would have been the norm for a California summer. 
 

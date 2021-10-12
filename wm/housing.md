@@ -1,13 +1,14 @@
 ---
 backlinks: []
 forwardlinks:
+  - california
   - water-in-california
   - fires-in-california
 node: Housing
 created: '2021-09-19T05:46:04.869Z'
-updated: '2021-09-19T06:48:56.304Z'
+updated: '2021-10-12T04:17:09.600Z'
 ---
-Much has been said on the topic of *housing*, especially in California where we are told there is to be a "crisis." As far as I can tell, that seems to mean something like:
+Much has been said on the topic of *housing*, especially in [California](california.md) where we are told there is to be a "crisis." As far as I can tell, that seems to mean something like:
 
 > There is more demand for housing than there are houses.
 
@@ -15,19 +16,11 @@ Fair enough. Then:
 
 > Due to high demand and low supply, the cost of housing rises, pushing out lower-income residents.
 
-The supposed origin of California's homelessness problem. 
+One proposed origin of California's homelessness problem. 
 
-I think there's another important consideration to add here (there's a ton of variables, but there's one in particular I think makes a difference).
+Another important variable to consider here is how a tech-heavy industry likely keeps housing prices high by compensating employees for the higher costs, in addition to attracting more high-income employees to begin with.
 
-We have a situation where there's a lot of demand for fewer homes. The prices rise, as expected. So as a result you'd probably expect to demand to gradually lower, for people to live elsewhere where it's more affordable. Not so. People continue to pay the inflated prices. 
-
-That's because they can. California's tech-heavy industry attracts lots of outsiders to the state, who are employed and can therefore pay the inflated costs of housing *because their pay is adjusted account for it*. As housing demand increases, prices increase, and so too does pay. 
-
-For industries that cannot afford to increase pay to account for higher housing prices, people can't afford to play the inflated prices and therefore end up in the situation where too much of their income goes to housing, or they simply cannot afford it. And it's not just housing, it's the cost of living more generally.
-
-So we have a recursive cycle of ever-increasing prices and pay increases to adjust. So the housing crisis originates from a relatively higher-income set of industries *attracting people and continuing to compensate them to adjust for the higher costs of living*. Everyone else  is pushed out or gradually continues to suffer from  increasing prices. 
-
-Suffering from success indeed. 
+All and all this is an area I don't really know much about, so I don't really have much to say when people talk about it  with such passion. But to be honest it seems like most people that hold strong opinions about it also don't really  know much more about it than I do.   
 
 ### Further considerations
 

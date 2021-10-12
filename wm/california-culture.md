@@ -1,0 +1,30 @@
+---
+backlinks:
+  - california
+forwardlinks:
+  - california
+  - california-geography
+  - digital-people
+node: California culture
+created: '2021-10-12T04:35:39.962Z'
+updated: '2021-10-12T05:11:05.702Z'
+---
+Everyone has some take on [California's](california.md) culture, and I am no different. What really matters though?
+
+## Politics 
+
+Much of the state might be described, broadly, as  progressive. Propositions that introduce policy that appears to push towards a more *egalitarian* society tend to get broad voter support. 
+
+[Geographically](california-geography.md), progressives tend to be centered around urban areas and the coast, while the inland areas of the state are more conservative. Not much different than other places around the country and world.
+
+## Vibe 
+
+What are people like? 
+
+I don't think you can describe what Californians are like as a single group as easily as you might people from states with more defined cultures, like places in the South or Midwest (which of course are not homogeneous groups, but it's certainly easier to make broad over-generalizations.)
+
+There's the old-guard hippies, neo-hippies, tech-bros,  conservatives from rural areas, conservatives from suburban areas, city people, outdoor-sports dudes, rich Tahoe vacationers, L.A. [digital "people"](digital-people.md), and so on. 
+
+Overall, I think the quality of some Californians I came to expect the is a sort of laid-backness. Spending time on the East Coast for college, I was surprised to find so many people with a bit more *intensity* to them. Not bad, just different and something I wasn't as used to interacting with as much in California. 
+
+

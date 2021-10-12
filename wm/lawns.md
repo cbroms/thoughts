@@ -3,10 +3,11 @@ backlinks:
   - conventions
   - housing-developments
 forwardlinks:
+  - california
   - housing-developments
 node: Lawns
 created: '2021-09-21T06:06:46.075Z'
-updated: '2021-09-21T06:54:27.620Z'
+updated: '2021-10-12T04:16:24.094Z'
 ---
 I hate lawns. What's their point? 
 
@@ -18,7 +19,7 @@ One might say:
 - Why wouldn't you want one?
 - ...
 
-I realize that having grown up in California, I probably haven't been raised in the sort of [environment](housing-developments.md) where you'd come to appreciate a good lawn. Public green spaces, fields at schools and parks, sure. But as a frontyard, backyard, and sideyard? What's the point? It feels like such a waste of space. Not to mention all the upkeep and water that's required to maintain them. 
+I realize that having grown up in [California](california.md), I probably haven't been raised in the sort of [environment](housing-developments.md) where you'd come to appreciate a good lawn. Public green spaces, fields at schools and parks, sure. But as a frontyard, backyard, and sideyard? What's the point? It feels like such a waste of space. Not to mention all the upkeep and water that's required to maintain them. 
 
 What if that space was used to grow food? To plant different sorts of plants, add some *variety* to the mix? 
 
