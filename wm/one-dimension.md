@@ -5,6 +5,7 @@ backlinks:
   - page-previews
   - what-im-working-on-now
   - time-and-context-as-editors
+  - consumption-and-creation
 forwardlinks:
   - writing
   - working-in-public

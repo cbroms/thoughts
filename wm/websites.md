@@ -1,7 +1,7 @@
 ---
 backlinks:
-  - the-internet
   - my-websites
+  - the-internet
 forwardlinks:
   - the-internet
   - my-websites

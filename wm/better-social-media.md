@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - functional-fixedness
 forwardlinks:
   - design
 node: Better social media

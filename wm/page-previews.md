@@ -2,6 +2,7 @@
 backlinks:
   - twelve-websites
   - what-im-working-on-now
+  - hyperfov
 forwardlinks:
   - one-dimension
 node: Page previews
