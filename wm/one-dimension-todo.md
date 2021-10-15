@@ -6,7 +6,7 @@ forwardlinks:
   - images-on-one-dimension
 node: One dimension TODO
 created: '2021-09-25T08:09:26.435Z'
-updated: '2021-10-14T06:28:03.619Z'
+updated: '2021-10-14T06:52:29.345Z'
 ---
 
 - Links to nonexistent thoughts
@@ -17,13 +17,17 @@ updated: '2021-10-14T06:28:03.619Z'
   - ~~Ignore directories~~
   - ~~Fix scrolling in the editor search panel~~
 - ~~Sort changelog by date~~
-- Image support
-  - For editor (drag and drop)
-  - For API (copy file to new directory, replace link)
+- ~~Image support~~
+  - ~~For editor (drag and drop)~~
+  - ~~For API (copy file to new directory, replace link)~~
 - ~~Cancelling saving results in a null filename~~
 - Backlinks link to specific sections of text. Linked text can also backlink to the link that linked it lol. Instead of pages linking together, it's elements linking together. Something a bit like [text fragments](https://web.dev/text-fragments/). 
 - Pasting a `.md` filename in the editor search should open the file by default rather than showing search results
 - Lists in excerpts should be converted to a comma separated list, where each `li` gets a comma appended. If possible, end the `ul` or `ol` with a period? 
+- Add indication of number of page connections to each link. Helps get a sense for where in the network you're moving to (towards a highly-connected node, or away)
+- Assign each thought a randomly generated visual, ideally inheriting from a highly-connected set of neighbors
+- Visual "map" of the overall structure 
+- Save `wm` to object storage as a backup
 
 Also see:
 

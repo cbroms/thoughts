@@ -1,14 +1,16 @@
 ---
-backlinks: []
+backlinks:
+  - water-in-california
 forwardlinks:
+  - functional-fixedness
   - water-in-california
   - lawns
   - design
 node: Conventions
 created: '2021-09-21T03:32:20.104Z'
-updated: '2021-09-21T06:10:56.750Z'
+updated: '2021-10-15T06:30:42.747Z'
 ---
-Conventions bind us in two ways:
+Conventions [bind us](functional-fixedness.md) in two ways:
 
 - from seeing related problems to be solved
 - from seeing new solutions to existing problems
