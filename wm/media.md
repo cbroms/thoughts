@@ -7,17 +7,18 @@ backlinks:
 forwardlinks:
   - consumption-and-creation
   - the-most-poignant-song
+  - infinite-granite-live
   - video-games
   - youtube
 created: '2021-09-08T07:22:13.628Z'
-updated: '2021-09-13T00:49:55.922Z'
+updated: '2021-10-16T07:00:03.361Z'
 ---
 
 A few things I’ve been [consuming](consumption-and-creation.md) as of late:
 
 ### Audio 
 
-- _Infinite Granite_ by Deafheaven. An absolutely phenomenal band that has created some of the [most emotionally charged](the-most-poignant-song.md) songs I’ve heard.
+- _Infinite Granite_ by Deafheaven. An absolutely phenomenal band that has created some of the [most emotionally charged](the-most-poignant-song.md) songs I’ve heard. The album worked better [live](infinite-granite-live.md) in places. 
 - The Lex Fridman Podcast. I listen to this when I commute to work. A wide range of guests engaging in quite compelling discussions with a most excellent host.
 
 ### Video Games 
