@@ -2,6 +2,7 @@
 backlinks:
   - the-craft-of-design
   - small-websites
+  - me
 forwardlinks:
   - the-craft-of-design
 node: Boundary objects
