@@ -166,6 +166,7 @@ const makeSearch = async (query) => {
             );
             return { file: file + ".md", match: html };
           }
+          return { file: file + ".md", match };
         })
         .filter(
           (thing, index, self) =>
