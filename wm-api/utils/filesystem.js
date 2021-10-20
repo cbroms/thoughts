@@ -150,7 +150,8 @@ const makeSearch = async (query) => {
           return (
             l.length > 0 &&
             l[l.indexOf(".md:") + 4] !== " " &&
-            l.indexOf("/changes/") === -1
+            l.indexOf("/changes/") === -1 &&
+            l.indexOf("/images/") === -1
           );
         })
         .map((l) => {
