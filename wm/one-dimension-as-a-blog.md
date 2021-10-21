@@ -1,0 +1,12 @@
+---
+backlinks: []
+forwardlinks:
+  - one-dimension
+  - one-dimension-network
+node: One Dimension as a Blog
+created: '2021-10-21T04:41:11.260Z'
+updated: '2021-10-21T04:44:14.723Z'
+---
+I'm thinking about finding a way to make [this site](one-dimension.md) have a blog-like dimension to it. That is, a list of thoughts that are formed as presentable pages, less intertwined than the way thoughts exist now. I hope it will allow me to focus in on specific areas and dive deep, rather than just moving around from thought to thought. Not that the way I'm doing it now isn't working, just that it could be good to experiment with this other approach as well. 
+
+Perhaps [highly connected pages](one-dimension-network.md) could serve as a good contenders for these blog-style posts. 

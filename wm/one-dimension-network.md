@@ -1,6 +1,7 @@
 ---
 backlinks:
   - one-dimension
+  - one-dimension-as-a-blog
 forwardlinks: []
 node: One Dimension network
 created: '2021-10-11T00:01:37.145Z'

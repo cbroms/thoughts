@@ -6,6 +6,7 @@ backlinks:
   - what-im-working-on-now
   - time-and-context-as-editors
   - consumption-and-creation
+  - one-dimension-as-a-blog
 forwardlinks:
   - writing
   - working-in-public
