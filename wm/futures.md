@@ -1,6 +1,5 @@
 ---
-backlinks:
-  - me
+backlinks: []
 forwardlinks:
   - design
   - digitial-degradation

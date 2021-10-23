@@ -23,6 +23,7 @@
 </script>
 
 <ul>
+	<li><a href="/">index</a></li>
 	{#each thoughts as thought}
 		<li><a href="/thought/{thought}">{thought}</a></li>
 	{/each}

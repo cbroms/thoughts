@@ -4,9 +4,10 @@ backlinks:
   - what-im-working-on-now
 forwardlinks:
   - images-on-one-dimension
+  - indexed-thoughts-on-one-dimension
 node: One dimension TODO
 created: '2021-09-25T08:09:26.435Z'
-updated: '2021-10-14T06:52:29.345Z'
+updated: '2021-10-23T07:24:59.182Z'
 ---
 
 - Links to nonexistent thoughts
@@ -28,7 +29,9 @@ updated: '2021-10-14T06:52:29.345Z'
 - Assign each thought a randomly generated visual, ideally inheriting from a highly-connected set of neighbors
 - Visual "map" of the overall structure 
 - Save `wm` to object storage as a backup
+- ~~Add an index for blog-like pages~~
 
 Also see:
 
 - [Images on One Dimension](images-on-one-dimension.md)
+- [Indexed Thoughts on One Dimension](indexed-thoughts-on-one-dimension.md)
