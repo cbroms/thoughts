@@ -68,6 +68,20 @@ const toFormattedFile = (content, frontmatter) => {
   return res;
 };
 
+const toFilename = (filename) => {
+  if (filename.indexOf(".md") === -1) {
+    return filename + ".md";
+  }
+  return filename;
+};
+
+const fromFilename = (filename) => {
+  if (filename.indexOf(".md") !== -1) {
+    return filename.replace(".md", "");
+  }
+  return filename;
+};
+
 // remove file extensions
 const filenamesToAddr = (files) => {
   // only .md files
@@ -82,4 +96,6 @@ module.exports = {
   parseFile,
   filenamesToAddr,
   toFormattedFile,
+  toFilename,
+  fromFilename,
 };

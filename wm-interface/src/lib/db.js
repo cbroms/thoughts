@@ -26,6 +26,16 @@ export const saveThought = (id, content) => {
   });
 };
 
+export const indexThought = (id, add) => {
+  return fetch(`${ce}/thought/${id}/index/`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ index: add }),
+  });
+};
+
 export const saveFile = (id, file) => {
   const body = new FormData();
   body.append("file1", file);

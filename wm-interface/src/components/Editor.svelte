@@ -1,15 +1,27 @@
 <script>
-  import { thought, saved } from "../store/thought";
+  import { thought, saved, indexed } from "../store/thought";
   import { active } from "../store/active";
   import { isOkToErase } from "../lib/safety";
-  import { saveThought } from "../lib/db";
+  import { saveThought, indexThought } from "../lib/db";
   import { toId } from "../lib/file";
 
   import { open } from "../store/sidebar";
 
+  import Bookmark from "./icons/Bookmark.svelte";
+
   export let toggleOpen;
 
   let element;
+
+  const toggleIndex = async () => {
+    if ($active !== "new thought") {
+      const res = await indexThought(toId($active), !$indexed);
+      if (res.ok) {
+        const json = await res.json();
+        indexed.set(json.indexed);
+      }
+    }
+  };
 
   const onKeyDown = async (e) => {
     if (e.key == "/" && e.metaKey) {
@@ -47,8 +59,13 @@
       if (isOkToErase()) {
         thought.set("");
         saved.set("");
+        indexed.set(false);
         active.set("new thought");
       }
+    } else if (e.key === "b" && e.metaKey) {
+      // index the thought
+      e.preventDefault();
+      toggleIndex();
     }
   };
 
@@ -61,7 +78,9 @@
 
 <div class="editor-wrapper">
   <h1>
-    {$active}<sup class:visible={$thought !== $saved}>*</sup>
+    <button on:click={toggleIndex} class:filled={$indexed}>
+      <Bookmark />
+    </button>{$active}<sup class:visible={$thought !== $saved}>*</sup>
   </h1>
   <textarea
     bind:this={element}
@@ -73,6 +92,7 @@
 
 <style>
   :root {
+    --overhang: 50px;
     --width: 600px;
     --half-width: 300px;
   }
@@ -96,7 +116,7 @@
     height: 100vh;
     padding: 50px 10px 20px 10px;
     margin: 0 auto;
-    width: var(--width);
+    width: calc(var(--width) + var(--overhang));
     box-sizing: border-box;
   }
   textarea {
@@ -114,5 +134,21 @@
     line-height: 22px;
     resize: none;
     display: block;
+    margin-left: var(--overhang);
+  }
+
+  button {
+    background-color: var(--background);
+    border: none;
+    width: var(--overhang);
+    color: var(--secondary);
+    fill: none;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .filled {
+    fill: var(--secondary);
   }
 </style>

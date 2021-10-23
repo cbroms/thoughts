@@ -18,6 +18,7 @@ const execute = util.promisify(exec);
 
 const {
   parseFile,
+  toFilename,
   filenamesToAddr,
   parseMarkdown,
   parseFrontmatter,
@@ -29,6 +30,82 @@ const { changes } = require("./changes");
 const dir = "wm/";
 const changesDir = "changes/";
 const imagesDir = "images/";
+const indexDir = "indexed/";
+
+const updateFrontmatter = (filename, field, value) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      filename = toFilename(filename);
+      const location = path.join(__dirname, "../..", dir, filename);
+      const file = await read(location, "utf8");
+      const parsed = parseFrontmatter(file);
+
+      const newFileContent = toFormattedFile(parsed.content, {
+        ...parsed.data,
+        [field]: value,
+      });
+
+      // makeChange(change, new Date().toDateString(), parsed.data.node);
+      await write(location, newFileContent);
+      resolve(200);
+    } catch (err) {
+      console.error(err);
+      reject(500);
+    }
+  });
+};
+
+const modifyIndex = (node, addToIndex) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const location = path.join(
+        __dirname,
+        "../..",
+        dir + indexDir,
+        `indexed.json`
+      );
+      try {
+        const file = await read(location, "utf8");
+        let content = JSON.parse(file);
+
+        if (addToIndex) {
+          if (content.indexOf(node) === -1) {
+            // add the node to the index
+            content.push(node);
+            await write(location, JSON.stringify(content));
+            // add indexed to the node's frontmatter
+            await updateFrontmatter(node, "indexed", true);
+          }
+          resolve({ indexed: true });
+        } else {
+          // remove the node from the index
+          if (content.indexOf(node) !== -1) {
+            content = content.filter((n) => {
+              return n !== node;
+            });
+
+            await write(location, JSON.stringify(content));
+            await updateFrontmatter(node, "indexed", false);
+          }
+          resolve({ indexed: false });
+        }
+      } catch (err) {
+        // the index file doesn't exist yet
+        if (addToIndex) {
+          const content = [node];
+          await write(location, JSON.stringify(content));
+          await updateFrontmatter(node, "indexed", true);
+          resolve({ indexed: true });
+        } else {
+          resolve({ indexed: false });
+        }
+      }
+    } catch (err) {
+      console.error(err);
+      reject(500);
+    }
+  });
+};
 
 const makeChange = (type, time, node) => {
   return new Promise(async (resolve, reject) => {
@@ -114,7 +191,11 @@ const getFileRaw = async (filename) => {
       const file = await read(location, "utf8");
       // just return the markdown and title minus the frontmatter
       const parsed = parseFrontmatter(file);
-      const res = { content: parsed.content, title: parsed.data.node };
+      const res = {
+        content: parsed.content,
+        title: parsed.data.node,
+        indexed: parsed.data.indexed || false,
+      };
       resolve(res);
     } catch (err) {
       reject(404);
@@ -151,6 +232,7 @@ const makeSearch = async (query) => {
             l.length > 0 &&
             l[l.indexOf(".md:") + 4] !== " " &&
             l.indexOf("/changes/") === -1 &&
+            l.indexOf("/indexed/") === -1 &&
             l.indexOf("/images/") === -1
           );
         })
@@ -341,6 +423,25 @@ const getChanges = async () => {
   });
 };
 
+const getIndexed = () => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const location = path.join(
+        __dirname,
+        "../..",
+        dir + indexDir,
+        `indexed.json`
+      );
+      const file = await read(location, "utf8");
+      const content = JSON.parse(file);
+      resolve(content);
+    } catch (err) {
+      console.error(err);
+      reject(500);
+    }
+  });
+};
+
 const saveImage = (id, file) => {
   return new Promise(async (resolve, reject) => {
     try {
@@ -379,4 +480,6 @@ module.exports = {
   makeSearch,
   makeFile,
   saveImage,
+  modifyIndex,
+  getIndexed,
 };

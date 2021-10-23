@@ -4,6 +4,8 @@ const fileUpload = require("express-fileupload");
 const app = express();
 const port = 3000;
 
+const { toFilename, fromFilename } = require("./utils/parser");
+
 const {
   getFile,
   getAllFiles,
@@ -13,6 +15,8 @@ const {
   makeSearch,
   makeFile,
   saveImage,
+  modifyIndex,
+  getIndexed,
 } = require("./utils/filesystem");
 
 app.use(cors());
@@ -21,8 +25,19 @@ app.use(fileUpload({ useTempFiles: true }));
 
 app.post("/thought/:id", (req, res, next) => {
   const id = req.params.id;
-  const file = id.indexOf(".md") !== -1 ? id : id + ".md";
+  const file = toFilename(id);
   makeFile(file, req.body)
+    .then((content) => {
+      res.json(content);
+    })
+    .catch(next);
+});
+
+app.post("/thought/:id/index", (req, res, next) => {
+  const id = req.params.id;
+  const node = fromFilename(id);
+
+  modifyIndex(node, req.body.index)
     .then((content) => {
       res.json(content);
     })
@@ -40,7 +55,7 @@ app.post("/thought/:id/file", (req, res, next) => {
 
 app.get("/thought/:id/preview", (req, res, next) => {
   const id = req.params.id;
-  const file = id.indexOf(".md") !== -1 ? id : id + ".md";
+  const file = toFilename(id);
   getFilePreview(file)
     .then((content) => {
       res.json(content);
@@ -50,7 +65,7 @@ app.get("/thought/:id/preview", (req, res, next) => {
 
 app.get("/thought/:id/raw", (req, res, next) => {
   const id = req.params.id;
-  const file = id.indexOf(".md") !== -1 ? id : id + ".md";
+  const file = toFilename(id);
   getFileRaw(file)
     .then((content) => {
       res.json(content);
@@ -60,7 +75,7 @@ app.get("/thought/:id/raw", (req, res, next) => {
 
 app.get("/thought/:id", (req, res, next) => {
   const id = req.params.id;
-  const file = id.indexOf(".md") !== -1 ? id : id + ".md";
+  const file = toFilename(id);
   getFile(file)
     .then((content) => {
       res.json(content);
@@ -70,6 +85,14 @@ app.get("/thought/:id", (req, res, next) => {
 
 app.get("/changes", (req, res, next) => {
   getChanges()
+    .then((content) => {
+      res.json(content);
+    })
+    .catch(next);
+});
+
+app.get("/indexed", (req, res, next) => {
+  getIndexed()
     .then((content) => {
       res.json(content);
     })
