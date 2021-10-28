@@ -16,8 +16,8 @@ forwardlinks:
   - xanadu
   - one-dimension-todo
   - one-dimension-network
-created: '2021-09-08T05:33:25.568Z'
-updated: '2021-10-11T00:09:46.810Z'
+created: "2021-09-08T05:33:25.568Z"
+updated: "2021-10-11T00:09:46.810Z"
 ---
 
 One dimension is an experimental [writing](writing.md) system that links thoughts together through bi-directional links.
@@ -35,7 +35,7 @@ One Dimension is a folder of markdown files on my desktop. I built a series of t
 ### Todo
 
 [Improvements](one-dimension-todo.md).
-  
+
 Also see:
 
 - [One Dimension network](one-dimension-network.md)

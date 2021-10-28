@@ -5,9 +5,11 @@ forwardlinks:
   - one-dimension-todo
   - page-previews
   - hyperfov-page-previews-todo
+  - garden
 node: What I'm working on now
-created: "2021-09-28T15:43:33.262Z"
-updated: "2021-09-28T15:46:02.022Z"
+created: "2021-10-28T05:24:09.747Z"
+updated: null
+indexed: true
 ---
 
 Projects I'm working on right now:
@@ -16,3 +18,4 @@ Projects I'm working on right now:
   - [TODO](one-dimension-todo.md)
 - [Hyperfov page previews](page-previews.md)
   - [TODO](hyperfov-page-previews-todo.md)
+- [My garden](garden.md)
