@@ -452,11 +452,15 @@ const saveImage = (id, file) => {
 
       const imageId = nanoid();
 
-      await sharp(file.tempFilePath)
+      const ogFile = sharp(file.tempFilePath);
+
+      await ogFile
+        .rotate()
         .webp({ quality: 75 })
         .toFile(`${location}/${imageId}.webp`);
 
-      await sharp(file.tempFilePath)
+      await ogFile
+        .rotate()
         .jpeg({ quality: 75 })
         .toFile(`${location}/${imageId}.jpg`);
 
