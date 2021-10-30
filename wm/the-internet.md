@@ -7,6 +7,7 @@ backlinks:
   - websites
   - futures
   - hyperfov
+  - global-impact
 forwardlinks:
   - design
   - who-are-we
