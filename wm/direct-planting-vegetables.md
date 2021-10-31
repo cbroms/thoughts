@@ -2,6 +2,7 @@
 backlinks:
   - raised-planter-beds
   - garden
+  - growing-kale
 forwardlinks:
   - raised-planter-beds
 node: Direct planting vegetables

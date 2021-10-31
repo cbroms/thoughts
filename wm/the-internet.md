@@ -19,8 +19,10 @@ forwardlinks:
   - clean-culture
   - digital-people
   - technology-i-want-to-build-with
+  - social-and-physical-ownership
+  - a-new-economy
 created: '2021-09-09T04:10:47.548Z'
-updated: '2021-10-14T06:12:34.547Z'
+updated: '2021-10-31T01:28:51.647Z'
 ---
 I think the internet is the most extraordinary system to have ever been constructed. It is a marvel of [design](design.md) and engineering. 
 
@@ -39,3 +41,5 @@ Some related thoughts:
 - [Clean culture](clean-culture.md)
 - [Digital people](digital-people.md)
 - [Technology I want to build with](technology-i-want-to-build-with.md) 
+- [Social and physical ownership](social-and-physical-ownership.md)
+- [A new economy](a-new-economy.md)
