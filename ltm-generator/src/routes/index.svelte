@@ -3,18 +3,18 @@
 		const url = `index.json`;
 		const res = await fetch(url);
 
-		const meUrl = `/thought/me.json`;
-		const meRes = await fetch(meUrl);
+		// const meUrl = `/thought/me.json`;
+		// const meRes = await fetch(meUrl);
 
 		if (res.ok) {
 			const pages = await res.json();
-			let me = null;
+			// let me = null;
 
-			if (meRes.ok) me = await meRes.json();
+			// if (meRes.ok) me = await meRes.json();
 			return {
 				props: {
-					pages,
-					me
+					pages
+					// me
 				}
 			};
 		}
@@ -28,23 +28,22 @@
 
 <script>
 	export let pages;
-	export let me;
+	// export let me;
 </script>
 
 <svelte:head>
 	<title>One Dimension</title>
 	<meta property="og:title" content="One Dimension" />
-	<meta property="og:description" content={me.excerpt.text} />
+	<!-- <meta property="og:description" content={me.excerpt.text} /> -->
 	<meta property="og:site_name" content="One Dimension" />
 </svelte:head>
 
 <div class="wrapper">
-	<div class="intro">
-		<h1>One Dimension</h1>
+	<!-- <div class="intro">
 		{#if me.content}
 			{@html me.content}
 		{/if}
-	</div>
+	</div> -->
 
 	<div class="links">
 		{#each pages as page}
@@ -64,16 +63,17 @@
 		max-width: 2000px;
 	}
 
-	.intro {
+	/* .intro {
 		margin: 0 auto;
-	}
+		margin-top: 150px;
+	} */
 
 	.links {
 		max-width: 600px;
 		width: 100%;
 		margin: 0 auto;
 		border-top: 1px solid;
-		margin-top: 300px;
+		margin-top: 150px;
 	}
 	.link {
 		width: 100%;
@@ -93,11 +93,11 @@
 		text-decoration: none;
 	}
 
-	h1 {
+	/* h1 {
 		font-size: 6rem;
 		line-height: 120%;
 		word-break: break-word;
-	}
+	} */
 
 	@media (max-width: 1231px) {
 		.links {
