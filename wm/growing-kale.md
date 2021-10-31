@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - garden
 forwardlinks:
   - direct-planting-vegetables
 node: Growing Kale

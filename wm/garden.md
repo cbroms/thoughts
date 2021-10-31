@@ -4,10 +4,11 @@ backlinks:
 forwardlinks:
   - raised-planter-beds
   - direct-planting-vegetables
+  - growing-kale
   - growing-tatsoi
 node: Garden
 created: '2021-10-28T04:47:54.224Z'
-updated: '2021-10-28T05:22:58.505Z'
+updated: '2021-10-31T02:03:25.954Z'
 indexed: true
 ---
 
@@ -17,7 +18,7 @@ I built a [raised planter bed](raised-planter-beds.md) and placed it in the sunn
 
 So far we've planted:
 
-- Kale
+- [Kale](growing-kale.md)
 - Collard Greens
 - Radishes
 - [Tatsoi](growing-tatsoi.md)
