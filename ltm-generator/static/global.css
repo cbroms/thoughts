@@ -142,6 +142,7 @@ code {
 }
 
 pre {
+	overflow-x: scroll;
 	background-color: #ededed;
 	padding: 10px;
 }

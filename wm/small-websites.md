@@ -4,9 +4,10 @@ backlinks:
   - futures
 forwardlinks:
   - boundary-objects
+  - the-pieces
 node: Small websites
 created: '2021-09-19T00:39:23.259Z'
-updated: '2021-10-09T04:23:11.918Z'
+updated: '2021-11-01T05:45:45.266Z'
 ---
 A website for:
 
@@ -20,6 +21,6 @@ A website for:
 - compiling discussion into a [boundary object](boundary-objects.md)
 - A non-linear discussion 
 - old maps
-- subtle feeling of "thereness"
+- subtle [feeling of "thereness"](the-pieces.md)
 - book page layouts
-- Website for digital things that cost 50 cents 
+- digital things that cost 50 cents 

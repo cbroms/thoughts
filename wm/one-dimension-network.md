@@ -5,14 +5,29 @@ backlinks:
 forwardlinks: []
 node: One Dimension network
 created: '2021-10-11T00:01:37.145Z'
-updated: '2021-10-11T00:07:55.652Z'
+updated: '2021-10-31T07:10:40.244Z'
 ---
 I was curious what this site looks like as a network, so I wrote [a little script](https://github.com/cbroms/thoughts/blob/8df65f4e5645091858505e267af6c1492387ee42/wm-scanner/graph.py) that visualizes it. 
 
-![](images/one-dimension-network/jiupciYAif.webp "One dimension rendered as a network")
+![](images/one-dimension-network/jiupciYAif.webp "One dimension rendered as a network, as of Oct 10, 2021")
 
 For the most part there's not a ton of highly-connected nodes; I imagine these will continue to emerge over time. As of today, Oct 10 2021, there's 51 thoughts total. 
 
-I'd like to make One Dimension a more visual place to navigate through. I'm thinking that maybe exploring network connectivity can start to create some  kind of an emergent hierarchy. Highly connected nodes might be "centers" from which connected nodes inherit. It's one way you might have topics and areas of related thoughts emerge naturally rather  than through specific assignment by me. 
+![](images/one-dimension-network/xrKJTFYFVC.webp "As of Oct 31, 2021")
 
-In all though, I think this illustrates that I need to return to this when I've written more. More thoughts will mean more connectivity, which will start to reveal something about the system as a whole. 
+## Visualization
+
+I'd like to make One Dimension a more visual place to navigate through. I'm thinking that maybe exploring network connectivity can start to create some  kind of an emergent hierarchy. Highly connected nodes might be "centers" from which connected nodes inherit. It's one way you might have topics and areas of related thoughts emerge naturally rather than through specific assignment by me. 
+
+## Communities 
+
+I tried seeing what would happen if I ran a community detection algorithm on the network. I'm using [networkx's `greedy_modularity_communities`](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.community.modularity_max.greedy_modularity_communities.html#networkx.algorithms.community.modularity_max.greedy_modularity_communities). Here are a few of the communities it identified:
+
+```text
+['social-and-physical-ownership', 'who-are-we', 'futures', 'xanadu', 'snags-in-experience', 'the-internet', 'youtube', 'global-impact', 'technology-i-want-to-build-with', 'eye-to-eye-with-the-sun', 'digitial-degradation', 'omaha-nebraska', 'binding-the-nation', 'clean-culture', 'hyperfov', 'digital-people', 'spirituality', 'a-new-economy']
+['indexed-thoughts-on-one-dimension', 'images-on-one-dimension', 'one-dimension-network', 'one-dimension-as-a-blog', 'one-dimension-todo', 'hyperfov-page-previews-todo', 'page-previews', 'twelve-websites', 'what-im-working-on-now', 'growth', 'one-dimension']
+['direct-planting-vegetables', 'raised-planter-beds', 'growing-kale', 'garden', 'growing-tatsoi']
+['making-a-tiny-website', 'my-websites', 'websites']
+```
+
+Some of the communities are a bit too large to be useful, but others are quite well-defined. It'd be good to work some aspect of this into the visualization aspect of the site. I'm thinking of generating communities, finding the most highly connected node within each community, and having all nodes within the community inherit that parent node's "genes". This would allow them to all share some common characteristics while exhibiting some amount of individual variation. 
