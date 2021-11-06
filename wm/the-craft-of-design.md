@@ -4,13 +4,14 @@ backlinks:
   - boundary-objects
   - me
 forwardlinks:
+  - craftsmanship
   - boundary-objects
   - design
 node: The craft of design
 created: '2021-09-16T04:39:00.142Z'
-updated: '2021-10-20T06:36:52.667Z'
+updated: '2021-11-06T07:30:16.267Z'
 ---
-To be a true craftsman of design likely includes:
+To be a true [craftsman](craftsmanship.md) of design likely includes:
 
 - Being able to approach arbitrary problem spaces and gain an understanding of them. 
     - Understanding: an ability to scale between different resolutions; to look at problems both holistically and specifically, conceptually and concretely. 

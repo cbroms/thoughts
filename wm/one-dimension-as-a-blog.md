@@ -1,6 +1,7 @@
 ---
 backlinks:
   - indexed-thoughts-on-one-dimension
+  - one-dimension-todo
 forwardlinks:
   - one-dimension
   - one-dimension-network
