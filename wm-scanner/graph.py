@@ -18,10 +18,18 @@ for name in glob.glob('../wm/*.md'):
     for node_dest in links:
         G.add_edge(node, node_dest)
 
+dc = nx.degree_centrality(G)
+nx.set_node_attributes(G, dc, "centrality")
+
+
 c = list(greedy_modularity_communities(G))
 
 for comm in c:
-    print(list(comm))
+    print("\nCommunity:")
+    # sort by centrality 
+    community = sorted([(node, G.nodes[node]['centrality']) for node in list(comm)], key=lambda n: n[1], reverse=True)
+    for n, c in community:
+        print(n)
 
 nx.draw_kamada_kawai(G, with_labels=True,)
 plt.show()
