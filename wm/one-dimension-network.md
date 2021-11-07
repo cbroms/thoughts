@@ -3,10 +3,12 @@ backlinks:
   - one-dimension
   - one-dimension-as-a-blog
   - one-dimension-todo
-forwardlinks: []
+  - gene-inheritance
+forwardlinks:
+  - gene-inheritance
 node: One Dimension network
 created: '2021-10-11T00:01:37.145Z'
-updated: '2021-10-31T07:10:40.244Z'
+updated: '2021-11-07T05:07:15.736Z'
 ---
 I was curious what this site looks like as a network, so I wrote [a little script](https://github.com/cbroms/thoughts/blob/8df65f4e5645091858505e267af6c1492387ee42/wm-scanner/graph.py) that visualizes it. 
 
@@ -32,3 +34,7 @@ I tried seeing what would happen if I ran a community detection algorithm on the
 ```
 
 Some of the communities are a bit too large to be useful, but others are quite well-defined. It'd be good to work some aspect of this into the visualization aspect of the site. I'm thinking of generating communities, finding the most highly connected node within each community, and having all nodes within the community inherit that parent node's "genes". This would allow them to all share some common characteristics while exhibiting some amount of individual variation. 
+
+## Gene inheritance
+
+ See [gene inheritance](gene-inheritance.md). 
