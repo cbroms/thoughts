@@ -1,6 +1,7 @@
 ---
 backlinks:
   - binding-the-nation
+  - local-first
 forwardlinks:
   - the-internet
 node: Global impact

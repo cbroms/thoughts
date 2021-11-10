@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - life
 forwardlinks:
   - hypocrisy-and-contradiction
 node: Philosophy

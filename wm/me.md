@@ -15,8 +15,10 @@ forwardlinks:
   - filtering-expression
   - fuck-it
   - working-in-public
+  - truisms
+  - my-biases
 created: '2021-09-09T03:09:17.757Z'
-updated: '2021-10-23T07:20:56.141Z'
+updated: '2021-11-10T07:43:38.698Z'
 ---
 
 I’m Christian.
@@ -29,3 +31,7 @@ Much of my work is digital and lives on the [internet](the-internet.md); mostly 
 
 Everything I've written here is ephemeral. Despite the [weird authority](the-authority-of-writing.md) of the medium, don't fall for the illusion that what's written here is a _position_--it's just a snapshot in time. And who really knows what I think? Not me. This is thinking on the fly, rough and imperfect. It's [unfiltered expression](filtering-expression.md). [Fuck it](fuck-it.md) man, let's make it [public](working-in-public.md).
 
+Related thoughts: 
+
+- [Truisms](truisms.md)
+- [My biases](my-biases.md)

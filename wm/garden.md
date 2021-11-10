@@ -1,6 +1,7 @@
 ---
 backlinks:
   - what-im-working-on-now
+  - growth
 forwardlinks:
   - raised-planter-beds
   - direct-planting-vegetables

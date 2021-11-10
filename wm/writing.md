@@ -7,8 +7,9 @@ forwardlinks:
   - hypocrisy-and-contradiction
   - the-authority-of-writing
   - time-and-context-as-editors
+  - in-praise-of-rants
 created: '2021-09-08T05:43:25.578Z'
-updated: '2021-10-08T06:28:11.242Z'
+updated: '2021-11-10T07:32:15.310Z'
 ---
 
 Writing is flawed. It’s an imperfect medium to be sure. But still so _approachable_ compared to all the other [forms of expression](media.md).
@@ -23,3 +24,4 @@ Some related thoughts:
 
 - [The authority of writing](the-authority-of-writing.md)
 - [Time and context as editors](time-and-context-as-editors.md)
+- [In praise of rants](in-praise-of-rants.md)
