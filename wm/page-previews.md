@@ -3,11 +3,12 @@ backlinks:
   - twelve-websites
   - what-im-working-on-now
   - hyperfov
+  - progressive-enhancement
 forwardlinks:
   - one-dimension
 node: Page previews
-created: "2021-09-27T06:24:30.808Z"
-updated: "2021-10-01T06:57:43.728Z"
+created: '2021-09-27T06:24:30.808Z'
+updated: '2021-10-01T06:57:43.728Z'
 ---
 
 I really like [Wikipedia page previews](https://diff.wikimedia.org/2018/04/18/how-we-designed-page-previews-for-wikipedia/). I think that this particular piece of interactivity should be everywhere; it helps avoid the mystery that comes with clicking on a link and a full context switch. Just that little bit of primed context can help a lot.
