@@ -5,12 +5,13 @@ backlinks:
 forwardlinks:
   - web-diff
   - one-dimension-network
+  - random-symbols-for-one-dimension
   - images-on-one-dimension
   - indexed-thoughts-on-one-dimension
   - one-dimension-as-a-blog
 node: One dimension TODO
-created: '2021-09-25T08:09:26.435Z'
-updated: '2021-11-04T17:26:45.132Z'
+created: "2021-09-25T08:09:26.435Z"
+updated: "2021-11-12T07:47:35.988Z"
 ---
 
 - Links to nonexistent thoughts
@@ -29,7 +30,7 @@ updated: '2021-11-04T17:26:45.132Z'
 - Pasting a `.md` filename in the editor search should open the file by default rather than showing search results
 - Lists in excerpts should be converted to a comma separated list, where each `li` gets a comma appended. If possible, end the `ul` or `ol` with a period?
 - Add indication of number of page connections to each link. Helps get a sense for [where in the network](one-dimension-network.md) you're moving to (towards a highly-connected node, or away)
-- Assign each thought a randomly generated visual, ideally [inheriting from a highly-connected set of neighbors](one-dimension-network.md)
+- Assign each thought [a randomly generated visual](random-symbols-for-one-dimension.md), ideally [inheriting from a highly-connected set of neighbors](one-dimension-network.md)
 - Visual "map" of the overall structure
 - Save `wm` to object storage as a backup
 - ~~Add an index for blog-like pages~~

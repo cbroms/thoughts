@@ -1,6 +1,7 @@
 ---
 backlinks:
   - one-dimension-network
+  - random-symbols-for-one-dimension
 forwardlinks:
   - one-dimension-network
 node: Gene inheritance

@@ -4,6 +4,7 @@ backlinks:
   - one-dimension-as-a-blog
   - one-dimension-todo
   - gene-inheritance
+  - random-symbols-for-one-dimension
 forwardlinks:
   - gene-inheritance
 node: One Dimension network

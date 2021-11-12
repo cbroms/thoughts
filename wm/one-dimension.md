@@ -7,6 +7,7 @@ backlinks:
   - time-and-context-as-editors
   - consumption-and-creation
   - one-dimension-as-a-blog
+  - random-symbols-for-one-dimension
 forwardlinks:
   - writing
   - working-in-public

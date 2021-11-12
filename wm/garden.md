@@ -8,8 +8,8 @@ forwardlinks:
   - growing-kale
   - growing-tatsoi
 node: Garden
-created: '2021-10-28T04:47:54.224Z'
-updated: '2021-10-31T02:03:25.954Z'
+created: "2021-10-28T04:47:54.224Z"
+updated: "2021-10-31T02:03:25.954Z"
 indexed: true
 ---
 
