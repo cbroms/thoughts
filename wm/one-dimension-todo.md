@@ -10,8 +10,8 @@ forwardlinks:
   - indexed-thoughts-on-one-dimension
   - one-dimension-as-a-blog
 node: One dimension TODO
-created: "2021-09-25T08:09:26.435Z"
-updated: "2021-11-12T07:47:35.988Z"
+created: '2021-09-25T08:09:26.435Z'
+updated: '2021-11-13T06:56:22.330Z'
 ---
 
 - Links to nonexistent thoughts
@@ -34,6 +34,8 @@ updated: "2021-11-12T07:47:35.988Z"
 - Visual "map" of the overall structure
 - Save `wm` to object storage as a backup
 - ~~Add an index for blog-like pages~~
+- Add physical location each page was written. 
+- Track [changes to each page](web-diff.md). 
 
 Also see:
 
