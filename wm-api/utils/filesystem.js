@@ -11,6 +11,8 @@ const nanoid = customAlphabet(
   10
 );
 
+const thoughtId = customAlphabet("0123456789", 8);
+
 const read = util.promisify(fs.readFile);
 const readDir = util.promisify(fs.readdir);
 const write = util.promisify(fs.writeFile);
@@ -374,6 +376,7 @@ const makeFile = async (filename, content) => {
           node: content.node,
           created: new Date().toISOString(),
           updated: null,
+          id: thoughtId(),
         });
 
         makeChange(changes.CREATE, new Date().toDateString(), content.node);

@@ -11,7 +11,7 @@ forwardlinks:
   - one-dimension-as-a-blog
 node: One dimension TODO
 created: '2021-09-25T08:09:26.435Z'
-updated: '2021-11-13T06:56:22.330Z'
+updated: '2021-11-14T23:19:39.044Z'
 id: 08122326
 ---
 
@@ -37,6 +37,7 @@ id: 08122326
 - ~~Add an index for blog-like pages~~
 - Add physical location each page was written. 
 - Track [changes to each page](web-diff.md). 
+- ~~Unique ids for each file~~
 
 Also see:
 
