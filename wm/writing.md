@@ -10,6 +10,7 @@ forwardlinks:
   - in-praise-of-rants
 created: '2021-09-08T05:43:25.578Z'
 updated: '2021-11-10T07:32:15.310Z'
+id: '27513495'
 ---
 
 Writing is flawed. It’s an imperfect medium to be sure. But still so _approachable_ compared to all the other [forms of expression](media.md).

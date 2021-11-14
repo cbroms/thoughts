@@ -11,6 +11,7 @@ forwardlinks:
   - clean-culture
 created: '2021-09-10T05:08:27.457Z'
 updated: '2021-09-16T06:25:29.164Z'
+id: '63227675'
 ---
 I can't think of any better example of the very best and very worst the modern [internet](the-internet.md) has to offer than YouTube. 
 

@@ -4,6 +4,7 @@ forwardlinks: []
 node: Ownership
 created: '2021-11-10T06:55:57.474Z'
 updated: '2021-11-10T07:05:15.267Z'
+id: '63812893'
 ---
 I don't like owning things. 
 

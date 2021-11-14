@@ -12,6 +12,7 @@ forwardlinks:
 node: 'Truisms '
 created: '2021-10-14T05:53:47.709Z'
 updated: '2021-11-10T07:18:27.619Z'
+id: '86426041'
 ---
 - [Moderation](moderation.md)
 - [Local first](local-first.md)

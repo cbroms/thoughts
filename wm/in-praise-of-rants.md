@@ -5,6 +5,7 @@ forwardlinks: []
 node: In praise of rants
 created: '2021-11-10T07:25:11.202Z'
 updated: '2021-11-10T07:31:35.220Z'
+id: '18071277'
 ---
 I must admit that I do like a good rant. Who doesn't? 
 

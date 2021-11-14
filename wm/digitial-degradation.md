@@ -5,6 +5,7 @@ forwardlinks: []
 node: Digitial Degradation
 created: '2021-10-20T06:20:22.178Z'
 updated: '2021-10-20T06:21:13.571Z'
+id: '40110446'
 ---
 There's something about digital media that's quite unique: it doesn't degrade. Sure, things break and you can't open them anymore. For the things you can open, though, there's no sense of degradation or weathering. 
 

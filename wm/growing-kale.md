@@ -6,6 +6,7 @@ forwardlinks:
 node: Growing Kale
 created: '2021-10-31T01:33:03.785Z'
 updated: '2021-10-31T01:44:59.886Z'
+id: '80716188'
 ---
 I'm not a millennial, but I do love kale. 
 

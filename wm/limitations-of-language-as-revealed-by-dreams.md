@@ -4,6 +4,7 @@ forwardlinks: []
 node: Limitations of language as revealed by dreams
 created: '2021-10-25T04:33:18.310Z'
 updated: '2021-10-25T04:41:41.989Z'
+id: '49407763'
 ---
 If there's one thing that best reveals the limitations of language, it's dreams. Explaining a dream is almost impossible; our language is just not at all suited for it. 
 

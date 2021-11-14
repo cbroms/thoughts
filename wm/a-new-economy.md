@@ -6,6 +6,7 @@ forwardlinks: []
 node: A new economy
 created: '2021-10-22T01:57:47.488Z'
 updated: '2021-10-22T02:01:28.820Z'
+id: '74310179'
 ---
 The goal of this system is to create an economy of support for projects and their creators. 
 

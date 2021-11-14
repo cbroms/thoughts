@@ -24,6 +24,7 @@ forwardlinks:
   - a-new-economy
 created: '2021-09-09T04:10:47.548Z'
 updated: '2021-10-31T01:28:51.647Z'
+id: '67177910'
 ---
 I think the internet is the most extraordinary system to have ever been constructed. It is a marvel of [design](design.md) and engineering. 
 

@@ -7,6 +7,7 @@ forwardlinks:
 node: Functional fixedness
 created: '2021-10-13T04:41:14.133Z'
 updated: '2021-10-13T04:46:15.939Z'
+id: '75021276'
 ---
 [Functional fixedness](https://en.wikipedia.org/wiki/Functional_fixedness) is the tendency to bind tool to problem, so that you can no longer see beyond the tool or the problem. 
 

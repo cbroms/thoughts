@@ -8,6 +8,7 @@ forwardlinks:
 node: Random Symbols for One Dimension
 created: '2021-11-12T07:38:45.789Z'
 updated: '2021-11-12T07:48:04.981Z'
+id: '86588056'
 ---
 The goal of this project is to develop random visual symbols for each thought on [this site](one-dimension.md).  
 

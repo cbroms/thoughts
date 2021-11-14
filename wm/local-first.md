@@ -7,6 +7,7 @@ forwardlinks:
 node: Local first
 created: '2021-11-10T06:41:38.866Z'
 updated: '2021-11-10T06:52:17.357Z'
+id: 08809603
 ---
 It seems like people often undervalue taking a local-first, small-scale approach to problem solving. 
 

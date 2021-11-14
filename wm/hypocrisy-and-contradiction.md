@@ -10,6 +10,7 @@ forwardlinks:
   - design
 created: '2021-09-08T05:54:57.945Z'
 updated: '2021-09-11T07:06:45.981Z'
+id: '61049731'
 ---
 
 It seems that there’s a fundamental sort of distaste we have for people that are hypocrites. A base instinctual mistrust, a dis-ease. It’s a "get him outta here" kind of thing. "Can’t trust that guy." There’s something evolutionary there I think.

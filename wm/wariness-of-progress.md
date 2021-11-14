@@ -6,6 +6,7 @@ forwardlinks:
 node: Wariness of Progress
 created: '2021-10-19T04:35:36.790Z'
 updated: '2021-10-19T04:53:19.193Z'
+id: '62461529'
 ---
 I've found myself becoming more and more wary of progress. Here are a few open questions:
 

@@ -7,6 +7,7 @@ forwardlinks:
 node: Progressive enhancement
 created: '2021-11-11T01:49:18.845Z'
 updated: '2021-11-11T01:52:23.952Z'
+id: '04070373'
 ---
 It seems like [progressive enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement) as a sort of framework might be a good way to dig ourselves out of this {modern web} javascript bloat situation. 
 

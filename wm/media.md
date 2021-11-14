@@ -12,6 +12,7 @@ forwardlinks:
   - youtube
 created: '2021-09-08T07:22:13.628Z'
 updated: '2021-10-16T07:00:03.361Z'
+id: '87479155'
 ---
 
 A few things I’ve been [consuming](consumption-and-creation.md) as of late:

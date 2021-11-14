@@ -7,6 +7,7 @@ forwardlinks:
 node: Reflection
 created: '2021-09-13T01:42:56.860Z'
 updated: '2021-09-13T02:06:06.739Z'
+id: '61577195'
 ---
 The process of reflection is something I'm finding to be an excellent addition to my routine. 
 

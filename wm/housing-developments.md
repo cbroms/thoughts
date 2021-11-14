@@ -6,6 +6,7 @@ forwardlinks:
 node: Housing developments
 created: '2021-09-21T06:21:03.134Z'
 updated: '2021-09-21T06:52:41.274Z'
+id: '06021526'
 ---
 If there's anything that could turn a kid into one of those school shooters, it's housing developments and their endless cul-de-sacs, rows of nearly identical facades, SUVs and Minivans, sidewalks and [*lawns*](lawns.md). They have names like: 
 

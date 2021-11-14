@@ -5,6 +5,7 @@ forwardlinks: []
 node: Craftsmanship
 created: '2021-11-06T07:26:05.984Z'
 updated: '2021-11-06T07:29:45.090Z'
+id: '11528876'
 ---
 Take pride in your craft. It's how we progress towards our potential. 
 

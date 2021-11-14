@@ -10,6 +10,7 @@ forwardlinks:
 node: Digital people
 created: '2021-09-16T06:24:45.467Z'
 updated: '2021-09-16T06:34:38.890Z'
+id: '49091770'
 ---
 I've taken to denoting digital people by writing "people" in quotes.
 

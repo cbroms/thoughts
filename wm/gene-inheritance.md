@@ -7,6 +7,7 @@ forwardlinks:
 node: Gene inheritance
 created: '2021-11-07T04:56:49.069Z'
 updated: '2021-11-07T05:09:02.649Z'
+id: '96785079'
 ---
 I’m trying to work out how exactly to generate unique visuals for each node in [the network](one-dimension-network.md).  I’d like this method to include some notion of inheritance, where the symbols of highly-connected nodes inherit from their connections. Here’s what I’m thinking so far.
 

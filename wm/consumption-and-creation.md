@@ -11,6 +11,7 @@ forwardlinks:
   - one-dimension
 created: '2021-09-08T07:19:23.461Z'
 updated: '2021-10-14T06:03:04.481Z'
+id: '16472518'
 ---
 One way to categorize my day is through the time spent  creating versus consuming. I feel best when the majority of the day is dedicated to creation, but not all of it. Usually at the end of the day I need to do [some consumption](media.md), in [moderation](moderation.md). 
 

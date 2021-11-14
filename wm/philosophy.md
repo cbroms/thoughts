@@ -6,6 +6,7 @@ forwardlinks:
 node: Philosophy
 created: '2021-10-06T06:37:44.208Z'
 updated: '2021-10-08T06:16:38.870Z'
+id: '94176716'
 ---
 It seems like people really like to worship philosophers and philosophy. Certain ideas are attributed to certain individuals and books, and it's often framed as if there's something unique about their perspective that we can "learn from." The phrase "x *says*..." is all to common. 
 

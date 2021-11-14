@@ -7,6 +7,7 @@ forwardlinks:
 node: Immaterial stories
 created: '2021-10-14T06:03:53.646Z'
 updated: '2021-10-14T06:06:12.296Z'
+id: '23161282'
 ---
 What would happen if you were to divorce a story from words on a page? 
 

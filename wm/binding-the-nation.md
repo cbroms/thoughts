@@ -5,6 +5,7 @@ forwardlinks:
 node: Binding the nation
 created: '2021-10-30T00:23:36.916Z'
 updated: '2021-10-30T04:22:20.736Z'
+id: '05375372'
 ---
 I came across a talk by William James called [The Moral Equivalent of War](https://www.uky.edu/~eushe2/Pajares/moral.html) and began to think more about what effects a compulsory public service might have on the country. I was quite taken with the idea for a few reasons:
 

@@ -5,6 +5,7 @@ forwardlinks: []
 node: Growing Tatsoi
 created: '2021-10-28T04:56:43.489Z'
 updated: '2021-10-31T02:03:03.191Z'
+id: '19134262'
 ---
 [Tatsoi](https://en.wikipedia.org/wiki/Tatsoi) has proven to be quite an easy green to grow. We planted it from seeds we started during the summer and transplanted a few weeks later. It was actually a bit of an accident we ended up with tatsoi--the seeds were advertised as bok choi but turned out to be something different. It's proven to be a nice little surprise. 
 

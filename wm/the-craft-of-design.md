@@ -10,6 +10,7 @@ forwardlinks:
 node: The craft of design
 created: '2021-09-16T04:39:00.142Z'
 updated: '2021-11-06T07:30:16.267Z'
+id: '15539917'
 ---
 To be a true [craftsman](craftsmanship.md) of design likely includes:
 

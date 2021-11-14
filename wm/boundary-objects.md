@@ -8,6 +8,7 @@ forwardlinks:
 node: Boundary objects
 created: '2021-09-16T05:28:07.618Z'
 updated: '2021-09-16T05:38:27.979Z'
+id: '64648196'
 ---
 Boundary objects are physical manifestations of understanding. They sit *at the boundary* of multiple people's understanding. Boundary objects are how people all know they're talking about the same thing. 
 

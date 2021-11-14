@@ -7,6 +7,7 @@ forwardlinks:
   - eye-to-eye-with-the-sun
 created: '2021-09-09T06:04:36.990Z'
 updated: '2021-09-11T07:58:49.564Z'
+id: '86902390'
 ---
 
 In 2019 I spent the summer in Omaha, Nebraska for an internship. I never really wrote anything about the experience, I found it to be deeply meaningful in an incredibly hard to describe way. Rather than try and put words to whatever that is, maybe it’ll be more helpful to simply recount the experiences that still stick with me.

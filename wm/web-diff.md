@@ -6,6 +6,7 @@ forwardlinks: []
 node: Web diff
 created: '2021-11-04T17:24:16.992Z'
 updated: null
+id: '84105061'
 ---
 I'd like to figure out how to build a system that serves two primary purposes: 
 

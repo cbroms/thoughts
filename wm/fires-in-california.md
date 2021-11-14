@@ -7,6 +7,7 @@ forwardlinks:
 node: Fires in California
 created: '2021-09-19T06:43:33.656Z'
 updated: '2021-10-12T04:16:05.353Z'
+id: '40991971'
 ---
 [California's](california.md) landscape needs to burn. 
 

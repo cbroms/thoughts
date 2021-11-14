@@ -8,6 +8,7 @@ forwardlinks:
 node: California culture
 created: '2021-10-12T04:35:39.962Z'
 updated: '2021-10-12T05:11:05.702Z'
+id: '98720187'
 ---
 Everyone has some take on [California's](california.md) culture, and I am no different. What really matters though?
 

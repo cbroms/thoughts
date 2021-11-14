@@ -7,6 +7,7 @@ forwardlinks:
 node: Time and context as editors
 created: '2021-10-08T06:19:50.327Z'
 updated: '2021-10-08T06:27:37.788Z'
+id: '75251725'
 ---
 Often, It'll get towards the end of the day and I'll start writing down a few notes [here](one-dimension.md). I'll have been mulling over something all day, and I dump those thoughts down then go to sleep. 
 

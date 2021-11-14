@@ -7,6 +7,7 @@ forwardlinks:
 node: The authority of writing
 created: '2021-09-13T01:09:49.348Z'
 updated: '2021-09-13T01:24:22.996Z'
+id: '56072512'
 ---
 There's something unfortunate about writing that comes from turning a *non-physical thought* into a *concrete recorded thought*.
 

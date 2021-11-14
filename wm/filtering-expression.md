@@ -7,6 +7,7 @@ forwardlinks: []
 node: Filtering expression
 created: '2021-09-17T05:18:26.472Z'
 updated: '2021-09-17T05:29:11.270Z'
+id: '80905545'
 ---
 Everyone expresses. But how much to they filter their expression, how well can they  tune it in for a particular context or audience?
 

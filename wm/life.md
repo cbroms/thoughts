@@ -7,6 +7,7 @@ forwardlinks:
 node: Life
 created: '2021-11-10T07:18:50.922Z'
 updated: '2021-11-10T07:23:27.705Z'
+id: '71874014'
 ---
 How to live? 
 

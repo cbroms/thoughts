@@ -9,6 +9,7 @@ forwardlinks:
 node: Water in California
 created: '2021-09-19T06:46:57.953Z'
 updated: '2021-10-15T06:29:21.041Z'
+id: '32665899'
 ---
 [California](california.md) has quite a unique climate; mostly wet winter / dry summer. Water is a huge constraint. 
 
