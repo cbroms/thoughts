@@ -3,20 +3,36 @@ node: 'Omaha, Nebraska'
 backlinks:
   - tools
   - spirituality
+  - music-and-places
 forwardlinks:
   - eye-to-eye-with-the-sun
 created: '2021-09-09T06:04:36.990Z'
-updated: '2021-09-11T07:58:49.564Z'
+updated: '2021-11-16T07:17:49.594Z'
 id: '86902390'
 ---
 
 In 2019 I spent the summer in Omaha, Nebraska for an internship. I never really wrote anything about the experience, I found it to be deeply meaningful in an incredibly hard to describe way. Rather than try and put words to whatever that is, maybe it’ll be more helpful to simply recount the experiences that still stick with me.
 
 - Watching the [sunset over the interstate](eye-to-eye-with-the-sun.md) religiously every evening.
+
+![](images/omaha-nebraska/BlijYbjebi.webp " ")
+
 - Walking home across an empty field with an electric storm pushing towards me, with that pre-deluge feeling to the air.
+
+![](images/omaha-nebraska/NGJlByaGzb.webp " ")
+
 - Finally making it to Elmwood park and wandering through the Rose garden nobody seemed to know about.
+
+![](images/omaha-nebraska/XEHcmkMJWQ.webp " ")
+
 - Walking over the bridge into Iowa and sneaking down into the flooded waterfront.
+
+![](images/omaha-nebraska/LRJDsAfwnW.webp " ")
+
 - Walking about five miles round trip [to the nearest Walmart](https://goo.gl/maps/DDojD4VyqvsSwskdA) for groceries every weekend in the heat. 
+
+![](images/omaha-nebraska/LedfIFLoIx.webp " ")
+
 - That girl who commented on my Smokey t-shirt during the fire alarm.
 - Going to that barbershop with all those porn magazines and waiting for about three hours, which everyone seemed to treat as normal.
 - Not having a phone and figuring out how to get to a Verizon store.
@@ -28,6 +44,11 @@ In 2019 I spent the summer in Omaha, Nebraska for an internship. I never really 
 - Those conversations I’d have with my coworker–how both her and my perspectives gradually shifted.
 - Doing all my cooking with a single knife, cutting board, and pot. 
 - The route I took to and from home everyday.
+
+![](images/omaha-nebraska/qriafLpjrT.webp " ")
+
+![](images/omaha-nebraska/aPoKWoiwVt.webp " ")
+
 - That weird pizza place with the strangely good pizza my dude from South Dakota always wanted to go to.
 - That incredibly good burger place downtown.
 - Getting mediocre sandwiches at Pickleman’s.
@@ -38,8 +59,14 @@ In 2019 I spent the summer in Omaha, Nebraska for an internship. I never really 
 - Waiting in the rain for a bus that showed up at least 45 minutes late and vowing to never take a bus in Omaha again.
 - The guy at the Ethiopian place that told me to get the hot sauce.
 - Laying on the grass by the river all afternoon and reading.
+
+![](images/omaha-nebraska/kEpTQLnKnT.webp " ")
+
 - All those gay pride flags at the Conagra headquarters.
 - Watching the park across the street gradually be demolished instead of doing work during the afternoon.
+
+![](images/omaha-nebraska/JdSqBBGzCr.webp " ")
+
 - Seeing the headlights of trains slowly move along the line by the river at night.
 - Not using any lights at night; sitting in my darkened apartment every evening and thinking.
 

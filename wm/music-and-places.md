@@ -1,0 +1,36 @@
+---
+backlinks:
+  - thoughts-and-places
+  - media
+forwardlinks:
+  - thoughts-and-places
+  - eye-to-eye-with-the-sun
+  - omaha-nebraska
+node: Music and places
+created: '2021-11-16T06:28:59.142Z'
+updated: '2021-11-16T07:03:54.200Z'
+id: 06398821
+---
+Much like certain [thoughts being tied to places](thoughts-and-places.md), I'll often tie music to places. Here's some notable moments, places and their soundtracks:
+
+- [Anything in Return](https://open.spotify.com/album/6x1wyRPGlqGJ1b8uQ9UQdX?si=CdPH7Oo-SEWkut69S9TrDw) (2013) by Toro y Moi. I used to listen to this album driving out to Bolinas Ridge while I was home from college on winter and spring breaks. I'd play this album and race up Fairfax-Bolinas road way too fast, then [watch the sunset](eye-to-eye-with-the-sun.md) over the Pacific. The next day I'd get on a plane and fly back to Pennsylvania. 
+
+![](images/music-and-places/fdoTENNxpi.webp "A melancholy moment")
+
+![](images/music-and-places/hCWDmsOQZc.webp " ")
+
+- [Boo Boo](https://open.spotify.com/album/7oXDoQxFfRETeqsyvSHtzn?si=0F6nzHxZS7CpyjtJz0Ob-Q) (2017) by Toro y Moi. Like Anything in Return, I had a kind of ritual with this album. I'd listen to it as I was flying from Pittsburgh back to the Bay Area, and would start playing it right as we crossed the Nevada-California border. The same soundtrack would play as we flew over the Sierra, foothills, valley, delta, and bay. 
+
+![](images/music-and-places/QESuTapqNX.webp "One of the last tracks on the album was likely playing as I took this taxiing in at SFO")
+
+- [*Cop Lights*](https://open.spotify.com/track/7obCOZc1LoaA2NEjfg7mSz?si=5747da7a901f4f3e) from Light as Leaving (2019) by Orchid Mantis. I randomly decided one day to take a day trip up to the area in the Sierra my family and I usually spend the summer. I'd never seen it in the winter and wanted to explore. So I got up early one morning and drove across the valley and up the mountain, finding myself alone around a very quiet and still Ice House Reservoir. On the way back I tuned into Davis' radio station and this song came on as the sun lowered in the sky. There was something very meditative about that moment, and the day. 
+
+![](images/music-and-places/LUZVeGxPFz.webp "Near Ice House on my day trip")
+
+- [Everyone's Invited](https://open.spotify.com/album/6GkbEFKMTv9kJ9XrnWBXiH?si=6CjBkFZxS72r7OCBRs3Bxw) (2018) by Sports. One of many albums I strongly associate with my time in [Omaha](omaha-nebraska.md). I'd listen to this as I watched the [sun set](eye-to-eye-with-the-sun.md) over the interstate. 
+
+- [*Thinking of a Place*](https://open.spotify.com/track/4Sd5tbNP4q8wS64abqwfkN?si=0a4be03c4c714593) from A Deeper Understanding (2017) by The War on Drugs. I was listening to The War on Drugs as I drove across Pennsylvannia to my partner's house in Virginia. I was leaving college for good; I'd packed up my stuff in the car and said goodbye to my friends. As I was driving through the Appalachians I was feeling a poignant mix of nostalgia and excitement, memories of the past four years and uncertainty for the time ahead. It was a beautiful drive. 
+
+
+
+

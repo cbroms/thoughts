@@ -3,6 +3,7 @@ node: Eye to eye with the sun
 backlinks:
   - spirituality
   - omaha-nebraska
+  - music-and-places
 forwardlinks:
   - who-are-we
 created: '2021-09-10T04:35:28.312Z'

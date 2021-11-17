@@ -9,6 +9,7 @@ backlinks:
   - hyperfov
   - global-impact
   - local-first
+  - gemini-protocol
 forwardlinks:
   - design
   - who-are-we
