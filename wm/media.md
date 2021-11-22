@@ -6,6 +6,7 @@ backlinks:
   - youtube
 forwardlinks:
   - consumption-and-creation
+  - books
   - writing
   - the-most-poignant-song
   - infinite-granite-live
@@ -13,12 +14,12 @@ forwardlinks:
   - video-games
   - youtube
 created: '2021-09-08T07:22:13.628Z'
-updated: '2021-11-16T07:05:21.653Z'
+updated: '2021-11-22T07:08:47.896Z'
 id: '87479155'
 ---
 It's strange how the medium of video is so often tied to [consumption](consumption-and-creation.md) in the most negative ways, while engaging with text or audio is seen as somehow more noble. I'm *reading a book*. Imagine that. 
 
-I certainly enjoy watching videos and listening to music. I don't really read many books, and I'm fine with that. I'll read one every now and then, but for the most part I like to [write](writing.md) instead. 
+I certainly enjoy watching videos and listening to music. I don't really read many [books](books.md), and I'm fine with that. I'll read one every now and then, but for the most part I like to [write](writing.md) instead. 
 
 Anyway, here are some of the things I've been consuming as of late: 
 

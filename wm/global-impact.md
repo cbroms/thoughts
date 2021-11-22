@@ -2,6 +2,7 @@
 backlinks:
   - binding-the-nation
   - local-first
+  - daos
 forwardlinks:
   - the-internet
 node: Global impact

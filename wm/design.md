@@ -11,6 +11,7 @@ backlinks:
   - functional-fixedness
   - futures
   - process
+  - daos
 forwardlinks:
   - the-craft-of-design
 created: '2021-09-08T06:17:11.155Z'

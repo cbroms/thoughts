@@ -3,6 +3,7 @@ node: Writing
 backlinks:
   - one-dimension
   - media
+  - books
 forwardlinks:
   - media
   - hypocrisy-and-contradiction

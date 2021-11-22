@@ -3,6 +3,7 @@ node: 'Consumption and Creation '
 backlinks:
   - media
   - video-games
+  - books
 forwardlinks:
   - media
   - moderation
