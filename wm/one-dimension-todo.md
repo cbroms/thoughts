@@ -11,7 +11,7 @@ forwardlinks:
   - one-dimension-as-a-blog
 node: One dimension TODO
 created: '2021-09-25T08:09:26.435Z'
-updated: '2021-11-14T23:19:39.044Z'
+updated: '2021-11-22T18:56:38.328Z'
 id: 08122326
 ---
 
@@ -28,6 +28,7 @@ id: 08122326
   - ~~For API (copy file to new directory, replace link)~~
 - ~~Cancelling saving results in a null filename~~
 - Backlinks link to specific sections of text. Linked text can also backlink to the link that linked it lol. Instead of pages linking together, [it's elements linking together](web-diff.md). Something a bit like [text fragments](https://web.dev/text-fragments/).
+- Links should link to the state of the page when the link was added. So each page has a version, and I'm linking to a specific version. Maybe this can be in the URL, so for example link to a page like `/thoughts/me/2021-11-22`. 
 - Pasting a `.md` filename in the editor search should open the file by default rather than showing search results
 - Lists in excerpts should be converted to a comma separated list, where each `li` gets a comma appended. If possible, end the `ul` or `ol` with a period?
 - Add indication of number of page connections to each link. Helps get a sense for [where in the network](one-dimension-network.md) you're moving to (towards a highly-connected node, or away)
@@ -38,6 +39,7 @@ id: 08122326
 - Add physical location each page was written. 
 - Track [changes to each page](web-diff.md). 
 - ~~Unique ids for each file~~
+- Only build changed pages. I think in sveletekit that would mean preventing crawling and feeding in a list of pages to build. This list could be generated during editing and then get deleted by the build script. Not sure exactly how to handle changes to the templates themselves.  
 
 Also see:
 

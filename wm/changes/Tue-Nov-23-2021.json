@@ -1,0 +1,1 @@
+[{"type":{"action":"Revisited thought","symbol":"↺"},"node":"Books","id":"books"},{"type":{"action":"Linked thought","symbol":"⇒"},"node":{"to":"Philosophy","from":"Books"},"id":{"from":"books","to":"philosophy"}}]

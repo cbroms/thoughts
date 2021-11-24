@@ -1,6 +1,7 @@
 ---
 backlinks:
   - life
+  - books
 forwardlinks:
   - hypocrisy-and-contradiction
 node: Philosophy
