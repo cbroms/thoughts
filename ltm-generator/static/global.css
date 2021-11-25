@@ -102,6 +102,7 @@ figcaption {
 }
 
 p {
+	hanging-punctuation: first;
 	color: #1f1f1f;
 }
 
