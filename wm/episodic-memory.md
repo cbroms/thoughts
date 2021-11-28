@@ -1,6 +1,7 @@
 ---
 backlinks:
   - thoughts-and-places
+  - psychology
 forwardlinks:
   - thoughts-and-places
 node: Episodic memory

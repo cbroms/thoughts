@@ -2,6 +2,7 @@
 backlinks:
   - episodic-memory
   - music-and-places
+  - psychology
 forwardlinks:
   - episodic-memory
   - music-and-places
