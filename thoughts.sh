@@ -18,7 +18,7 @@ build() {
 
     printf "${thoughts}${blue}Starting wm-api...${reset}"
     cd wm-api 
-    PLACE="Berkeley, CA" npm run start &
+    npm run start &
     apiprocess=$!
     cd ..
     sleep 2
@@ -49,7 +49,7 @@ build() {
 # run the api and interface 
 write() {
     printf "${thoughts}${blue}Starting wm-api...${reset}"
-    cd wm-api && npm run start &
+    cd wm-api && PLACE="Berkeley, CA" npm run start &
     apiprocess=$!
     sleep 2
 
