@@ -55,7 +55,8 @@
 				? 's '
 				: ' '}<span class="link-arrow">&seArr;</span></span
 		><span
-			><a href="/changelog#{timestamp.replaceAll(' ', '-')}">Last revisited {timestamp}</a></span
+			>Last revisited <a href="/changelog#{timestamp.replaceAll(' ', '-')}">{timestamp}</a> in {thought
+				.data.place}</span
 		>
 	</div>
 
