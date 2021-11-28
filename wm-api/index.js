@@ -116,5 +116,6 @@ app.get("/search/:query", (req, res, next) => {
 });
 
 app.listen(port, () => {
+  console.log("setting place of new thoughts to " + process.env.PLACE);
   console.log(`wm-api running at http://localhost:${port}`);
 });

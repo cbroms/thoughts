@@ -10,6 +10,7 @@ node: Hyperfov
 created: '2021-10-14T06:11:11.712Z'
 updated: '2021-10-14T06:17:13.523Z'
 id: '53966548'
+place: 'Berkeley, CA'
 ---
 Hyperfov is an ongoing endeavor to make the experience of the [web](the-internet.md) *beyond-informational*. 
 

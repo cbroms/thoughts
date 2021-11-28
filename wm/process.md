@@ -13,6 +13,7 @@ created: '2021-09-20T07:00:28.581Z'
 updated: '2021-11-10T07:14:27.427Z'
 indexed: false
 id: '99458050'
+place: 'Berkeley, CA'
 ---
 As far as I can tell, the most important part of any creative endeavor is the process. 
 

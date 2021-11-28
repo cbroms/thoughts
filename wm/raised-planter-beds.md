@@ -8,6 +8,7 @@ node: Raised planter beds
 created: '2021-10-28T05:10:14.294Z'
 updated: '2021-10-28T05:44:09.354Z'
 id: '13247384'
+place: 'Berkeley, CA'
 ---
 When I was a kid I learned how to build raised planter beds from a family friend. I ended up building quite a few, first in my family's yard then for friends' parents. It made me a nice bit of cash.  
 

@@ -6,6 +6,7 @@ node: Gemini Protocol
 created: '2021-11-17T06:57:55.755Z'
 updated: '2021-11-17T07:04:50.320Z'
 id: '81795988'
+place: 'Berkeley, CA'
 ---
 I spent a couple hours tonight exploring [the geminispace](https://gemini.circumlunar.space/)--sites that use the [gemini protocol](https://en.wikipedia.org/wiki/Gemini_(protocol)). Gemini allows only text and links and makes for a very quiet browsing experience. Everything takes on the same sort of vibe, which is a very different sort of experience for [the internet](the-internet.md). Each "portal" is difficult to tell apart, but there's something nice about this blending. 
 

@@ -6,11 +6,13 @@ backlinks:
   - spirituality
   - hyperfov
   - wariness-of-progress
+  - 'critical-path:-introduction'
 forwardlinks: []
 node: Who are we?
 created: '2021-09-24T03:44:22.578Z'
 updated: '2021-09-24T05:41:51.393Z'
 id: '35290252'
+place: 'Berkeley, CA'
 ---
 It's amazing how much everything we've built hides the truth of the world from us. With more complexity the further we get from the essential nature of things. 
 

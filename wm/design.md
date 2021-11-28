@@ -12,11 +12,13 @@ backlinks:
   - futures
   - process
   - daos
+  - 'critical-path:-introduction'
 forwardlinks:
   - the-craft-of-design
 created: '2021-09-08T06:17:11.155Z'
 updated: '2021-09-16T05:05:28.629Z'
 id: '26120028'
+place: 'Berkeley, CA'
 ---
 
 _Design is the endeavor to conceive of future states that diverge from the present with intention._

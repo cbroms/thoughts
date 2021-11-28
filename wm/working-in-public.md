@@ -9,6 +9,7 @@ node: Working in public
 created: '2021-09-13T01:35:02.362Z'
 updated: '2021-09-20T07:10:49.586Z'
 id: '42980706'
+place: 'Berkeley, CA'
 ---
 There's something about the idea of working in public that I  quite like. That's digital-public, not public-public. 
 

@@ -6,6 +6,7 @@ node: Fuck it
 created: '2021-09-17T05:05:45.960Z'
 updated: '2021-09-17T05:15:44.121Z'
 id: '85367796'
+place: 'Berkeley, CA'
 ---
 A perennial battle cry. Fuck it man, let's just do it. 
 

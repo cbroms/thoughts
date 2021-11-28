@@ -6,6 +6,7 @@ node: Images on One Dimension
 created: '2021-10-07T04:59:25.092Z'
 updated: '2021-10-08T06:15:12.161Z'
 id: '17358209'
+place: 'Berkeley, CA'
 ---
 As of October 6, 2021, One Dimension supports images.
 

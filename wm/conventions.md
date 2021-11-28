@@ -10,6 +10,7 @@ node: Conventions
 created: '2021-09-21T03:32:20.104Z'
 updated: '2021-10-15T06:30:42.747Z'
 id: '16054754'
+place: 'Berkeley, CA'
 ---
 Conventions [bind us](functional-fixedness.md) in two ways:
 

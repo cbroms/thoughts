@@ -9,6 +9,7 @@ forwardlinks:
 created: '2021-09-09T04:59:02.382Z'
 updated: '2021-09-20T07:11:17.401Z'
 id: '28877367'
+place: 'Berkeley, CA'
 ---
 
 People get caught up in tools as a distraction from actually learning and doing. I probably do too, but I also find directing attention to the tools around me that mostly just disappear into the background and are taken for granted is a great way to find the very best exemplars of what tools should be, and helps me be a better [tool-maker](me.md).

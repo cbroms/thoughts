@@ -13,6 +13,7 @@ node: One dimension TODO
 created: '2021-09-25T08:09:26.435Z'
 updated: '2021-11-22T18:56:38.328Z'
 id: 08122326
+place: 'Berkeley, CA'
 ---
 
 - Links to nonexistent thoughts

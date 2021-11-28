@@ -7,6 +7,7 @@ node: Interdependence
 created: '2021-10-19T04:47:15.863Z'
 updated: '2021-10-19T04:50:25.351Z'
 id: '51732313'
+place: 'Berkeley, CA'
 ---
 If there is one lens that has changed my perspective most, it is the lens of interdependence. Through this lens, I focus my attention on the ways everything around me depends on everything else. 
 

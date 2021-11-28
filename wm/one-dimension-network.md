@@ -11,6 +11,7 @@ node: One Dimension network
 created: '2021-10-11T00:01:37.145Z'
 updated: '2021-11-07T05:07:15.736Z'
 id: '72065499'
+place: 'Berkeley, CA'
 ---
 I was curious what this site looks like as a network, so I wrote [a little script](https://github.com/cbroms/thoughts/blob/8df65f4e5645091858505e267af6c1492387ee42/wm-scanner/graph.py) that visualizes it. 
 

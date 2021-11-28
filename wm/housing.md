@@ -8,6 +8,7 @@ node: Housing
 created: '2021-09-19T05:46:04.869Z'
 updated: '2021-10-12T04:17:09.600Z'
 id: '26180816'
+place: 'Berkeley, CA'
 ---
 Much has been said on the topic of *housing*, especially in [California](california.md) where we are told there is to be a "crisis." As far as I can tell, that seems to mean something like:
 

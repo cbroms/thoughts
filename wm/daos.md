@@ -8,6 +8,7 @@ node: DAOs
 created: '2021-11-18T05:42:59.069Z'
 updated: '2021-11-19T06:56:00.004Z'
 id: 05698764
+place: 'Berkeley, CA'
 ---
 *I wrote the majority of this the day before the ConsitutionDAO failed to purchase a copy of the U.S. Constitution. I was in their Discord as the bidding and confusion afterwards ensued--it made the organizational critiques I lay out below even more salient.*
 

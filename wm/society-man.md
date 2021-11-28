@@ -7,6 +7,7 @@ node: 'Society, man'
 created: '2021-09-24T04:04:48.435Z'
 updated: '2021-09-24T05:44:58.347Z'
 id: '57098900'
+place: 'Berkeley, CA'
 ---
 *"You're trapped, man. All you care about is society and money and trivial bullshit. Can't you see how none of it matters?"*
 

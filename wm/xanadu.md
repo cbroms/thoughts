@@ -8,6 +8,7 @@ forwardlinks:
 created: '2021-09-09T04:19:38.738Z'
 updated: '2021-09-13T01:32:45.651Z'
 id: '72801564'
+place: 'Berkeley, CA'
 ---
 
 If there’s any inspiration I could point to as most important to me, perhaps ever, it would have to be [Project Xanadu](https://xanadu.com/). I’m probably not the first to say that; Ted Nelson’s vision for the web was so essential, so elegant that I’m sure he’s inspired a great many of the designers and builders of today.

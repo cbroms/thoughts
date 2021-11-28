@@ -12,6 +12,7 @@ created: '2021-10-28T04:47:54.224Z'
 updated: '2021-10-31T02:03:25.954Z'
 indexed: true
 id: '60992001'
+place: 'Berkeley, CA'
 ---
 
 My partner and I are building a garden and growing some of our own food. I've gardened before, but it's always a great to get back to it; it feels like a necessary and meaningful endeavor.

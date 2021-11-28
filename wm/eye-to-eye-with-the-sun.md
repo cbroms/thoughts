@@ -9,6 +9,7 @@ forwardlinks:
 created: '2021-09-10T04:35:28.312Z'
 updated: '2021-09-24T05:46:38.499Z'
 id: '73567106'
+place: 'Berkeley, CA'
 ---
 There's a recurring moment I experience when looking at the sun dipping into the horizon. When the sun sits at your level, something special happens. 
 

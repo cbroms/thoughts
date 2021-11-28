@@ -8,6 +8,7 @@ node: My websites
 created: '2021-09-24T05:57:35.600Z'
 updated: '2021-09-24T06:00:29.623Z'
 id: '66653740'
+place: 'Berkeley, CA'
 ---
 Here's an ongoing list of all the [websites](websites.md) I've made and own: 
 

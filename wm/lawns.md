@@ -9,6 +9,7 @@ node: Lawns
 created: '2021-09-21T06:06:46.075Z'
 updated: '2021-10-12T04:16:24.094Z'
 id: '64407583'
+place: 'Berkeley, CA'
 ---
 I hate lawns. What's their point? 
 

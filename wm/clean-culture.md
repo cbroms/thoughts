@@ -9,6 +9,7 @@ node: Clean culture
 created: '2021-09-16T05:51:39.940Z'
 updated: '2021-09-16T06:25:45.523Z'
 id: '91763826'
+place: 'Berkeley, CA'
 ---
 There's a very hard to describe quality to some kinds of digital culture that I think is worth trying to classify. It's something that emerges from corporate media and corporatized media channels.
 

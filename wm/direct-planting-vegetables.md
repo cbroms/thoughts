@@ -9,6 +9,7 @@ node: Direct planting vegetables
 created: '2021-10-28T05:14:26.291Z'
 updated: '2021-10-28T05:21:30.088Z'
 id: '16634056'
+place: 'Berkeley, CA'
 ---
 Before our current garden I hadn't tried planting vegetables directly in the soil, I'd always used [planter beds](raised-planter-beds.md). It's worked really well so far, in fact many of the plants I planted directly in the ground have done better than their raised-bed counterparts. 
 

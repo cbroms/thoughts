@@ -3,12 +3,14 @@ backlinks:
   - binding-the-nation
   - local-first
   - daos
+  - 'critical-path:-introduction'
 forwardlinks:
   - the-internet
 node: Global impact
 created: '2021-10-28T05:52:34.039Z'
 updated: '2021-10-28T06:07:54.095Z'
 id: '92403703'
+place: 'Berkeley, CA'
 ---
 Thanks to [the internet](the-internet.md), more people can think about global-scale problems.
 

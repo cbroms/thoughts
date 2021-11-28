@@ -9,6 +9,7 @@ forwardlinks:
 created: '2021-09-09T06:04:36.990Z'
 updated: '2021-11-16T07:17:49.594Z'
 id: '86902390'
+place: 'Berkeley, CA'
 ---
 
 In 2019 I spent the summer in Omaha, Nebraska for an internship. I never really wrote anything about the experience, I found it to be deeply meaningful in an incredibly hard to describe way. Rather than try and put words to whatever that is, maybe it’ll be more helpful to simply recount the experiences that still stick with me.

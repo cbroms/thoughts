@@ -7,6 +7,7 @@ node: Technology I want to build with
 created: '2021-10-13T04:31:21.241Z'
 updated: '2021-10-13T04:32:30.933Z'
 id: '34418916'
+place: 'Berkeley, CA'
 ---
 - [Urbit](https://urbit.org/)
 - [Matrix](https://matrix.org/)

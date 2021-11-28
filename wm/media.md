@@ -16,6 +16,7 @@ forwardlinks:
 created: '2021-09-08T07:22:13.628Z'
 updated: '2021-11-22T07:08:47.896Z'
 id: '87479155'
+place: 'Berkeley, CA'
 ---
 It's strange how the medium of video is so often tied to [consumption](consumption-and-creation.md) in the most negative ways, while engaging with text or audio is seen as somehow more noble. I'm *reading a book*. Imagine that. 
 

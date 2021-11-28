@@ -7,6 +7,7 @@ node: Cross country trip 2021
 created: '2021-10-12T05:00:46.226Z'
 updated: '2021-10-19T04:54:49.986Z'
 id: '57473756'
+place: 'Berkeley, CA'
 ---
 In the summer of 2021, my partner and I drove across the country from Virginia to [California](california.md). 
 

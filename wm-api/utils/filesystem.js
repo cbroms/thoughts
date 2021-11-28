@@ -377,6 +377,7 @@ const makeFile = async (filename, content) => {
           created: new Date().toISOString(),
           updated: null,
           id: thoughtId(),
+          place: process.env.PLACE,
         });
 
         makeChange(changes.CREATE, new Date().toDateString(), content.node);

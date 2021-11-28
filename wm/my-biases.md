@@ -1,6 +1,7 @@
 ---
 backlinks:
   - me
+  - 'critical-path:-introduction'
 forwardlinks:
   - truisms
   - life
@@ -8,6 +9,7 @@ node: My biases
 created: '2021-11-10T07:33:06.494Z'
 updated: '2021-11-10T07:44:24.344Z'
 id: '57291059'
+place: 'Berkeley, CA'
 ---
 Here are some of my predispositions. 
 

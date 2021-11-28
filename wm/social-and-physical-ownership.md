@@ -7,6 +7,7 @@ created: '2021-10-31T01:14:54.464Z'
 updated: '2021-11-03T07:48:51.603Z'
 indexed: true
 id: '88552486'
+place: 'Berkeley, CA'
 ---
 NFTs introduce a new sense of ownership, but NFT-ownership is a different sort of ownership than what you get in the physical world. It's not an intuitive sort of ownership. 
 

@@ -6,6 +6,7 @@ node: Hyperfov page previews TODO
 created: '2021-09-28T15:45:26.695Z'
 updated: '2021-10-01T06:56:30.534Z'
 id: '54780867'
+place: 'Berkeley, CA'
 ---
 
 - Add multiple options for when to fetch preview data

@@ -6,6 +6,7 @@ node: Reverie
 created: '2021-11-22T07:03:22.121Z'
 updated: '2021-11-22T07:26:40.717Z'
 id: '96763202'
+place: 'Berkeley, CA'
 ---
 Some days, like today, are just too excellent. There's something I read in *Walden* that stuck with me as a perfect descriptor for these sorts of days:
 

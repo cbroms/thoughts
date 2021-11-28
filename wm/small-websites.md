@@ -9,6 +9,7 @@ node: Small websites
 created: '2021-09-19T00:39:23.259Z'
 updated: '2021-11-01T05:45:45.266Z'
 id: '81880567'
+place: 'Berkeley, CA'
 ---
 A website for:
 

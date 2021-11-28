@@ -6,6 +6,7 @@ node: The pieces
 created: '2021-11-01T05:44:18.694Z'
 updated: null
 id: '66651586'
+place: 'Berkeley, CA'
 ---
 He wasn't sure where he came from. It was all a bit fuzzy, the beginning. He'd just woken up from something, who knows what. But certainly there had been something. A bright place, maybe. The world around him shifted towards black. The grayness of light from the place before faded quickly until the place itself was gone. There was nothing, and to say that it was even possible for something to be "there" would be impossible. There was no place at all. 
 

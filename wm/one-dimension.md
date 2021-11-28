@@ -20,6 +20,7 @@ forwardlinks:
 created: '2021-09-08T05:33:25.568Z'
 updated: '2021-10-11T00:09:46.810Z'
 id: '50162143'
+place: 'Berkeley, CA'
 ---
 
 One dimension is an experimental [writing](writing.md) system that links thoughts together through bi-directional links.

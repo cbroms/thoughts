@@ -6,6 +6,7 @@ node: What do you think?
 created: '2021-09-17T05:40:17.213Z'
 updated: '2021-09-19T01:05:38.141Z'
 id: '25236443'
+place: 'Berkeley, CA'
 ---
 What do I think?
 

@@ -16,6 +16,7 @@ node: California
 created: '2021-10-12T04:12:45.687Z'
 updated: '2021-10-12T04:59:30.775Z'
 id: '29057429'
+place: 'Berkeley, CA'
 ---
 I grew up in California and as a result suffer from a sort of blindness towards it. I can't really evaluate it in the same way I can other places; I just have too much of a personal tie to it. That goes for both the good and the bad. 
 

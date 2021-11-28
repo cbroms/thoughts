@@ -13,6 +13,7 @@ created: '2021-10-28T05:24:09.747Z'
 updated: null
 indexed: true
 id: '78965539'
+place: 'Berkeley, CA'
 ---
 
 Projects I'm working on right now:

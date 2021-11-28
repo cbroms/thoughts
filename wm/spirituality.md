@@ -2,6 +2,7 @@
 node: Spirituality
 backlinks:
   - the-internet
+  - 'critical-path:-introduction'
 forwardlinks:
   - snags-in-experience
   - who-are-we
@@ -10,6 +11,7 @@ forwardlinks:
 created: '2021-09-10T04:26:11.989Z'
 updated: '2021-10-12T03:45:07.490Z'
 id: '55061092'
+place: 'Berkeley, CA'
 ---
 
 Perhaps the only legitimately important part of experience. 

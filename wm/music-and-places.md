@@ -10,6 +10,7 @@ node: Music and places
 created: '2021-11-16T06:28:59.142Z'
 updated: '2021-11-16T07:03:54.200Z'
 id: 06398821
+place: 'Berkeley, CA'
 ---
 Much like certain [thoughts being tied to places](thoughts-and-places.md), I'll often tie music to places. Here's some notable moments, places and their soundtracks:
 

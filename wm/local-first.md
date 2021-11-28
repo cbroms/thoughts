@@ -2,6 +2,7 @@
 backlinks:
   - truisms
   - daos
+  - 'critical-path:-introduction'
 forwardlinks:
   - the-internet
   - global-impact
@@ -9,6 +10,7 @@ node: Local first
 created: '2021-11-10T06:41:38.866Z'
 updated: '2021-11-10T06:52:17.357Z'
 id: 08809603
+place: 'Berkeley, CA'
 ---
 It seems like people often undervalue taking a local-first, small-scale approach to problem solving. 
 

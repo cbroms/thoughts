@@ -9,6 +9,7 @@ node: Thoughts and places
 created: '2021-10-05T06:42:13.950Z'
 updated: '2021-11-16T07:04:52.225Z'
 id: '86488103'
+place: 'Berkeley, CA'
 ---
 I very strongly tie places to memories and thoughts. I'm sure others do this, but I find myself noticing it quite a bit. 
 

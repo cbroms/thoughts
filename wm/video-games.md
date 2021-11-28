@@ -8,6 +8,7 @@ forwardlinks:
 created: '2021-09-08T07:37:28.410Z'
 updated: '2021-09-08T07:40:16.448Z'
 id: '35559614'
+place: 'Berkeley, CA'
 ---
 I've been playing video games since I was a teenager (shocking, indeed). While I play significantly less often than I did back then, I still get quite a bit of joy from the occasional Battlefield 4 match. 
 
