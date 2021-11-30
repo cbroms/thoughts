@@ -17,8 +17,9 @@ forwardlinks:
   - working-in-public
   - truisms
   - my-biases
+  - much-to-learn
 created: '2021-09-09T03:09:17.757Z'
-updated: '2021-11-10T07:43:38.698Z'
+updated: '2021-11-29T05:08:54.029Z'
 id: '58989190'
 place: 'Berkeley, CA'
 ---
@@ -37,3 +38,4 @@ Related thoughts:
 
 - [Truisms](truisms.md)
 - [My biases](my-biases.md)
+- [Much to learn](much-to-learn.md)

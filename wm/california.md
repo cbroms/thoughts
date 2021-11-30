@@ -7,6 +7,7 @@ backlinks:
   - california-geography
   - california-culture
   - cross-country-trip-2021
+  - 'trip:-eastern-sierra-2021'
 forwardlinks:
   - california-geography
   - california-culture
