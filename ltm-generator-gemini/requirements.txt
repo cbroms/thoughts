@@ -1,0 +1,6 @@
+CJKwrap==2.2
+md2gemini==1.8.1
+mistune==2.0.0rc1
+python-frontmatter==1.0.0
+PyYAML==6.0
+wcwidth==0.2.5
