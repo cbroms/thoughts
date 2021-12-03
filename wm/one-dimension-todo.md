@@ -6,12 +6,13 @@ forwardlinks:
   - web-diff
   - one-dimension-network
   - random-symbols-for-one-dimension
+  - gemini-protocol
   - images-on-one-dimension
   - indexed-thoughts-on-one-dimension
   - one-dimension-as-a-blog
 node: One dimension TODO
 created: '2021-09-25T08:09:26.435Z'
-updated: '2021-11-22T18:56:38.328Z'
+updated: '2021-12-02T05:30:17.115Z'
 id: 08122326
 place: 'Berkeley, CA'
 ---
@@ -41,6 +42,7 @@ place: 'Berkeley, CA'
 - Track [changes to each page](web-diff.md). 
 - ~~Unique ids for each file~~
 - Only build changed pages. I think in sveletekit that would mean preventing crawling and feeding in a list of pages to build. This list could be generated during editing and then get deleted by the build script. Not sure exactly how to handle changes to the templates themselves.  
+- Serve on [gemini](gemini-protocol.md)
 
 Also see:
 

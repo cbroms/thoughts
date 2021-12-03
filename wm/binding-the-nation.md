@@ -1,6 +1,7 @@
 ---
 backlinks:
   - 'critical-path:-introduction'
+  - a-societal-precipice
 forwardlinks:
   - global-impact
 node: Binding the nation

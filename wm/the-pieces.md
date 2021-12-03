@@ -1,10 +1,11 @@
 ---
 backlinks:
   - small-websites
-forwardlinks: []
+forwardlinks:
+  - the-nature-of-something
 node: The pieces
 created: '2021-11-01T05:44:18.694Z'
-updated: null
+updated: '2021-12-03T01:23:25.774Z'
 id: '66651586'
 place: 'Berkeley, CA'
 ---
@@ -20,7 +21,7 @@ He felt this, he felt the existence of these nameless companions through their b
 
 He himself was composed in just the same manner as his companions. He knew; he could feel his being split. Existing in many contexts, in relation to the many other pieces of his companions. He felt this existence, this relation-ness. It felt good, it felt true. 
 
-Realizing this, he filled with a sort of giddiness, a glee. His pieces existed beautifully, shining in context, in their true nature. Here he was, floating, floating in just the way he was meant to. All was as it should be, he felt. His companions shone too; they buzzed with him, feeling his trueness themselves and echoing it back with affirmation. They too existed, they felt back at him. 
+Realizing this, he filled with a sort of giddiness, a glee. His pieces existed beautifully, shining in context, [in their true nature](the-nature-of-something.md). Here he was, floating, floating in just the way he was meant to. All was as it should be, he felt. His companions shone too; they buzzed with him, feeling his trueness themselves and echoing it back with affirmation. They too existed, they felt back at him. 
 
 Did his companions know where they came from? No, no they did not. He could feel the answer echo back to him. No they did not. They existed now, here and as pieces. This they knew to be true. The time before, just before, they did not know. They existed then, but in a different way than now. He concurred. He felt the same. 
 
