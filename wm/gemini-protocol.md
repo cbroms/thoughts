@@ -1,6 +1,7 @@
 ---
 backlinks:
   - one-dimension-todo
+  - one-dimension-on-gemini
 forwardlinks:
   - the-internet
 node: Gemini Protocol

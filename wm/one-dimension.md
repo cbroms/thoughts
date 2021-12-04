@@ -8,6 +8,7 @@ backlinks:
   - consumption-and-creation
   - one-dimension-as-a-blog
   - random-symbols-for-one-dimension
+  - one-dimension-on-gemini
 forwardlinks:
   - writing
   - working-in-public
