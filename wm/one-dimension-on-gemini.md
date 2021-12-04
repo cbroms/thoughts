@@ -6,14 +6,11 @@ forwardlinks:
   - one-dimension
 node: One Dimension on Gemini
 created: '2021-12-04T05:04:51.093Z'
-updated: '2021-12-04T05:17:37.761Z'
+updated: '2021-12-04T05:30:38.320Z'
 id: '18176083'
 place: 'Berkeley, CA'
 ---
-Today I created a [Gemini portal](gemini-protocol.md) for [this site](one-dimension.md). This page is available both over `http` and `gemini`: 
-
-- [https://onedimension.net/thought/one-dimension-on-gemini](https://onedimension.net/thought/one-dimension-on-gemini)
-- [gemini://gemini.onedimension.net/thought/one-dimension-on-gemini.gmi](gemini://gemini.onedimension.net/thought/one-dimension-on-gemini.gmi)
+Today I created a [Gemini portal](gemini-protocol.md) for [this site](one-dimension.md). Now, this page is available both over `http` and `gemini`: any page can be accessed in gemini at `gemini://gemini.onedimension.net/thought/{id}.gmi`. 
 
 Not everything is working yet, but it's a good first start to play around with the space. 
 

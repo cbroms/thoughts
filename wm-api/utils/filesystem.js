@@ -57,6 +57,18 @@ const updateFrontmatter = (filename, field, value) => {
   });
 };
 
+const renameFile = (filename, newNode, newId) => {
+  return new Promise(async (resolve, reject) => {
+    // open the file
+    // replace node with newNode
+    // open each forwardlink and:
+    // 1. replace old id in page's backlinks to new id
+    // open each backlink and:
+    // 1. replace old id in page's forwardlinks to new id
+    // 2. replace instances of old id in page's body with new id
+  });
+};
+
 const modifyIndex = (node, addToIndex) => {
   return new Promise(async (resolve, reject) => {
     try {
@@ -488,6 +500,7 @@ module.exports = {
   makeSearch,
   makeFile,
   saveImage,
+  renameFile,
   modifyIndex,
   getIndexed,
 };

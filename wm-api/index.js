@@ -16,6 +16,7 @@ const {
   makeFile,
   saveImage,
   modifyIndex,
+  renameFile,
   getIndexed,
 } = require("./utils/filesystem");
 
@@ -38,6 +39,16 @@ app.post("/thought/:id/index", (req, res, next) => {
   const node = fromFilename(id);
 
   modifyIndex(node, req.body.index)
+    .then((content) => {
+      res.json(content);
+    })
+    .catch(next);
+});
+
+app.post("/thought/:id/rename", (req, res, next) => {
+  const id = req.params.id;
+  const node = fromFilename(id);
+  renameFile(node, req.body.name, req.body.id)
     .then((content) => {
       res.json(content);
     })
