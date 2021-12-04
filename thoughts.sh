@@ -14,33 +14,33 @@ trap cleanup EXIT
 
 # build the output and sync with object storage
 build() {
-    # export AWS_PROFILE=thoughts
+    export AWS_PROFILE=thoughts
 
-    # printf "${thoughts}${blue}Starting wm-api...${reset}"
-    # cd wm-api 
-    # npm run start &
-    # apiprocess=$!
-    # cd ..
-    # sleep 2
+    printf "${thoughts}${blue}Starting wm-api...${reset}"
+    cd wm-api 
+    npm run start &
+    apiprocess=$!
+    cd ..
+    sleep 2
 
-    # printf "${thoughts}${blue}Copying images to static directory...${reset}\n"
-    # mkdir -p ltm-generator/static/images/
-    # rsync -rlpgoD --checksum --ignore-existing -v wm/images/ ltm-generator/static/images/
+    printf "${thoughts}${blue}Copying images to static directory...${reset}\n"
+    mkdir -p ltm-generator/static/images/
+    rsync -rlpgoD --checksum --ignore-existing -v wm/images/ ltm-generator/static/images/
 
-    # printf "${thoughts}${blue}Building static site with ltm-generator...${reset}\n"
-    # cd ltm-generator && npm run build &
-    # generatorprocess=$!
-    # wait $generatorprocess
+    printf "${thoughts}${blue}Building static site with ltm-generator...${reset}\n"
+    cd ltm-generator && npm run build &
+    generatorprocess=$!
+    wait $generatorprocess
 
-    # printf "${thoughts}${blue}Copying build to ltm...${reset}\n"
-    # mkdir -p ltm/
-    # rsync -rlpgoD --checksum -v --exclude '*.js' --exclude '*.json' ltm-generator/build/ ltm/
+    printf "${thoughts}${blue}Copying build to ltm...${reset}\n"
+    mkdir -p ltm/
+    rsync -rlpgoD --checksum -v --exclude '*.js' --exclude '*.json' ltm-generator/build/ ltm/
 
     printf "${thoughts}${blue}Loading config file...${reset}\n"
     . thoughts.config 
 
-    # printf "${thoughts}${blue}Syncing build to object storage...${reset}\n"
-    # cd ltm/ && aws s3 sync . $S3_BUCKET --acl public-read --exclude ".DS_Store" && cd ..
+    printf "${thoughts}${blue}Syncing build to object storage...${reset}\n"
+    cd ltm/ && aws s3 sync . $S3_BUCKET --acl public-read --exclude ".DS_Store" && cd ..
 
     printf "${thoughts}${blue}Building gemini site with ltm-generator-gemini...${reset}\n"
     mkdir -p ltm-gemini && cd ltm-gemini && mkdir -p thought && cd ..
