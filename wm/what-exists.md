@@ -3,10 +3,10 @@ backlinks:
   - psychology
 forwardlinks: []
 node: What exists?
-created: "2021-11-28T03:00:12.901Z"
-updated: "2021-11-28T04:13:05.942Z"
-id: "27293459"
-place: "Walker, CA"
+created: '2021-11-28T03:00:12.901Z'
+updated: '2021-11-28T04:13:05.942Z'
+id: '27293459'
+place: 'Walker, CA'
 ---
 
 Things that exist in our heads are very real, in some ways more so than the real we accept to be real.

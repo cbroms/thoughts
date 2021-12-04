@@ -8,7 +8,7 @@ updated: '2021-10-16T06:59:22.990Z'
 id: '87702238'
 place: 'Berkeley, CA'
 ---
-![](images/infinite-granite-live/atddXIqLZe.webp "Deafheaven  Live in Berkeley 10.15.21")
+![](images/87702238/atddXIqLZe.webp "Deafheaven  Live in Berkeley 10.15.21")
 
 Went to my first Deafheaven concert, and it was quite a different experience than I was expecting. Some of the songs off the new album worked really well live; the feel of them translated into an incredible experience back and forth between soft and intense waves. *Villain*, *The Gnashing*, and *Mombasa* were all quite powerful. Some of the other songs were a bit muddled as a consequence of some iffy technical stuff. 
 

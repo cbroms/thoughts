@@ -23,4 +23,4 @@ Here's the current state of the list:
 - Dedicate a time of [each day to reflection](reflection.md). 
 - Dedicate a day of each week to reflection. 
 
-![](images/principles/utOjlKjmVT.webp "Principles at Green Gulch Farm")
+![](images/44364660/utOjlKjmVT.webp "Principles at Green Gulch Farm")

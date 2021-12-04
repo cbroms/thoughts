@@ -15,13 +15,13 @@ All the kale I've planted so far in this garden has been [directly in the ground
 
 I'm growing [Lacinato Kale](https://en.wikipedia.org/wiki/Lacinato_kale), [Red Russian](https://specialtyproduce.com/produce/Red_Russian_Kale_5959.php), and what appears to be something called [KX-1](https://www.johnnyseeds.com/vegetables/kale/kx-1-f1-kale-seed-4009.html). 
 
-![](images/growing-kale/TlObiRHwUT.webp "A row of a kales")
+![](images/80716188/TlObiRHwUT.webp "A row of a kales")
 
 I also got a variety called [Richmond's Pride](https://www.anniesannuals.com/plants/view/?id=3600), which has turned out to grow quite well here. 
 
-![](images/growing-kale/NkuosrOPHd.webp "Richmond's pride")
+![](images/80716188/NkuosrOPHd.webp "Richmond's pride")
 
-![](images/growing-kale/WLfkxMHPUS.webp "Kale starts")
+![](images/80716188/WLfkxMHPUS.webp "Kale starts")
 
 
 

@@ -15,11 +15,11 @@ place: 'Berkeley, CA'
 ---
 I was curious what this site looks like as a network, so I wrote [a little script](https://github.com/cbroms/thoughts/blob/8df65f4e5645091858505e267af6c1492387ee42/wm-scanner/graph.py) that visualizes it. 
 
-![](images/one-dimension-network/jiupciYAif.webp "One dimension rendered as a network, as of Oct 10, 2021")
+![](images/72065499/jiupciYAif.webp "One dimension rendered as a network, as of Oct 10, 2021")
 
 For the most part there's not a ton of highly-connected nodes; I imagine these will continue to emerge over time. As of today, Oct 10 2021, there's 51 thoughts total. 
 
-![](images/one-dimension-network/xrKJTFYFVC.webp "As of Oct 31, 2021")
+![](images/72065499/xrKJTFYFVC.webp "As of Oct 31, 2021")
 
 ## Visualization
 

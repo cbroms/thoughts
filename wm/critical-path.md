@@ -9,7 +9,7 @@ updated: '2021-11-25T02:51:36.958Z'
 id: '59020775'
 place: 'Berkeley, CA'
 ---
-![](images/critical-path/EFDPqudWKj.webp " ")
+![](images/59020775/EFDPqudWKj.webp " ")
 
 [Vin](https://futureland.tv/vin/) suggested I pick this book up, I'm going to read through it and note anything worth noting here. 
 

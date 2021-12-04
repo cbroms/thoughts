@@ -11,7 +11,7 @@ place: 'Berkeley, CA'
 Today I went through an old hard drive and organized all the photos I've taken in the last five years or so. 
 
 
-![](images/much-to-learn/mGIsOQXTvX.webp "  ")
+![](images/22003461/mGIsOQXTvX.webp "  ")
 
 It just made me realize how little I've really made, in the scheme of things. I've only been working in a similar way I do today for the last two years or so, and everything before that feels like I was a kid when I made it.
 

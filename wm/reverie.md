@@ -15,6 +15,6 @@ work of mine; it was morning, and lo, now it is evening, and nothing memorable i
 
 Some days I feel like that--like I'm rapt in a reverie. The sun shines down, the breeze is cool, the temperature is just so. It's impossible not to contemplate, to sit and do nothing but think, if even that. To simply soak up the day.
 
-![](images/reverie/lYbuYsWvMt.webp " ") 
+![](images/96763202/lYbuYsWvMt.webp " ") 
 
 

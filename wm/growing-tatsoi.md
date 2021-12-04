@@ -10,16 +10,16 @@ place: 'Berkeley, CA'
 ---
 [Tatsoi](https://en.wikipedia.org/wiki/Tatsoi) has proven to be quite an easy green to grow. We planted it from seeds we started during the summer and transplanted a few weeks later. It was actually a bit of an accident we ended up with tatsoi--the seeds were advertised as bok choi but turned out to be something different. It's proven to be a nice little surprise. 
 
-![](images/growing-tatsoi/EvIIshqJYP.webp "Tatsoi starts")
+![](images/19134262/EvIIshqJYP.webp "Tatsoi starts")
 
 I planted them in a raised bed that gets afternoon sun and water about once a week.
 
-![](images/growing-tatsoi/AxTOeaPiXp.webp "Harvesting tatsoi greens")
+![](images/19134262/AxTOeaPiXp.webp "Harvesting tatsoi greens")
 
 The plants have grown to 8" rosettes. I harvest the outer leaves once they reach the soil. I've been harvesting since late August, and it's now almost November and the plants still look great. 
 
-![](images/growing-tatsoi/jyrHkWiUBo.webp "The plants are spaced about 8 inches apart, which turned out to be a bit too close")
+![](images/19134262/jyrHkWiUBo.webp "The plants are spaced about 8 inches apart, which turned out to be a bit too close")
 
-![](images/growing-tatsoi/IypCUMEOVQ.webp "Tatsoi up close")
+![](images/19134262/IypCUMEOVQ.webp "Tatsoi up close")
 
 

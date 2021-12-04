@@ -19,39 +19,39 @@ We drove over CA-89 and CA-88, then into Gardnerville, Nevada. Then south on U.S
 
 The next day we went for a hike to Secret Lake, up in the mountains a bit. 
 
-![](images/trip:-eastern-sierra-2021/XwlhrxverF.webp " ")
+![](images/05629648/XwlhrxverF.webp " ")
 
-![](images/trip:-eastern-sierra-2021/hKFDJInlwE.webp " ")
+![](images/05629648/hKFDJInlwE.webp " ")
 
-![](images/trip:-eastern-sierra-2021/hDsXINpbBv.webp " ")
+![](images/05629648/hDsXINpbBv.webp " ")
 
-![](images/trip:-eastern-sierra-2021/rZedWImdTy.webp " ")
+![](images/05629648/rZedWImdTy.webp " ")
 
-![](images/trip:-eastern-sierra-2021/COMIZZrKlX.webp " ")
+![](images/05629648/COMIZZrKlX.webp " ")
 
 We then drove into Bridgeport, CA for some lunch. It's amazing how little there is out there--like being someplace other than the coast [again](cross-country-trip-2021.md)--there was one gas station in Bridgeport and nothing after that for a good hour or so. But it was $5.99 a gallon so the illusion of not being in [California](california.md) was brief. 
 
 After that it was on to Mono Lake. 
 
-![](images/trip:-eastern-sierra-2021/fcSHDHnIQQ.webp " ")
+![](images/05629648/fcSHDHnIQQ.webp " ")
 
-![](images/trip:-eastern-sierra-2021/GknOKzYFwG.webp " ")
+![](images/05629648/GknOKzYFwG.webp " ")
 
 The [tufa](https://en.wikipedia.org/wiki/Tufa) formations were quite something. It made me want to go back to Utah and frolic in all the cool geology. 
 
-![](images/trip:-eastern-sierra-2021/BFGViONVyY.webp " ")
+![](images/05629648/BFGViONVyY.webp " ")
 
-![](images/trip:-eastern-sierra-2021/qhsYFzNiOQ.webp " ")
+![](images/05629648/qhsYFzNiOQ.webp " ")
 
 As we'd driven out to the lake I saw a sign for a crater nearby. Being equipped with an offroad vehicle, we ventured out down the dirt road to the [Panum Crater](https://en.wikipedia.org/wiki/Panum_Crater) as the sun set behind the mountains.
 
-![](images/trip:-eastern-sierra-2021/IDrXzEUwVD.webp " ")
+![](images/05629648/IDrXzEUwVD.webp " ")
 
-![](images/trip:-eastern-sierra-2021/fEOCIViiKt.webp " ") 
+![](images/05629648/fEOCIViiKt.webp " ") 
 
-![](images/trip:-eastern-sierra-2021/BMQbBhwAXH.webp " ")
+![](images/05629648/BMQbBhwAXH.webp " ")
 
-![](images/trip:-eastern-sierra-2021/xPSKKkZHyD.webp " ")
+![](images/05629648/xPSKKkZHyD.webp " ")
 
 By the time we'd returned to the car [it was pretty much dark](winter-days.md), so we drove the hour back to the motel. The next morning we were off back to the bay.  
 

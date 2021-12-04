@@ -2,10 +2,10 @@
 backlinks: []
 forwardlinks: []
 node: Common perspectives
-created: "2021-11-27T06:39:58.924Z"
-updated: "2021-11-27T06:46:32.518Z"
+created: '2021-11-27T06:39:58.924Z'
+updated: '2021-11-27T06:46:32.518Z'
 id: 09099204
-place: "Walker, CA"
+place: 'Walker, CA'
 ---
 
 Sydney and I were listening to an episode of the Lex Fridman podcast today as we were driving through the valley. The guest was going on about freedom of thought, the potential of cryptocurrencies, power, social media, on and on. It was getting a bit monotonous, and Sydney then pointed out that this guy's point of view was pretty predictable. Predictable in the sense that he wasn't saying anything particularly new or interesting, just sort of echoing the same points about these topics that have been made before.

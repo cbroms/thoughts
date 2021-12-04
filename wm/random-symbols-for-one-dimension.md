@@ -19,7 +19,7 @@ I've begun to work on this by exploring how [genes might be inherited](gene-inhe
 
 I'm particularly inspired by [Japanese *Mon*](https://en.wikipedia.org/wiki/Mon_(emblem)):
 
-![](images/random-symbols-for-one-dimension/IHqNJxldXi.webp "A selection of mon")
+![](images/86588056/IHqNJxldXi.webp "A selection of mon")
 
 I'm not expecting to get something nearly as beautiful, and the goal isn't to have such intricate detail. The first goal is to just figure out how to generate some sort of symbol that uses some notion of inheritance that's recognizable.  
 

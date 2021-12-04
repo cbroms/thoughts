@@ -16,23 +16,23 @@ In 2019 I spent the summer in Omaha, Nebraska for an internship. I never really 
 
 - Watching the [sunset over the interstate](eye-to-eye-with-the-sun.md) religiously every evening.
 
-![](images/omaha-nebraska/BlijYbjebi.webp " ")
+![](images/86902390/BlijYbjebi.webp " ")
 
 - Walking home across an empty field with an electric storm pushing towards me, with that pre-deluge feeling to the air.
 
-![](images/omaha-nebraska/NGJlByaGzb.webp " ")
+![](images/86902390/NGJlByaGzb.webp " ")
 
 - Finally making it to Elmwood park and wandering through the Rose garden nobody seemed to know about.
 
-![](images/omaha-nebraska/XEHcmkMJWQ.webp " ")
+![](images/86902390/XEHcmkMJWQ.webp " ")
 
 - Walking over the bridge into Iowa and sneaking down into the flooded waterfront.
 
-![](images/omaha-nebraska/LRJDsAfwnW.webp " ")
+![](images/86902390/LRJDsAfwnW.webp " ")
 
 - Walking about five miles round trip [to the nearest Walmart](https://goo.gl/maps/DDojD4VyqvsSwskdA) for groceries every weekend in the heat. 
 
-![](images/omaha-nebraska/LedfIFLoIx.webp " ")
+![](images/86902390/LedfIFLoIx.webp " ")
 
 - That girl who commented on my Smokey t-shirt during the fire alarm.
 - Going to that barbershop with all those porn magazines and waiting for about three hours, which everyone seemed to treat as normal.
@@ -46,9 +46,9 @@ In 2019 I spent the summer in Omaha, Nebraska for an internship. I never really 
 - Doing all my cooking with a single knife, cutting board, and pot. 
 - The route I took to and from home everyday.
 
-![](images/omaha-nebraska/qriafLpjrT.webp " ")
+![](images/86902390/qriafLpjrT.webp " ")
 
-![](images/omaha-nebraska/aPoKWoiwVt.webp " ")
+![](images/86902390/aPoKWoiwVt.webp " ")
 
 - That weird pizza place with the strangely good pizza my dude from South Dakota always wanted to go to.
 - That incredibly good burger place downtown.
@@ -61,12 +61,12 @@ In 2019 I spent the summer in Omaha, Nebraska for an internship. I never really 
 - The guy at the Ethiopian place that told me to get the hot sauce.
 - Laying on the grass by the river all afternoon and reading.
 
-![](images/omaha-nebraska/kEpTQLnKnT.webp " ")
+![](images/86902390/kEpTQLnKnT.webp " ")
 
 - All those gay pride flags at the Conagra headquarters.
 - Watching the park across the street gradually be demolished instead of doing work during the afternoon.
 
-![](images/omaha-nebraska/JdSqBBGzCr.webp " ")
+![](images/86902390/JdSqBBGzCr.webp " ")
 
 - Seeing the headlights of trains slowly move along the line by the river at night.
 - Not using any lights at night; sitting in my darkened apartment every evening and thinking.

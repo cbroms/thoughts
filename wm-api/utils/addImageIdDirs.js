@@ -17,15 +17,37 @@ const addIds = () => {
           const nameToReplace = file.replace(".md", "");
           // assuming here the only instances the id shows up are in the img paths
           parsed.content = parsed.content.replaceAll(
-            nameToReplace,
-            parsed.data.id
+            `images/${nameToReplace}/`,
+            `images/${parsed.data.id}/`
           );
           const res = toFormattedFile(parsed.content, parsed.data);
           fs.writeFile(fileLoc, res, (err) => {
             if (err) console.log(err);
           });
 
+          const oldDir = path.join(
+            __dirname,
+            "../..",
+            "wm",
+            "images",
+            nameToReplace
+          );
+          const newDir = path.join(
+            __dirname,
+            "../..",
+            "wm",
+            "images",
+            parsed.data.id
+          );
           // rename the image directory
+          try {
+            fs.renameSync(oldDir, newDir);
+            console.log(
+              `Renamed images/${nameToReplace} to images/${parsed.data.id} `
+            );
+          } catch (err) {
+            // console.log(err);
+          }
         });
       }
     }

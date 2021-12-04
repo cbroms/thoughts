@@ -16,7 +16,7 @@ Decentralized autonomous organizations are groups whose governance structure is 
 
 There's been a wave of new DAOs recently--one that's been getting a lot of attention today is [ConstitutionDAO](https://web.archive.org/web/20211117185402/https://www.constitutiondao.com/), whose goal is to buy one of the copies of the U.S. Constitution that's going to auction soon.
 
-![](images/daos/KOOBrdYSat.webp "ConstitutionDAO") 
+![](images/05698764/KOOBrdYSat.webp "ConstitutionDAO") 
 
 As I've been looking into DAOs I've been seeing some worrying recurring patterns that seem--to me at least--to dull some of their shininess. Sorting out my thoughts:
 
@@ -57,7 +57,7 @@ So in DAOs who creates these proposals? According to [ethereum.org](https://ethe
 - "Core contributors" AKA the oligarchs of the DAO, those who formed it and have greater control over its treasury due to owning more governance tokens (perhaps purchased at a very low price upon creation of the DAO) or by law of the organization itself. 
 - "The people" AKA people with more social clout who have the status needed to separate their proposal from a sea of other proposals. Find a DAO (or web3 project, generally) that doesn't somehow find a way to incorporate members' Twitter handles. The Twitter social graph is inherited as a implicit social hierarchy to a theoretically "flat, and fully democratized" system). 
 
-![](images/daos/NfDJNDQNuS.webp "The ConstitutionDAO's core contributors")
+![](images/05698764/NfDJNDQNuS.webp "The ConstitutionDAO's core contributors")
 
 The fact that these sorts of governance structures allow for this sort of power imbalance to occur in the first place should indicate that the structure itself isn't truly democratic. Surely the many problems with the "democratic" voting process as it's commonly implemented today is evidence enough that replicating this mechanism in a digital world won't really solve the underlying problem?  
 
@@ -67,7 +67,7 @@ Much like the large amounts of money DAOs control, I think people tend to get bl
 
 The assumption that a structure of proposals and voting will give everyone a voice misses something essential about the way influence and power tends to govern our democracies. What is the point of my "voice" if it's really just concerned with voting on options that a select few have decided should be voted on? 
 
-![](images/daos/EHLKsWojLl.webp "Voting on ConstitutionDAO's Discord server. Everyone has a voice, so long as your voice is one of 🍄, 🍻, 🕊, 😇, or 🙏")
+![](images/05698764/EHLKsWojLl.webp "Voting on ConstitutionDAO's Discord server. Everyone has a voice, so long as your voice is one of 🍄, 🍻, 🕊, 😇, or 🙏")
 
 This imbalance between members of the DAO was made all the more apparent in the period following the auction of the constitution on ConstitutionDAO's Discord server. People had no idea what the outcome of the auction was, and for a solid 10-15 minutes the constant stream of messages were of utter confusion. Nobody knew what was going on and if they should be celebrating or commiserating. They turned to Twitter, where members of the community with "sources on the core team" announced both that the DAO had won and lost. 
 
