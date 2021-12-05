@@ -18,8 +18,9 @@ forwardlinks:
   - truisms
   - my-biases
   - much-to-learn
+  - what-im-working-on-now
 created: '2021-09-09T03:09:17.757Z'
-updated: '2021-11-29T05:08:54.029Z'
+updated: '2021-12-05T00:33:14.046Z'
 id: '58989190'
 place: 'Berkeley, CA'
 ---
@@ -39,3 +40,4 @@ Related thoughts:
 - [Truisms](truisms.md)
 - [My biases](my-biases.md)
 - [Much to learn](much-to-learn.md)
+- [What I'm working on now](what-im-working-on-now.md)

@@ -1,6 +1,6 @@
 ---
 backlinks:
-  - 'trip:-eastern-sierra-2021'
+  - trip-eastern-sierra-2021
 forwardlinks: []
 node: Winter days
 created: '2021-11-30T06:16:52.237Z'

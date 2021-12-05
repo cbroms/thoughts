@@ -5,9 +5,9 @@ forwardlinks:
   - cross-country-trip-2021
   - california
   - winter-days
-node: 'Trip: Eastern Sierra 2021'
+node: 'Trip:  Eastern sierra 2021'
 created: '2021-11-30T05:45:34.099Z'
-updated: '2021-11-30T06:19:21.099Z'
+updated: '2021-12-05T00:30:53.855Z'
 id: 05629648
 place: 'Berkeley, CA'
 ---

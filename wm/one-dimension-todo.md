@@ -1,7 +1,6 @@
 ---
 backlinks:
   - one-dimension
-  - what-im-working-on-now
 forwardlinks:
   - web-diff
   - one-dimension-network

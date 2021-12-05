@@ -1,6 +1,6 @@
 ---
 backlinks:
-  - 'trip:-eastern-sierra-2021'
+  - trip-eastern-sierra-2021
 forwardlinks:
   - california
   - interdependence
