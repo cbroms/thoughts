@@ -50,8 +50,12 @@ build() {
     python convert.py
     cd ..
 
+    printf "${thoughts}${blue}Copying images to gemini build directory...${reset}\n"
+    rsync -rlpgoD --checksum --ignore-existing -v --exclude '*.webp' wm/images/ ltm-gemini/thought/images/
+
     printf "${thoughts}${blue}Syncing gemini build to gemini server...${reset}\n"
     rsync -rlpgoD --checksum -v ltm-gemini/ $GEMINI_SERVER:$GEMINI_SERVE_DIR
+
 
     printf "${thoughts}${blue}Export complete, exiting...${reset}\n"
     exit 
