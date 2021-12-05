@@ -224,7 +224,7 @@ const makeSearch = async (query) => {
     try {
       const location = path.join(__dirname, "../..", dir);
       const { stdout, stderr } = await execute(
-        `grep -ir "${query}" ${location}`
+        `grep -ir --exclude-dir={images,indexed,changes} "${query}" ${location}`
       );
       const lines = stdout
         .split(location)
