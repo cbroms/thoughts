@@ -378,7 +378,7 @@ const makeFile = async (filename, content) => {
           created: new Date().toISOString(),
           updated: null,
           id: thoughtId(),
-          place: process.env.PLACE,
+          place: process.env.PLACE || "",
         });
 
         makeChange(changes.CREATE, new Date().toDateString(), content.node);
@@ -427,7 +427,7 @@ const renameFile = (oldId, newNode, newId, content) => {
         const forwardParsed = parseFrontmatter(forwardFile);
 
         // replace the old id with the new id
-        forwardParsed.data.backlinks.map((l) => {
+        forwardParsed.data.backlinks = forwardParsed.data.backlinks.map((l) => {
           return l === oldId ? newId : l;
         });
 
@@ -452,7 +452,7 @@ const renameFile = (oldId, newNode, newId, content) => {
         const backParsed = parseFrontmatter(backFile);
 
         // replace the old id with the new id
-        backParsed.data.forwardlinks.map((l) => {
+        backParsed.data.forwardlinks = backParsed.data.forwardlinks.map((l) => {
           return l === oldId ? newId : l;
         });
 
