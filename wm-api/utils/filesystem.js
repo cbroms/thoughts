@@ -431,6 +431,10 @@ const renameFile = (oldId, newNode, newId, content) => {
           return l === oldId ? newId : l;
         });
 
+        const newFileContent = toFormattedFile(
+          forwardParsed.content,
+          forwardParsed.data
+        );
         await write(forwardLoc, newFileContent);
       }
 
