@@ -6,7 +6,8 @@
 		if (res.ok) {
 			return {
 				props: {
-					thought: await res.json()
+					thought: await res.json(),
+					id: page.params.id
 				}
 			};
 		}
@@ -20,6 +21,7 @@
 
 <script>
 	export let thought;
+	export let id;
 
 	const timestamp = thought.data.updated
 		? new Date(thought.data.updated).toDateString()
@@ -54,9 +56,6 @@
 			>Linked by {thought.backlinks.length} thought{thought.backlinks.length !== 1
 				? 's '
 				: ' '}<span class="link-arrow">&seArr;</span></span
-		><span
-			>Last revisited <a href="/changelog#{timestamp.replaceAll(' ', '-')}">{timestamp}</a> in {thought
-				.data.place}</span
 		>
 	</div>
 
@@ -68,6 +67,18 @@
 				</div></a
 			>
 		{/each}
+	</div>
+
+	<div class="links-container">
+		<span
+			>Last revisited <a href="/changelog#{timestamp.replaceAll(' ', '-')}">{timestamp}</a> in {thought
+				.data.place}</span
+		>
+		<span>
+			Visit this page <a href="gemini://gemini.onedimension.net/thought/{id}.gmi"
+				>on Gemini <span class="link-arrow">&neArr;</span></a
+			>
+		</span>
 	</div>
 </div>
 
@@ -91,8 +102,6 @@
 
 	.footer-desc {
 		padding: 20px 0;
-		font-size: 16px;
-		font-family: var(--sans);
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
@@ -101,6 +110,15 @@
 
 	.backlinks-container > a {
 		text-decoration: none;
+	}
+
+	.links-container {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		font-size: 16px;
+		font-family: var(--sans);
+		padding-top: 20px;
 	}
 
 	.link {

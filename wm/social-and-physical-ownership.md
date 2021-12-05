@@ -5,7 +5,7 @@ forwardlinks: []
 node: Social and physical ownership
 created: '2021-10-31T01:14:54.464Z'
 updated: '2021-11-03T07:48:51.603Z'
-indexed: true
+indexed: false
 id: '88552486'
 place: 'Berkeley, CA'
 ---

@@ -23,6 +23,7 @@ created: '2021-09-09T03:09:17.757Z'
 updated: '2021-12-05T00:33:14.046Z'
 id: '58989190'
 place: 'Berkeley, CA'
+indexed: true
 ---
 
 I’m Christian.
