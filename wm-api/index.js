@@ -48,7 +48,7 @@ app.post("/thought/:id/index", (req, res, next) => {
 app.post("/thought/:id/rename", (req, res, next) => {
   const id = req.params.id;
   const node = fromFilename(id);
-  renameFile(node, req.body.name, req.body.id)
+  renameFile(node, req.body.node, req.body.id, req.body.content)
     .then((content) => {
       res.json(content);
     })
@@ -57,7 +57,8 @@ app.post("/thought/:id/rename", (req, res, next) => {
 
 app.post("/thought/:id/file", (req, res, next) => {
   let id = req.params.id;
-  saveImage(id, req.files.file1)
+  const filename = toFilename(id);
+  saveImage(filename, req.files.file1)
     .then((content) => {
       res.json(content);
     })

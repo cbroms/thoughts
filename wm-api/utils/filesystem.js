@@ -16,6 +16,7 @@ const thoughtId = customAlphabet("0123456789", 8);
 const read = util.promisify(fs.readFile);
 const readDir = util.promisify(fs.readdir);
 const write = util.promisify(fs.writeFile);
+const rename = util.promisify(fs.rename);
 const execute = util.promisify(exec);
 
 const {
@@ -54,18 +55,6 @@ const updateFrontmatter = (filename, field, value) => {
       console.error(err);
       reject(500);
     }
-  });
-};
-
-const renameFile = (filename, newNode, newId) => {
-  return new Promise(async (resolve, reject) => {
-    // open the file
-    // replace node with newNode
-    // open each forwardlink and:
-    // 1. replace old id in page's backlinks to new id
-    // open each backlink and:
-    // 1. replace old id in page's forwardlinks to new id
-    // 2. replace instances of old id in page's body with new id
   });
 };
 
@@ -405,6 +394,82 @@ const makeFile = async (filename, content) => {
   });
 };
 
+const renameFile = (oldId, newNode, newId, content) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const oldFilename = toFilename(oldId);
+      const newFilename = toFilename(newId);
+
+      // standard save the file
+      if (content) await makeFile(oldFilename, content);
+
+      const newLocation = path.join(__dirname, "../..", dir, newFilename);
+      const oldLocation = path.join(__dirname, "../..", dir, oldFilename);
+
+      const file = await read(oldLocation, "utf8");
+      const parsed = parseFrontmatter(file);
+
+      // replace node with newNode
+      await updateFrontmatter(oldFilename, "node", newNode);
+
+      // rename the file
+      await rename(oldLocation, newLocation);
+
+      // open each forwardlink and replace old id in page's backlinks to new id
+      for (const forwardLink of parsed.data.forwardlinks) {
+        const forwardLoc = path.join(
+          __dirname,
+          "../..",
+          dir,
+          toFilename(forwardLink)
+        );
+        const forwardFile = await read(forwardLoc, "utf8");
+        const forwardParsed = parseFrontmatter(forwardFile);
+
+        // replace the old id with the new id
+        forwardParsed.data.backlinks.map((l) => {
+          return l === oldId ? newId : l;
+        });
+
+        await write(forwardLoc, newFileContent);
+      }
+
+      // open each backlink and:
+      // 1. replace old id in page's forwardlinks to new id
+      // 2. replace instances of old id in page's body with new id
+      for (const backlink of parsed.data.backlinks) {
+        const backLoc = path.join(
+          __dirname,
+          "../..",
+          dir,
+          toFilename(backlink)
+        );
+        const backFile = await read(backLoc, "utf8");
+        const backParsed = parseFrontmatter(backFile);
+
+        // replace the old id with the new id
+        backParsed.data.forwardlinks.map((l) => {
+          return l === oldId ? newId : l;
+        });
+
+        // replace all instances of the old id in the linking page
+        backParsed.content = backParsed.content.replaceAll(oldId, newId);
+
+        const newFileContent = toFormattedFile(
+          backParsed.content,
+          backParsed.data
+        );
+        await write(backLoc, newFileContent);
+      }
+
+      resolve({ node: newNode, id: newId, content });
+    } catch (e) {
+      console.error(e);
+      reject(500);
+    }
+  });
+};
+
 const getChanges = async () => {
   return new Promise(async (resolve, reject) => {
     try {
@@ -458,9 +523,17 @@ const getIndexed = () => {
   });
 };
 
-const saveImage = (id, file) => {
+const saveImage = (filename, file) => {
   return new Promise(async (resolve, reject) => {
     try {
+      // open the parent file and get its id
+      // TODO: technically this should be wrapped and send a 404 if the parent file doesn't exist
+      const parentLoc = path.join(__dirname, "../..", dir, filename);
+      const parentFile = await read(parentLoc, "utf8");
+      const parsed = parseFrontmatter(parentFile);
+
+      const id = parsed.data.id;
+
       const location = path.join(__dirname, "../..", dir + imagesDir, id);
       if (!fs.existsSync(location)) {
         fs.mkdirSync(location);

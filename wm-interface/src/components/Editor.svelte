@@ -2,7 +2,7 @@
   import { thought, saved, indexed } from "../store/thought";
   import { active } from "../store/active";
   import { isOkToErase } from "../lib/safety";
-  import { saveThought, indexThought } from "../lib/db";
+  import { saveThought, indexThought, renameThought } from "../lib/db";
   import { toId } from "../lib/file";
 
   import { open } from "../store/sidebar";
@@ -25,10 +25,49 @@
 
   const onKeyDown = async (e) => {
     if (e.key == "/" && e.metaKey) {
+      // SEARCH
       e.preventDefault();
       toggleOpen();
+    } else if (e.key === "s" && e.metaKey && e.shiftKey) {
+      console.log("renaming");
+      // RENAME
+      e.preventDefault();
+      const name = prompt("Enter a new name for the thought");
+
+      if (name !== null && $active === "new thought") {
+        active.set(name);
+        // save the thought as a standard save
+        const res = await saveThought(toId(name), {
+          content: $thought,
+          node: name,
+        });
+
+        if (res.ok) {
+          saved.set($thought);
+        } else {
+          alert("Something went wrong saving; check the logs.");
+        }
+      } else if (name !== null) {
+        // the thought has already been saved; rename it
+        const res = await renameThought(toId($active), {
+          node: name,
+          id: toId(name),
+          content: {
+            content: $thought,
+            node: $active,
+          },
+        });
+
+        if (res.ok) {
+          active.set(name);
+          console.log(res);
+          saved.set($thought);
+        } else {
+          alert("Something went wrong renaming; check the logs.");
+        }
+      }
     } else if (e.key === "s" && e.metaKey) {
-      // save the thought
+      // SAVE
       e.preventDefault();
 
       if ($active === "new thought") {
@@ -54,7 +93,7 @@
         }
       }
     } else if (e.key === "e" && e.metaKey) {
-      // erase/create a new thought
+      // ERASE
       e.preventDefault();
       if (isOkToErase()) {
         thought.set("");
@@ -63,7 +102,7 @@
         active.set("new thought");
       }
     } else if (e.key === "b" && e.metaKey) {
-      // index the thought
+      // INDEX
       e.preventDefault();
       toggleIndex();
     }

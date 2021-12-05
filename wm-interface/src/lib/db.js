@@ -26,6 +26,16 @@ export const saveThought = (id, content) => {
   });
 };
 
+export const renameThought = (id, content) => {
+  return fetch(`${ce}/thought/${id}/rename`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(content),
+  });
+};
+
 export const indexThought = (id, add) => {
   return fetch(`${ce}/thought/${id}/index/`, {
     method: "POST",
