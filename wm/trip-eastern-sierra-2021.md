@@ -1,6 +1,7 @@
 ---
 backlinks:
   - california-geography
+  - silence
 forwardlinks:
   - cross-country-trip-2021
   - california

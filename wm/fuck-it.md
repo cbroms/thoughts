@@ -1,6 +1,7 @@
 ---
 backlinks:
   - me
+  - the-right-way-to-do-things
 forwardlinks: []
 node: Fuck it
 created: '2021-09-17T05:05:45.960Z'
