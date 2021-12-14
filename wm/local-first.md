@@ -3,6 +3,7 @@ backlinks:
   - truisms
   - daos
   - 'critical-path:-introduction'
+  - build-it-yourself
 forwardlinks:
   - the-internet
   - global-impact

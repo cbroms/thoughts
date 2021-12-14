@@ -3,14 +3,15 @@ backlinks:
   - direct-planting-vegetables
   - garden
 forwardlinks:
+  - build-it-yourself
   - direct-planting-vegetables
 node: Raised planter beds
 created: '2021-10-28T05:10:14.294Z'
-updated: '2021-10-28T05:44:09.354Z'
+updated: '2021-12-12T02:03:01.164Z'
 id: '13247384'
 place: 'Berkeley, CA'
 ---
-When I was a kid I learned how to build raised planter beds from a family friend. I ended up building quite a few, first in my family's yard then for friends' parents. It made me a nice bit of cash.  
+When I was a kid I [learned how to build](build-it-yourself.md) raised planter beds from a family friend. I ended up building quite a few, first in my family's yard then for friends' parents. It made me a nice bit of cash.  
 
 The process is incredibly simple. All you need are a few 2x4s and some 2x6s. The 2x4s act as the vertical corner pieces and 2x6s get stacked horizontally and drilled into the 2x4s at the corners. Here's the bed I built for our current garden: 
 

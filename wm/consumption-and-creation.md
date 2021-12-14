@@ -4,6 +4,7 @@ backlinks:
   - media
   - video-games
   - books
+  - build-it-yourself
 forwardlinks:
   - media
   - moderation

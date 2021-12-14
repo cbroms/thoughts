@@ -1,0 +1,40 @@
+---
+backlinks:
+  - futures
+forwardlinks:
+  - build-it-yourself
+node: A system for storing links
+created: '2021-12-12T01:35:01.549Z'
+updated: '2021-12-14T05:59:21.979Z'
+id: '63613857'
+place: 'Berkeley, CA'
+---
+I need to figure out some sort of system for storing and retrieving links I find. 
+
+Right now I'll keep the links open in tabs and eventually close them out. If I ever need to re-find something, I'll open up the browser history and search, which more often than not fails. Probably because the only thing that gets indexed in browser history is the urls, while I'll be trying to search by concept or something like that. 
+
+I keep [a log of some links on Futureland](https://futureland.tv/christian/weblog). The problem here is the same--the only thing to search through is the urls. This system works slightly better because I've usually explored the link if I've posted it to Futureland and am therefore more likely to remember where the idea came from naturally. 
+
+A tab I had open for a while was this site called [stumblingon](https://stumblingon.com/), which sends you to random handmade websites. There's something about this I think makes sense for this link system; randomly re-discovering a site you once knew seems like a good way of reactivating an old pattern in your mind. 
+
+It seems like this link organizational system is something that a ton of people have tried to make, or [have written about](https://jon.bo/posts/digital-tools/#queue-management-for-inbound-digital-content). The reason many fail, in my view at least, is that how you organize links is unique to your own brain. The sorts of categories you use can't be predetermined; they must be decided by you and maintained by you to ensure the connections between concept and links are strong. As a result, this software most likely works best when you make it yourself and it fits your own mental model of how things should be stored and retrieved. There's definitely principles that could be used to generalize this beyond a personal system, but as a start I think it makes the most sense to build something myself. [Of course](build-it-yourself.md). 
+
+## Building it 
+
+I just put together a first stab at implementing this system. I'm using [Cloudflare's KV API for workers](https://developers.cloudflare.com/workers/runtime-apis/kv) to store a "queue" of links. I put together a little page where I can go and submit a link, which then gets received by the worker and put in the key value store. 
+
+![](images/63613857/tcdyQGLGhT.webp " ")
+
+The main motivation for making this a webpage is I'd like to be able to submit links from any computer. So I used [Cloudflare's access system](https://www.cloudflare.com/teams/access/) which basically allows you to lock down certain routes on your site behind authentication. It was pretty incredible to see that it *just worked*, all you need to do is supply the routes and emails to allow. The sending of validation codes and authentication is handled by Cloudflare. Very impressive. 
+
+Anyway, the next step is to download the links in the queue at once and go through and better categorize them. Then I can save them in markdown files and pre-render a site that lists all of them with their categories and such. 
+
+### After a day of use
+
+This worked out pretty well today. I dropped a few links I found and started coming up with some categories. 
+
+![](images/63613857/uCObwzcJGW.webp " ")
+
+I think having a sort of filterable table like this will be super useful. It also ocurred to me that it might be useful to fetch the link and pull out the title and description to make it easier to search with related keywords. I'll need to work out how specifically that search will work. But definitely a good start. 
+
+

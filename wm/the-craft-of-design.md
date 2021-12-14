@@ -3,6 +3,7 @@ backlinks:
   - design
   - boundary-objects
   - me
+  - craftsmanship
 forwardlinks:
   - craftsmanship
   - boundary-objects
