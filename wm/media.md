@@ -4,6 +4,7 @@ backlinks:
   - consumption-and-creation
   - writing
   - youtube
+  - lex-fridman
 forwardlinks:
   - consumption-and-creation
   - books
@@ -11,10 +12,11 @@ forwardlinks:
   - the-most-poignant-song
   - infinite-granite-live
   - music-and-places
+  - lex-fridman
   - video-games
   - youtube
 created: '2021-09-08T07:22:13.628Z'
-updated: '2021-11-22T07:08:47.896Z'
+updated: '2021-12-15T06:18:21.927Z'
 id: '87479155'
 place: 'Berkeley, CA'
 ---
@@ -30,7 +32,7 @@ Anyway, here are some of the things I've been consuming as of late:
     - Deafheaven. An absolutely phenomenal band that has created some of the [most emotionally charged](the-most-poignant-song.md) songs I’ve [heard](infinite-granite-live.md).
     - Toro y Moi. Discovered this guy from my high school photography teacher who played [a music video of his](https://youtu.be/gGmfOsdla2Y) once during class. When I got home I totally forgot the name of the artist and tried searching for keywords from the video until I finally found it (guy casually pulling aside fern frond music video?)
     - The War on Drugs. Consistently incredible. So many of their tracks are associated with [particular places](music-and-places.md) for me. 
-- The Lex Fridman Podcast. I listen to this when I commute to work. A wide range of guests engaging in quite compelling discussions with a most excellent host.
+- The [Lex Fridman Podcast](lex-fridman.md). I listen to this when I commute to work. A wide range of guests engaging in quite compelling discussions with a most excellent host.
 
 ### Video Games 
 
