@@ -70,10 +70,11 @@
 	</div>
 
 	<div class="links-container">
-		<span
+		<!-- <span
 			>Last revisited <a href="/changelog#{timestamp.replaceAll(' ', '-')}">{timestamp}</a> in {thought
 				.data.place}</span
-		>
+		> -->
+		<span>Last revisited {timestamp.replaceAll(' ', '-')} in {thought.data.place}</span>
 		<span>
 			Visit this page <a href="gemini://gemini.onedimension.net/thought/{id}.gmi"
 				>on Gemini <span class="link-arrow">&neArr;</span></a
