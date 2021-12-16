@@ -6,6 +6,7 @@ backlinks:
   - the-authority-of-writing
   - society-man
   - philosophy
+  - i-might-be-evil
 forwardlinks:
   - design
 created: '2021-09-08T05:54:57.945Z'

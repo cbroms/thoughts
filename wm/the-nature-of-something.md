@@ -5,6 +5,7 @@ backlinks:
   - who-are-we
   - society-man
   - the-pieces
+  - i-might-be-evil
 forwardlinks: []
 node: The nature of something
 created: '2021-12-03T01:18:21.288Z'
