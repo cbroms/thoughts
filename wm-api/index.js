@@ -7,6 +7,7 @@ const port = 3000;
 const { toFilename, fromFilename } = require("./utils/parser");
 
 const {
+  getCounts,
   getFile,
   getAllFiles,
   getFileRaw,
@@ -115,6 +116,14 @@ app.get("/", (req, res, next) => {
   getAllFiles()
     .then((files) => {
       res.json(files);
+    })
+    .catch(next);
+});
+
+app.get("/counts", (req, res, next) => {
+  getCounts()
+    .then((count) => {
+      res.json(count);
     })
     .catch(next);
 });

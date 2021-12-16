@@ -16,6 +16,13 @@ trap cleanup EXIT
 build() {
     export AWS_PROFILE=thoughts
 
+    printf "${thoughts}${blue}Generating counts...${reset}"
+    cd wm-scanner
+    if [ ! -d env ]; then python3 -m venv env && pip install -r requirements.txt; fi
+    source env/bin/activate
+    python count.py
+    cd ..
+
     printf "${thoughts}${blue}Starting wm-api...${reset}"
     cd wm-api 
     npm run start &

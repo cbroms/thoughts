@@ -12,13 +12,20 @@ and the indexed links from wm/indexed/indexed.json
 with open('../wm/indexed/indexed.json') as f:
     index = json.load(f)
 
+with open('../wm/counts/current.json') as f:
+    counts = json.load(f)
+
 with open('banner.txt') as f:
     banner = f.readlines()
 
 index_links = "\n".join(
     list(map(lambda x: "=> /thought/{}.gmi".format(x), index)))
 
-index_content = "```\n{}\n```\n\n{}".format(''.join(banner), index_links)
+formatted_counts = "{} thoughts, {} links, and {} words.".format(
+    counts['thoughts'], counts['links'], counts['words'])
+
+index_content = "```\n{}\n```\n\n{}\n\n{}".format(
+    ''.join(banner), index_links, formatted_counts)
 
 with open("../ltm-gemini/index.gmi", 'w+') as f:
     f.write(index_content)

@@ -173,6 +173,24 @@ const getFile = async (filename) => {
   });
 };
 
+const getCounts = async () => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const location = path.join(
+        __dirname,
+        "../..",
+        dir,
+        "counts/current.json"
+      );
+      const file = await read(location, "utf8");
+      resolve(JSON.parse(file));
+    } catch (err) {
+      console.error(err);
+      reject(404);
+    }
+  });
+};
+
 const getFilePreview = async (filename) => {
   return new Promise(async (resolve, reject) => {
     try {
@@ -569,6 +587,7 @@ const saveImage = (filename, file) => {
 };
 
 module.exports = {
+  getCounts,
   getFile,
   getAllFiles,
   getFileRaw,

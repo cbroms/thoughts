@@ -7,13 +7,14 @@
 		// const meRes = await fetch(meUrl);
 
 		if (res.ok) {
-			const pages = await res.json();
+			const { indexed, counts } = await res.json();
 			// let me = null;
 
 			// if (meRes.ok) me = await meRes.json();
 			return {
 				props: {
-					pages
+					pages: indexed,
+					counts
 					// me
 				}
 			};
@@ -28,6 +29,7 @@
 
 <script>
 	export let pages;
+	export let counts;
 	// export let me;
 </script>
 
@@ -44,6 +46,14 @@
 			{@html me.content}
 		{/if}
 	</div> -->
+	<pre>
+        _______            _____________                              _____                            _____ 
+__  __ \______________  __ \__(_)______ _________________________(_)____________   ______________  /_
+_  / / /_  __ \  _ \_  / / /_  /__  __ `__ \  _ \_  __ \_  ___/_  /_  __ \_  __ \  __  __ \  _ \  __/
+/ /_/ /_  / / /  __/  /_/ /_  / _  / / / / /  __/  / / /(__  )_  / / /_/ /  / / /___  / / /  __/ /_  
+\____/ /_/ /_/\___//_____/ /_/  /_/ /_/ /_/\___//_/ /_//____/ /_/  \____//_/ /_/_(_)_/ /_/\___/\__/  
+                                                                                                     
+    </pre>
 
 	<div class="links">
 		{#each pages as page}
@@ -54,13 +64,29 @@
 			>
 		{/each}
 	</div>
+
+	<div class="footer">
+		<div>
+			{counts.thoughts.toLocaleString('en-US')} thoughts, {counts.links.toLocaleString('en-US')} links,
+			and {counts.words.toLocaleString('en-US')} words.
+		</div>
+		<div>
+			Visit this page <a href="gemini://gemini.onedimension.net"
+				>on Gemini <span class="link-arrow">&neArr;</span></a
+			>
+		</div>
+	</div>
 </div>
 
 <style>
 	.wrapper {
-		display: flex;
-		flex-wrap: wrap;
 		max-width: 2000px;
+	}
+
+	pre {
+		max-width: 1120px;
+		background-color: inherit;
+		font-weight: 900;
 	}
 
 	/* .intro {
@@ -68,12 +94,23 @@
 		margin-top: 150px;
 	} */
 
+	.footer {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		font-size: 16px;
+		font-family: var(--sans);
+		padding-top: 20px;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
 	.links {
 		max-width: 600px;
 		width: 100%;
 		margin: 0 auto;
 		border-top: 1px solid;
-		margin-top: 150px;
+		margin-top: 50px;
 	}
 	.link {
 		width: 100%;
@@ -85,11 +122,11 @@
 		transition: all 0.3s;
 		font-family: var(--sans);
 		font-weight: bold;
-		font-size: 2rem;
+		/* font-size: 2rem; */
 		line-height: 120%;
 	}
 
-	a {
+	a.pointer {
 		text-decoration: none;
 	}
 
