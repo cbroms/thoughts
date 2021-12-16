@@ -7,7 +7,7 @@ forwardlinks:
   - the-nature-of-something
 node: I might be evil
 created: '2021-12-16T04:36:33.310Z'
-updated: '2021-12-16T05:12:42.035Z'
+updated: '2021-12-16T05:20:32.840Z'
 id: '78257931'
 place: 'Berkeley, CA'
 ---
@@ -23,6 +23,6 @@ It's difficult; In some sense I don't think there are truly globally "good" valu
 
 And so we exist in this perennial situation where our actions are in a large part determined by what and who is around us. 
 
-Maybe one way to think about it is how our actions fit with [our nature](the-nature-of-something.md). Our nature is simply our nature. What's good and what's evil are separate; external concepts that map on to different dimensions of that nature. They don't capture the full complexity of it, and in reducing our nature to these simple ideas we loose a lot of the texture--it's probably not really about good and evil at all. 
+Maybe one way to think about it is how our actions fit with [our nature](the-nature-of-something.md). Our nature is simply our nature. What's good and what's evil are separate; external concepts that map on to different dimensions of that nature. They don't capture the full complexity of it. In reducing our nature to these simple ideas we loose a lot of the texture, that it's probably not really about good and evil at all. 
 
 
