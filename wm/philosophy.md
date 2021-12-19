@@ -2,6 +2,7 @@
 backlinks:
   - life
   - books
+  - writing-is-dead
 forwardlinks:
   - hypocrisy-and-contradiction
 node: Philosophy

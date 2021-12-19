@@ -2,6 +2,7 @@
 backlinks:
   - me
   - writing
+  - writing-is-dead
 forwardlinks:
   - hypocrisy-and-contradiction
 node: The authority of writing

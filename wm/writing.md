@@ -4,6 +4,7 @@ backlinks:
   - one-dimension
   - media
   - books
+  - writing-is-dead
 forwardlinks:
   - media
   - hypocrisy-and-contradiction

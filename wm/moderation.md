@@ -3,6 +3,7 @@ backlinks:
   - truisms
   - consumption-and-creation
   - 'critical-path:-introduction'
+  - capitalism
 forwardlinks: []
 node: Moderation
 created: '2021-10-14T05:32:04.115Z'
