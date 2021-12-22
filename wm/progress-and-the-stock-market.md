@@ -1,0 +1,21 @@
+---
+backlinks:
+  - fire
+forwardlinks:
+  - a-societal-precipice
+node: Progress and the stock market
+created: "2021-12-22T04:45:41.289Z"
+updated: "2021-12-22T04:59:42.885Z"
+id: "38018688"
+place: "San Anselmo, CA"
+---
+
+As I've been getting into investing recently, I've been thinking a lot about a particular aspect of it--the notion that the stock market always goes up.
+
+Looking at the entire history of the stock market, it's clear that this assumption is fairly well-founded. Things _have_ always gone up--companies create value and shares in those companies go up in value. The United States, as a whole, has one of the largest and most advanced economies in the world. Investing, it is said, is a way to benefit off that advancement.
+
+Indeed, as long as the economy exists in its current state, investing in it makes sense. If [significant changes](a-societal-precipice.md) were to occur, though, who knows. Progress, in the sense we've _progressed_ over the last 200 years or so, is a bit new. Especially the exponential progress as of late. Will things always continue in this way?
+
+Maybe it makes sense to think about investing as a kind of trust you have that the U.S. economy will continue to grow and create value through technological progress.
+
+At the moment, I have quite a bit of trust that progress will continue, for better or worse.

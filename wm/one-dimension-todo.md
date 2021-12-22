@@ -5,6 +5,7 @@ forwardlinks:
   - web-diff
   - one-dimension-network
   - random-symbols-for-one-dimension
+  - one-dimension-versions
   - gemini-protocol
   - images-on-one-dimension
   - indexed-thoughts-on-one-dimension
@@ -12,7 +13,7 @@ forwardlinks:
   - one-dimension-on-gemini
 node: One dimension TODO
 created: '2021-09-25T08:09:26.435Z'
-updated: '2021-12-04T05:18:12.234Z'
+updated: '2021-12-22T05:25:30.885Z'
 id: 08122326
 place: 'Berkeley, CA'
 ---
@@ -39,7 +40,7 @@ place: 'Berkeley, CA'
 - Save `wm` to object storage as a backup
 - ~~Add an index for blog-like pages~~
 - Add physical location each page was written. 
-- Track [changes to each page](web-diff.md). 
+- Track [changes to each page](web-diff.md) through [some kind of versioning](one-dimension-versions.md). 
 - ~~Unique ids for each file~~
 - Only build changed pages. I think in sveletekit that would mean preventing crawling and feeding in a list of pages to build. This list could be generated during editing and then get deleted by the build script. Not sure exactly how to handle changes to the templates themselves.  
 - ~~Serve on [gemini](gemini-protocol.md)~~

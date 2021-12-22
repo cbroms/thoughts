@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - progress-and-the-stock-market
 forwardlinks:
   - my-biases
   - binding-the-nation

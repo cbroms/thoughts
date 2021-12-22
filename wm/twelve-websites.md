@@ -3,6 +3,7 @@ node: Twelve Websites
 backlinks:
   - one-dimension
   - websites
+  - weekend-projects
 forwardlinks:
   - design
   - build-it-yourself
