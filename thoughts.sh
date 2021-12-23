@@ -16,6 +16,9 @@ trap cleanup EXIT
 build() {
     export AWS_PROFILE=thoughts
 
+    printf "${thoughts}${blue}Loading config file...${reset}\n"
+    . thoughts.config 
+
     printf "${thoughts}${blue}Generating counts...${reset}"
     cd wm-scanner
     if [ ! -d env ]; then python3 -m venv env && pip install -r requirements.txt; fi
@@ -43,9 +46,6 @@ build() {
     mkdir -p ltm/
     rsync -rlpgoD --checksum -v --exclude '*.js' --exclude '*.json' ltm-generator/build/ ltm/
 
-    printf "${thoughts}${blue}Loading config file...${reset}\n"
-    . thoughts.config 
-
     printf "${thoughts}${blue}Syncing build to object storage...${reset}\n"
     cd ltm/ && aws s3 sync . $S3_BUCKET --acl public-read --exclude ".DS_Store" && cd ..
 
@@ -70,8 +70,12 @@ build() {
 
 # run the api and interface 
 write() {
+
+    printf "${thoughts}${blue}Loading config file...${reset}\n"
+    . thoughts.config 
+
     printf "${thoughts}${blue}Starting wm-api...${reset}"
-    cd wm-api && PLACE="Berkeley, CA" npm run start &
+    cd wm-api && PLACE=$LOCATION npm run start &
     apiprocess=$!
     sleep 2
 
