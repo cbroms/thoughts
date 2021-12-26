@@ -6,6 +6,7 @@ backlinks:
   - society-man
   - the-pieces
   - i-might-be-evil
+  - abstracting-nature
 forwardlinks: []
 node: The nature of something
 created: '2021-12-03T01:18:21.288Z'

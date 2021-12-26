@@ -6,10 +6,10 @@ backlinks:
   - digital-people
   - websites
   - futures
-  - hyperfov
   - global-impact
   - local-first
   - gemini-protocol
+  - hyperfov
 forwardlinks:
   - design
   - who-are-we
@@ -24,7 +24,7 @@ forwardlinks:
   - social-and-physical-ownership
   - a-new-economy
 created: '2021-09-09T04:10:47.548Z'
-updated: '2021-10-31T01:28:51.647Z'
+updated: '2021-12-24T05:41:07.013Z'
 id: '67177910'
 place: 'Berkeley, CA'
 ---
@@ -34,7 +34,7 @@ And yet there's something extremely essential missing from it.
 
 It's missing everything about the world that's non-human. Interacting with the internet is such a [human-centric](who-are-we.md) experience: any physicality is so far abstracted away that there is nothing left of the [beyond-informational](spirituality.md) *quality* of the world.
 
-*It is [my goal](hyperfov.md) to make the experience of the web beyond-informational.*
+*It is [my goal](hyperfov.md) to build tools for interacting with the web at an entirely new resolution.*
 
 
 Some related thoughts:

@@ -2,6 +2,7 @@
 backlinks:
   - psychology
   - silence
+  - abstracting-nature
 forwardlinks: []
 node: What exists?
 created: '2021-11-28T03:00:12.901Z'

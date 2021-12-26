@@ -4,10 +4,10 @@ backlinks:
   - the-internet
   - eye-to-eye-with-the-sun
   - spirituality
-  - hyperfov
   - wariness-of-progress
   - 'critical-path:-introduction'
   - a-societal-precipice
+  - abstracting-nature
 forwardlinks:
   - the-nature-of-something
 node: Who are we?

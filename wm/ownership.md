@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - fire
 forwardlinks: []
 node: Ownership
 created: '2021-11-10T06:55:57.474Z'

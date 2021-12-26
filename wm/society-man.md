@@ -1,6 +1,7 @@
 ---
 backlinks:
   - i-might-be-evil
+  - abstracting-nature
 forwardlinks:
   - hypocrisy-and-contradiction
   - who-are-we

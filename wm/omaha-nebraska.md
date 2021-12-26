@@ -1,7 +1,6 @@
 ---
 node: 'Omaha, Nebraska'
 backlinks:
-  - tools
   - spirituality
   - music-and-places
 forwardlinks:

@@ -4,6 +4,7 @@ backlinks:
   - one-dimension
   - websites
   - weekend-projects
+  - projects-for-2022
 forwardlinks:
   - design
   - build-it-yourself

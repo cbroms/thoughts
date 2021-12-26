@@ -1,6 +1,7 @@
 ---
 backlinks:
   - uncertainties
+  - money
 forwardlinks:
   - moderation
 node: Capitalism

@@ -2,19 +2,21 @@
 backlinks:
   - the-internet
   - futures
+  - projects-for-2022
 forwardlinks:
   - the-internet
-  - who-are-we
   - page-previews
 node: Hyperfov
 created: '2021-10-14T06:11:11.712Z'
-updated: '2021-10-14T06:17:13.523Z'
+updated: '2021-12-24T05:38:10.274Z'
 id: '53966548'
 place: 'Berkeley, CA'
 ---
-Hyperfov is an ongoing endeavor to make the experience of the [web](the-internet.md) *beyond-informational*. 
+What are the tools needed by today's [internet](the-internet.md) frontiersman? 
 
-How might we introduce a [non-human element](who-are-we.md) to the internet? Where do unexpected connections arise? How do we give form to the underlying structure of the internet? 
+The goal of Hyperfov is to provide those tools, whatever they may be. 
+
+At the moment, Hyperfov isn't much; just a couple of exploratory projects here and there. But I envision a toolset that's designed to fit harmoniously together in order to support the exploration of the web at an entirely new resolution. Not just thinking about about webpages and the information within, but the connections between pages and the information that emerges from those links. 
 
 So far, I've begun two explorations within the Hyperfov realm: 
 
