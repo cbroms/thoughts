@@ -95,6 +95,7 @@ figure {
 picture,
 img {
 	max-width: 700px;
+	width: 100%;
 }
 
 figcaption {
