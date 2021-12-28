@@ -6,9 +6,10 @@ backlinks:
 forwardlinks:
   - the-internet
   - page-previews
+  - hyperfov-dec-28-2021
 node: Hyperfov
 created: '2021-10-14T06:11:11.712Z'
-updated: '2021-12-24T05:38:10.274Z'
+updated: '2021-12-28T22:13:34.412Z'
 id: '53966548'
 place: 'Berkeley, CA'
 ---
@@ -22,3 +23,7 @@ So far, I've begun two explorations within the Hyperfov realm:
 
 - [Proto-hyperfov](https://futureland.tv/christian/entry/68730), a way of browsing the internet though links between websites. 
 - [Page previews](page-previews.md), which provide contextual information about a link on hover. 
+
+Notes:
+
+- [Hyperfov Dec 28, 2021](hyperfov-dec-28-2021.md)

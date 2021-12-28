@@ -52,11 +52,13 @@
 
 <div class="footer">
 	<div class="footer-desc">
-		<span
-			>Linked by {thought.backlinks.length} thought{thought.backlinks.length !== 1
-				? 's '
-				: ' '}<span class="link-arrow">&seArr;</span></span
-		>
+		{#if thought.backlinks.length > 0}
+			<span
+				>Linked by {thought.backlinks.length} thought{thought.backlinks.length !== 1
+					? 's '
+					: ' '}<span class="link-arrow">&seArr;</span></span
+			>
+		{/if}
 	</div>
 
 	<div class="backlinks-container">
@@ -74,7 +76,7 @@
 			>Last revisited <a href="/changelog#{timestamp.replaceAll(' ', '-')}">{timestamp}</a> in {thought
 				.data.place}</span
 		> -->
-		<span>Last revisited {timestamp.replaceAll(' ', '-')} in {thought.data.place}</span>
+		<span>Last revisited {timestamp.replaceAll('-', ' ')} in {thought.data.place}</span>
 		<span>
 			Visit this page <a href="gemini://gemini.onedimension.net/thought/{id}.gmi"
 				>on Gemini <span class="link-arrow">&neArr;</span></a
