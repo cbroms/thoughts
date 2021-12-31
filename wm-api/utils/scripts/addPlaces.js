@@ -1,14 +1,14 @@
 const fs = require("fs");
 const path = require("path");
-const { toFormattedFile, parseFrontmatter } = require("./parser");
+const { toFormattedFile, parseFrontmatter } = require("../parser");
 
-// add unique ids to all thoughts
+// add a place frontmatter attribute to all thoughts
 const addIds = () => {
-  const location = path.join(__dirname, "../..", "wm");
+  const location = path.join(__dirname, "../../..", "wm");
   fs.readdir(location, (err, files) => {
     for (const file of files) {
       if (file.indexOf(".md") !== -1) {
-        const fileLoc = path.join(__dirname, "../..", "wm", file);
+        const fileLoc = path.join(__dirname, "../../..", "wm", file);
 
         fs.readFile(fileLoc, (err, data) => {
           const file = parseFrontmatter(data.toString());

@@ -1,16 +1,16 @@
 const fs = require("fs");
 const path = require("path");
-const { toFormattedFile, parseFrontmatter } = require("./parser");
+const { toFormattedFile, parseFrontmatter } = require("../parser");
 
 // rename image directories to use the file's id, not its name
 // i.e. convert images/growing-kale/TlObiRHwUT.webp
 // to images/80716188/TlObiRHwUT.webp
 const addIds = () => {
-  const location = path.join(__dirname, "../..", "wm");
+  const location = path.join(__dirname, "../../..", "wm");
   fs.readdir(location, (err, files) => {
     for (const file of files) {
       if (file.indexOf(".md") !== -1) {
-        const fileLoc = path.join(__dirname, "../..", "wm", file);
+        const fileLoc = path.join(__dirname, "../../..", "wm", file);
 
         fs.readFile(fileLoc, (err, data) => {
           const parsed = parseFrontmatter(data.toString());
@@ -27,14 +27,14 @@ const addIds = () => {
 
           const oldDir = path.join(
             __dirname,
-            "../..",
+            "../../..",
             "wm",
             "images",
             nameToReplace
           );
           const newDir = path.join(
             __dirname,
-            "../..",
+            "../../..",
             "wm",
             "images",
             parsed.data.id
