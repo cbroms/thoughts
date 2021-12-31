@@ -567,11 +567,19 @@ const saveImage = (filename, file) => {
 
       await ogFile
         .rotate()
+        .resize(900, 900, {
+          fit: sharp.fit.inside,
+          withoutEnlargement: true,
+        })
         .webp({ quality: 75 })
         .toFile(`${location}/${imageId}.webp`);
 
       await ogFile
         .rotate()
+        .resize(900, 900, {
+          fit: sharp.fit.inside,
+          withoutEnlargement: true,
+        })
         .jpeg({ quality: 75 })
         .toFile(`${location}/${imageId}.jpg`);
 
