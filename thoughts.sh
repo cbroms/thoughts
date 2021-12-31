@@ -35,7 +35,7 @@ build() {
 
     printf "${thoughts}${blue}Copying images to static directory...${reset}\n"
     mkdir -p ltm-generator/static/images/
-    rsync -rlpgoD --checksum --ignore-existing -v wm/images/ ltm-generator/static/images/
+    rsync -rlpgoD --checksum --ignore-existing -v --exclude '*.DS_Store' wm/images/ ltm-generator/static/images/
 
     printf "${thoughts}${blue}Building static site with ltm-generator...${reset}\n"
     cd ltm-generator && npm run build &
@@ -44,7 +44,7 @@ build() {
 
     printf "${thoughts}${blue}Copying build to ltm...${reset}\n"
     mkdir -p ltm/
-    rsync -rlpgoD --checksum -v --exclude '*.js' --exclude '*.json' ltm-generator/build/ ltm/
+    rsync -rlpgoD --checksum -v --exclude '*.js' --exclude '.DS_Store' --exclude '*.json' ltm-generator/build/ ltm/
 
     printf "${thoughts}${blue}Syncing build to object storage...${reset}\n"
     cd ltm/ && aws s3 sync . $S3_BUCKET --acl public-read --exclude ".DS_Store" && cd ..
@@ -58,10 +58,10 @@ build() {
     cd ..
 
     printf "${thoughts}${blue}Copying images to gemini build directory...${reset}\n"
-    rsync -rlpgoD --checksum --ignore-existing -v --exclude '*.webp' wm/images/ ltm-gemini/thought/images/
+    rsync -rlpgoD --checksum --ignore-existing -v --exclude '*.DS_Store' --exclude '*.webp' wm/images/ ltm-gemini/thought/images/
 
     printf "${thoughts}${blue}Syncing gemini build to gemini server...${reset}\n"
-    rsync -rlpgoD --checksum -v ltm-gemini/ $GEMINI_SERVER:$GEMINI_SERVE_DIR
+    rsync -rlpgoD --checksum -v --exclude '*.DS_Store' ltm-gemini/ $GEMINI_SERVER:$GEMINI_SERVE_DIR
 
 
     printf "${thoughts}${blue}Export complete, exiting...${reset}\n"
