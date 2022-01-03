@@ -94,7 +94,7 @@ figure {
 
 picture,
 img {
-	max-width: 700px;
+	max-width: 100%;
 	width: auto;
 	max-height: 80vh;
 	height: 100%;
