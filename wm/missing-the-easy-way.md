@@ -1,0 +1,28 @@
+---
+backlinks:
+  - common-errors
+forwardlinks:
+  - design
+node: Missing the "easy" way
+created: '2022-01-05T23:00:20.256Z'
+updated: '2022-01-05T23:01:01.265Z'
+id: '39551964'
+place: 'Charlotte, NC'
+---
+There's an common class of "errors" older people seem to make that makes it appear as if there's something they don't understand or are missing. 
+
+I recently witnessed a perfect example: in order to move an address from their phone's email app over to the maps app, they have their spouse use a different phone to take a picture of their phone's screen. Once the picture is taken, they close their email and open the maps app, then have the spouse read the address back to them from the picture so they can put it in. 
+
+The underlying need is to move information from one app to another. The problem is that the information to move is too long to memorize, so they need a tool to help them get it from one app to the other. To someone in-the-know, the solution is obvious: copy the text and paste it in the maps app. But clearly this isn't a solution for them since they weren't able to figure it out. Maybe their daughter has shown them how to do it and they still don't want do it. It's just too much bother; they know that taking the picture and reading it back is an easy enough and dependable method, while the other requires fiddling around with their phone and probably loosing their place or closing the page or opening up some other app. 
+
+It seems like an underlying problem is that there's too much abstraction. In their mental model, the phone is a series of apps that give them information and do different things. It isn't clear that there is a meta-layer above those apps, for example how you might copy text or take a screenshot or press a phone number on a webpage to call it, and especially not open two apps side-by-side. 
+
+How to [design](design.md) with this in mind? I suppose the key is to ensure that as a designer you're thinking about the system in the same way the users are; that your mental models are in alignment. In the case of the phone, seeing it fundamentally as a series of apps that do different things changes how you might design the way information transfers between those apps. The existing copy/paste functionality from a normal computer doesn't necessarily so cleanly map to a mobile device. 
+
+
+
+
+
+ 
+
+

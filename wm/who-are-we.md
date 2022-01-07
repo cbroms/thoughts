@@ -8,6 +8,7 @@ backlinks:
   - 'critical-path:-introduction'
   - a-societal-precipice
   - abstracting-nature
+  - abstractions-make-us-human
 forwardlinks:
   - the-nature-of-something
 node: Who are we?

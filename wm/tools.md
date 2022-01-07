@@ -2,6 +2,7 @@
 node: Tools
 backlinks:
   - me
+  - abstractions-make-us-human
 forwardlinks:
   - me
   - build-it-yourself

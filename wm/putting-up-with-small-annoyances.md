@@ -1,0 +1,24 @@
+---
+backlinks:
+  - common-errors
+forwardlinks: []
+node: Putting up with small annoyances
+created: '2022-01-05T23:25:27.026Z'
+updated: null
+id: '40910933'
+place: 'Charlotte, NC'
+---
+There's an insane amount that we mindlessly ignore and simply tune out when interacting with systems. 
+
+One example that has completely taken over the web is the "accept cookies" banners. I've become so accustomed to closing these things that I don't ever read them. I just click whichever button is boldest to get the banner to go away. 
+
+Another common example is the update notifications on phones and computers: little popups that appear every now and then and force you to click to close them. 
+
+The reason we put up with these bits of annoyance is that the cost of clicking "postpone" or "close" tiny compared to actually going through the process of updating or figuring out how to configure the cookies for a particular site. Or maybe we don't actually care to update or that the site is using cookies, in which case the little notification is purely a nuisance. The cost of closing is low, though, so we just keep going, eventually developing some kind of inattentional blindness and hitting "close" on autopilot. 
+
+The main actionable takeaways here, for notifications at least, seem to be:
+
+1. Ensure the notification is something the user wants to be notified about (pretty broad, I know.)
+2. Ensure that the cost of engaging with the notification is not too high compared to ignoring it. 
+
+
