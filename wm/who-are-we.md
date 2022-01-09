@@ -9,6 +9,7 @@ backlinks:
   - a-societal-precipice
   - abstracting-nature
   - abstractions-make-us-human
+  - moments-of-sublime-beauty
 forwardlinks:
   - the-nature-of-something
 node: Who are we?

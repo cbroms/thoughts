@@ -7,9 +7,10 @@ forwardlinks:
   - the-internet
   - page-previews
   - hyperfov-dec-28-2021
+  - hyperfov-jan-8-2022
 node: Hyperfov
 created: '2021-10-14T06:11:11.712Z'
-updated: '2021-12-28T22:13:34.412Z'
+updated: '2022-01-09T03:46:16.490Z'
 id: '53966548'
 place: 'Berkeley, CA'
 ---
@@ -27,3 +28,4 @@ So far, I've begun two explorations within the Hyperfov realm:
 Notes:
 
 - [Hyperfov Dec 28, 2021](hyperfov-dec-28-2021.md)
+- [Hyperfov Jan 8, 2022](hyperfov-jan-8-2022.md)

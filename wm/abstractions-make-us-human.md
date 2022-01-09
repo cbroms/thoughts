@@ -4,14 +4,14 @@ forwardlinks:
   - tools
   - who-are-we
 node: Abstractions make us human
-created: '2022-01-07T02:23:14.344Z'
-updated: '2022-01-07T02:31:28.983Z'
+created: "2022-01-07T02:23:14.344Z"
+updated: "2022-01-07T02:31:28.983Z"
 id: 04701129
-place: 'Centreville, Va'
+place: "Centreville, VA"
 ---
-Lots of animals use [tools](tools.md). Many will also try a variety of objects to find a tool that works better than others. One rock cuts faster and than another rock, perhaps. Use the faster rock. 
 
-The difference between [our species](who-are-we.md) and theirs is that they can't identify what it is that makes one tool work better than another and abstract it. The idea of "sharpness", for example. This rock works better *because* it is sharp. The sharpness is an abstraction from the original object that can be applied to finding even better tools, or making them. 
+Lots of animals use [tools](tools.md). Many will also try a variety of objects to find a tool that works better than others. One rock cuts faster and than another rock, perhaps. Use the faster rock.
 
-Once we have abstract ideas, we can form language. Once we have language, we can coordinate, and everything else happens from there. 
+The difference between [our species](who-are-we.md) and theirs is that they can't identify what it is that makes one tool work better than another and abstract it. The idea of "sharpness", for example. This rock works better _because_ it is sharp. The sharpness is an abstraction from the original object that can be applied to finding even better tools, or making them.
 
+Once we have abstract ideas, we can form language. Once we have language, we can coordinate, and everything else happens from there.

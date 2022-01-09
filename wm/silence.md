@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - moments-of-sublime-beauty
 forwardlinks:
   - trip-eastern-sierra-2021
   - what-exists
