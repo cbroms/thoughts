@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - coastal-elites
 forwardlinks:
   - in-praise-of-rants
 node: The fucking laptop class

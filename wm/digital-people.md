@@ -4,6 +4,8 @@ backlinks:
   - clean-culture
   - the-internet
   - california-culture
+  - a-societal-precipice
+  - coastal-elites
 forwardlinks:
   - the-internet
   - clean-culture

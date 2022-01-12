@@ -8,9 +8,10 @@ forwardlinks:
   - page-previews
   - hyperfov-dec-28-2021
   - hyperfov-jan-8-2022
+  - hyperfov-jan-11-2022
 node: Hyperfov
 created: '2021-10-14T06:11:11.712Z'
-updated: '2022-01-09T03:46:16.490Z'
+updated: '2022-01-12T05:29:45.282Z'
 id: '53966548'
 place: 'Berkeley, CA'
 ---
@@ -29,3 +30,4 @@ Notes:
 
 - [Hyperfov Dec 28, 2021](hyperfov-dec-28-2021.md)
 - [Hyperfov Jan 8, 2022](hyperfov-jan-8-2022.md)
+- [Hyperfov Jan 11, 2022](hyperfov-jan-11-2022.md)
