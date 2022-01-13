@@ -10,6 +10,7 @@ backlinks:
   - abstracting-nature
   - abstractions-make-us-human
   - moments-of-sublime-beauty
+  - addressing-climate-change
 forwardlinks:
   - the-nature-of-something
 node: Who are we?

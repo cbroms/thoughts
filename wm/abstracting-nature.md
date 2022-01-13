@@ -1,15 +1,16 @@
 ---
-backlinks: []
+backlinks:
+  - passages
 forwardlinks:
   - who-are-we
   - what-exists
   - the-nature-of-something
   - society-man
 node: Abstracting nature
-created: "2021-12-26T01:20:24.710Z"
-updated: "2021-12-26T20:34:16.679Z"
-id: "10317368"
-place: "San Anselmo, CA"
+created: '2021-12-26T01:20:24.710Z'
+updated: '2021-12-26T20:34:16.679Z'
+id: '10317368'
+place: 'San Anselmo, CA'
 indexed: true
 ---
 

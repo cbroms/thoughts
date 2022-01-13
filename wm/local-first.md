@@ -4,6 +4,7 @@ backlinks:
   - daos
   - 'critical-path:-introduction'
   - build-it-yourself
+  - addressing-climate-change
 forwardlinks:
   - the-internet
   - global-impact
