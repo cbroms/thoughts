@@ -11,6 +11,7 @@ backlinks:
   - abstractions-make-us-human
   - moments-of-sublime-beauty
   - addressing-climate-change
+  - describe-dont-teach
 forwardlinks:
   - the-nature-of-something
 node: Who are we?

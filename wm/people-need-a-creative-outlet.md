@@ -1,0 +1,27 @@
+---
+backlinks: []
+forwardlinks:
+  - were-built-to-work
+  - minimize-physical-abstractions
+node: People need a creative outlet
+created: '2022-01-15T18:57:02.005Z'
+updated: '2022-01-15T19:11:09.345Z'
+id: '10867172'
+place: 'Berkeley, CA'
+---
+How are most people creative? 
+
+I could only think of a few common enough and socially acceptable creative endeavors: 
+
+- Holiday decoration
+- Baking and cooking
+- Makeup and fashion
+
+But there's so much potential for creativity in tasks that most have delegated to others, or don't realize they could do themselves. 
+
+In defense of the family farm, Wendell Berry writes: 
+
+> The small family farm is one of the last places--they are getting rarer every day--where men and women (and girls and boys, too) can answer that call to be an artist, to learn to give love to the work of their hands. It is one of the last places where the maker--and some farmers still do talk about "making the crops"--is responsible, from start to finish, for the thing made. This certainly is a spiritual value, but it is not for that reason an impractical or uneconomic one. In fact, from the exercise of this responsibility, this giving love to the work of the hand, the farmer, the farm, the consumer, and the nation all stand to gain in the most practical ways: they gain the means of life, the goodness of food, and the longevity and dependability of the sources of food, both natural and cultural. The proper answer to the spiritual calling becomes, in turn, the proper fulfillment of physical need. 
+
+There are activities, often involving [using your hands](were-built-to-work.md), that can bring an immense amount of satisfaction. It seems like the current state of society doesn't encourage working in this way, rather focusing on problems of optimization or scale, often [highly abstract](minimize-physical-abstractions.md). So it's no wonder that people feel burnt out and need something to do, some creative way of spending their time and don't find it. 
+

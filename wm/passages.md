@@ -2,15 +2,18 @@
 backlinks: []
 forwardlinks:
   - abstracting-nature
+  - what-exists
+  - the-nature-of-something
+  - abstractions-make-us-human
 node: Passages
 created: '2022-01-12T15:10:28.452Z'
-updated: '2022-01-12T16:25:46.002Z'
+updated: '2022-01-19T06:38:45.684Z'
 id: '54494740'
 place: 'Berkeley, CA'
 ---
 Some passages I particularly like. 
 
-## From _The Three Cornered World_ by Natsume Soseki
+## _The Three Cornered World_ by Natsume Soseki
 
 > There in the mountains, close to the delights of Nature, everything you see and hear is a joy. It is a joy unspoiled by and real discomfort. Your legs may possibly ache, or you may feel the lack of something really good to eat, but that is all.
 
@@ -28,6 +31,19 @@ See [abstracting nature](abstracting-nature.md)
 
 > Now we do not flinch to hear men and women referred to as "units" as if they were as uniform and interchangeable as machine parts. It is common, and considered acceptable, to refer to the mind as a computer: one's thoughts are "inputs"; other people's responses are "feedback." And the body is thought of as a machine; it is said, for instance, to use food as "fuel"; and the best workers and athletes are praised by being compared to machines. Work is judged almost exclusively now by its "efficiency," which, as used, is a mechanical standard, or by its profitability, which is our only trusted index of mechanical efficiency. One's country is no longer loved familially and intimately as a "motherland," but rather priced according to it's "productivity" of "raw materials" and "natural resources"--valued, that is, strictly according to its ability to keep the machines running. And recently R. Buckminster fuller asserted that "the universe physically is itself the most incredible technology"--the necessary implication being that God is not  father, shepherd, or bridegroom, but a mechanic, operating by principles which, according to Fuller, "can only be expressed mathematically."
 
+## _The Varieties of Religious Experience_ by William James 
+
+> All our attitudes, moral, practical, or emotional, as well as religious are due to the "objects" of our consciousness, the things which we believe to exist, whether really or ideally, along with ourselves. Such objects may be present to our senses, or they may be present only to our thought. In either case they elicit from  us a *reaction*; and the reaction due to things of thought is notoriously in many cases as strong as that due to sensible presences. It may be even stronger. The memory of an insult may make us angrier than the insult did when we received it. We are frequently more ashamed of our blunders afterwards  than we were at the moment of making them; and in general our whole higher prudential and moral life is based on the fact that material sensations actually present may have a weaker influence on our action than ideas of remoter facts. 
+
+...
+
+> As time, space, and the ether soak through all things so (we feel) do abstract and essential goodness, beauty, strength, significance, justice, soak through all things good, strong, significant, and just. 
+
+> Such ideas, and others equally abstract, form the background for all our facts, the fountain-head of all the possibilities we conceive of. The give its "nature," as we call it, to every special thing. Everything we know is "what" it is by sharing in the nature of one of these abstractions. We can never look directly at them, for they are bodiless and featureless and footless, but we grasp all other things by their means, and in handling the real world we should be stricken with helplessness in just so far forth as we might lose these mental objects, these adjectives and adverbs and predicates and heads of classification and conception. 
+
+> The absolute determinability of our mind by abstraction is one of the cardinal facts of our human constitution. Polarizing and magnetizing us as they do, we turn towards them and form them, we seek them, hold them, hate them, bless them, just as if they were so many concrete beings. And beings they are, beings as real in the realm which they inhabit as the changing things of sense are in the realm of space. 
+
+See [what exists](what-exists.md), [the nature of something](the-nature-of-something.md), and [abstractions make us human](abstractions-make-us-human.md).
 
 
 

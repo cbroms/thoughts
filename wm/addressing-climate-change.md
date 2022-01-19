@@ -1,11 +1,13 @@
 ---
-backlinks: []
+backlinks:
+  - minimize-physical-abstractions
 forwardlinks:
   - who-are-we
   - local-first
+  - minimize-physical-abstractions
 node: Addressing climate change
 created: '2022-01-13T06:31:18.062Z'
-updated: '2022-01-13T06:36:16.231Z'
+updated: '2022-01-14T04:17:31.648Z'
 id: '62127475'
 place: 'Berkeley, CA'
 ---
@@ -21,4 +23,4 @@ All this might be nice in theory, but there’s only a certain amount you can do
 
 The key, I think, is to not just blindly accept it, but rather to pick and choose the parts of the industrialized world that benefit you and that you are okay with the implications of owning or taking part in. I own a laptop, a phone. I try to grow some of my own food, as much as I can. We’d like to live in a way where we’re not dependent on supply chains for food, water, energy, thinking about living in communities and places that don’t rely so heavily on highly abstracted industries. 
 
-It’s for this reason that I’m a big fan of [the principal of locality](local-first.md). The idea being to prioritize acting locally, within a context you can see and feel physically to act in the best way you can  ([Wendell Berry writes a lot about this](https://futureland.tv/christian/entry/139433) in regards to agriculture.) In this way you also avoid the problem of waste produced by highly abstracted processes. I once went to Chipotle and they messed up my order and put steak instead of chicken—to remedy the situation they threw away the entire bowl and started fresh. What a massive waste! Had I not gone to Chipotle I would have saved a meal’s worth of food and all the waste associated with creating it. We could continue going to Chipotle and demand that the government pass a comprehensive food waste act that prevents them from such behavior, or we could make our own food (or, once we’ve become pros, both.) One solution solves a single problem but keeps the otherwise inherently wasteful system, the other is holistic, avoids waste, and also gives us the satisfaction of cooking our own meals. I’ll tend to the local solution in most cases. 
+It’s for this reason that I’m a big fan of [the principal of locality](local-first.md). The idea being to prioritize acting locally, within a context you can see and feel physically to act in the best way you can  ([Wendell Berry writes a lot about this](https://futureland.tv/christian/entry/139433) in regards to agriculture.) In this way you also avoid the problem of waste produced by highly abstracted processes. I once went to Chipotle and they messed up my order and put steak instead of chicken—to remedy the situation they threw away the entire bowl and started fresh. What a massive waste! Had I not gone to Chipotle I would have saved a meal’s worth of food and all the waste associated with creating it. We could continue going to Chipotle and demand that the government pass a comprehensive food waste act that prevents them from such behavior, or we could make our own food (or, once we’ve become pros, both.) One solution solves a single problem but keeps the otherwise inherently wasteful system, the other is holistic, avoids waste, and also gives us the satisfaction of cooking our own meals. I’ll [tend to the local solution](minimize-physical-abstractions.md) in most cases. 

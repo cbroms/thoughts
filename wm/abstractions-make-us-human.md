@@ -1,13 +1,14 @@
 ---
-backlinks: []
+backlinks:
+  - passages
 forwardlinks:
   - tools
   - who-are-we
 node: Abstractions make us human
-created: "2022-01-07T02:23:14.344Z"
-updated: "2022-01-07T02:31:28.983Z"
+created: '2022-01-07T02:23:14.344Z'
+updated: '2022-01-07T02:31:28.983Z'
 id: 04701129
-place: "Centreville, VA"
+place: 'Centreville, VA'
 ---
 
 Lots of animals use [tools](tools.md). Many will also try a variety of objects to find a tool that works better than others. One rock cuts faster and than another rock, perhaps. Use the faster rock.

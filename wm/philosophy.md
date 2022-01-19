@@ -4,6 +4,7 @@ backlinks:
   - books
   - writing-is-dead
   - what-is-a-group
+  - describe-dont-teach
 forwardlinks:
   - hypocrisy-and-contradiction
 node: Philosophy

@@ -3,6 +3,8 @@ backlinks:
   - progress-and-the-stock-market
 forwardlinks:
   - my-biases
+  - the-fucking-laptop-class
+  - capitalism
   - digital-people
   - coastal-elites
   - binding-the-nation
@@ -10,7 +12,7 @@ forwardlinks:
   - who-are-we
 node: A societal precipice
 created: '2021-12-01T06:03:48.453Z'
-updated: '2022-01-11T04:35:38.010Z'
+updated: '2022-01-19T05:32:04.628Z'
 id: '68803247'
 place: 'Berkeley, CA'
 ---
@@ -21,6 +23,12 @@ It seems like there are a lot of signs that we're on the edge of a precipice. It
 There is a seeming disregard, at the individual level, for certain morals we've come to assume most hold. The recent mob-looting of stores is quite a blatant example of people being extremely smart about doing crime and seeming to not really feel bad about it. Many people are evidently walking into stores, grabbing merchandise, and walking out in an extremely nonchalant manner. Stores in {San Francisco} are boarding up their windows to prevent mobs from smashing them. 
 
 A coworker described an example they witnessed of a man walking into a Walgreens, grabbing things from a shelf, and walking out the doors. An employee said "aren't you going to pay for that?" and he said "Nope, merry Christmas!" [I'm not the law and order type](my-biases.md) but when I hear stuff like that I certainly recognize there is a serious societal problem. We need to be able to trust that this sort of thing isn't going to happen into order to operate. 
+
+Another recent example is the [looting of trains in Los Angeles](https://news.ycombinator.com/item?id=29930970); when trains stop at a depot downtown, containers are being torn open and contents pulled down onto the tracks. In [a letter to the L.A. district attorney](https://www.up.com/cs/groups/public/@uprr/@newsinfo/documents/up_pdf_nativedocs/pdf_up_la_district_atty_211221.pdf), Union Pacific notes that an average of 90 containers a day are being opened. About the increase in looting and arrests, they write:
+
+> But even with these expanded resources and closer partnerships with local law enforcement, we find ourselves coming back to the same results with the Los Angeles County criminal justice  system. Criminals are caught and arrested, turned over to local authorities for booking, arraigned before the local courts, charges are reduced to a misdemeanor or petty offense, and the criminal is released after paying a nominal fine. These individuals are generally caught and released back onto the streets in less than twenty-four hours. Even with all the arrests made, the no-cash bail policy and extended timeframe for suspects to appear in court is causing re-victimization to UP by these same criminals. In fact, criminals boast to our officers that charges will be pled down to simple trespassing – which bears no serious consequence. Without any judicial deterrence or consequence, it is no surprise that over the past year UP has witnessed the significant increase in criminal rail theft described above. 
+
+While much of [the conversation around these events](https://news.ycombinator.com/item?id=29985568) revolves around Los Angeles' new restorative justice policies and the role of [consumerism](the-fucking-laptop-class.md) and [capitalism](capitalism.md) more broadly, it's clear that there's an underlying *moral* issue here. People seem totally okay with this sort of behavior enough to organize and participate in it, and others suggest perhaps it's warranted given facts such as that most of the goods stolen are from Amazon. The point is, regardless of how you feel about Amazon, this sort of behavior is not in anyone's best interest; having widespread looting doesn't create a healthy society. The "shrugging off" of this sort of behavior--from the looters, passersby, police, and courts--is telling of a lack of care for the social, physical, and spiritual environment we exist within. 
 
 ## Normalizing uncomfortablility  
 

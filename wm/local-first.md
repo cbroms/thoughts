@@ -5,6 +5,8 @@ backlinks:
   - 'critical-path:-introduction'
   - build-it-yourself
   - addressing-climate-change
+  - minimize-physical-abstractions
+  - were-built-to-work
 forwardlinks:
   - the-internet
   - global-impact

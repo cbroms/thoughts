@@ -2,6 +2,7 @@
 backlinks:
   - uncertainties
   - money
+  - a-societal-precipice
 forwardlinks:
   - moderation
 node: Capitalism
