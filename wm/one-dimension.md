@@ -9,6 +9,7 @@ backlinks:
   - one-dimension-as-a-blog
   - random-symbols-for-one-dimension
   - one-dimension-on-gemini
+  - 2021-one-dimension
 forwardlinks:
   - writing
   - working-in-public

@@ -1,6 +1,8 @@
 ---
 backlinks:
   - money
+  - 2021-finances
+  - '2021'
 forwardlinks:
   - progress-and-the-stock-market
   - ownership

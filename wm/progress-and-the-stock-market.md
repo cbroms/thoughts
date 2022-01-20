@@ -1,13 +1,14 @@
 ---
 backlinks:
   - fire
+  - 2021-finances
 forwardlinks:
   - a-societal-precipice
 node: Progress and the stock market
-created: "2021-12-22T04:45:41.289Z"
-updated: "2021-12-22T04:59:42.885Z"
-id: "38018688"
-place: "San Anselmo, CA"
+created: '2021-12-22T04:45:41.289Z'
+updated: '2021-12-22T04:59:42.885Z'
+id: '38018688'
+place: 'San Anselmo, CA'
 ---
 
 As I've been getting into investing recently, I've been thinking a lot about a particular aspect of it--the notion that the stock market always goes up.

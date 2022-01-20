@@ -1,11 +1,12 @@
 ---
-backlinks: []
+backlinks:
+  - trip-ft-bragg-2021
 forwardlinks: []
 node: Gas is cheap around here
-created: "2021-12-19T07:43:05.681Z"
-updated: "2021-12-19T07:43:26.903Z"
-id: "26059424"
-place: "Ft. Bragg, CA"
+created: '2021-12-19T07:43:05.681Z'
+updated: '2021-12-19T07:43:26.903Z'
+id: '26059424'
+place: 'Ft. Bragg, CA'
 ---
 
 Sometimes I feel like such a boomer.

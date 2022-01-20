@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - 2021-finances
 forwardlinks:
   - capitalism
   - fire

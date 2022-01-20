@@ -2,6 +2,8 @@
 backlinks:
   - california-geography
   - silence
+  - '2021'
+  - trip-ft-bragg-2021
 forwardlinks:
   - cross-country-trip-2021
   - california
