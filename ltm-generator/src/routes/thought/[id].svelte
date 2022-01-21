@@ -56,7 +56,7 @@
 			<span
 				>Linked by {thought.backlinks.length} thought{thought.backlinks.length !== 1
 					? 's '
-					: ' '}<span class="link-arrow">&seArr;</span></span
+					: ' '}</span
 			>
 		{/if}
 	</div>
@@ -65,7 +65,7 @@
 		{#each thought.backlinks as backlink}
 			<a class="pointer" href="/thought/{backlink.link}"
 				><div class="link">
-					<div class="link-node">{backlink.data.node}</div>
+					<div class="link-node">{backlink.data.node} &#10132;</div>
 				</div></a
 			>
 		{/each}

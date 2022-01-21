@@ -84,7 +84,9 @@ _  / / /_  __ \  _ \_  / / /_  /__  __ `__ \  _ \_  __ \_  ___/_  /_  __ \_  __ 
 	}
 
 	pre {
-		max-width: 1120px;
+		max-width: 600px;
+		font-size: 0.6rem;
+		line-height: 0.6rem;
 		background-color: inherit;
 		font-weight: 900;
 	}
