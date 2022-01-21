@@ -20,14 +20,16 @@
 </script>
 
 <script>
+	import LinkList from '../../components/LinkList.svelte';
+
 	export let thought;
 	export let id;
 
-	const timestamp = thought.data.updated
-		? new Date(thought.data.updated).toDateString()
-		: thought.data.created
-		? new Date(thought.data.created).toDateString()
-		: '';
+	let timestamp = new Date(thought.data.updated).toDateString() || '';
+
+	if (thought.data.daily) {
+		timestamp = new Date(thought.data.created).toDateString();
+	}
 </script>
 
 <svelte:head>
@@ -45,8 +47,12 @@
 </svelte:head>
 
 <article>
+	{#if thought.data.daily}
+		<p class="node-header">𓅰 Daily page</p>
+	{:else if thought.data.indexed}
+		<p class="node-header">𓄀 Highlighted thought</p>
+	{/if}
 	<h1 class="node">{thought.data.node}</h1>
-
 	<main>{@html thought.content}</main>
 </article>
 
@@ -60,23 +66,13 @@
 			>
 		{/if}
 	</div>
-
-	<div class="backlinks-container">
-		{#each thought.backlinks as backlink}
-			<a class="pointer" href="/thought/{backlink.link}"
-				><div class="link">
-					<div class="link-node">{backlink.data.node} &#10132;</div>
-				</div></a
-			>
-		{/each}
-	</div>
+	<LinkList pages={thought.backlinks} />
 
 	<div class="links-container">
-		<!-- <span
-			>Last revisited <a href="/changelog#{timestamp.replaceAll(' ', '-')}">{timestamp}</a> in {thought
-				.data.place}</span
-		> -->
-		<span>Last revisited {timestamp.replaceAll('-', ' ')} in {thought.data.place}</span>
+		<span
+			>{#if !thought.data.daily} Last revisited {/if}
+			{timestamp.replaceAll('-', ' ')} in {thought.data.place}</span
+		>
 		<span>
 			Visit this page <a href="gemini://gemini.onedimension.net/thought/{id}.gmi"
 				>on Gemini <span class="link-arrow">&neArr;</span></a
@@ -86,8 +82,16 @@
 </div>
 
 <style>
-	.node {
+	article {
 		margin-top: 25vh;
+	}
+
+	.node-header {
+		font-family: var(--sans);
+		font-size: 16px;
+	}
+
+	.node {
 		font-size: 3.5rem;
 		line-height: 120%;
 		font-family: var(--sans);
@@ -104,15 +108,9 @@
 	}
 
 	.footer-desc {
-		padding: 20px 0;
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
-		border-bottom: 1px solid;
-	}
-
-	.backlinks-container > a {
-		text-decoration: none;
 	}
 
 	.links-container {
@@ -124,19 +122,7 @@
 		padding-top: 20px;
 	}
 
-	.link {
-		width: 100%;
-		padding: 10px 0;
-		border-bottom: 1px solid #000;
-	}
-
 	.link-arrow {
 		height: 16px;
-	}
-
-	.link-node {
-		transition: all 0.3s;
-		font-family: var(--sans);
-		font-weight: bold;
 	}
 </style>

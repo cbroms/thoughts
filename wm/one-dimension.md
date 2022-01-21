@@ -10,6 +10,7 @@ backlinks:
   - random-symbols-for-one-dimension
   - one-dimension-on-gemini
   - 2021-one-dimension
+  - daily-pages
 forwardlinks:
   - writing
   - working-in-public

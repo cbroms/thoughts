@@ -1,13 +1,19 @@
 <script>
-  import { thought, saved, indexed } from "../store/thought";
+  import { thought, saved, indexed, daily } from "../store/thought";
   import { active } from "../store/active";
   import { isOkToErase } from "../lib/safety";
-  import { saveThought, indexThought, renameThought } from "../lib/db";
+  import {
+    saveThought,
+    indexThought,
+    dailyThought,
+    renameThought,
+  } from "../lib/db";
   import { toId } from "../lib/file";
 
   import { open } from "../store/sidebar";
 
   import Bookmark from "./icons/Bookmark.svelte";
+  import Clock from "./icons/Clock.svelte";
 
   export let toggleOpen;
 
@@ -19,6 +25,16 @@
       if (res.ok) {
         const json = await res.json();
         indexed.set(json.indexed);
+      }
+    }
+  };
+
+  const toggleDaily = async () => {
+    if ($active !== "new thought") {
+      const res = await dailyThought(toId($active), !$daily);
+      if (res.ok) {
+        const json = await res.json();
+        daily.set(json.daily);
       }
     }
   };
@@ -105,6 +121,10 @@
       // INDEX
       e.preventDefault();
       toggleIndex();
+    } else if (e.key === "d" && e.metaKey) {
+      // MAKE DAILY
+      e.preventDefault();
+      toggleDaily();
     }
   };
 
@@ -116,10 +136,16 @@
 </script>
 
 <div class="editor-wrapper">
-  <h1>
+  <div class="actions">
     <button on:click={toggleIndex} class:filled={$indexed}>
       <Bookmark />
-    </button>{$active}<sup class:visible={$thought !== $saved}>*</sup>
+    </button>
+    <button on:click={toggleDaily} class:filled={$daily}>
+      <Clock />
+    </button>
+  </div>
+  <h1>
+    {$active}<sup class:visible={$thought !== $saved}>*</sup>
   </h1>
   <textarea
     bind:this={element}
@@ -140,6 +166,13 @@
     margin: 0;
     font-size: 24px;
     color: var(--secondary);
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 3rem;
+  }
+
+  .actions {
+    margin-left: 50px;
   }
 
   sup {
@@ -165,7 +198,7 @@
     background-color: var(--background);
     /* background-color: royalblue; */
     width: 100%;
-    height: calc(100% - 65px);
+    height: calc(100% - 155px);
     font-family: monospace;
     border: none;
     outline: none;
@@ -185,6 +218,7 @@
     display: inline-flex;
     align-content: center;
     justify-content: center;
+    margin-left: -15px;
   }
 
   .filled {

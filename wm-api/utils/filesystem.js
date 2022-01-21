@@ -34,6 +34,7 @@ const dir = "wm/";
 const changesDir = "changes/";
 const imagesDir = "images/";
 const indexDir = "indexed/";
+const dailyDir = "daily/";
 
 const updateFrontmatter = (filename, field, value) => {
   return new Promise(async (resolve, reject) => {
@@ -101,6 +102,58 @@ const modifyIndex = (node, addToIndex) => {
           resolve({ indexed: true });
         } else {
           resolve({ indexed: false });
+        }
+      }
+    } catch (err) {
+      console.error(err);
+      reject(500);
+    }
+  });
+};
+
+const modifyDaily = (node, addToDaily) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const location = path.join(
+        __dirname,
+        "../..",
+        dir + dailyDir,
+        `daily.json`
+      );
+      try {
+        const file = await read(location, "utf8");
+        let content = JSON.parse(file);
+
+        if (addToDaily) {
+          if (content.indexOf(node) === -1) {
+            // add the node to daily
+            content.push(node);
+            await write(location, JSON.stringify(content));
+            // add daily to the node's frontmatter
+            await updateFrontmatter(node, "daily", true);
+          }
+          resolve({ daily: true });
+        } else {
+          // remove the node from daily
+          if (content.indexOf(node) !== -1) {
+            content = content.filter((n) => {
+              return n !== node;
+            });
+
+            await write(location, JSON.stringify(content));
+            await updateFrontmatter(node, "daily", false);
+          }
+          resolve({ daily: false });
+        }
+      } catch (err) {
+        // the daily file doesn't exist yet
+        if (addToDaily) {
+          const content = [node];
+          await write(location, JSON.stringify(content));
+          await updateFrontmatter(node, "daily", true);
+          resolve({ daily: true });
+        } else {
+          resolve({ daily: false });
         }
       }
     } catch (err) {
@@ -545,6 +598,25 @@ const getIndexed = () => {
   });
 };
 
+const getDaily = () => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const location = path.join(
+        __dirname,
+        "../..",
+        dir + dailyDir,
+        `daily.json`
+      );
+      const file = await read(location, "utf8");
+      const content = JSON.parse(file);
+      resolve(content);
+    } catch (err) {
+      console.error(err);
+      reject(500);
+    }
+  });
+};
+
 const saveImage = (filename, file) => {
   return new Promise(async (resolve, reject) => {
     try {
@@ -606,5 +678,7 @@ module.exports = {
   saveImage,
   renameFile,
   modifyIndex,
+  modifyDaily,
   getIndexed,
+  getDaily,
 };

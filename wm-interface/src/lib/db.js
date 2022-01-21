@@ -46,6 +46,16 @@ export const indexThought = (id, add) => {
   });
 };
 
+export const dailyThought = (id, add) => {
+  return fetch(`${ce}/thought/${id}/daily/`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ daily: add }),
+  });
+};
+
 export const saveFile = (id, file) => {
   const body = new FormData();
   body.append("file1", file);

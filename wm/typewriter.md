@@ -1,6 +1,7 @@
 ---
 backlinks:
   - big-boy-purchases
+  - daily-pages
 forwardlinks:
   - big-boy-purchases
   - writing

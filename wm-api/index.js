@@ -17,8 +17,10 @@ const {
   makeFile,
   saveImage,
   modifyIndex,
+  modifyDaily,
   renameFile,
   getIndexed,
+  getDaily,
 } = require("./utils/filesystem");
 
 app.use(cors());
@@ -40,6 +42,17 @@ app.post("/thought/:id/index", (req, res, next) => {
   const node = fromFilename(id);
 
   modifyIndex(node, req.body.index)
+    .then((content) => {
+      res.json(content);
+    })
+    .catch(next);
+});
+
+app.post("/thought/:id/daily", (req, res, next) => {
+  const id = req.params.id;
+  const node = fromFilename(id);
+
+  modifyDaily(node, req.body.daily)
     .then((content) => {
       res.json(content);
     })
@@ -106,6 +119,14 @@ app.get("/changes", (req, res, next) => {
 
 app.get("/indexed", (req, res, next) => {
   getIndexed()
+    .then((content) => {
+      res.json(content);
+    })
+    .catch(next);
+});
+
+app.get("/daily", (req, res, next) => {
+  getDaily()
     .then((content) => {
       res.json(content);
     })

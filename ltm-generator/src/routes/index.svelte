@@ -7,13 +7,14 @@
 		// const meRes = await fetch(meUrl);
 
 		if (res.ok) {
-			const { indexed, counts } = await res.json();
+			const { indexed, daily, counts } = await res.json();
 			// let me = null;
 
 			// if (meRes.ok) me = await meRes.json();
 			return {
 				props: {
 					pages: indexed,
+					dailyPages: daily,
 					counts
 					// me
 				}
@@ -28,7 +29,10 @@
 </script>
 
 <script>
+	import LinkList from '../components/LinkList.svelte';
+
 	export let pages;
+	export let dailyPages;
 	export let counts;
 	// export let me;
 </script>
@@ -55,16 +59,10 @@ _  / / /_  __ \  _ \_  / / /_  /__  __ `__ \  _ \_  __ \_  ___/_  /_  __ \_  __ 
                                                                                                      
     </pre>
 
-	<div class="links">
-		{#each pages as page}
-			<a class="pointer" href="/thought/{page.link}"
-				><div class="link">
-					<div class="link-node">{page.data.node}</div>
-				</div></a
-			>
-		{/each}
+	<LinkList {pages} title="Highlighted thoughts" titleIcon="𓄀" />
+	<div style="margin-top: 50px;">
+		<LinkList pages={dailyPages} title="Daily pages" titleIcon="𓅰" date more="/daily" />
 	</div>
-
 	<div class="footer">
 		<div>
 			{counts.thoughts.toLocaleString('en-US')} thoughts, {counts.links.toLocaleString('en-US')} links,
@@ -91,11 +89,6 @@ _  / / /_  __ \  _ \_  / / /_  /__  __ `__ \  _ \_  __ \_  ___/_  /_  __ \_  __ 
 		font-weight: 900;
 	}
 
-	/* .intro {
-		margin: 0 auto;
-		margin-top: 150px;
-	} */
-
 	.footer {
 		display: flex;
 		justify-content: space-between;
@@ -105,42 +98,5 @@ _  / / /_  __ \  _ \_  / / /_  /__  __ `__ \  _ \_  __ \_  ___/_  /_  __ \_  __ 
 		padding-top: 20px;
 		max-width: 600px;
 		margin: 0 auto;
-	}
-
-	.links {
-		max-width: 600px;
-		width: 100%;
-		margin: 0 auto;
-		border-top: 1px solid;
-		margin-top: 50px;
-	}
-	.link {
-		width: 100%;
-		padding: 10px 0;
-		border-bottom: 1px solid #000;
-	}
-
-	.link-node {
-		transition: all 0.3s;
-		font-family: var(--sans);
-		font-weight: bold;
-		/* font-size: 2rem; */
-		line-height: 120%;
-	}
-
-	a.pointer {
-		text-decoration: none;
-	}
-
-	/* h1 {
-		font-size: 6rem;
-		line-height: 120%;
-		word-break: break-word;
-	} */
-
-	@media (max-width: 1231px) {
-		.links {
-			margin-top: 20px;
-		}
 	}
 </style>
