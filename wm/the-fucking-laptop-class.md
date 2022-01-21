@@ -2,6 +2,7 @@
 backlinks:
   - coastal-elites
   - a-societal-precipice
+  - big-boy-purchases
 forwardlinks:
   - in-praise-of-rants
 node: The fucking laptop class

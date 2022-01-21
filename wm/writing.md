@@ -6,6 +6,7 @@ backlinks:
   - books
   - writing-is-dead
   - 2021-one-dimension
+  - typewriter
 forwardlinks:
   - media
   - hypocrisy-and-contradiction
