@@ -1,7 +1,6 @@
 ---
 backlinks:
   - twelve-websites
-  - what-im-working-on-now
   - hyperfov
   - progressive-enhancement
 forwardlinks:

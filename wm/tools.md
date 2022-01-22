@@ -3,6 +3,7 @@ node: Tools
 backlinks:
   - me
   - abstractions-make-us-human
+  - trenching-shovels-and-toolmaking
 forwardlinks:
   - me
   - build-it-yourself

@@ -4,6 +4,7 @@ backlinks:
   - boundary-objects
   - me
   - craftsmanship
+  - trenching-shovels-and-toolmaking
 forwardlinks:
   - craftsmanship
   - boundary-objects

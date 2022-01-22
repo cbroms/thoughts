@@ -8,6 +8,7 @@ backlinks:
   - california-culture
   - cross-country-trip-2021
   - trip-eastern-sierra-2021
+  - trenching-shovels-and-toolmaking
 forwardlinks:
   - california-geography
   - california-culture

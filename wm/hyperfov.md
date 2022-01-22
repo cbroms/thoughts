@@ -3,6 +3,7 @@ backlinks:
   - the-internet
   - futures
   - projects-for-2022
+  - what-im-working-on-now
 forwardlinks:
   - the-internet
   - page-previews
