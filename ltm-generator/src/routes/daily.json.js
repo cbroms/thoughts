@@ -9,7 +9,7 @@ export async function get() {
 			const res = await getPage(`/thought/${page}/preview`);
 			data.push({ ...res, link: page });
 		}
-		data.sort((a, b) => Date.parse(b.data.updated) - Date.parse(a.data.updated));
+		data.sort((a, b) => Date.parse(b.data.created) - Date.parse(a.data.created));
 		return {
 			body: { daily: [...data] }
 		};
