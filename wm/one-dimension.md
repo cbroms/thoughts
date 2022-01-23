@@ -11,7 +11,7 @@ backlinks:
   - one-dimension-on-gemini
   - 2021-one-dimension
   - daily-pages
-  - test
+  - successful-bread-and-weekend-projects
 forwardlinks:
   - writing
   - working-in-public
@@ -21,10 +21,10 @@ forwardlinks:
   - xanadu
   - one-dimension-todo
   - one-dimension-network
-created: '2021-09-08T05:33:25.568Z'
-updated: '2021-10-11T00:09:46.810Z'
-id: '50162143'
-place: 'Berkeley, CA'
+created: "2021-09-08T05:33:25.568Z"
+updated: "2021-10-11T00:09:46.810Z"
+id: "50162143"
+place: "Berkeley, CA"
 indexed: true
 ---
 

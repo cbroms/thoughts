@@ -648,7 +648,7 @@ const saveImage = (filename, file) => {
 
       await ogFile
         .rotate()
-        .resize(900, 900, {
+        .resize(size, size, {
           fit: sharp.fit.inside,
           withoutEnlargement: true,
         })
@@ -657,7 +657,7 @@ const saveImage = (filename, file) => {
 
       await ogFile
         .rotate()
-        .resize(900, 900, {
+        .resize(size, size, {
           fit: sharp.fit.inside,
           withoutEnlargement: true,
         })

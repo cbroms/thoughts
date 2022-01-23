@@ -4,6 +4,7 @@ backlinks:
   - futures
   - projects-for-2022
   - what-im-working-on-now
+  - successful-bread-and-weekend-projects
 forwardlinks:
   - the-internet
   - page-previews

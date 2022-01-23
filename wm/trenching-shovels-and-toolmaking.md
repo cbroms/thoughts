@@ -7,13 +7,11 @@ forwardlinks:
   - the-craft-of-design
 node: 'Trenching shovels and toolmaking '
 created: '2022-01-21T16:00:55.237Z'
-updated: '2022-01-21T16:03:01.277Z'
+updated: '2022-01-23T21:27:40.477Z'
 id: '86710512'
 place: 'Berkeley, CA'
 daily: true
 ---
-7:44 AM, 44F, High of 60F. Partly cloudy.
-
 I woke up today thinking about a tool I own called a trenching shovel. Not sure why, but probably because I've been planning what to add to [the garden](garden.md) this year as spring approaches. Anyways, I thought about this shovel. 
 
 The thing with a trenching shovel is that it is perfectly suited for [California](california.md) soil. There is perhaps no better implement for picking away at the rock-hard clay in the summer, or heavy wet clay in the winter. Every other shovel type is inadequate in some way; this one is *perfect*.  
@@ -29,6 +27,8 @@ Of course the only way to really know if a tool is at trenching-shovel levels of
 But maybe there's another way too--to look at the environment around and distill down the qualities that will be most relevant to creating a tool to interact with it. This is *hard*, and requires knowing which qualities to look for, as well as the way the interaction will work. This, I suppose, is what they call "intuition." 
 
 The first approach is what I mainly do now. I'm a novice, learning a lot. The second approach is what I strive more towards over time; developing the intuition of a [true craftsman](the-craft-of-design.md). 
+
+7:44 AM / 44F / High of 60F / Partly cloudy
 
 
 
