@@ -45,6 +45,10 @@
 	{#if thought.content.indexOf('hljs') !== -1}
 		<link rel="stylesheet" href="/highlight.css" />
 	{/if}
+
+	{#if thought.data.daily}
+		<link rel="stylesheet" href="/daily.css" />
+	{/if}
 </svelte:head>
 
 <article>

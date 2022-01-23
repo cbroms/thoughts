@@ -105,6 +105,15 @@ figcaption {
 	font-style: italic;
 }
 
+figure.full {
+	max-width: 600px;
+}
+
+figure.full picture,
+figure.full img {
+	max-height: 100vh !important;
+}
+
 p {
 	hanging-punctuation: first;
 	color: #1f1f1f;

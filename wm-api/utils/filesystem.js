@@ -637,6 +637,15 @@ const saveImage = (filename, file) => {
 
       const ogFile = sharp(file.tempFilePath);
 
+      let size = 900;
+      let daily = "";
+
+      // if this is a daily page, increase the size
+      if (file.name.indexOf("daily") !== -1) {
+        size = 1200;
+        daily = "-daily";
+      }
+
       await ogFile
         .rotate()
         .resize(900, 900, {
@@ -644,7 +653,7 @@ const saveImage = (filename, file) => {
           withoutEnlargement: true,
         })
         .webp({ quality: 75 })
-        .toFile(`${location}/${imageId}.webp`);
+        .toFile(`${location}/${imageId}${daily}.webp`);
 
       await ogFile
         .rotate()
@@ -653,12 +662,12 @@ const saveImage = (filename, file) => {
           withoutEnlargement: true,
         })
         .jpeg({ quality: 75 })
-        .toFile(`${location}/${imageId}.jpg`);
+        .toFile(`${location}/${imageId}${daily}.jpg`);
 
       // delete the temporary file
       fs.unlinkSync(file.tempFilePath);
 
-      resolve({ image: `${imagesDir}${id}/${imageId}.webp` });
+      resolve({ image: `${imagesDir}${id}/${imageId}${daily}.webp` });
     } catch (e) {
       console.error(e);
       reject(500);

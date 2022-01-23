@@ -6,13 +6,13 @@ const renderer = {
   image(href, title, text) {
     const hrefJpeg = href.replace(".webp", ".jpg");
     return `
-            <figure>
+            <figure class=${href.indexOf("-daily") !== -1 ? "full" : ""}>
                 <picture>
                     <source srcset="/${href}" type="image/webp">
                     <source srcset="/${hrefJpeg}" type="image/jpeg"> 
                     <img src="/${hrefJpeg}" alt="${text}">
                 </picture>
-                <figcaption>${title}</figcaption>
+                <figcaption>${title || ""}</figcaption>
             </figure> 
             `;
   },

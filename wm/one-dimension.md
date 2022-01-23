@@ -11,6 +11,7 @@ backlinks:
   - one-dimension-on-gemini
   - 2021-one-dimension
   - daily-pages
+  - test
 forwardlinks:
   - writing
   - working-in-public
