@@ -36,6 +36,7 @@
 :root {
 	--sans: 'Helvetica Neue', sans-serif;
 	--serif: 'Charter', serif;
+	--monospace: ui-monospace, 'Courier', monospace;
 	--internal-link-color: #a31621;
 	--external-link-color: #253bff;
 	box-sizing: border-box;
@@ -116,6 +117,7 @@ summary {
 a {
 	color: black;
 	transition: color 0.3s;
+	text-decoration-style: dotted;
 }
 
 a:hover {

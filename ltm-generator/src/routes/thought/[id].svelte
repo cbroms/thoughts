@@ -21,6 +21,7 @@
 
 <script>
 	import LinkList from '../../components/LinkList.svelte';
+	import Badge from '../../components/Badge.svelte';
 
 	export let thought;
 	export let id;
@@ -47,11 +48,14 @@
 </svelte:head>
 
 <article>
-	{#if thought.data.daily}
-		<p class="node-header">𓅰 Daily page</p>
-	{:else if thought.data.indexed}
-		<p class="node-header">𓄀 Highlighted thought</p>
-	{/if}
+	<div class="node-header">
+		{#if thought.data.daily}
+			<Badge title="Daily page" icon="𓅰" />
+		{:else if thought.data.indexed}
+			<Badge title="Highlighted thought" icon="𓄀" />
+		{/if}
+	</div>
+
 	<h1 class="node">{thought.data.node}</h1>
 	<main>{@html thought.content}</main>
 </article>
@@ -87,8 +91,9 @@
 	}
 
 	.node-header {
-		font-family: var(--sans);
-		font-size: 16px;
+		max-width: 600px;
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	.node {

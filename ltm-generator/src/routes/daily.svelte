@@ -22,6 +22,7 @@
 
 <script>
 	import LinkList from '../components/LinkList.svelte';
+	import Badge from '../components/Badge.svelte';
 
 	export let pages;
 </script>
@@ -34,7 +35,10 @@
 
 <div class="wrapper">
 	<div style="margin-top: 50px;">
-		<LinkList {pages} date title="Daily pages" titleIcon="𓅰" />
+		<div class="list-title">
+			<Badge title="Daily pages" icon="𓅰" />
+		</div>
+		<LinkList {pages} date title="Daily pages" />
 	</div>
 
 	<div class="footer">
@@ -60,5 +64,12 @@
 		padding-top: 20px;
 		max-width: 600px;
 		margin: 0 auto;
+	}
+
+	.list-title {
+		max-width: 600px;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 5rem;
 	}
 </style>

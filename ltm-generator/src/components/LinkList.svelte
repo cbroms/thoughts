@@ -1,19 +1,9 @@
 <script>
 	export let pages;
-	export let title = null;
-	export let titleIcon = null;
 	export let date = false;
 	export let more = null;
 </script>
 
-{#if title}
-	<div class="list-title">
-		{#if titleIcon}
-			<span class="title-icon">{titleIcon}</span>
-		{/if}
-		{title}
-	</div>
-{/if}
 <div class="links">
 	{#each pages as page}
 		<a class="pointer" href="/thought/{page.link}"
@@ -36,29 +26,18 @@
 </div>
 
 <style>
-	.list-title {
-		max-width: 600px;
-		margin: 0 auto;
-		width: 100%;
-		margin-bottom: 0;
-		font-family: var(--sans);
-	}
-
-	.title-icon {
-		font-size: 22px;
-	}
-
 	.links {
 		max-width: 600px;
 		width: 100%;
 		margin: 0 auto;
-		border-top: 1px solid;
-		margin-top: 20px;
+		border-top: 1px dotted;
+		margin-top: 1rem;
 	}
+
 	.link {
 		width: 100%;
 		padding: 10px 0;
-		border-bottom: 1px solid #000;
+		border-bottom: 1px dotted #000;
 	}
 
 	.link-node {
@@ -72,8 +51,10 @@
 	}
 
 	.link-date {
+		min-width: 140px;
 		font-size: 16px;
 		font-weight: 400;
+		text-align: right;
 	}
 
 	.more {
@@ -84,9 +65,9 @@
 		text-decoration: none;
 	}
 
-	@media (max-width: 1231px) {
+	/* @media (max-width: 1231px) {
 		.links {
 			margin-top: 20px;
 		}
-	}
+	} */
 </style>
