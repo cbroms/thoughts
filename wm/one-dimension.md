@@ -12,8 +12,10 @@ backlinks:
   - 2021-one-dimension
   - daily-pages
   - successful-bread-and-weekend-projects
+  - digital-gardens
 forwardlinks:
   - writing
+  - digital-gardens
   - working-in-public
   - hypocrisy-and-contradiction
   - growth
@@ -21,14 +23,14 @@ forwardlinks:
   - xanadu
   - one-dimension-todo
   - one-dimension-network
-created: "2021-09-08T05:33:25.568Z"
-updated: "2021-10-11T00:09:46.810Z"
-id: "50162143"
-place: "Berkeley, CA"
+created: '2021-09-08T05:33:25.568Z'
+updated: '2022-01-24T04:23:26.231Z'
+id: '50162143'
+place: 'Berkeley, CA'
 indexed: true
 ---
 
-One dimension is an experimental [writing](writing.md) system that links thoughts together through bi-directional links.
+One dimension is an experimental [writing](writing.md) system that links thoughts together through bi-directional links. To be in-vogue, you might call it a *[digital garden](digital-gardens.md)*. 
 
 The goal of this system is to explore the creation of a recorded and constantly evolving body of reflection and synthesis. I don’t know if this will be the _best_ medium for it, but it seems like a decent first step.
 
@@ -40,10 +42,7 @@ I built One Dimension as part of a larger yearlong endeavor to [create a series 
 
 One Dimension is a folder of markdown files on my desktop. I built a series of tools to interact with those files and save and edit them from my browser. The online version of the site is generated as a bunch of static files and served from AWS S3 object storage behind Cloudflare’s CDN. The source code for all of these tools can be found in the [project’s repository](https://github.com/cbroms/thoughts).
 
-### Todo
-
-[Improvements](one-dimension-todo.md).
-
 Also see:
 
+- [Improvements](one-dimension-todo.md).
 - [One Dimension network](one-dimension-network.md)

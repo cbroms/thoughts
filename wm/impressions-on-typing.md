@@ -1,0 +1,23 @@
+---
+backlinks: []
+forwardlinks:
+  - i-bought-a-typewriter
+node: Impressions on typing
+created: '2022-01-24T01:41:02.867Z'
+updated: '2022-01-24T02:57:30.779Z'
+id: '88416410'
+place: 'Berkeley, CA'
+---
+I've started writing a bit on [the typewriter](i-bought-a-typewriter.md), and I must say, It's an incredibly unique feeling experience. There's nothing quite like it. 
+
+The first and most obvious thing you notice is now permanent everything is. Once a key is typed, it's committed to the page. There's no going back. This forces a particular sort of thinking where your thoughts *must* build off each other. When typing on a computer, sometimes I'll stop mid-line and think to myself, "that's not quite right" and delete back a few words. Not so on the typewriter. Even if something's a bit awkward, missing an idea, or repetitive, you must continue on. This has resulted in a few unusual sentences that I definitely wouldn't have otherwise written but turned out to express something in a particularly novel way. For example, I wrote this sentence about how thinking through a hypertext-based system has changed my writing:
+
+> I'm more often thinking in terms of the concepts that I can recall writing about; thinking of ways to link them into what I'm writing at the moment. 
+
+I wrote the first clause of that sentence up to the semicolon and lost my line of thought. I read it back and it sounded awkward, but I needed to find a way to finish it, so I came up with something for the second clause. It's not perfect, but it reveals an idea that wouldn't have otherwise been expressed because I would have deleted the seed from which it germinated.  
+
+This sort of adding-of-constraints to writing bleeds out to other aspects of the typing experience. I've become aware just how much I use my computer's copy and paste feature, often stopping partway through writing something, re-reading, and moving around sentences or paragraphs to form a better structure. With the typewriter, I'm often not thinking of the entire structure, but instead most focus is directed at the particular sentence I'm writing. Part of this is because writing a sentence simply takes much more mental overhead; it's slower and requires being careful not to make mistakes or form the sentence and words incorrectly. So for every sentence, I start with the idea of what I want to write, then I write it word-by-word with the next word in mind as I'm typing the one before it. This can lead to the awkward situations I outlined above where if I loose my line of thinking because I mess up the keys the sentence can be lost. 
+
+I tend to think this will be the most powerful aspect of writing on the typewriter. Over time I'll become more proficient at the physical aspect of typing, but the immutability of the page will always be there. What comes out of a typewritten page will be more unexpected than what comes out of a digitally-formed page, and that's a pretty attractive quality for me. 
+
+
