@@ -5,13 +5,17 @@ backlinks:
 forwardlinks: []
 node: In praise of rants
 created: '2021-11-10T07:25:11.202Z'
-updated: '2021-11-10T07:31:35.220Z'
+updated: '2022-01-25T04:16:53.820Z'
 id: '18071277'
 place: 'Berkeley, CA'
 ---
 I must admit that I do like a good rant. Who doesn't? 
 
-I came across [a particularly masterfully-written rant](https://im1776.com/2021/02/12/land-of-the-free/) today. A few choice excerpts:
+Perhaps the most relevant rant to this site is a classic by Donald Brook, entitled *[Why I Fucking Hate Weblogs](http://mama.indstate.edu/users/bones/WhyIHateWebLogs.html)*:
+
+> Weblogs suck ass. What the fuck is up with this shit? Fuck. Who the fuck cares what these people think about oatmeal or what the UN did last week? Nobody! Who reads these weblogs? Nobody! Maybe fellow weblog authors read each others weblogs out of a sense of desperation...the feeling that if they read someone else's weblog, someone will read theirs. It's kindof like cooperative advertising too, people will cross-post, linking weblog entries to each other's weblogs. How fucking pathetic is that? I hate weblogs. There are so few reasons to keep a weblog, and so many of these are fucking stupid while so few of them are legitimately non-brainfucked. The problem of course, is people. In general, people are fucking stupid, so many of the things they do are fucking stupid. I fucking hate weblogs, they are so fucking stupid. 
+
+I came across [another particularly masterfully-written rant](https://im1776.com/2021/02/12/land-of-the-free/) today. A few choice excerpts:
 
 > If we let bureaucrats achieve their dreams of a universal homogenous state, we won’t find the people reflecting on the arguments of Hegel and Kojève, they’ll be watching reruns of the Kardashians whilst doped up on heavily-taxed Benzos. Wait, is that now? But in the near future, thanks to the genius of the technology industry, those Benzos will be bought with Yang-approved UBI crypto tokens and delivered by a Silicon Valley-funded blockchain start-up made of former Obama interns.
 

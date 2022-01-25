@@ -13,8 +13,9 @@ forwardlinks:
   - the-authority-of-writing
   - time-and-context-as-editors
   - in-praise-of-rants
+  - writing-inbox
 created: '2021-09-08T05:43:25.578Z'
-updated: '2021-11-10T07:32:15.310Z'
+updated: '2022-01-25T04:12:45.936Z'
 id: '27513495'
 place: 'Berkeley, CA'
 ---
@@ -32,3 +33,4 @@ Some related thoughts:
 - [The authority of writing](the-authority-of-writing.md)
 - [Time and context as editors](time-and-context-as-editors.md)
 - [In praise of rants](in-praise-of-rants.md)
+- [Writing inbox](writing-inbox.md)
