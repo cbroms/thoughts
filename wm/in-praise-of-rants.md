@@ -2,6 +2,7 @@
 backlinks:
   - writing
   - the-fucking-laptop-class
+  - disclaimer
 forwardlinks: []
 node: In praise of rants
 created: '2021-11-10T07:25:11.202Z'

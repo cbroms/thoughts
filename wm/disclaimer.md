@@ -1,0 +1,25 @@
+---
+backlinks: []
+forwardlinks:
+  - 1000-views-of-stupidity
+  - working-in-public
+  - the-authority-of-writing
+  - writing
+  - in-praise-of-rants
+node: Disclaimer
+created: '2022-01-26T01:55:47.316Z'
+updated: '2022-01-26T02:19:52.567Z'
+id: '14324591'
+place: 'Berkeley, CA'
+---
+This morning I wrote [about how I'd recently found out that this site does get a tiny little bit of traffic](1000-views-of-stupidity.md). But enough traffic to make me stop and think about it for a second with some unease. A second is a bit of an understatement; I thought about it a lot. 
+
+Anyway, the point is that I don't really like people reading this stuff. It's not really meant to be read. I write it because I am exploring ideas and thinking quickly, and [making it public is a way of ensuring that I don't get soft](working-in-public.md). The idea of it being public is enough to make me put in just that extra bit of effort to take something that's a pile of shit into a pile of shit worth having a title and date. Maybe they'll turn into something more than that, but they haven't yet, nor do I anticipate them doing so in the future. 
+
+My opinions are just opinions. They're worth nothing, but unfortunately [writing them down makes them seem like these monolithic, important things](the-authority-of-writing.md). This is a problem with [writing](writing.md) more broadly. 
+
+For this reason this site doesn't have a distribution mechanism. No email list, no RSS feed. If you want to explore, you have to explore by clicking a bunch of links. No low effort search, categories, or even much of an index page. Hopefully that's enough to deter most people. 
+
+In the spirit of the classic [rant](in-praise-of-rants.md) *[Why I Fucking Hate Weblogs](http://mama.indstate.edu/users/bones/WhyIHateWebLogs.html)*, I'm going to install a disclaimer on all these pages. It reads: 
+
+> This was written by someone who knows nothing. It's all just like, my opinion, man. I cannot know anything about the world; this writing is my flailing around and languishing in that fact. You should have something much better to do than read it. If not, now you do. 
