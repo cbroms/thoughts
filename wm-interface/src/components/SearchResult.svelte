@@ -2,7 +2,7 @@
   import { fade } from "svelte/transition";
   import { isOkToErase } from "../lib/safety";
   import { getThought } from "../lib/db";
-  import { thought, saved, indexed } from "../store/thought";
+  import { thought, saved, indexed, daily } from "../store/thought";
   import { active } from "../store/active";
 
   export let file;
@@ -23,6 +23,7 @@
         saved.set(res.content);
         active.set(res.title);
         indexed.set(res.indexed);
+        daily.set(res.daily);
         toggleOpen();
       }
     } else if (commands[commandIdx] === "copy") {

@@ -32,7 +32,7 @@
   .toolbar {
     overflow: scroll;
     padding: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 0px;

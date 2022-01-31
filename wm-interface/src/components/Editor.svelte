@@ -115,6 +115,7 @@
         thought.set("");
         saved.set("");
         indexed.set(false);
+        daily.set(false);
         active.set("new thought");
       }
     } else if (e.key === "b" && e.metaKey) {
@@ -129,6 +130,7 @@
   };
 
   $: {
+    console.log($indexed);
     if (!$open && element) {
       element.focus();
     }
@@ -164,11 +166,10 @@
 
   h1 {
     margin: 0;
-    font-size: 24px;
     color: var(--secondary);
     margin-left: 50px;
     margin-top: 20px;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .actions {
