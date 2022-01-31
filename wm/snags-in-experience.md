@@ -1,12 +1,14 @@
 ---
 backlinks:
   - spirituality
+  - strange-sensations
 forwardlinks: []
 node: Snags in experience
 created: '2021-10-12T03:41:48.018Z'
 updated: '2021-10-12T03:44:14.669Z'
 id: '19569778'
 place: 'Berkeley, CA'
+indexed: false
 ---
 There are certain moments where experience snags. You might say it's your brain not quite keeping up, trying to fill in experience in an incomplete and approximate way. You see it and think to yourself "that can't be true, can it?" 
 

@@ -1,6 +1,7 @@
 ---
 backlinks:
   - 2021-finances
+  - investment
 forwardlinks:
   - capitalism
   - fire

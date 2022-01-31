@@ -2,6 +2,7 @@
 backlinks:
   - common-errors
   - why-do-driving-directions-suck
+  - strange-sensations
 forwardlinks:
   - what-exists
   - thoughts-and-places

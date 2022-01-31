@@ -1,6 +1,7 @@
 ---
 backlinks:
   - one-dimension
+  - projects-as-an-investment
 forwardlinks:
   - one-dimension
 node: Digital gardens

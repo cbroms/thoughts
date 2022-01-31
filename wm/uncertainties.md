@@ -1,6 +1,7 @@
 ---
 backlinks:
   - truisms
+  - turn-the-wifi-off
 forwardlinks:
   - truisms
   - i-might-be-evil
@@ -9,9 +10,10 @@ forwardlinks:
   - capitalism
   - minimize-physical-abstractions
   - describe-dont-teach
+  - turn-the-wifi-off
 node: 'Uncertainties '
 created: '2021-12-16T05:13:29.162Z'
-updated: '2022-01-19T05:47:34.959Z'
+updated: '2022-01-27T02:41:20.886Z'
 id: '82646275'
 place: 'Berkeley, CA'
 ---
@@ -23,3 +25,4 @@ Who really knows? These are much less certain than [truisms](truisms.md). Which 
 - [Capitalism](capitalism.md)
 - [Minimize physical abstractions](minimize-physical-abstractions.md)
 - [Describe, don't teach](describe-dont-teach.md)
+- [Turn the WiFi off](turn-the-wifi-off.md)

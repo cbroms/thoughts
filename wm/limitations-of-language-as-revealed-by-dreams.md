@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - strange-sensations
 forwardlinks: []
 node: Limitations of language as revealed by dreams
 created: '2021-10-25T04:33:18.310Z'

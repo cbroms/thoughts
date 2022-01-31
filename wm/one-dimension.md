@@ -13,6 +13,7 @@ backlinks:
   - daily-pages
   - successful-bread-and-weekend-projects
   - digital-gardens
+  - projects-as-an-investment
 forwardlinks:
   - writing
   - digital-gardens

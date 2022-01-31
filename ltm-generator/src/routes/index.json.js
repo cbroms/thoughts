@@ -13,7 +13,7 @@ export async function get() {
 		}
 		data.sort((a, b) => Date.parse(b.data.updated) - Date.parse(a.data.updated));
 
-		const dailyData = [];
+		let dailyData = [];
 		for (const page of daily) {
 			const res = await getPage(`/thought/${page}/preview`);
 			dailyData.push({ ...res, link: page });
@@ -21,7 +21,7 @@ export async function get() {
 		dailyData.sort((a, b) => Date.parse(b.data.created) - Date.parse(a.data.created));
 
 		if (dailyData.length > 10) {
-			dailyData.splice(0, 10);
+			dailyData = dailyData.splice(0, 10);
 		}
 
 		return {
