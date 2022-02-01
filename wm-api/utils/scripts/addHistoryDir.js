@@ -11,7 +11,12 @@ const makeDirectories = () => {
           console.log(file);
 
           const dirName = file.replace(".md", "");
-          const dirLoc = path.join(__dirname, "../../..", "wm", dirName);
+          const dirLoc = path.join(
+            __dirname,
+            "../../..",
+            "wm/history",
+            dirName
+          );
 
           fs.mkdir(dirLoc, null, (err) => {
             if (!err) {
@@ -32,7 +37,7 @@ const makeDirectories = () => {
                     : [oldFile.data.place];
 
                 // create a new file with the updated frontmatter
-                const newFile = toFormattedFile(oldFile.content, {
+                const newFileFull = toFormattedFile(oldFile.content, {
                   id: oldFile.data.id,
                   node: oldFile.data.node,
                   backlinks: oldFile.data.backlinks,
@@ -42,7 +47,7 @@ const makeDirectories = () => {
                 });
 
                 // write the file with the new content
-                fs.writeFile(fileLoc, newFile, (err) => {
+                fs.writeFile(fileLoc, newFileFull, (err) => {
                   console.log(err);
                 });
 
@@ -52,12 +57,23 @@ const makeDirectories = () => {
                 const createdFileLoc = path.join(
                   __dirname,
                   "../../..",
-                  "wm",
+                  "wm/history",
                   dirName,
                   createdName
                 );
+
+                // for this file we only want the first update / place
+                const newFilePartial = toFormattedFile(oldFile.content, {
+                  id: oldFile.data.id,
+                  node: oldFile.data.node,
+                  backlinks: oldFile.data.backlinks,
+                  forwardlinks: oldFile.data.forwardlinks,
+                  updates: [ogCreated],
+                  places: [oldFile.data.place],
+                });
+
                 // write it with the new file content
-                fs.writeFile(createdFileLoc, newFile, (err) => {
+                fs.writeFile(createdFileLoc, newFilePartial, (err) => {
                   console.log(err);
                 });
 
@@ -67,11 +83,12 @@ const makeDirectories = () => {
                   const updatedFileLoc = path.join(
                     __dirname,
                     "../../..",
-                    "wm",
+                    "wm/history",
                     dirName,
                     updatedName
                   );
-                  fs.writeFile(updatedFileLoc, newFile, (err) => {
+                  // for this file we can use the full file
+                  fs.writeFile(updatedFileLoc, newFileFull, (err) => {
                     console.log(err);
                   });
                 }
