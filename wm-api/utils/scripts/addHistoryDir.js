@@ -8,8 +8,9 @@ const makeDirectories = () => {
     for (const file of files) {
       if (file.indexOf(".md") !== -1) {
         try {
-          const dirName = file.replace(".md", "");
+          console.log(file);
 
+          const dirName = file.replace(".md", "");
           const dirLoc = path.join(__dirname, "../../..", "wm", dirName);
 
           fs.mkdir(dirLoc, null, (err) => {
@@ -17,25 +18,25 @@ const makeDirectories = () => {
               const fileLoc = path.join(__dirname, "../../..", "wm", file);
               // open the og file to read its content
               fs.readFile(fileLoc, (err, data) => {
-                const file = parseFrontmatter(data.toString());
+                const oldFile = parseFrontmatter(data.toString());
 
-                const ogCreated = file.data.created.split("T")[0];
-                const ogUpdated = file.data.updated.split("T")[0];
+                const ogCreated = oldFile.data.created.split("T")[0];
+                const ogUpdated = oldFile.data.updated?.split("T")[0] || null;
                 const updates =
                   ogCreated !== ogUpdated
                     ? [ogCreated, ogUpdated]
                     : [ogCreated];
                 const places =
                   ogCreated !== ogUpdated
-                    ? [file.data.place, file.data.place]
-                    : [file.data.place];
+                    ? [oldFile.data.place, oldFile.data.place]
+                    : [oldFile.data.place];
 
                 // create a new file with the updated frontmatter
-                const newFile = toFormattedFile(file.content, {
-                  id: file.data.id,
-                  node: file.data.node,
-                  backlinks: file.data.backlinks,
-                  forwardlinks: file.data.forwardlinks,
+                const newFile = toFormattedFile(oldFile.content, {
+                  id: oldFile.data.id,
+                  node: oldFile.data.node,
+                  backlinks: oldFile.data.backlinks,
+                  forwardlinks: oldFile.data.forwardlinks,
                   updates,
                   places,
                 });
