@@ -26,10 +26,13 @@
 	export let thought;
 	export let id;
 
-	let timestamp = new Date(thought.data.updated).toDateString() || '';
+	let timestamp =
+		new Date(thought.data.updates[thought.data.updates.length - 1]).toDateString() || '';
+
+	const place = thought.data.places[thought.data.places.length - 1];
 
 	if (thought.data.daily) {
-		timestamp = new Date(thought.data.created).toDateString();
+		timestamp = new Date(thought.data.updates[0]).toDateString();
 	}
 </script>
 
@@ -77,15 +80,29 @@
 	<LinkList pages={thought.backlinks} />
 
 	<div class="links-container">
-		<span
-			>{#if !thought.data.daily} Last revisited {/if}
-			{timestamp.replaceAll('-', ' ')} in {thought.data.place}</span
-		>
-		<span>
-			Visit this page <a href="gemini://gemini.onedimension.net/thought/{id}.gmi"
-				>on Gemini <span class="link-arrow">&neArr;</span></a
-			>
-		</span>
+		{#if !thought.data.daily}
+			<details>
+				<summary
+					>Revisited {thought.data.updates.length} time{thought.data.updates.length > 1 ? 's' : ''},
+					last {timestamp.replaceAll('-', ' ')} in {place}</summary
+				>
+				<ul>
+					{#each thought.data.updates.reverse() as update, i}
+						<li>
+							<a href="/thought/{id}/v/{update}"
+								>{new Date(update).toDateString().replaceAll('-', '')} in {thought.data.places.reverse()[
+									i
+								]}</a
+							>
+						</li>
+					{/each}
+				</ul>
+			</details>
+		{:else}
+			<span>
+				{timestamp.replaceAll('-', ' ')} in {place}
+			</span>
+		{/if}
 	</div>
 </div>
 

@@ -11,14 +11,18 @@ export async function get() {
 			const res = await getPage(`/thought/${page}/preview`);
 			data.push({ ...res, link: page });
 		}
-		data.sort((a, b) => Date.parse(b.data.updated) - Date.parse(a.data.updated));
+		data.sort(
+			(a, b) =>
+				Date.parse(b.data.updates[b.data.updates.length - 1]) -
+				Date.parse(a.data.updates[a.data.updates.length - 1])
+		);
 
 		let dailyData = [];
 		for (const page of daily) {
 			const res = await getPage(`/thought/${page}/preview`);
 			dailyData.push({ ...res, link: page });
 		}
-		dailyData.sort((a, b) => Date.parse(b.data.created) - Date.parse(a.data.created));
+		dailyData.sort((a, b) => Date.parse(b.data.updates[0]) - Date.parse(a.data.updates[0]));
 
 		if (dailyData.length > 10) {
 			dailyData = dailyData.splice(0, 10);

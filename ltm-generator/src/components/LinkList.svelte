@@ -11,7 +11,7 @@
 				<div class="link-node">
 					<span>{page.data.node}</span>
 					{#if date}
-						<span class="link-date">{new Date(page.data.created).toDateString()}</span>{/if}
+						<span class="link-date">{new Date(page.data.updates[0]).toDateString()}</span>{/if}
 				</div>
 			</div></a
 		>
