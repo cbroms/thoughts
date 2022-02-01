@@ -1,1 +1,0 @@
-[{"type":{"action":"Created thought","symbol":"+"},"node":"Binding the nation","id":"binding-the-nation"},{"type":{"action":"Revisited thought","symbol":"↺"},"node":"Binding the nation","id":"binding-the-nation"},{"type":{"action":"Linked thought","symbol":"⇒"},"node":{"to":"Global impact","from":"Binding the nation"},"id":{"from":"binding-the-nation","to":"global-impact"}}]

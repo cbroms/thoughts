@@ -1,1 +1,0 @@
-[{"type":{"action":"Revisited thought","symbol":"↺"},"node":"DAOs","id":"daos"},{"type":{"action":"Linked thought","symbol":"⇒"},"node":{"to":"Design","from":"DAOs"},"id":{"from":"daos","to":"design"}},{"type":{"action":"Linked thought","symbol":"⇒"},"node":{"to":"Local first","from":"DAOs"},"id":{"from":"daos","to":"local-first"}}]

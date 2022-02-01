@@ -1,1 +1,0 @@
-[{"type":{"action":"Created thought","symbol":"+"},"node":"DAOs","id":"daos"},{"type":{"action":"Revisited thought","symbol":"↺"},"node":"DAOs","id":"daos"},{"type":{"action":"Linked thought","symbol":"⇒"},"node":{"to":"Global impact","from":"DAOs"},"id":{"from":"daos","to":"global-impact"}}]

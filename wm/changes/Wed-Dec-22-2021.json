@@ -1,1 +1,0 @@
-[{"type":{"action":"Revisited thought","symbol":"↺"},"node":"Money","id":"money"},{"type":{"action":"Linked thought","symbol":"⇒"},"node":{"to":"FIRE","from":"Money"},"id":{"from":"money","to":"fire"}}]

@@ -1,1 +1,0 @@
-[{"type":{"action":"Created thought","symbol":"+"},"node":"Salmon spawn","id":"salmon-spawn"},{"type":{"action":"Revisited thought","symbol":"↺"},"node":"Salmon spawn","id":"salmon-spawn"},{"type":{"action":"Linked thought","symbol":"⇒"},"node":{"to":"The nature of something","from":"Salmon spawn"},"id":{"from":"salmon-spawn","to":"the-nature-of-something"}}]

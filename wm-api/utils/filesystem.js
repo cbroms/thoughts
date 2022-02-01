@@ -164,54 +164,54 @@ const modifyDaily = (node, addToDaily) => {
   });
 };
 
-const makeChange = (type, time, node) => {
-  return new Promise(async (resolve, reject) => {
-    try {
-      const changefile = slugify(time);
-      const location = path.join(
-        __dirname,
-        "../..",
-        dir + changesDir,
-        `${changefile}.json`
-      );
-      const newChange = {
-        type,
-        node,
-        id:
-          typeof node === "string"
-            ? slugify(node).toLowerCase()
-            : {
-                from: slugify(node.from).toLowerCase(),
-                to: slugify(node.to).toLowerCase(),
-              },
-      };
-      try {
-        const file = await read(location, "utf8");
-        const content = JSON.parse(file);
+// const makeChange = (type, time, node) => {
+//   return new Promise(async (resolve, reject) => {
+//     try {
+//       const changefile = slugify(time);
+//       const location = path.join(
+//         __dirname,
+//         "../..",
+//         dir + changesDir,
+//         `${changefile}.json`
+//       );
+//       const newChange = {
+//         type,
+//         node,
+//         id:
+//           typeof node === "string"
+//             ? slugify(node).toLowerCase()
+//             : {
+//                 from: slugify(node.from).toLowerCase(),
+//                 to: slugify(node.to).toLowerCase(),
+//               },
+//       };
+//       try {
+//         const file = await read(location, "utf8");
+//         const content = JSON.parse(file);
 
-        // does the change already exist?
-        if (
-          content.filter(
-            (c) => c.type.action === type.action && c.node === node
-          ).length > 0
-        ) {
-          resolve(200);
-        } else {
-          content.push(newChange);
-          await write(location, JSON.stringify(content));
-        }
-      } catch {
-        // the changefile doesn't exist yet
-        const content = [newChange];
-        await write(location, JSON.stringify(content));
-      }
-      resolve(200);
-    } catch (err) {
-      console.error(err);
-      reject(500);
-    }
-  });
-};
+//         // does the change already exist?
+//         if (
+//           content.filter(
+//             (c) => c.type.action === type.action && c.node === node
+//           ).length > 0
+//         ) {
+//           resolve(200);
+//         } else {
+//           content.push(newChange);
+//           await write(location, JSON.stringify(content));
+//         }
+//       } catch {
+//         // the changefile doesn't exist yet
+//         const content = [newChange];
+//         await write(location, JSON.stringify(content));
+//       }
+//       resolve(200);
+//     } catch (err) {
+//       console.error(err);
+//       reject(500);
+//     }
+//   });
+// };
 
 const getFile = async (filename) => {
   return new Promise(async (resolve, reject) => {
@@ -387,10 +387,10 @@ const makeFile = async (filename, content) => {
                 backlinks: [...new Set([...parsed.data.backlinks, newId])],
               });
 
-              makeChange(changes.LINK, new Date().toDateString(), {
-                to: parsed.data.node,
-                from: content.node,
-              });
+              //   makeChange(changes.LINK, new Date().toDateString(), {
+              //     to: parsed.data.node,
+              //     from: content.node,
+              //   });
               await write(location, updatedFileContent);
             } catch (err) {
               // ok if this fails; means there's a link to a nonexistent page
@@ -410,10 +410,10 @@ const makeFile = async (filename, content) => {
               backlinks: parsed.data.backlinks.filter((f) => f !== newId),
             });
 
-            makeChange(changes.UNLINK, new Date().toDateString(), {
-              to: parsed.data.node,
-              from: content.node,
-            });
+            // makeChange(changes.UNLINK, new Date().toDateString(), {
+            //   to: parsed.data.node,
+            //   from: content.node,
+            // });
             await write(location, updatedFileContent);
           } catch (err) {
             // ok if this fails; means the linked file no longer exists

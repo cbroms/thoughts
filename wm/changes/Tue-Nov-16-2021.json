@@ -1,1 +1,0 @@
-[{"type":{"action":"Created thought","symbol":"+"},"node":"Gemini Protocol","id":"gemini-protocol"},{"type":{"action":"Linked thought","symbol":"⇒"},"node":{"to":"The internet","from":"Gemini Protocol"},"id":{"from":"gemini-protocol","to":"the-internet"}},{"type":{"action":"Revisited thought","symbol":"↺"},"node":"Gemini Protocol","id":"gemini-protocol"}]
