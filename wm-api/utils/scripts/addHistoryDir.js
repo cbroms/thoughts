@@ -9,22 +9,23 @@ const makeDirectories = () => {
       if (file.indexOf(".md") !== -1) {
         try {
           console.log(file);
+          const fileLoc = path.join(__dirname, "../../..", "wm", file);
 
-          const dirName = file.replace(".md", "");
-          const dirLoc = path.join(
-            __dirname,
-            "../../..",
-            "wm/history",
-            dirName
-          );
+          fs.readFile(fileLoc, (err, data) => {
+            // open the og file to read its content
+            const oldFile = parseFrontmatter(data.toString());
 
-          fs.mkdir(dirLoc, null, (err) => {
-            if (!err) {
-              const fileLoc = path.join(__dirname, "../../..", "wm", file);
-              // open the og file to read its content
-              fs.readFile(fileLoc, (err, data) => {
-                const oldFile = parseFrontmatter(data.toString());
+            // create a new dir from the node's id
+            const dirName = oldFile.data.id;
+            const dirLoc = path.join(
+              __dirname,
+              "../../..",
+              "wm/history",
+              dirName
+            );
 
+            fs.mkdir(dirLoc, null, (err) => {
+              if (!err) {
                 const ogCreated = oldFile.data.created.split("T")[0];
                 const ogUpdated = oldFile.data.updated?.split("T")[0] || null;
                 const updates =
@@ -96,8 +97,8 @@ const makeDirectories = () => {
                     console.log(err);
                   });
                 }
-              });
-            }
+              }
+            });
           });
         } catch (err) {
           console.error(err);
