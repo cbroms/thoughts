@@ -40,6 +40,8 @@ const makeDirectories = () => {
                 const newFileFull = toFormattedFile(oldFile.content, {
                   id: oldFile.data.id,
                   node: oldFile.data.node,
+                  indexed: oldFile.data.indexed || false,
+                  daily: oldFile.data.daily || false,
                   backlinks: oldFile.data.backlinks,
                   forwardlinks: oldFile.data.forwardlinks,
                   updates,
@@ -66,6 +68,8 @@ const makeDirectories = () => {
                 const newFilePartial = toFormattedFile(oldFile.content, {
                   id: oldFile.data.id,
                   node: oldFile.data.node,
+                  indexed: oldFile.data.indexed || false,
+                  daily: oldFile.data.daily || false,
                   backlinks: oldFile.data.backlinks,
                   forwardlinks: oldFile.data.forwardlinks,
                   updates: [ogCreated],
