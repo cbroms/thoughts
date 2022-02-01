@@ -18,6 +18,7 @@ const readDir = util.promisify(fs.readdir);
 const write = util.promisify(fs.writeFile);
 const rename = util.promisify(fs.rename);
 const execute = util.promisify(exec);
+const mkDir = util.promisify(fs.mkdir);
 
 const {
   parseFile,
@@ -340,6 +341,10 @@ const makeSearch = async (query) => {
 };
 
 const makeFile = async (filename, content) => {
+  const makeDateHistoricFormat = () => {
+    return new Date().toISOString().split("T")[0];
+  };
+
   return new Promise(async (resolve, reject) => {
     try {
       const extractForwardLinks = (content) => {
@@ -422,6 +427,14 @@ const makeFile = async (filename, content) => {
         const file = await read(location, "utf8");
         const parsed = parseFrontmatter(file);
 
+        const newDate = makeDateHistoricFormat();
+        const newUpdates = [...new Set([...parsed.data.updates, newDate])];
+        // if we've added a date, add a place too
+        const newPlaces =
+          newUpdates.length > parsed.data.updates.length
+            ? [...parsed.data.places, process.env.PLACE || ""]
+            : [...parsed.data.places];
+
         const existingForwardlinks = extractForwardLinks(parsed.content);
 
         // update the file with the new contents
@@ -429,32 +442,66 @@ const makeFile = async (filename, content) => {
           ...parsed.data,
           forwardlinks: cleanedForwardlinks,
           node: content.node,
-          updated: new Date().toISOString(),
+          updates: newUpdates,
+          places: newPlaces,
         });
 
-        makeChange(changes.UPDATE, new Date().toDateString(), content.node);
+        // makeChange(changes.UPDATE, new Date().toDateString(), content.node);
         await write(location, newFileContent);
         //  update the connected files
         updateConnectedFilesBacklinks(existingForwardlinks);
+
+        // update the history file with the new content
+        // overwrites the old file if it exists, creates a new one otherwise
+        const todayLoc = path.join(
+          __dirname,
+          "../..",
+          dir,
+          "/history",
+          parsed.data.id,
+          `${newDate}.md`
+        );
+        await write(todayLoc, newFileContent);
 
         resolve(200);
       } catch (err) {
         // the file doesn't exist yet; create it
         const location = path.join(__dirname, "../..", dir, filename);
+        const newId = thoughtId();
+        const newDate = makeDateHistoricFormat();
 
         const newFileContent = toFormattedFile(content.content, {
           backlinks: [], // assuming there are no backlinks to it yet
           forwardlinks: cleanedForwardlinks,
           node: content.node,
-          created: new Date().toISOString(),
-          updated: null,
-          id: thoughtId(),
-          place: process.env.PLACE || "",
+          updates: [newDate],
+          id: newId,
+          places: [process.env.PLACE || ""],
         });
 
-        makeChange(changes.CREATE, new Date().toDateString(), content.node);
         await write(location, newFileContent);
         updateConnectedFilesBacklinks();
+
+        // create the file history directory and populate it
+        const historyDir = path.join(
+          __dirname,
+          "../..",
+          dir,
+          "/history",
+          newId
+        );
+        const firstUpdateLoc = path.join(
+          __dirname,
+          "../..",
+          dir,
+          "/history",
+          newId,
+          `${newDate}.md`
+        );
+
+        // make the directory and add the file
+        await mkDir(historyDir);
+        await write(firstUpdateLoc, newFileContent);
 
         resolve(200);
       }
