@@ -1,0 +1,13 @@
+---
+backlinks: []
+forwardlinks: []
+node: Context for creativity and the workweek
+updates:
+  - "2022-01-31"
+id: 03824823
+places:
+  - "Berkeley, CA"
+daily: true
+---
+
+![Something I've mentioned a few times recently is that I want to spend more time daydreaming. That or gazing out the window and thinking or simply looking. I think this is an important part of creativity that's often overlooked; it seems there's a million exercises for stimulating ideas in an active way. Not so much is a passive way. It's why one of Sydney and my principles is "don’t feel obligated to define each minute of the day." Creativity comes from that: those unfilled pockets of time. This is why I'm starting to appreciate the eight-hour workday is less than ideal for creative work. Forcing yourself to sit down and churn out something when it’s not been fully thought out results in less than ideal work. Often my best ideas come once I've thought a little about the problem, then left it for a few days. Then I'll be doing something else and suddenly the idea comes to me. There's something about the change of context that's often so powerful. It's like by stimulating a different set of concepts, connections are made to the area you were thinking about before, and suddenly an answer is clear. I know often designers don't like to talk about working this way, as it seems to inward-focused and not enough about looking outward and understanding the problem space or collaborating with others to understand it. But really the ideas come when you're thinking about anything except the problem. That's the way it seems to go for me at least. So if the solutions to problems come when you're not actively thinking about those problems, what does that mean for the standard workweek? Well, I suppose more time could be spent "working." Maybe you'd consider thinking about the problem work, in which case you'd have to count the random and hard to predict times that a particular problem pops back into your mind as work. But then the work week varies in length, perhaps spilling out onto the weekends too. Another activity you might consider work is the sort of things you do to stimulate the idea. Given that those things are quite unpredictable too (in my case at least) work then becomes much more nebulous as well. Anyway, for work that's not so easily defined or requires some amount of creative effort, it seems like the old notion of a defined workweek doesn't make a ton of sense. Not to say that I’ve got a better idea, but something I'm thinking about anyway. With that, time to start the workweek… 8:20AM / 44F / High of 60F / Partly cloudy](images/03824823/HkHMYqtAch-daily.webp)
