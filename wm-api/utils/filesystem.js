@@ -342,7 +342,12 @@ const makeSearch = async (query) => {
 
 const makeFile = async (filename, content) => {
   const makeDateHistoricFormat = () => {
-    return new Date().toISOString().split("T")[0];
+    const today = new Date();
+    const dd = String(today.getDate()).padStart(2, "0");
+    const mm = String(today.getMonth() + 1).padStart(2, "0");
+    const yyyy = today.getFullYear();
+
+    return yyyy + "-" + mm + "-" + dd;
   };
 
   return new Promise(async (resolve, reject) => {
