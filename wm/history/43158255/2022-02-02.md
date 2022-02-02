@@ -1,0 +1,12 @@
+---
+backlinks: []
+forwardlinks: []
+node: Wind and spreadsheets
+updates:
+  - '2022-02-02'
+id: '43158255'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+![It is really dry right now. It's that unfortunate weather you sometimes get in the winter here where a ridge sits over the California coast and you get over a month of dry weather during the rainy season. Clear blue skies, dry air, and some windy days. There's just something about that dryness that feels wrong. It's like you're constantly waiting for something to come and break the pattern and bring some moisture and clouds back. But I suppose it is a fairly natural part of the climate here given it seems to happen pretty much every January of February as far as I can remember. Though that's not really representative of all time, of course. Normal for me at least. Yesterday I went through and logged a whole bunch of monthly metrics that I'm going to start collecting. I started a spreadsheet to track my income and where it goes, to hopefully better track spending and saving. The goal of course is to lower spending as much as possible and move all that money into savings through investments. Last year I did a pretty good job of this, but my goal now is to track the overall percentages for each month, so I can have some higher level insight into what's going on and how the year is progressing. The month of January saw a savings rate of 53% and a spending rate of around 15% which is pretty decent. The remainder is taxes. So really the goal here is to drop spending by a few percentage points every few months when I am able, and move those funds into investments. There's something satisfying that comes with tracking these metrics. ¥or some reason the act of setting up the spreadsheet and going around and collecting data from different sources and bringing it back to the same place is quite enjoyable in a strange way. Then I make a little chart and stick it in, set up some formulas so next month's entry automatically updates the measurements, and it feels like I've written a program. Really satisfying. Probably because I am working with my own data and that's already fairly interesting to me.Probably wouldn't want to be a data entry person for other domains, of course. I have a day full of meetings at work that I'm not particularly looking forward to. Just gonna hop on the wave and surf it out I think. 8:25AM / 54F / High of 61F / Clear, dry, and windy](images/43158255/xhAeDJEulk-daily.webp "")
