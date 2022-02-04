@@ -86,7 +86,7 @@
 					>Revisited {thought.data.updates.length} time{thought.data.updates.length > 1 ? 's' : ''},
 					last {timestamp.replaceAll('-', ' ')} in {place}</summary
 				>
-				<ul>
+				<!-- <ul>
 					{#each thought.data.updates.reverse() as update, i}
 						<li>
 							<a href="/thought/{id}/v/{update}"
@@ -96,7 +96,7 @@
 							>
 						</li>
 					{/each}
-				</ul>
+				</ul> -->
 			</details>
 		{:else}
 			<span>
