@@ -1,0 +1,13 @@
+---
+backlinks: []
+forwardlinks: []
+node: 'Generalization, abstraction, and agriculture'
+updates:
+  - '2022-02-03'
+id: '31861728'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+![I'm glad some things in the world are beyond our control. The weather, specifically. No matter how much we change our environment, it will still be at the mercy of the weather. We might plow over fields and forests, pave massive parking lots, build dense concrete cities, but the weather will always be a concern. Everything, regardless of what it is, will always be subject to rain, heat, deep cold, moisture, wind, feet of snow… I think without this constraint we'd be stuck in a weak world. If everyday was the same temperature, the same blue skies, the same level of humidity, where would we be? We'd build buildings meant only for this condition; specialization rather than generalization. Maybe there's something about that idea of generalization that's so powerful. It results in a much more diverse and rich world, one where we're forced to be creative. I've written before about the idea that our ability to abstract concept from physical form is what makes us human, and perhaps that leads to the principle of generalization. Because we're a part of a large and constantly evolving ecosystem, and because we're able to identify the parts of it that do and do not change; what is a prototype versus ana instance becomes clear. Once we're in the land of abstractions and prototypes, pulling them into new relationships is possible. We can see connections between otherwise discrete things, allowing us to find new solutions to problems that perhaps weren’t thought of as problems because they didn't have solutions other than those initially provided by the natural world. One salient example here is food. For most of our history, we would have foraged for food in forests and fields. Eventually, we figure out the higher level principles of growth. Food doesn't just appear on trees, it grows. There's an identifiable pattern where seeds sprout from wet ground, grow taller until they turn into plants, create flowers that insects land on, which then turn to fruits, which if left uneaten turn to many seeds. The cycle makes sense, so let's bring together many seeds in one place so we don’t need to wall to collect food. Agriculture. Food collection was not really a problem until we saw an alternative, which then made the original method undesirable in comparison. Abstraction leading to what we call "progress" more generally. 9:00AM / 50F / High of 60F/ Partly cloudy](images/31861728/OFBTknLjvL-daily.webp "")
+

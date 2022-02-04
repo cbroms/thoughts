@@ -11,6 +11,7 @@ backlinks:
   - raised-planter-beds
   - garden
   - a-system-for-storing-links
+  - building-a-house
 forwardlinks:
   - consumption-and-creation
   - local-first

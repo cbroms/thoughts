@@ -7,6 +7,7 @@ backlinks:
   - big-boy-purchases
   - daily-pages
   - impressions-on-typing
+  - projects-for-2022
 forwardlinks:
   - big-boy-purchases
   - writing

@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - people-need-a-creative-outlet
+  - building-a-house
 forwardlinks:
   - garden
   - local-first
