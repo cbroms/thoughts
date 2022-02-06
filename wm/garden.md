@@ -9,6 +9,7 @@ backlinks:
   - were-built-to-work
   - '2021'
   - trenching-shovels-and-toolmaking
+  - building-a-house
 forwardlinks:
   - build-it-yourself
   - raised-planter-beds
