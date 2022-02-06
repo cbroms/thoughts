@@ -22,17 +22,19 @@
 <script>
 	import LinkList from '../../components/LinkList.svelte';
 	import Badge from '../../components/Badge.svelte';
+	import History from '../../components/History.svelte';
+
+	import toDateString from '$lib/date';
 
 	export let thought;
-	export let id;
+	// export let id;
 
-	let timestamp =
-		new Date(thought.data.updates[thought.data.updates.length - 1]).toDateString() || '';
+	let timestamp = toDateString(thought.data.updates[thought.data.updates.length - 1]);
 
 	const place = thought.data.places[thought.data.places.length - 1];
 
 	if (thought.data.daily) {
-		timestamp = new Date(thought.data.updates[0]).toDateString();
+		timestamp = toDateString(thought.data.updates[0]);
 	}
 </script>
 
@@ -82,25 +84,16 @@
 	<div class="links-container">
 		{#if !thought.data.daily}
 			<details>
-				<summary
-					>Revisited {thought.data.updates.length} time{thought.data.updates.length > 1 ? 's' : ''},
-					last {timestamp.replaceAll('-', ' ')} in {place}</summary
-				>
-				<!-- <ul>
-					{#each thought.data.updates.reverse() as update, i}
-						<li>
-							<a href="/thought/{id}/v/{update}"
-								>{new Date(update).toDateString().replaceAll('-', '')} in {thought.data.places.reverse()[
-									i
-								]}</a
-							>
-						</li>
-					{/each}
-				</ul> -->
+				<summary>
+					Revisted {thought.data.updates.length} time{thought.data.updates.length > 1 ? 's' : ''},
+					last on {toDateString(thought.data.updates[thought.data.updates.length - 1])} in {thought
+						.data.places[thought.data.places.length - 1]}
+				</summary>
+				<History updates={thought.data.updates} places={thought.data.places} />
 			</details>
 		{:else}
 			<span>
-				{timestamp.replaceAll('-', ' ')} in {place}
+				{timestamp} in {place}
 			</span>
 		{/if}
 	</div>
@@ -143,12 +136,10 @@
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
-		font-size: 16px;
-		font-family: var(--sans);
 		padding-top: 20px;
 	}
 
-	.link-arrow {
-		height: 16px;
+	summary {
+		margin-bottom: 30px;
 	}
 </style>
