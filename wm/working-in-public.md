@@ -7,6 +7,7 @@ backlinks:
   - one-dimension
   - me
   - disclaimer
+  - uncertainties
 forwardlinks:
   - process
   - reflection

@@ -4,7 +4,6 @@ node: Spirituality
 indexed: false
 daily: false
 backlinks:
-  - the-internet
   - 'critical-path:-introduction'
 forwardlinks:
   - snags-in-experience
