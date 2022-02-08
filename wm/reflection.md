@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - working-in-public
   - principles
+  - improvements
 forwardlinks:
   - principles
 updates:

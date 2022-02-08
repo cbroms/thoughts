@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - '2021'
+  - breakfast
 forwardlinks:
   - trip-eastern-sierra-2021
   - gas-is-cheap-around-here
