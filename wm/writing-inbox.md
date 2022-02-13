@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - writing
+  - one-dimension
 forwardlinks: []
 updates:
   - '2022-01-25'

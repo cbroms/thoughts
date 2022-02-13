@@ -1,0 +1,12 @@
+---
+backlinks: []
+forwardlinks: []
+node: 'Cursed page, but blossoms'
+updates:
+  - '2022-02-12'
+id: '78061210'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+![I've tried to write this page four or five times now, and each time I keep absolutely bungled it up. See, I just did it again. Who says "keep absolutely bungled it up?" I guess I do. Normally I'm okay with some nasty grammar and spelling mistakes, but today I've exceeded my tolerance for it many times in a row. Maybe this page is cursed. Unlikely, given the content. Anyway, here's what I've been trying to articulate: (my god, this seems to be cursed, for real) Went home today to help with the pruning. What an incredible day it was! It must have been about 75F, pure blue skies, light cool breeze. The sort of days you usually get in April around here, except it's February. It's impossible not to enjoy, even if it's not supposed to happen. Nothing to complain about. We worked on pruning the plum trees, cherry trees, and grapes. The plums have pretty much hit their peak blossoms, and are completely covered in clouds of white and pink flowers. We sat under the plum by the pond and listened to it buzz; the beehive was out in force. Now that I'm back in Berkeley I'm looking at the plum outside my window that's covered in little songbirds. They dance over the upper branches and stick their beaks right in the center of the blossoms, ripping them off and sending them gently drifting down in little flower flurries. The front walk and the clovers, kale, bok choi, and mustard greens are covered in a layer of blossoms. Each flower is perched just so on top of a leaf, facing up as if they were emitted from the leaf on which they sit. A very delicate picture; I'm sure it will be gone by the end of the week. I’ve just relocated to outside to see if it has any affect on my ability to type. Let's see. I feel like I’ve talked a lot about these so-called reverie days. Those days when the combination of everything adds up to an experience that's too nice and impossible to just ignore. I'd like to keep a log of these days. My hypothesis is that it will turn out that every weekend day we spend outside will end up being classified as once of these days. It seems most likely that days like this happen all the time, I just never notice them because I'm working inside. Let's see. 4:20PM / 74F/ High of 76F / Clear and sunny](images/78061210/MkEGHVckto-daily.webp "")

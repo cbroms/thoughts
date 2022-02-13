@@ -1,0 +1,12 @@
+---
+backlinks: []
+forwardlinks: []
+node: Unfathomable experience and limited perception
+updates:
+  - '2022-02-10'
+id: '42428826'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+![There's this very strange feeling I sometimes have when reading something by someone else written in the first person. It's almost like when I'm writing I feel like I am the "I" and when other people use the "I" it's sort of like they're using me. There is perhaps no other word that I have come upon while reading that has made me stop and think about just how strange it is. I and no one else am I. You can't just use I! I'm I! This falls under the category of, things that make you realize that everyone is like you." Everyone has experience that's much like my own, everyone has a day. It's not just me that's like that; everyone goes around doing the same sorts of things that I do. At every moment, everyone that I've ever met is having an experience that's as rich as my own. We all have that experience. There's nothing about it that makes it my own other than the perhaps rather unique set of events I take part in, and the way these experiences have an additive affect over time on my new sorts of experiences. I’ve also had this feeling recently as Sydney and I have been out walking various places over the weekends. Every place we go, we see people there, out enjoying the sun and the air. It always seems that we encounter new people; see a selection of the world we haven't ever seen before. And then to consider: all of these random selections of people are always in these places, ourselves included. The places stay constant, but the particular selection of people that visit any given day or weekend is not. All of those visitors are just like us; they each have their own unique narrative experience that overlaps more or less with our own. And to compound that by every time and every place, you get an immense amount of experience happening constantly; an unthinkable amount. I can't even fathom this with a couple of locations over a couple of weekends. This is constant, dude. I suppose it just goes to show how insanely limited we are to our own perception. That is perhaps the one truth of the world: we cannot know what it is to be anything ether than ourselves. Maybe we can approximate it, but we cannot know how close our approximation is, even. I think it's hilarious and tragic and exciting all at the same time. 8:30PM / 58F / High of 78F !!! / Clear and sunny](images/42428826/EbMjdKvrEF-daily.webp "")

@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - one-dimension-todo
+  - one-dimension
 forwardlinks:
   - gemini-protocol
   - one-dimension

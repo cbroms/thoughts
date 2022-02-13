@@ -4,7 +4,6 @@ node: Fuck it
 indexed: false
 daily: false
 backlinks:
-  - me
   - the-right-way-to-do-things
 forwardlinks: []
 updates:

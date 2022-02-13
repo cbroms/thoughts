@@ -6,6 +6,8 @@ daily: false
 backlinks:
   - truisms
   - turn-the-wifi-off
+  - boundaries
+  - me
 forwardlinks:
   - truisms
   - i-might-be-evil

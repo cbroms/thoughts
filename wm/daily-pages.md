@@ -5,6 +5,7 @@ indexed: false
 daily: true
 backlinks:
   - projects-for-2022
+  - one-dimension
 forwardlinks:
   - one-dimension
   - i-bought-a-typewriter

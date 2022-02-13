@@ -1,0 +1,25 @@
+---
+backlinks:
+  - reverie
+forwardlinks:
+  - reverie
+node: Days of reverie
+updates:
+  - '2022-02-12'
+id: 03430808
+places:
+  - 'Berkeley, CA'
+---
+Some days are [*reverie days*](reverie.md). From *Walden*:
+
+> Sometimes, in a summer morning, having taken my accustomed bath, I sat in my sunny doorway from sunrise till noon, rapt in a revery, amidst the pines and hickories and sumachs, in undisturbed solitude and stillness, while the birds sing around or flitted noiseless through the house, until by the sun falling in at my west window, or the noise of some traveller's wagon on the distant highway, I was reminded of the lapse of time. I grew in those seasons like corn in the night, and they were far better than any work of the hands would have been. They were not time subtracted from my life, but so much over and above my usual allowance. I realized what the Orientals mean by contemplation and the forsaking of works. For the most part, I minded not how the hours went. The day advanced as if to light some work of mine; it was morning, and lo, now it is evening, and nothing memorable is accomplished.
+
+This is a log of days that have this particular feeling attached. Days that are just so. 
+
+## Sat, Feb 12, 2022
+
+![](images/03430808/UzFqQTiUrq.webp "")
+
+Today we went over to my parent's house to help do some pruning. It was sunny, perfectly clear blue skies, maybe 75 degrees, a light breeze. We sat under the plum tree by the pond and listened to it hum with bees. 
+
+Driving back home, the windows were down, sunroof was open, and 80's rock was blasting. Sun was low in the sky, warm. 
