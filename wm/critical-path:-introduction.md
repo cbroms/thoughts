@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - critical-path
+  - psychology
 forwardlinks:
   - my-biases
   - binding-the-nation
