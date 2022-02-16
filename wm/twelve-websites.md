@@ -9,6 +9,7 @@ backlinks:
   - weekend-projects
   - projects-for-2022
   - building-a-house
+  - page-previews
 forwardlinks:
   - design
   - build-it-yourself
