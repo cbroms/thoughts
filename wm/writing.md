@@ -5,7 +5,6 @@ indexed: false
 daily: false
 backlinks:
   - one-dimension
-  - media
   - books
   - writing-is-dead
   - 2021-one-dimension

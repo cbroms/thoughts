@@ -1,0 +1,22 @@
+---
+backlinks:
+  - media
+forwardlinks:
+  - the-most-poignant-song
+  - infinite-granite-live
+  - music-and-places
+  - lex-fridman
+node: Music and podcasts
+updates:
+  - '2022-02-18'
+id: '12268899'
+places:
+  - 'Berkeley, CA'
+---
+Some things I've been listening to recently: 
+
+- Lots of music. I keep [a log of what I find to be the best song of the day](https://futureland.tv/christian/best-song-of-the-day/grid). 
+    - Deafheaven. An absolutely phenomenal band that has created some of the [most emotionally charged](the-most-poignant-song.md) songs I’ve [heard](infinite-granite-live.md).
+    - Toro y Moi. Discovered this guy from my high school photography teacher who played [a music video of his](https://youtu.be/gGmfOsdla2Y) once during class. When I got home I totally forgot the name of the artist and tried searching for keywords from the video until I finally found it (guy casually pulling aside fern frond music video?)
+    - The War on Drugs. Consistently incredible. So many of their tracks are associated with [particular places](music-and-places.md) for me. 
+- The [Lex Fridman Podcast](lex-fridman.md). I listen to this when I commute to work. A wide range of guests engaging in quite compelling discussions with a most excellent host.

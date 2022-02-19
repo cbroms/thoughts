@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - passages
+  - things-that-make-us-human
 forwardlinks:
   - tools
   - who-are-we

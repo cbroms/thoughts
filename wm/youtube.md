@@ -6,7 +6,7 @@ daily: false
 backlinks:
   - xanadu
   - the-internet
-  - media
+  - youtube-channels
 forwardlinks:
   - the-internet
   - media

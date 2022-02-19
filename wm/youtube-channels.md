@@ -1,0 +1,28 @@
+---
+backlinks:
+  - media
+forwardlinks:
+  - youtube
+node: YouTube Channels
+updates:
+  - '2022-02-18'
+id: '24358093'
+places:
+  - 'Berkeley, CA'
+---
+
+There's some incredible people on [YouTube](youtube.md). Here's my current list of some choice individuals:  
+
+- [Beau Miles](https://www.youtube.com/c/BeauMiles)
+- [Dr. Disrespect](https://www.youtube.com/c/DrDisRespect)
+- [My Self Reliance](https://www.youtube.com/c/ShawnJamesMySelfReliance) / [Shawn James](https://www.youtube.com/c/ShawnJames1) 
+- [Crime Pays but Botany Doesn't](https://www.youtube.com/c/CrimePaysButBotanyDoesnt)
+- [GeoWizard](https://www.youtube.com/c/GeoWizard)
+- [Jabrils](https://www.youtube.com/c/Jabrils)
+- [RoKKiT KiT](https://www.youtube.com/c/rokkitkit)
+- [Townsends](https://www.youtube.com/user/jastownsendandson)
+- [Van Neistat](https://www.youtube.com/user/VanNeistat)
+- [Bald and Bankrupt](https://www.youtube.com/c/baldandbankrupt)
+- [Conner O'Malley](https://www.youtube.com/user/omalleyrock)
+- [Erik Aanderaa](https://www.youtube.com/c/ErikAanderaa)
+- [Mediocre Amateur](https://www.youtube.com/c/MediocreAmateur)

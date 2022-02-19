@@ -5,7 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - thoughts-and-places
-  - media
+  - music-and-podcasts
 forwardlinks:
   - thoughts-and-places
   - eye-to-eye-with-the-sun

@@ -6,7 +6,7 @@ daily: false
 backlinks:
   - common-perspectives
   - digital-listenerspeaker-relationships
-  - media
+  - music-and-podcasts
 forwardlinks:
   - digital-listenerspeaker-relationships
   - common-perspectives

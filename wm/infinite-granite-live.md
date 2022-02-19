@@ -4,8 +4,8 @@ node: Infinite Granite Live
 indexed: false
 daily: false
 backlinks:
-  - media
   - '2021'
+  - music-and-podcasts
 forwardlinks: []
 updates:
   - '2021-10-16'
