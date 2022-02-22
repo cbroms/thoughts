@@ -1,0 +1,17 @@
+---
+backlinks:
+  - psychology
+forwardlinks: []
+node: Normal behavior
+updates:
+  - '2022-02-20'
+id: '66337940'
+places:
+  - 'Berkeley, CA'
+---
+It's sometimes quite incredible to consider just how much we assume humans will behave "normally." 
+
+When interacting with someone else, there's a fairly narrow range (all things considered) of behavior you'd expect. Anything outside that range isn't even really considered. 
+
+For example, it's often somewhat unbelievable to me just how trusting the traffic system is. We just assume that for the most part, people will drive inside their lanes, stop at stoplights and stop signs, yield, slow down, and all sorts of other behavior. You could argue people are only doing these things because if they don't there will be strong consequences, but I think there's more to it than that. People just sort of do it, not thinking constantly about how they're doing it begrudgingly. They see the logic in it and follow the rules without question. 
+

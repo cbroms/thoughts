@@ -1,0 +1,20 @@
+---
+backlinks:
+  - uncertainties
+forwardlinks: []
+node: Classification is unavoidable
+updates:
+  - '2022-02-21'
+id: '14162415'
+places:
+  - 'Berkeley, CA'
+---
+One of the easiest characterizations you can make about a person is by the car they drive. 
+
+Everyone--no matter what car they drive--fits into a particular bucket. There's the Prius driver. The G Wagon driver. The Tacoma driver. The M3 driver. The Minivan driver. Subaru driver. On and on. No matter what car you drive, it will put you into a bucket. Each particular, with their own identifiable traits. 
+
+The uncomfortable fact about this is that puts me and you and everyone else into a bucket. Every visible choice we make puts us into these buckets. What clothes we wear. What phone we have. Where we live. Where we shop. Etc, etc. 
+
+It's unavoidable. Every choice we make classifies us, stereotypes us. 
+
+
