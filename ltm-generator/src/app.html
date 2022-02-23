@@ -8,17 +8,12 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-		<style id="popups">
-			.hyperfov-preview-element-wrapper {
-				border: none;
-				box-shadow: 4px 4px 20px #00000073;
-				border-radius: 4px;
-			}
-
-			.hyperfov-link-image {
-				filter: saturate(0%);
-			}
-		</style>
+		<script
+			async
+			defer
+			data-domain="onedimension.net"
+			src="https://plausible.rainflame.com/js/plausible.js"
+		></script>
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
@@ -32,6 +27,12 @@
 					font-family: var(--sans);
 					border: 1px solid var(--external-link-color);
 					border-radius: 6px;
+					font-size: 1rem;
+					line-height: 1rem;
+				}
+
+				.link-interior-content {
+					padding-bottom: 5px;
 				}
 
 				.link-url {
