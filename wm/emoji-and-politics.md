@@ -1,0 +1,28 @@
+---
+backlinks: []
+forwardlinks:
+  - youtube
+node: Emoji and politics
+updates:
+  - '2022-02-24'
+id: '34022279'
+places:
+  - 'Berkeley, CA'
+---
+It seems like there's a tendency for tech companies to try and claim political neutrality. But that in reality, politics are baked into their DNA. 
+
+There are plenty of low hanging examples here around [YouTube](youtube.md) and FB's moderation policies and Twitter's policing of "disinformation" and so on. 
+
+What I'm interested in are the less flagrant examples. The subtle, often overlooked ways in which our biases work themselves into the things we build. 
+
+Tonight Sydney was looking for an upside down cross character. Interestingly there's a normal latin cross (✝) in a number of different permutations (e.g. ✝️, ♱, ✞, ♰...) but no upside down cross. There's a hammer and sickle (☭) but no swastika. Clearly some amount of deliberation is being put into what does and does not get added as a character. 
+
+Looking over the [emoji selection guidelines](https://unicode.org/emoji/proposals.html#selection_factors), the factors that go into the deliberations are clearer. While the Unicode Consortium might position itself as this non-profit standards organization, it's composed of members from the industry and academia, each with their own particular viewpoint and biases. While some of the reasons a member might want to participate in the organization are technical, there's an advantage that comes in the ability to influence what does and does not make it into the standard from a more ideological standpoint. As [the consortium's site puts it](https://www.unicode.org/consortium/why_join.html), joining helps you: 
+
+> Advance the standard to meet your requirements
+
+Requirements, whatever they may be. I guess those important requirements worked out so now we get a uh... [pregnant man emoji}(https://blog.emojipedia.org/new-emojis-in-2021-2022/)? 
+
+
+
+

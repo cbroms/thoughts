@@ -7,6 +7,7 @@ backlinks:
   - xanadu
   - the-internet
   - youtube-channels
+  - emoji-and-politics
 forwardlinks:
   - the-internet
   - media
