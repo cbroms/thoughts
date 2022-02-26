@@ -10,6 +10,7 @@ backlinks:
   - projects-for-2022
   - building-a-house
   - page-previews
+  - finished-projects
 forwardlinks:
   - design
   - build-it-yourself
