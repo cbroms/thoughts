@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - small-websites
+  - blobs-in-space
 forwardlinks:
   - the-nature-of-something
 updates:

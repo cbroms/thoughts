@@ -5,6 +5,8 @@ indexed: false
 daily: false
 backlinks:
   - uncertainties
+  - beyond-emotional-pornography
+  - one-question-for-god
 forwardlinks:
   - hypocrisy-and-contradiction
   - society-man

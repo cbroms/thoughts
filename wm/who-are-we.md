@@ -16,6 +16,7 @@ backlinks:
   - moments-of-sublime-beauty
   - addressing-climate-change
   - describe-dont-teach
+  - one-question-for-god
 forwardlinks:
   - the-nature-of-something
 updates:
