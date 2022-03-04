@@ -13,6 +13,7 @@ backlinks:
   - local-first
   - gemini-protocol
   - hyperfov
+  - gps-article
 forwardlinks:
   - design
   - who-are-we

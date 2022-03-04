@@ -1,0 +1,17 @@
+---
+backlinks:
+  - articles
+forwardlinks:
+  - the-internet
+node: GPS article
+updates:
+  - '2022-03-03'
+id: '16253722'
+places:
+  - 'Berkeley, CA'
+---
+I came across [this article about GPS](https://ciechanow.ski/gps/) a couple months ago and it's really stuck with me as a particularly *fresh* sort of presentation of information on [the internet](the-internet.md). 
+
+It's so clean, so well thought out. Each little interactive example contributes to the overall piece. The author barely needed to write any text; the information just sort of emerges as you scroll through and interact with it. 
+
+This is the sort of thing we need more of. Information doesn't need to be presented through text. The digital world is so much more than that, and here is an excellent example of someone doing something new and it being *vastly superior* to any text-based explanation of the topic. 
