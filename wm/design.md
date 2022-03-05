@@ -19,6 +19,7 @@ backlinks:
   - missing-the-easy-way
   - common-errors
   - why-do-driving-directions-suck
+  - new-possibility-generation-systems-to-capture-the-sprirt-of-democracy
 forwardlinks:
   - the-craft-of-design
 updates:

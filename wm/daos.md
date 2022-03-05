@@ -3,7 +3,8 @@ id: 05698764
 node: DAOs
 indexed: false
 daily: false
-backlinks: []
+backlinks:
+  - new-possibility-generation-systems-to-capture-the-sprirt-of-democracy
 forwardlinks:
   - global-impact
   - local-first
