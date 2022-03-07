@@ -1,0 +1,12 @@
+---
+backlinks: []
+forwardlinks: []
+node: A day of work and a futile quest for pizza
+updates:
+  - '2022-03-06'
+id: '91352742'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+![A day of gardening. The weeds have been really growing up this spring, and it was about time that we get out there and start doing some serious weeding. Today was that day. Pretty much every part of the yard got a nice once over, and we ended up with an absolutely massive pile of weeds• It was probably about fifteen pounds worth of weeds. Went straight into the compost. We also did a lot of work clearing out plants from the fall and planting new seeds. In particular, most of the tatsoi that had gone to flower were removed, and some of the kales that had become covered in powdery mildew were too. Sydney pulled back the celery plants that had gotten a bit too wide, and cleared out the clovers that had come up around everything. Wow, it's nearly impossible to type with cold hands. I keep totally messing up the keys. The reason my hands are cold is that we just got back from eating out tonight. I'd said that I wanted some pizza for about two weeks now, and Sydney was on a mission to find me some. She found this pizza place up by Chez Panisse that was supposed to be really good. So we embarked on a 30 minute walk up there. By the time we were just arriving, I said, "wouldn't it be perfect if we get there and they're closed?" Well, sure enough. SO we walked back down the street  a bit and ended up eating at this other Italian place that was really quite good. No pizza, just pasta. But really nice carefully made pasta. The restaurant was owned by this dude shouting Italian with the patrons and chain smoking cigarettes, so you know it had to be pretty good. ANYWAY, as l was saying, we planted a bunch of new seeds loo. Peppers, Napa cabbage, and lots of herbs. And eggplant too. Lots of things that will eventually end up at our plot in the community garden. I also realized that we could probably grow beans up on t he fence by the deck, so I prepared a nice strip of dirt there too. Everywhere we were going to plant things I started putting in some of our compose. It was exciting to finally get to put it to use after adding to if for so many months now. This evening we want down to the Berkeley Marina, which was nice as always. Everything's so green down there; the grass is getting really tall. Definitely feels like spring. 9:20PM / 46F / High of 60F / Clear and sunny](images/91352742/cmXlVmtpCl-daily.webp "")
