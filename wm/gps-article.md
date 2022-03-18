@@ -1,6 +1,7 @@
 ---
 backlinks:
   - articles
+  - one-dimension-experiments
 forwardlinks:
   - the-internet
 node: GPS article

@@ -8,6 +8,7 @@ backlinks:
   - writing
   - writing-is-dead
   - disclaimer
+  - one-dimension-experiments
 forwardlinks:
   - hypocrisy-and-contradiction
 updates:

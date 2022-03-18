@@ -8,6 +8,7 @@ backlinks:
   - the-internet
   - youtube-channels
   - emoji-and-politics
+  - vibification
 forwardlinks:
   - the-internet
   - media

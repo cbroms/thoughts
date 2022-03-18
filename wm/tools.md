@@ -7,6 +7,7 @@ backlinks:
   - me
   - abstractions-make-us-human
   - trenching-shovels-and-toolmaking
+  - spreadsheets
 forwardlinks:
   - me
   - build-it-yourself

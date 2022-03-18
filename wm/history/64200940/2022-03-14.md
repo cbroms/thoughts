@@ -1,0 +1,12 @@
+---
+backlinks: []
+forwardlinks: []
+node: Relativity and driving
+updates:
+  - '2022-03-14'
+id: '64200940'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+![I've been keeping a list of certainties, as I call them, on 1D. This list has what might best be described as "principles" about the world, or perhaps about operating in the world. It started with the principle of locality, local first, which is something about what I've found the moat salient form of working. Anyway, I've been thinking a lot about relativity recently, and it seems like it warrants being added to the list. I’m not sure what exactly the principle is yet. But there's one example in particular that I keep coming back to and mulling over. Whenever you're driving, there's always this very strange sensation. Let's say you're on the freeway and going maybe 75mph. ,Despite that fact that you're going at what is for a person a fairly unimaginable speed, it somehow feels… normal. The thing is that you're often surrounded by other vehicles going the same speed as you, or at least fairly close to it. And so it doesn't feel very strange at all; the experience isn't that different than walking down the street as you pass people and people pass you. It's just a different sort of domain. Speed, then, is relative. The experience isn't really that different a t different speeds if the surrounding behavior is familiar. Going 45mph down a curving mountain road feels somewhat faster than going 75mph down the interstate. In one instance, the surroundings fly by and you can feel the pull around the turns, and in the other there’s a barely any real movement and the surroundings are far away, moving by at a more steady rate. The cars around you seem as though they're slowly sliding by, often seemingly still despite going 75mph. It's a very strange thing. I haven't quite figured out what it is that makes it so essential a part of life, relativity. Sometimes I think everything around is relative in some way, changing, existing only as-is in my mind for a few moments. The next time I see it it's something a bit different, stained with a different context. That's it for today. I spent pretty much the entire day working; I sat down at 8:30 AM this morning and worked on cranking out interfaces until 4:30, after which I sat back down and worked on my link previews package until 10:00. Now, to bed. 10:30PM / 55F / High of 70F / Partly cloudy, trough coming in](images/64200940/RBmrJEwhHV-daily.webp "")

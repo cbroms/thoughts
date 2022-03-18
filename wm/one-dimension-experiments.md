@@ -1,0 +1,23 @@
+---
+backlinks:
+  - one-dimension
+forwardlinks:
+  - gps-article
+  - the-authority-of-writing
+node: One Dimension experiments
+updates:
+  - '2022-03-12'
+id: '43634325'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+I'm thinking of adding a new class of articles on this site, called *experiments.*
+
+I'm particularly inspired by a [GPS article](gps-article.md) I read, which presents information in this incredibly simple and interactive way. The article isn't read, it's experienced. 
+
+These experiments could be a similar thing. An exploration into a particular topic through a series of interactive examples.
+
+Another idea I had was finding ways to get around the whole "I'm a serious author, [you should listen to me](the-authority-of-writing.md)" thing. Something I think could be interesting would be to basically come to a series of conclusions with the help of the audience; trying to blur the  line between author and audience. Sort of like in those narrative games like *Detroit: Become Human*, where you can see how many of each player chose each of the dialogue options, except baked into the interactive examples. 
+
+I can see it in my head, just need to start making it more concrete.

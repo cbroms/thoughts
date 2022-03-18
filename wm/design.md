@@ -20,6 +20,7 @@ backlinks:
   - common-errors
   - why-do-driving-directions-suck
   - new-possibility-generation-systems-to-capture-the-sprirt-of-democracy
+  - spreadsheets
 forwardlinks:
   - the-craft-of-design
 updates:
