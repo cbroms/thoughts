@@ -1,0 +1,16 @@
+---
+backlinks:
+  - truisms
+forwardlinks: []
+node: Start it
+updates:
+  - '2022-03-19'
+id: '40073566'
+places:
+  - 'Berkeley, CA'
+---
+Maybe the best way to overcome any sort of stasis is to just start. 
+
+Depending on the stasis, maybe that's the hard part. But once started, everything starts going and it becomes easier and easier to return and continue working. 
+
+It's the initial bump, the initial little push to actually begin the first few motions that's key. It's like a ball on top of a hill; start it and it'll roll down on its own. 

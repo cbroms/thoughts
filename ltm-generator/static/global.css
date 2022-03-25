@@ -99,6 +99,7 @@ img {
 	width: auto;
 	max-height: 80vh;
 	height: 100%;
+	border-radius: 8px;
 }
 
 figcaption {
@@ -160,4 +161,8 @@ pre {
 	overflow-x: scroll;
 	background-color: #ededed;
 	padding: 10px;
+}
+
+link-preview {
+	--lp-link-font-family: sans-serif;
 }

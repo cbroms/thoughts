@@ -62,7 +62,7 @@ _  / / /_  __ \  _ \_  / / /_  /__  __ `__ \  _ \_  __ \_  ___/_  /_  __ \_  __ 
 
 	<h1>One Dimension &#10132; &#10132; &#10132;</h1>
 
-	<div class="list-title">
+	<!-- <div class="list-title">
 		<Badge title="Highlighted thoughts" icon="𓄀" />
 	</div>
 	<LinkList {pages} />
@@ -70,7 +70,7 @@ _  / / /_  __ \  _ \_  / / /_  /__  __ `__ \  _ \_  __ \_  ___/_  /_  __ \_  __ 
 	<div class="list-title">
 		<Badge title="Daily pages" icon="𓅰" />
 	</div>
-	<LinkList pages={dailyPages} date more="/daily" />
+	<LinkList pages={dailyPages} date more="/daily" /> -->
 
 	<div class="footer">
 		<div>

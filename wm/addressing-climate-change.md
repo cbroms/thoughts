@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - minimize-physical-abstractions
+  - to-revisit
 forwardlinks:
   - who-are-we
   - local-first

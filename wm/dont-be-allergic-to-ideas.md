@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - truisms
+  - to-revisit
 forwardlinks: []
 updates:
   - '2022-01-05'

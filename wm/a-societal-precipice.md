@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - progress-and-the-stock-market
+  - to-revisit
 forwardlinks:
   - my-biases
   - the-fucking-laptop-class

@@ -14,6 +14,7 @@ backlinks:
   - gemini-protocol
   - hyperfov
   - gps-article
+  - systems
 forwardlinks:
   - design
   - who-are-we

@@ -1,0 +1,39 @@
+---
+backlinks: []
+forwardlinks:
+  - who-writes-google-maps-restaurant-descriptions
+  - vibification
+  - a-societal-precipice
+  - why-do-i-like-spreadsheets-so-damn-much
+  - new-possibility-generation-systems-to-capture-the-sprirt-of-democracy
+  - emoji-and-politics
+  - classification-is-unavoidable
+  - normal-behavior
+  - conventions
+  - were-built-to-work
+  - addressing-climate-change
+  - dont-be-allergic-to-ideas
+  - my-biases
+node: To revisit
+updates:
+  - '2022-03-18'
+id: '00527140'
+places:
+  - 'Berkeley, CA'
+---
+Thoughts that could use revisiting: 
+
+
+- [Who writes Google Maps restaurant descriptions?](who-writes-google-maps-restaurant-descriptions.md)
+- [Vibification](vibification.md)
+- [A societal precipice](a-societal-precipice.md)
+- [Why do I like spreadsheets so damn much?](why-do-i-like-spreadsheets-so-damn-much.md)
+- [New possibility-generation systems to capture the sprirt of democracy](new-possibility-generation-systems-to-capture-the-sprirt-of-democracy.md)
+- [Emoji and politics](emoji-and-politics.md)
+- [Classification is unavoidable](classification-is-unavoidable.md)
+- [Normal behavior](normal-behavior.md)
+- [Conventions](conventions.md)
+- [We're built to work](were-built-to-work.md)
+- [Addressing climate change](addressing-climate-change.md)
+- [Don't be allergic to ideas](dont-be-allergic-to-ideas.md)
+- [My biases](my-biases.md)

@@ -7,6 +7,7 @@ backlinks:
   - me
   - 'critical-path:-introduction'
   - a-societal-precipice
+  - to-revisit
 forwardlinks:
   - truisms
   - life

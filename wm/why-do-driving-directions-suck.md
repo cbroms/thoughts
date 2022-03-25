@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - futures
+  - experience-design
 forwardlinks:
   - design
   - psychology

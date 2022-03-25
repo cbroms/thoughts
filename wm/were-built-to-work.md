@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - people-need-a-creative-outlet
   - building-a-house
+  - to-revisit
 forwardlinks:
   - garden
   - local-first

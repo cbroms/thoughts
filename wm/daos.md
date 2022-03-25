@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - new-possibility-generation-systems-to-capture-the-sprirt-of-democracy
+  - systems
 forwardlinks:
   - global-impact
   - local-first

@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - to-revisit
 forwardlinks:
   - youtube
 node: Emoji and politics
