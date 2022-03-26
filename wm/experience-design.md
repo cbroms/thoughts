@@ -1,6 +1,7 @@
 ---
 backlinks:
   - the-craft-of-design
+  - small-changes-to-the-environment
 forwardlinks:
   - design
   - why-do-driving-directions-suck

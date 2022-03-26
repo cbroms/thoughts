@@ -1,0 +1,22 @@
+---
+backlinks:
+  - to-revisit
+forwardlinks:
+  - experience-design
+  - omaha-nebraska
+node: Small changes to the environment
+updates:
+  - '2022-03-25'
+id: '98648620'
+places:
+  - 'Berkeley, CA'
+---
+Sometimes it doesn't take a lot to improve your immediate environment. 
+
+For the last week I've had a little sprig of eucalyptus sitting on top of my computer. It's dried out and I get these little whiffs of eucalyptus as I sit there. Such a small change, and yet such [a great experience](experience-design.md). 
+
+![](images/98648620/pAzWwLSKDG.webp "")
+
+Another good one is not using fluorescent ceiling lights. I've always said, if you make me live in a place with nothing but ceiling lights I'll probably kill myself. It's incredibly depressing. When I was in [Omaha](omaha-nebraska.md) there weren't any other lights in my apartment except ceiling lights, so I just never turned on the lights at night (good thing it was summer!) I'd rather sit in the dark than under fluorescent lights at home. 
+
+All that's required is to get some point lights here and there, like a desk lamp or reading lamp. Turn those on and you're good to go. The experience becomes a million times nicer. 

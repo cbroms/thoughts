@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - spirituality
   - music-and-places
+  - small-changes-to-the-environment
 forwardlinks:
   - eye-to-eye-with-the-sun
 updates:
