@@ -2,6 +2,7 @@
 backlinks:
   - to-revisit
   - systems
+  - a-planetary-dashboard
 forwardlinks:
   - daos
   - design

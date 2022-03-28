@@ -7,6 +7,7 @@ backlinks:
   - wariness-of-progress
   - cross-country-trip-2021
   - build-it-yourself
+  - a-planetary-dashboard
 forwardlinks: []
 updates:
   - '2021-10-19'
