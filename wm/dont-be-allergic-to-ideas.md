@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - truisms
   - to-revisit
+  - who-gets-self-determination
 forwardlinks: []
 updates:
   - '2022-01-05'

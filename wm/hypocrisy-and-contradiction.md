@@ -10,6 +10,7 @@ backlinks:
   - society-man
   - philosophy
   - i-might-be-evil
+  - who-gets-self-determination
 forwardlinks:
   - design
 updates:
