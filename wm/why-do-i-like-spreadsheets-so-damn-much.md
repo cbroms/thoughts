@@ -1,6 +1,5 @@
 ---
-backlinks:
-  - to-revisit
+backlinks: []
 forwardlinks: []
 node: 'Why do I like spreadsheets so damn much? '
 updates:

@@ -1,0 +1,23 @@
+---
+backlinks:
+  - to-revisit
+  - democracy
+forwardlinks:
+  - a-planetary-dashboard
+node: Botswana
+updates:
+  - '2022-03-31'
+id: '57330140'
+places:
+  - 'Berkeley, CA'
+---
+The other day I was cruising around Wikipedia and reading about some African countries. I started at the [Central African Republic](https://en.wikipedia.org/wiki/Central_African_Republic), which it turns out is doing horribly. I was curious about its neighbors, and learned all of them are basically doing just as abysmally.  
+
+So I was curious: which countries in Africa are *improving*? I'm taking the basic definition of improvement here, that is increasing per-capita GDP, human right development index, all the sort of things you usually hear about when *progress* is discussed. 
+
+[Botswana](https://en.wikipedia.org/wiki/Botswana) is the place. It's not very corrupt, has decent human rights, a growing economy, and a reasonably solid democratic government. 
+
+*Why*? What is it about Botswana in particular that led to its comparative success versus all the other African countries? It's not as though Botswana wasn't a colony at some point--it was in just the same way much of Africa was. And yet, the people there able to overcome that and create an independent nation with actual prospects for the future. What's so different about Botswana? 
+
+These sorts of things are really compelling to me. It just begs digging into, comparing and contrasting the context in Botswana from its neighbors. Was it one person? The people living there? Economic or geographic conditions? I'm sure there's a ton of factors, and [untying them](a-planetary-dashboard.md) seems like an impossible task. But fascinating nonetheless. 
+

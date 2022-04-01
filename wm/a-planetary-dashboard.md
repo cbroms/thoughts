@@ -1,6 +1,8 @@
 ---
 backlinks:
   - futures
+  - botswana
+  - democracy
 forwardlinks:
   - interdependence
   - new-possibility-generation-systems-to-capture-the-sprirt-of-democracy

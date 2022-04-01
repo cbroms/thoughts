@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - 'critical-path:-introduction'
   - a-societal-precipice
+  - democracy
 forwardlinks:
   - global-impact
 updates:

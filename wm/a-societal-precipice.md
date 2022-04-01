@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - progress-and-the-stock-market
   - to-revisit
+  - democracy
 forwardlinks:
   - my-biases
   - the-fucking-laptop-class

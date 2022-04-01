@@ -3,6 +3,7 @@ backlinks:
   - to-revisit
   - systems
   - a-planetary-dashboard
+  - democracy
 forwardlinks:
   - daos
   - design
