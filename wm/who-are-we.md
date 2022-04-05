@@ -17,6 +17,7 @@ backlinks:
   - addressing-climate-change
   - describe-dont-teach
   - one-question-for-god
+  - humans
 forwardlinks:
   - the-nature-of-something
 updates:

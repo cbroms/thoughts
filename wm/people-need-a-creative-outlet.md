@@ -3,7 +3,8 @@ id: '10867172'
 node: People need a creative outlet
 indexed: false
 daily: false
-backlinks: []
+backlinks:
+  - humans
 forwardlinks:
   - were-built-to-work
   - minimize-physical-abstractions

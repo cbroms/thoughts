@@ -3,7 +3,8 @@ id: '43587408'
 node: 'Something has gone awry '
 indexed: false
 daily: false
-backlinks: []
+backlinks:
+  - humans
 forwardlinks:
   - the-nature-of-something
 updates:

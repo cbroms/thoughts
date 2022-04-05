@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - the-internet
+  - humans
 forwardlinks: []
 updates:
   - '2021-10-31'

@@ -2,6 +2,7 @@
 backlinks:
   - things-that-make-us-human
   - articles
+  - humans
 forwardlinks: []
 node: Do Elephants Have Souls?
 updates:

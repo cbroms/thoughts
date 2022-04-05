@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - water-in-california
   - to-revisit
+  - collective-knowledge
 forwardlinks:
   - functional-fixedness
   - water-in-california

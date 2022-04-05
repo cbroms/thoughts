@@ -8,6 +8,7 @@ backlinks:
   - local-first
   - daos
   - 'critical-path:-introduction'
+  - humans
 forwardlinks:
   - the-internet
 updates:

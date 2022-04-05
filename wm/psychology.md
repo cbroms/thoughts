@@ -8,6 +8,7 @@ backlinks:
   - why-do-driving-directions-suck
   - strange-sensations
   - we-were-absolutely-brutal
+  - humans
 forwardlinks:
   - what-exists
   - thoughts-and-places

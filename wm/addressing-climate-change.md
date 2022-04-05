@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - minimize-physical-abstractions
   - to-revisit
+  - humans
 forwardlinks:
   - who-are-we
   - local-first

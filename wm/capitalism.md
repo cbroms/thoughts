@@ -7,6 +7,7 @@ backlinks:
   - uncertainties
   - money
   - a-societal-precipice
+  - humans
 forwardlinks:
   - moderation
 updates:

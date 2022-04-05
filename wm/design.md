@@ -22,6 +22,7 @@ backlinks:
   - new-possibility-generation-systems-to-capture-the-sprirt-of-democracy
   - spreadsheets
   - experience-design
+  - collective-knowledge
 forwardlinks:
   - the-craft-of-design
 updates:

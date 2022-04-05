@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - uncertainties
+  - humans
 forwardlinks: []
 updates:
   - '2022-01-03'

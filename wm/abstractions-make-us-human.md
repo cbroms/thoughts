@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - passages
   - things-that-make-us-human
+  - collective-knowledge
 forwardlinks:
   - tools
   - who-are-we
