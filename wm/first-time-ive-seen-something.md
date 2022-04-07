@@ -4,7 +4,7 @@ node: First time I've seen something
 indexed: false
 daily: false
 backlinks:
-  - strange-sensations
+  - strange-mental-phenomena
 forwardlinks: []
 updates:
   - '2022-01-30'

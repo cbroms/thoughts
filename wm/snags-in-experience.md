@@ -5,7 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - spirituality
-  - strange-sensations
+  - strange-mental-phenomena
 forwardlinks: []
 updates:
   - '2021-10-12'

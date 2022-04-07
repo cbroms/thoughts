@@ -4,7 +4,7 @@ node: Limitations of language as revealed by dreams
 indexed: false
 daily: false
 backlinks:
-  - strange-sensations
+  - strange-mental-phenomena
 forwardlinks: []
 updates:
   - '2021-10-25'

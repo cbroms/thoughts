@@ -8,6 +8,7 @@ backlinks:
   - silence
   - abstracting-nature
   - passages
+  - strange-mental-phenomena
 forwardlinks: []
 updates:
   - '2021-11-28'

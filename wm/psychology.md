@@ -6,7 +6,7 @@ daily: false
 backlinks:
   - common-errors
   - why-do-driving-directions-suck
-  - strange-sensations
+  - strange-mental-phenomena
   - we-were-absolutely-brutal
   - humans
 forwardlinks:
