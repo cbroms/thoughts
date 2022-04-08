@@ -7,6 +7,7 @@ backlinks:
   - progress-and-the-stock-market
   - to-revisit
   - democracy
+  - progress
 forwardlinks:
   - my-biases
   - the-fucking-laptop-class

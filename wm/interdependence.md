@@ -8,6 +8,7 @@ backlinks:
   - cross-country-trip-2021
   - build-it-yourself
   - a-planetary-dashboard
+  - progress
 forwardlinks: []
 updates:
   - '2021-10-19'

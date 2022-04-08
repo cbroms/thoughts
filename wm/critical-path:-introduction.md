@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - critical-path
   - psychology
+  - progress
 forwardlinks:
   - my-biases
   - binding-the-nation

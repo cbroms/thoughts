@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - a-behavioral-heuristic-for-progress
 forwardlinks:
   - daos
   - new-possibility-generation-systems-to-capture-the-sprirt-of-democracy

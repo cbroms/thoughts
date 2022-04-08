@@ -2,6 +2,7 @@
 backlinks:
   - to-revisit
   - democracy
+  - progress
 forwardlinks:
   - a-planetary-dashboard
 node: Botswana

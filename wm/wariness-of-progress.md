@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - a-societal-precipice
+  - progress
 forwardlinks:
   - interdependence
   - who-are-we

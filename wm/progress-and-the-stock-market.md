@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - fire
   - 2021-finances
+  - progress
 forwardlinks:
   - a-societal-precipice
 updates:

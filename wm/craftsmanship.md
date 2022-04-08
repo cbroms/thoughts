@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - the-craft-of-design
+  - progress
 forwardlinks:
   - the-craft-of-design
   - build-it-yourself
