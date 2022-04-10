@@ -9,6 +9,7 @@ backlinks:
   - strange-mental-phenomena
   - we-were-absolutely-brutal
   - humans
+  - visualizing-the-network
 forwardlinks:
   - what-exists
   - thoughts-and-places

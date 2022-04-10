@@ -9,6 +9,7 @@ backlinks:
   - one-dimension-todo
   - gene-inheritance
   - random-symbols-for-one-dimension
+  - visualizing-the-network
 forwardlinks:
   - gene-inheritance
 updates:

@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - one-dimension
   - projects-as-an-investment
+  - visualizing-the-network
 forwardlinks:
   - one-dimension
 updates:
