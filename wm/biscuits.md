@@ -1,0 +1,25 @@
+---
+backlinks:
+  - recipes
+forwardlinks: []
+node: Biscuits
+updates:
+  - '2022-04-12'
+id: '64189038'
+places:
+  - 'Berkeley, CA'
+---
+- 1 3/4 cups white flour
+- 1/4 cup whole wheat flour
+- 2 tsp baking powder
+- 1/4 tsp baking soda
+- 1 tsp sugar
+- 1 tsp salt
+- 8 tbsp unsalted butter
+- 3/4 cup buttermilk
+
+Mix the dry ingredients. Cut in the butter with a pastry cutter until it's pea-sized. Mix in the buttermilk until it's just incorporated. 
+
+Press into a 1/2" thick sheet, then fold over itself in thirds like a letter to create three layers. Press down again into a 1" thick sheet. Cut into rectangles. Brush the tops with some buttermilk. 
+
+Bake at 450F for 20 mins. 

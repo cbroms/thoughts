@@ -1,0 +1,20 @@
+---
+backlinks:
+  - recipes
+forwardlinks: []
+node: Flour tortillas
+updates:
+  - '2022-04-11'
+id: '22271574'
+places:
+  - 'Berkeley, CA'
+---
+- 2 cups flour
+- 1/2 tsp salt
+- 1/2 tsp baking powder
+- 1/4 cup butter 
+- 2/3 cup warm water
+
+Break up the butter into the dry ingredients until it's like sand. Add the water and mix, then knead a few times until it comes together. Cut into 8-12 pieces and let rest covered for 30 minutes or so. 
+
+Roll out each piece and fry it in a dry pan on medium-ish heat. Flip over after 45 seconds or so, then fry for another 20 seconds. 

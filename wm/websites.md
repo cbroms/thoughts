@@ -7,6 +7,7 @@ backlinks:
   - my-websites
   - the-internet
   - progressive-enhancement
+  - style-tidbits
 forwardlinks:
   - the-internet
   - my-websites
