@@ -8,6 +8,7 @@ backlinks:
   - me
   - finished-projects
   - futures
+  - what-i-like-to-make
 forwardlinks:
   - one-dimension
   - hyperfov

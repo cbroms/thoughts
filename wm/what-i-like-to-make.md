@@ -1,0 +1,23 @@
+---
+backlinks:
+  - me
+forwardlinks:
+  - recipes
+  - garden
+  - my-websites
+  - tools
+  - what-im-working-on-now
+node: What I like to make
+updates:
+  - '2022-04-14'
+id: '46391800'
+places:
+  - 'Berkeley, CA'
+---
+- [Food](recipes.md)
+- [Plants](garden.md)
+- [Websites](my-websites.md)
+- [Tools, generally speaking](tools.md)
+
+See also:
+- [What I'm working on now](what-im-working-on-now.md)

@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - websites
   - me
+  - what-i-like-to-make
 forwardlinks:
   - websites
 updates:
