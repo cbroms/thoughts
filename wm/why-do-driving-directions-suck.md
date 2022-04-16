@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - futures
   - experience-design
+  - proportions-not-recipes
 forwardlinks:
   - design
   - psychology
