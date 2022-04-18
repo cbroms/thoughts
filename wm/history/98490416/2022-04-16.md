@@ -1,0 +1,12 @@
+---
+backlinks: []
+forwardlinks: []
+node: New routines and living true to nature
+updates:
+  - '2022-04-16'
+id: '98490416'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+![Okay, more things I'm going to start doing. Running. I did it for a while, now I'm going to start it up again. I’ve been feeling pretty lame, like I haven't been getting nearly enough exercise. I feel like I sit around all day, which is exactly what I do. I go for a walk, and do some pushups, but that's pretty much it. I need to get myself out of this way of living, everything based around sitting at a desk. I want to feel capable in nearly any situation I could encounter. The challenge of course is that the sort of lives we live now mean that encounters that actually threaten us are few and far between. You could probably live your entire life without ever really being in danger. But this is about more than just danger. This is more about living in a way closer to the way humans are supposed to live. Obviously funning isn’t the most representative activity for how we should live, but it's a start. Really we should be shaping the world around us with our bodies, building things with our minds and muscles. But that way of living seems to be going. Instead we get gyms and working out for more aesthetic reasons, not functional ones. Is my reason any better than that? There's no functional reason to start running, it's more that there's a philosophical one, and because it makes me feel good. Maybe that's good enough for me. We'll see. Anyway, I created a new FL journal for running and will start populating it tomorrow. The plan is to run in the morning before I get into the day's work, as a way of centering myself and thinking a bit before jumping right in. This of course means I'll need to start waking up earlier. I've been trying to do that the last couple of weeks but it hasn't really gone anywhere. So the goal here I think ie a reliable 7:00 wake up time. Then the run for 30-45mins, then a shower, then right into the day. We'll see how this works given that I'll be fasting and won't be able to eat afterwards. This was a big reason why I was running at the end of the day during the fall, so I'd be able to eat right after finishing. Maybe that'll be the better move, we’ll see. 9:45PM / 49F / High of 61F / Rainy this morning, clearing to blue skies and sun](images/98490416/olsPpdIojj-daily.webp "")

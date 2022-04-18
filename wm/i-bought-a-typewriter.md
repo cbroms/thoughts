@@ -8,6 +8,7 @@ backlinks:
   - daily-pages
   - impressions-on-typing
   - projects-for-2022
+  - tools
 forwardlinks:
   - big-boy-purchases
   - writing
