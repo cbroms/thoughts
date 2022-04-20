@@ -1,0 +1,24 @@
+---
+backlinks:
+  - recipes
+forwardlinks: []
+node: Gnocchi
+updates:
+  - '2022-04-18'
+id: 01941465
+places:
+  - 'Berkeley, CA'
+---
+- 2 large russet potatoes 
+- 1 cup flour
+- 1 egg
+
+Peel and cut the potatoes into largish chunks. Boil in salted water until tender. 
+
+Pull the potatoes out of the water and let cool. Crush with a ricer, then add the flour and egg. Mix until a dough forms. 
+
+Turn out onto a floured board and knead a bit until smooth. Let rest 20 mins. 
+
+Cut into four or five pieces, and roll out into a long rope. Cut into little pillows. Take each piece and roll against the back of a fork to form a dent on one side and lines on the other. 
+
+Boil the gnocchi until they float to the top. Scoop out and serve. 

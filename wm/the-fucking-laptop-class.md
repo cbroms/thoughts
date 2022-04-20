@@ -7,6 +7,7 @@ backlinks:
   - coastal-elites
   - a-societal-precipice
   - big-boy-purchases
+  - in-praise-of-rants
 forwardlinks:
   - in-praise-of-rants
 updates:

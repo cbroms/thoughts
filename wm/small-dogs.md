@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - in-praise-of-rants
 forwardlinks:
   - in-praise-of-rants
 node: Small dogs

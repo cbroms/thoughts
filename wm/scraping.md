@@ -1,0 +1,16 @@
+---
+backlinks:
+  - futures
+forwardlinks: []
+node: Scraping
+updates:
+  - '2022-04-19'
+id: '24057599'
+places:
+  - 'Berkeley, CA'
+---
+It feels to me like there's something about web scraping that's incredibly magical. 
+
+You have this *enormous* collection of stuff made by people, all linked together through a common protocol. What sort of things could we learn from that? 
+
+An area in particular that I'd like to explore is scraping as a way of learning about the way pages are designed. What does most of the internet look like? What does it feel like? What are its characteristics, common experiences? 
