@@ -5,7 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - 2021-finances
-  - investment
+  - investing
 forwardlinks:
   - capitalism
   - fire

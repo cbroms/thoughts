@@ -7,6 +7,7 @@ backlinks:
   - fire
   - 2021-finances
   - progress
+  - investing
 forwardlinks:
   - a-societal-precipice
 updates:

@@ -7,7 +7,7 @@ backlinks:
   - money
   - 2021-finances
   - '2021'
-  - investment
+  - investing
 forwardlinks:
   - progress-and-the-stock-market
   - ownership
