@@ -19,6 +19,7 @@ backlinks:
   - projects-as-an-investment
   - boundaries
   - visualizing-the-network
+  - chances-of-a-thought-with-a-or
 forwardlinks:
   - writing
   - digital-gardens

@@ -10,6 +10,7 @@ backlinks:
   - 2021-one-dimension
   - i-bought-a-typewriter
   - disclaimer
+  - chances-of-a-thought-with-a-or
 forwardlinks:
   - media
   - hypocrisy-and-contradiction
