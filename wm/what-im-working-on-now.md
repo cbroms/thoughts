@@ -9,6 +9,7 @@ backlinks:
   - finished-projects
   - futures
   - what-i-like-to-make
+  - a-daily-routine
 forwardlinks:
   - one-dimension
   - hyperfov

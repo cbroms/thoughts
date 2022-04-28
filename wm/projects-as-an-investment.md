@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - investment
   - improvements
+  - a-daily-routine
 forwardlinks:
   - one-dimension
   - investment

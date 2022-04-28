@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - projects-as-an-investment
+  - a-daily-routine
 forwardlinks:
   - projects-as-an-investment
   - investing
