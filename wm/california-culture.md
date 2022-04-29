@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - california
+  - society
 forwardlinks:
   - california
   - california-geography

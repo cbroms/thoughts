@@ -8,6 +8,7 @@ backlinks:
   - beyond-emotional-pornography
   - one-question-for-god
   - we-were-absolutely-brutal
+  - society
 forwardlinks:
   - hypocrisy-and-contradiction
   - society-man

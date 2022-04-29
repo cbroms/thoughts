@@ -7,6 +7,7 @@ backlinks:
   - 'critical-path:-introduction'
   - a-societal-precipice
   - democracy
+  - society
 forwardlinks:
   - global-impact
 updates:

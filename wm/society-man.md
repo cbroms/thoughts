@@ -6,6 +6,7 @@ daily: false
 backlinks:
   - i-might-be-evil
   - abstracting-nature
+  - society
 forwardlinks:
   - hypocrisy-and-contradiction
   - who-are-we

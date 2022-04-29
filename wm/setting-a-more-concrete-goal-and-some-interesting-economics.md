@@ -1,0 +1,12 @@
+---
+backlinks: []
+forwardlinks: []
+node: Setting a more concrete goal and some interesting economics
+updates:
+  - '2022-04-28'
+id: '55393649'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+![I watched a video this evening of a guy building himself a cabin, and of course got very hyped thinking about doing it. The thing with these videos is that they're often a dude building a cabin that he doesn't need, and is really just doing it for the sake of the video. Well I don't actually know that, but it's what it feels like when it's clear that he's got a full on workshop and whatnot. I want to see someone do it who's never done it before, who has no real tools and just tries getting started. That's what I want to do anyway. I think it's what gives many people pause from actually starting this thing themselves, that they don't think they can do it because all the instances they see are clearly people who know what they're doing. Maybe I should make some videos of the process. It seems like it'd be good to have a concrete goal for this project. Building a house is good, but it needs to be tighter than that, to have an identifiable goal. Sort of like this idea of being able to start this thing yourself, with no real experience or tools. I think a pretty good goal could.be to build the whole thing for less than the cost of a year's rent here. We pay $1950 a month, so that would be $23,400. I wonder if that's doable, I should start giving it a look. That number's also pretty darn close to my outstanding student loans: $24,500. So a year's worth of rent or student loan debt. Either way, what I like about it is if you're able to do it, that means subsequent years would have a housing cost of $0, assuming you pay for everything out of pocket. The economics of this whole thing are pretty interesting. In some sense the only way we can do this is because we're doing it together, and because we have high paying jobs. But if we're able to pull it off and stick with it at least a few years, that means we'll have saved a ton of money, giving us a really solid start. You just gotta have that upfront capital, maybe $100k or so. Well we'll see what the exact figure turns out to be, but if we could be all in with land and the cost of building turning out around $100K that's pretty damn ideal. 10:55PM / 53F / High of 63F / Clear, sunny, and breezy](images/55393649/LQLKdCoEHp-daily.webp "")

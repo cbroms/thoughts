@@ -10,6 +10,7 @@ backlinks:
   - california-culture
   - a-societal-precipice
   - coastal-elites
+  - society
 forwardlinks:
   - the-internet
   - clean-culture

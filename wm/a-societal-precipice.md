@@ -8,6 +8,7 @@ backlinks:
   - to-revisit
   - democracy
   - progress
+  - society
 forwardlinks:
   - my-biases
   - the-fucking-laptop-class

@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - a-societal-precipice
+  - society
 forwardlinks:
   - the-fucking-laptop-class
   - digital-people

@@ -8,6 +8,7 @@ backlinks:
   - a-societal-precipice
   - big-boy-purchases
   - in-praise-of-rants
+  - society
 forwardlinks:
   - in-praise-of-rants
 updates:

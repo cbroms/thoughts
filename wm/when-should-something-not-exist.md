@@ -2,6 +2,7 @@
 backlinks:
   - in-praise-of-rants
   - to-revisit
+  - society
 forwardlinks: []
 node: When should something not exist?
 updates:
