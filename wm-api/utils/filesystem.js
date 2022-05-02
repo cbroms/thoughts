@@ -270,6 +270,7 @@ const getFileRaw = async (filename) => {
         content: parsed.content,
         title: parsed.data.node,
         indexed: parsed.data.indexed || false,
+        daily: parsed.data.daily || false,
       };
       resolve(res);
     } catch (err) {
@@ -296,21 +297,31 @@ const makeSearch = async (query) => {
     try {
       const location = path.join(__dirname, "../..", dir);
       const { stdout, stderr } = await execute(
-        `grep -ir --exclude-dir={images,indexed,changes,history} "${query}" ${location}`
+        `grep -ir --exclude-dir={images,indexed,changes,history} --include=*.md "${query}" ${location}`
       );
-      const lines = stdout
-        .split(location)
-        .filter((l) => {
-          // remove any lines that have a space following the .md:
-          // indicating the match comes from an element in the frontmatter
-          return (
-            l.length > 0 &&
-            l[l.indexOf(".md:") + 4] !== " " &&
-            l.indexOf("/changes/") === -1 &&
-            l.indexOf("/indexed/") === -1 &&
-            l.indexOf("/images/") === -1
-          );
+      let lines = stdout.split(location).filter((l) => {
+        // remove any lines that have a space following the .md:
+        // indicating the match comes from an element in the frontmatter
+        return (
+          l.length > 0 &&
+          l[l.indexOf(".md:") + 4] !== " " &&
+          l.indexOf("/changes/") === -1 &&
+          l.indexOf("/indexed/") === -1 &&
+          l.indexOf("/images/") === -1
+        );
+      });
+
+      const lineFiles = await Promise.allSettled(
+        lines.map((l) => {
+          const [f] = l.split(".md:");
+          return getFileRaw(`${f}.md`);
         })
+      );
+
+      lines = lines.filter((l, index) => {
+        return !lineFiles[index].value.daily;
+      });
+      lines = lines
         .map((l) => {
           [file, match] = l.split(".md:");
 
