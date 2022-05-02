@@ -1,0 +1,12 @@
+---
+backlinks: []
+forwardlinks: []
+node: Poised for change and safety
+updates:
+  - '2022-04-29'
+id: '62061111'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+![Since I've started investing I've begun to pay a bit more attention to the state of the world and economy. I know I shouldn't, having all sorts of principles about locality and whatnot, but I figure given that a large chunk of my work is now caught in the performance of the economy, I should at least take the occasional glance. We're in a very strange period right now. The economy has been down for the past four or five months now (stock market, that is) and everytime I put in money and buy stock it just keeps going down. I'm not sure what my overall loss is, but it's prob a few thousand dollars. Not much in the scheme of things, but kinda discouraging given that this is my first little try with the whole investment thing. I won't let the performance change my behavior, but it is discouraging psychologically. And yet, ''despite the volatility, people seem to be convinced that there's going to be a recession. Inflation is high, unemployment is low, and companies are starting to report poor results. It just kinda feels like something has to break, perhaps we are indeed due for a recession. If you look at the charts that show recessions, it's pretty clear that it's been quite a while since the last, longer than usual. It's a bit like the chart showing when the San Andreas fault shifts and we get an earthquake, it's been way too long since we've had one. Probably a good thing to let the cycle do its thing and accept what comes. This sort of thing is when I think to myself how much security in a physical sense matters, more than having a big investment account. Having a piece of land you own, the resources to farm and heat your home, that's real security. You don't meed a couple million invested to be secure. Though it's kind of interesting to consider the combination of the two. Of course you can't live totally off grid, you will of course need to interact with society through money. And the of course there's the addition l consideration of how much you actually want to take part in that society, to meaningfully contribute to it. Good questions to keep thinking on and return to in some more considered thoughts. 8:30PM / 61F / High of 70F / Partly cloudy, some high clouds](images/62061111/PQqyqEVzuB-daily.webp "")
