@@ -1,0 +1,12 @@
+---
+backlinks: []
+forwardlinks: []
+node: Movement and pancakes
+updates:
+  - '2022-05-01'
+id: '48098735'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+![Lots of movement today. I started it out by going on a good run, 3.5mi. Felt really good, for whatever reason. I haven't really been able to figure out the different parameters that play a role on how the run feels. I feel like diet should, but last night I had ramen, and still was able to run well. So unsure exactly. Anyway, after that I came back and continued with my exercise routine with pushups and squats. I've been doing two sets of 25 for the last two weeks or so. Probably time to bump it up with an additional set. Then, since it was Sunday, we had some pancakes for breakfast. We had some strawberries that were a bit past their prime and seemed perfect for pancakes. I put a bit of rye flour in them, which was pretty nice. Made me wonder what other sorts of flour could work. After the pancakes, I got started weeding the yard. For some reason everything decided that the last two weeks or so were time for maximum growth. All of the weeds just completely shot up, turning into the massive patches of brambles and overgrowth. So I spent a good' 2-3 hours or so clearing everything out. I also cleaned up some of the vegetable areas so we're more ready to put some stuff in the ground. We don't really have any sprouts lined up to go in the ground, but when we find something to plant there will be space. I'd like to try out some squash or cucumbers or something like that, it seems like they could do alright here. But definitely some more greens like tatsoi and whatnot. We saved the tatsoi seeds from last year so we should hopefully be able to reproduce the fantastic plants. Then it was time to go to the grocery store. We planned out our meals and put together a good list, then picked out 90% of the things on the list with an additional 10% of things that weren’t but looked good. This is pretty good, the goal had been to narrow down what we're buying to follow the list as closely as possible, to try and reduce the grocery bill. I think it's been working out okay; our monthly grocery spend is down to $495 on average, from $630 last summer and early fall. That's it for this weekend. Now a nice new month to get started on, I think it'll be a good one. 5:25PM / 67F / High of 68F / Clear and sunny.](images/48098735/ZjmTrvyKYS-daily.webp "")
