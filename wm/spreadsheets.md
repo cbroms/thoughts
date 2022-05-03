@@ -2,6 +2,7 @@
 backlinks:
   - experience-design
   - to-revisit
+  - tools
 forwardlinks:
   - design
   - tools
