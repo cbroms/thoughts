@@ -1,6 +1,7 @@
 ---
 backlinks:
   - systems
+  - complexity
 forwardlinks: []
 node: Complex degeneration
 updates:

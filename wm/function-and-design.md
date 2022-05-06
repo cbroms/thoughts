@@ -1,0 +1,20 @@
+---
+backlinks:
+  - design
+forwardlinks:
+  - design
+node: Function and design
+updates:
+  - '2022-05-05'
+id: '44605963'
+places:
+  - 'Berkeley, CA'
+---
+It's a pretty common mantra: "form follows function." That everything should be designed with the function forefront, all else secondary. 
+
+Generally speaking, this makes sense. If you're [designing](design.md) a computer mouse, you need to consider the constraints and parameters the function, which should directly inform the design. A mouse will be held in a very particular way. It will be slid on a surface, it will take inputs through small finger movements. The form is defined by these functions and constraints. 
+
+What about when the function is *subjective*? 
+
+I want a room in my house that helps me concentrate on my work. That's the function. But that's a very subjective thing, it's hard to say what about the function should be used to inform the form. It seems like it's more of a cycle, that elements of the form will inform the function, and the function will inform the form. Form and function intertwine to create a harmonious space that allows me to feel a certain way, and hence achieve the desired function. 
+

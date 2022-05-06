@@ -7,6 +7,7 @@ backlinks:
   - the-craft-of-design
   - small-websites
   - me
+  - complexity
 forwardlinks:
   - the-craft-of-design
 updates:

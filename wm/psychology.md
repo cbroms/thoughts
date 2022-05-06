@@ -10,6 +10,7 @@ backlinks:
   - we-were-absolutely-brutal
   - humans
   - visualizing-the-network
+  - complexity
 forwardlinks:
   - what-exists
   - thoughts-and-places

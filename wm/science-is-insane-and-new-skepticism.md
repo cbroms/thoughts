@@ -1,0 +1,12 @@
+---
+backlinks: []
+forwardlinks: []
+node: 'Science is insane and new skepticism '
+updates:
+  - '2022-05-05'
+id: '97169439'
+places:
+  - 'Berkeley, CA'
+daily: true
+---
+![I'm really excited for the moment we discover that we were entirely incorrect about a particular piece of the world. It seems like one area that's particularly ripe for some kind of reckoning is science. The scientific method is insane, for anyone outside science. How can it be that this is the best way to learn about the world? It's so damn strict, so damn exclusionary to any kind of experience that doesn't fit into an incredibly narrow box. The amount of stuff that's left on the table as a result of the dogmatic gatekeeping is huge. To think that we're so intelligent that we can use one particular little method to learn all that there is about the universe and beyond is laughable. The world is not a concept-world like math, it can't be defined as elegantly as a proof. Or if it can, surely that level of elegance is far, far, beyond what we could ever come to understand through our little process. The other thing that's kind of interesting to consider is the idea that simply by conducting a particular experiment, we might will things into existence. We're so sure that the causes to things in the world are external to ourselves, I fear we are likely vastly underestimating the influence we have on the universe around us simply by interacting with it, or even by observing it, or even perhaps by thinking about it. Considering that 95% of the stuff in the world is beyond our understanding or ability to even sense, how can we possibly make assertions about THE WAY THINGS ARE? Some truly bizarre shit could be going down. Actually, it probably is going down. Maybe by believing something, we manifest it. This is actually already true, and we don't even need bizarre shit to explain it. It's called the placebo effect. Anyway, point is, I think at some point during m lifetime, a sizable portion of what we now think is TRUE as well as THE CORRECT WAY TO LEARN THINGS will turn out to be wrong. We'll see just how stupid we were being, and that this whole science as fact thing is just pure retardation. Skepticism, regardless of how much seeming power we have over the non-human world we have, will always be the correct mindset. To think that we're probably wrong about something seems to me to be a safe bet pretty much always. 9:00PM / 56F / High of 64F / Nasty high clouds all day, fog this evening](images/97169439/ofVEDBWOsC-daily.webp "")

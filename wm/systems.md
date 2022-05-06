@@ -2,6 +2,7 @@
 backlinks:
   - a-behavioral-heuristic-for-progress
   - websites
+  - complexity
 forwardlinks:
   - daos
   - new-possibility-generation-systems-to-capture-the-sprirt-of-democracy
