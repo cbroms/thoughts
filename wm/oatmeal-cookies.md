@@ -1,0 +1,27 @@
+---
+backlinks:
+  - recipes
+forwardlinks: []
+node: Oatmeal cookies
+updates:
+  - '2022-05-08'
+id: '26968027'
+places:
+  - 'Berkeley, CA'
+---
+- 1 stick butter
+- ½ cup brown sugar
+- ¼ cup sugar 
+- 1 tsp vanilla extract
+- 1 tsp cinnamon 
+- ½ tsp salt
+- 1 tsp white vinegar 
+- 1 egg
+- ½ tsp baking soda
+- ¾ cup flour
+- 1½ cups oats 
+- Raisins, currants, or chocolate chips 
+
+Mix the butter and sugars, then add the vanilla, cinnamon, salt and vinegar. Mix in the egg, then the baking soda, four, and oats. Finally mix in the raisins or other add-ins. 
+
+Bake at 350F for 12 minutes. 
