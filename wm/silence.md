@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - moments-of-sublime-beauty
+  - strange-mental-phenomena
 forwardlinks:
   - trip-eastern-sierra-2021
   - what-exists
