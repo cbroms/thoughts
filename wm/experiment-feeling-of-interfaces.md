@@ -1,6 +1,7 @@
 ---
 backlinks:
   - medium-of-thought
+  - one-dimension-experiments
 forwardlinks: []
 node: 'Experiment: feeling of interfaces'
 updates:
