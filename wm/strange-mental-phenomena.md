@@ -3,7 +3,8 @@ id: '27793323'
 node: Strange mental phenomena
 indexed: false
 daily: false
-backlinks: []
+backlinks:
+  - knife-sharpening
 forwardlinks:
   - psychology
   - first-time-ive-seen-something
