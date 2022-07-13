@@ -8,6 +8,7 @@ backlinks:
   - small-websites
   - me
   - complexity
+  - pace-layering
 forwardlinks:
   - the-craft-of-design
 updates:

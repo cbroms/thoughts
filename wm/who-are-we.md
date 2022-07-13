@@ -18,6 +18,7 @@ backlinks:
   - describe-dont-teach
   - one-question-for-god
   - humans
+  - decay
 forwardlinks:
   - the-nature-of-something
 updates:

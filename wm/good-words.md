@@ -1,0 +1,15 @@
+---
+backlinks:
+  - to-revisit
+forwardlinks: []
+node: Good words
+updates:
+  - '2022-07-01'
+id: '74296238'
+places:
+  - 'Berkeley, CA'
+---
+Some good words:
+
+- [Mammon](https://en.wikipedia.org/wiki/Mammon)
+- [Petrichor](https://en.wikipedia.org/wiki/Petrichor)

@@ -3,6 +3,7 @@ backlinks:
   - in-praise-of-rants
   - to-revisit
   - society
+  - decay
 forwardlinks: []
 node: When should something not exist?
 updates:
