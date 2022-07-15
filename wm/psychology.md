@@ -11,6 +11,7 @@ backlinks:
   - humans
   - visualizing-the-network
   - complexity
+  - the-11-foot-8-bridge
 forwardlinks:
   - what-exists
   - thoughts-and-places

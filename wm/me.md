@@ -5,6 +5,7 @@ indexed: true
 daily: false
 backlinks:
   - tools
+  - my-biases
 forwardlinks:
   - one-dimension
   - the-craft-of-design

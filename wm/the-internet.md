@@ -15,6 +15,7 @@ backlinks:
   - hyperfov
   - gps-article
   - systems
+  - the-11-foot-8-bridge
 forwardlinks:
   - design
   - who-are-we
