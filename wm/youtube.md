@@ -10,6 +10,7 @@ backlinks:
   - emoji-and-politics
   - vibification
   - reject-modernity
+  - fishing
 forwardlinks:
   - the-internet
   - media

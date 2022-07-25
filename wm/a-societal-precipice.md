@@ -10,6 +10,7 @@ backlinks:
   - progress
   - society
   - coastal-elites
+  - preppers
 forwardlinks:
   - my-biases
   - the-fucking-laptop-class

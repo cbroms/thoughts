@@ -10,6 +10,7 @@ backlinks:
   - a-planetary-dashboard
   - progress
   - complexity
+  - preppers
 forwardlinks: []
 updates:
   - '2021-10-19'
