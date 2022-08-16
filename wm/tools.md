@@ -12,7 +12,6 @@ backlinks:
   - medium-of-thought
   - paper-maps
 forwardlinks:
-  - me
   - build-it-yourself
   - i-bought-a-typewriter
   - paper-maps
@@ -42,7 +41,7 @@ places:
 
 I love tools. 
 
-It seems very often people get caught up in tools as a distraction from actually learning and doing. I probably do too, but I also find directing attention to the tools around me--particularly the ones that normally just disappear into the background and are taken for granted--is a great way to find the very best exemplars of what tools should be and helps me learn to be a better [tool-maker](me.md).
+It seems very often people get caught up in tools as a distraction from actually learning and doing. I probably do too, but I also find directing attention to the tools around me--particularly the ones that normally just disappear into the background and are taken for granted--is a great way to find the very best exemplars of what tools should be and helps me learn to be a better tool-maker.
 
 Here are some of the more important tools I use day-to-day to [build with](build-it-yourself.md):
 
@@ -54,7 +53,7 @@ Here are some of the more important tools I use day-to-day to [build with](build
 ### Desk
 
 - **A mechanical pencil**. I've had this [Rotring 600](https://www.rotring.com/pens-pencils/pencils/rotring-600-mechanical-pencil-1/SAP_1904443.html) forever, and it still works perfectly. It feels nice and solid in the hand, and is the best writing utensil I've encountered. 
--- **Sticky notes**. I've been using post it notes to keep a list of the three most important goals for the day, and for scribbling random todos down as things come to me. 
+- **Sticky notes**. I've been using post it notes to keep a list of the three most important goals for the day, and for scribbling random todos down as things come to me. 
 - **[A typewriter](i-bought-a-typewriter.md)**. It's an Olympia SM9, used for daily pages.
 - **A computer**. It runs Ubuntu and Windows. It’s got an i7 8086k, 16GB DDR4 RAM, and an RTX 2060 TI. I’ve had a custom built computer like this for quite a while. I tend to re-use the old components when I sell off pieces of it, so it’s a bit of a [Ship of Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus) situation.
 - **A laptop**. It’s a MacBook Pro 13” from 2017 with whatever the cheapest specs are. It’s in the process of nearing it’s date of obsolescence; highly unfortunate.
@@ -62,7 +61,7 @@ Here are some of the more important tools I use day-to-day to [build with](build
 
 ### Outside
 
-- **[Paper maps]**. I love having [paper maps](paper-maps.md) and am working on expanding my collection. I particularly like [these maps from Tom Harrison](https://tomharrisonmaps.com/).
+- **[Paper maps](paper-maps.md)**. I love having [paper maps](paper-maps.md) and am working on expanding my collection. I particularly like [these maps from Tom Harrison](https://tomharrisonmaps.com/).
 - **A trenching shovel.** An absolutely essential tool for the garden. Second only to the pickaxe, but the trenching shovel is a bit more broad in its uses.
 
 ### Digital tools

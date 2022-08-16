@@ -4,7 +4,6 @@ node: Me
 indexed: true
 daily: false
 backlinks:
-  - tools
   - my-biases
 forwardlinks:
   - one-dimension
