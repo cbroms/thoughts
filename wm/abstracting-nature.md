@@ -5,6 +5,7 @@ indexed: true
 daily: false
 backlinks:
   - passages
+  - a-place
 forwardlinks:
   - who-are-we
   - what-exists

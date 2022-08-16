@@ -3,6 +3,7 @@ backlinks:
   - a-behavioral-heuristic-for-progress
   - decay
   - society
+  - progress-through-systems
 forwardlinks:
   - wariness-of-progress
   - interdependence
