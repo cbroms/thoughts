@@ -15,7 +15,7 @@ const config = {
 		}),
 		prerender: {
 			crawl: true,
-			pages: ['/pages']
+			pages: ['/pages', '/photos']
 		}
 	}
 };
