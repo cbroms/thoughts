@@ -2,6 +2,7 @@
 backlinks:
   - reject-modernity
   - pace-layering
+  - deglobalization
 forwardlinks:
   - style-today
   - i-might-be-evil

@@ -4,6 +4,7 @@ backlinks:
   - decay
   - society
   - progress-through-systems
+  - deglobalization
 forwardlinks:
   - wariness-of-progress
   - interdependence

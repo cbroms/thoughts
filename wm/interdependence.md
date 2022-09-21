@@ -11,6 +11,7 @@ backlinks:
   - progress
   - complexity
   - preppers
+  - deglobalization
 forwardlinks: []
 updates:
   - '2021-10-19'
