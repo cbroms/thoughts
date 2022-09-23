@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - moments-of-sublime-beauty
+  - incredible-fruit
 forwardlinks: []
 updates:
   - '2022-01-28'
