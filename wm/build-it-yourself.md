@@ -6,12 +6,12 @@ daily: false
 backlinks:
   - craftsmanship
   - conventions
-  - tools
   - twelve-websites
   - raised-planter-beds
   - garden
   - a-system-for-storing-links
   - building-a-house
+  - my-tools
 forwardlinks:
   - consumption-and-creation
   - local-first

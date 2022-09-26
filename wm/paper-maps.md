@@ -1,5 +1,7 @@
 ---
 backlinks:
+  - mapgen
+  - my-tools
   - tools
 forwardlinks:
   - tools

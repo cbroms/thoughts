@@ -1,0 +1,20 @@
+---
+backlinks:
+  - futures
+forwardlinks:
+  - paper-maps
+node: Mapgen
+updates:
+  - '2022-09-24'
+id: '57814309'
+places:
+  - 'Berkeley, CA'
+---
+Believe it or not, I actually had an idea come to me in a dream. It's one of those cliched kinds of things that's never happened to me before, but did just this once. 
+
+This happened while Sydney and I were in Oregon, camping near Mt. Hood in the midst of doing a lot of planning for the next stages of our trip. That night I dreamt about setting out on a walk into the forest without a map, only parameters for a map tattooed on my arm. 
+
+Parameters for a map... how would you *generate a map* from parameters? One parameter being perhaps the wilderness area I'm heading out into. What if I could generate a map for that with just the sort of visual style and layers I'd like it to have? Then [print it out on nice waterproof paper](paper-maps.md)... 
+
+`mapgen --wilderness="Desolation Wilderness" --style="topo" --palette="muted" --all-trails`
+

@@ -1,0 +1,50 @@
+---
+backlinks:
+  - tools
+forwardlinks:
+  - build-it-yourself
+  - i-bought-a-typewriter
+  - paper-maps
+  - process
+  - spreadsheets
+node: My tools
+updates:
+  - '2022-09-25'
+id: '97643544'
+places:
+  - 'Berkeley, CA'
+---
+Here are some of the more important tools I use day-to-day to [build with](build-it-yourself.md):
+
+### Kitchen 
+
+- **A knife**. It’s a [Kan Knives Santoku](https://kankitchen.com/meet-the-knives/).
+- **A pan.** An All Clad D5 Stainless Brushed 12-inch fry pan. Gorgeous tool.
+
+### Desk
+
+- **A mechanical pencil**. I've had this [Rotring 600](https://www.rotring.com/pens-pencils/pencils/rotring-600-mechanical-pencil-1/SAP_1904443.html) forever, and it still works perfectly. It feels nice and solid in the hand, and is the best writing utensil I've encountered. 
+- **Sticky notes**. I've been using post it notes to keep a list of the three most important goals for the day, and for scribbling random todos down as things come to me. 
+- **[A typewriter](i-bought-a-typewriter.md)**. It's an Olympia SM9, used for daily pages.
+- **A computer**. It runs Ubuntu and Windows. It’s got an i7 8086k, 16GB DDR4 RAM, and an RTX 2060 TI. I’ve had a custom built computer like this for quite a while. I tend to re-use the old components when I sell off pieces of it, so it’s a bit of a [Ship of Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus) situation.
+- **A laptop**. It’s a MacBook Pro 13” from 2017 with whatever the cheapest specs are. It’s in the process of nearing it’s date of obsolescence; highly unfortunate.
+- **Mechanical keyboard**. It's a Pok3r 60% layout with Cherry MX Brown switches. 
+
+### Outside
+
+- **[Paper maps](paper-maps.md)**. I love having [paper maps](paper-maps.md) and am working on expanding my collection. I particularly like [these maps from Tom Harrison](https://tomharrisonmaps.com/).
+- **A trenching shovel.** An absolutely essential tool for the garden. Second only to the pickaxe, but the trenching shovel is a bit more broad in its uses.
+- **Fujifilm XT-2**. The best camera I've used, everything seems to be just where it should be, and there's nothing extraneous. The only lens I have is a 23mm and it's perfect. 
+- **Pentax K-1000**. I'm thinking of getting back into film photography, and this is the camera I've had sitting around since high school. The layout is just right and it's like an analog version of the Fuji. Or the Fuji is a digital version of the Pentax.
+
+### Digital tools
+
+- **Ubuntu**. 
+- **Firefox**. To be honest most browsers are all pretty decent, but some are slightly more decent than others. I like Firefox.
+- **DuckDuckGo**. I know it’s basically a re-wrapped version of Bing, but I still enjoy the vibe. Search results are generally good enough and I like [their !bangs](https://duckduckgo.com/bang).
+- **[Futureland](https://futureland.tv)**. Where my [process](process.md) is recorded and I work through a daily routine.
+- **VS Code**. I recently switched over from Sublime Text, and it’s been pretty good so far with a nice ecosystem of plugins. I just wish it wasn’t quite as _heavy_.
+- **Figma**. What a fantastic tool. Seems to be the perfect framework for web design thought and is super performant. 
+- **[Fastmail](https://www.fastmail.com/)**. I hosted my own email for a few years but eventually gave into using a service when the big G decided to send all my mail to spam (turns out they just blacklist IP ranges for public cloud providers.) Fastmail has been a pretty nice alternative.
+- **Google Earth/Maps**. What incredible tools. It's quite often that I find myself getting totally sucked into just zooming around the earth and exploring random places in streetview.
+- **Excel/Google Sheets**. I find [spreadsheets](spreadsheets.md) to be pretty damn incredible tools, I have a bunch of spreadsheets I revisit each month to track random stuff.

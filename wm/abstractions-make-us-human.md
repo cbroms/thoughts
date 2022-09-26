@@ -7,6 +7,8 @@ backlinks:
   - passages
   - things-that-make-us-human
   - collective-knowledge
+  - who-are-we
+  - tools
 forwardlinks:
   - tools
   - who-are-we

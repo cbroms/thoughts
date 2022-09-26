@@ -7,7 +7,7 @@ backlinks:
   - me
   - twelve-websites
   - working-in-public
-  - tools
+  - my-tools
 forwardlinks:
   - growth
   - design
