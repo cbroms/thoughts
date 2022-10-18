@@ -15,6 +15,7 @@ backlinks:
   - trenching-shovels-and-toolmaking
   - dry-winter
   - california-fragrances
+  - northern-california
 forwardlinks:
   - california-geography
   - california-culture

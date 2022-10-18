@@ -5,6 +5,7 @@ indexed: false
 daily: false
 backlinks:
   - i-bought-a-typewriter
+  - upcoming-purchases
 forwardlinks:
   - i-bought-a-typewriter
   - the-fucking-laptop-class
