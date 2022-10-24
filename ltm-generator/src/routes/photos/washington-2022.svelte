@@ -1,9 +1,6 @@
 <svelte:head>
 	<title>Hikes: Washington State, May & June 2022</title>
-	<meta
-		property="og:image"
-		content="https://onedimension.net/photos/washington-2022/webp/1.webP/"
-	/>
+	<meta property="og:image" content="https://onedimension.net/photos/washington-2022/jpg/1.jpg/" />
 </svelte:head>
 
 <main>
