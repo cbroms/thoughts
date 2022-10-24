@@ -6,7 +6,7 @@
 <main>
 	<div class="wrapper">
 		<div class="floating two header">
-			<img style="width: 31%;" src="/photos/oregon-2022/jpg/1.jpg" />
+			<img style="width: 31%;" src="/photos/oregon-2022/jpg/3.jpg" />
 			<div class="text" style="border-top: none; width: auto;">
 				<p>Oregon</p>
 				<p style="font-size: 1.5rem;"><em>August & September 2022</em></p>
@@ -16,22 +16,25 @@
 			<img src="/photos/oregon-2022/jpg/2.jpg" loading="lazy" />
 		</div>
 
-		<div class="floating one">
-			<img src="/photos/oregon-2022/jpg/3.jpg" loading="lazy" />
-		</div>
-
 		<div class="floating two">
 			<img style="width: 70%;" src="/photos/oregon-2022/jpg/4.jpg" loading="lazy" />
 			<img style="width: 31%;" src="/photos/oregon-2022/jpg/5.jpg" loading="lazy" />
 		</div>
 
 		<div class="floating one">
+			<img src="/photos/oregon-2022/jpg/1.jpg" loading="lazy" />
+		</div>
+
+		<div class="floating one">
 			<img src="/photos/oregon-2022/jpg/6.jpg" loading="lazy" />
 		</div>
 
-		<div class="floating two">
-			<img style="width: 70%;" src="/photos/oregon-2022/jpg/7.jpg" loading="lazy" />
-			<img style="width: 31%;" src="/photos/oregon-2022/jpg/8.jpg" loading="lazy" />
+		<div class="floating one">
+			<img style="width: 60%;" src="/photos/oregon-2022/jpg/7.jpg" loading="lazy" />
+		</div>
+
+		<div class="floating one">
+			<img src="/photos/oregon-2022/jpg/11.jpg" loading="lazy" />
 		</div>
 
 		<div class="full two">
@@ -40,10 +43,11 @@
 		</div>
 
 		<div class="floating one">
-			<img src="/photos/oregon-2022/jpg/11.jpg" loading="lazy" />
-		</div>
-		<div class="floating one">
 			<img src="/photos/oregon-2022/jpg/12.jpg" loading="lazy" />
+		</div>
+
+		<div class="floating one">
+			<img src="/photos/oregon-2022/jpg/21.jpg" loading="lazy" />
 		</div>
 
 		<div class="floating two">
@@ -51,29 +55,19 @@
 			<img style="width: 31%;" src="/photos/oregon-2022/jpg/14.jpg" loading="lazy" />
 		</div>
 
-		<div class="floating two">
-			<img src="/photos/oregon-2022/jpg/15.jpg" loading="lazy" />
+		<div class="floating one">
 			<img src="/photos/oregon-2022/jpg/16.jpg" loading="lazy" />
 		</div>
 
-		<div class="floating one">
-			<img src="/photos/oregon-2022/jpg/17.jpg" loading="lazy" />
-		</div>
-
-		<div class="floating one">
-			<img src="/photos/oregon-2022/jpg/18.jpg" loading="lazy" />
+		<div class="floating two">
+			<img style="width: 31%;" src="/photos/oregon-2022/jpg/15.jpg" loading="lazy" />
+			<img style="width: 70%;" src="/photos/oregon-2022/jpg/20.jpg" loading="lazy" />
 		</div>
 
 		<div class="full one">
 			<img src="/photos/oregon-2022/jpg/19.jpg" loading="lazy" />
 		</div>
-
-		<div class="floating one">
-			<img src="/photos/oregon-2022/jpg/20.jpg" loading="lazy" />
-		</div>
-		<div class="floating one">
-			<img src="/photos/oregon-2022/jpg/21.jpg" loading="lazy" />
-		</div>
+		<p class="final">⁂ ⁂ ⁂</p>
 	</div>
 </main>
 
@@ -94,7 +88,7 @@
 		display: flex;
 		flex-direction: row;
 		gap: 2rem;
-		/* justify-content: center; */
+		justify-content: center;
 	}
 
 	.full {
@@ -178,5 +172,11 @@
 		margin: 0;
 		font-size: 2rem;
 		line-height: 2.2rem;
+	}
+
+	.final {
+		text-align: center;
+		margin-bottom: 2rem;
+		font-size: 20px;
 	}
 </style>
